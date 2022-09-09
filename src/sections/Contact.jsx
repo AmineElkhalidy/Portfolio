@@ -17,54 +17,94 @@ const Contact = () => {
         transition={{ duration: 0.5 }}
         className="pt-24"
       >
-        <h2 className="text-2xl text-center font-nav font-semibold mb-12 md:text-3xl lg:text-4xl">
+        <h2 className="text-2xl text-center font-nav font-semibold mb-12 select-none md:text-3xl lg:text-4xl">
           Get in touch with me
         </h2>
 
         {/* Email, Phone and Social media accounts */}
-        <div className="flex flex-col space-y-6 justify-center items-center md:flex-row md:space-y-0 md:space-x-10">
-          {/* Email */}
-          <div className="flex items-center justify-center space-x-3 p-4 bg-slate-700 rounded-md hover:text-secondary">
-            <span>
-              <AiOutlineMail size={28} />
-            </span>
+        <div className="max-w-2xl mx-auto my-14">
+          <div className="flex flex-col space-y-6 justify-center md:flex-row md:flex-wrap-reverse md:-space-y-0 md:gap-8">
+            {/* Email */}
+            <div className="text-slate-400 font-medium flex items-center justify-center space-x-3 p-[1.25rem] bg-slate-800 rounded-md select-none md:w-[45%] hover:text-secondary">
+              <span>
+                <AiOutlineMail size={28} />
+              </span>
 
-            <a href="mailto:a.amineelkhalidy@gmail.com">
-              a.amineelkhalidy@gmail.com
-            </a>
-          </div>
+              <a href="mailto:a.amineelkhalidy@gmail.com">
+                a.amineelkhalidy@gmail.com
+              </a>
+            </div>
 
-          {/* Phone */}
-          <div className="flex items-center justify-center space-x-3 p-4 bg-slate-700 rounded-md hover:text-secondary">
-            <span>
-              <BsPhone size={28} />
-            </span>
+            {/* Phone */}
+            <div className="text-slate-400 font-medium flex items-center justify-center space-x-3 p-[1.25rem] bg-slate-800 rounded-md select-none md:w-[45%] hover:text-secondary">
+              <span>
+                <BsPhone size={28} />
+              </span>
 
-            <a href="tel:+212 611154307">+212 611154307</a>
-          </div>
+              <a href="tel:+212 611154307">+212 611154307</a>
+            </div>
 
-          {/* Social Accounts */}
-          <div className="flex  justify-center space-x-14 p-4 bg-slate-700 rounded-md">
-            <a className="hover:text-secondary hover:scale-125" href="#">
-              <FiFacebook size={28} />
-            </a>
+            {/* Social Accounts */}
+            <div className="text-slate-400 flex items-center justify-center gap-10 p-[1.25rem] bg-slate-800 rounded-md md:w-[60%] md:gap-16">
+              <a className="hover:text-secondary hover:scale-125" href="#">
+                <FiFacebook size={28} />
+              </a>
 
-            <a className="hover:text-secondary hover:scale-110" href="#">
-              <BsWhatsapp size={28} />
-            </a>
+              <a className="hover:text-secondary hover:scale-110" href="#">
+                <BsWhatsapp size={28} />
+              </a>
 
-            <a className="hover:text-secondary hover:scale-110" href="#">
-              <FiGithub size={28} />
-            </a>
+              <a className="hover:text-secondary hover:scale-110" href="#">
+                <FiGithub size={28} />
+              </a>
 
-            <a className="hover:text-secondary hover:scale-110" href="#">
-              <SiUpwork size={28} />
-            </a>
+              <a className="hover:text-secondary hover:scale-110" href="#">
+                <SiUpwork size={28} />
+              </a>
+            </div>
           </div>
         </div>
 
         {/* Form */}
-        <form action="#" className=""></form>
+        <form
+          action="#"
+          className="max-w-2xl mx-auto w-full flex flex-col space-y-4 mb-4"
+        >
+          <div className="bg-light p-3.5 rounded-md hover:shadow-md">
+            <input
+              className="outline-none bg-transparent w-full h-full"
+              placeholder="Your Name"
+              type="text"
+              name="name"
+              id="name"
+            />
+          </div>
+
+          <div className="bg-light p-3.5 rounded-md hover:shadow-md">
+            <input
+              className="outline-none bg-transparent w-full h-full"
+              placeholder="Your Email"
+              type="email"
+              name="email"
+              id="email"
+            />
+          </div>
+
+          <div className="bg-light p-3.5 rounded-md hover:shadow-md">
+            <textarea
+              placeholder="Your Message"
+              className="outline-none bg-transparent h-[170px] resize-none w-full"
+              name="message"
+              id="message"
+            />
+          </div>
+
+          <div className="text-center">
+            <button className="px-6 py-3 mt-4 border text-secondary border-secondary rounded-md cursor-pointer duration-200 font-nav font-semibold text-md tracking-widest hover:bg-secondary hover:text-white">
+              Send Message
+            </button>
+          </div>
+        </form>
       </motion.div>
     </section>
   );
