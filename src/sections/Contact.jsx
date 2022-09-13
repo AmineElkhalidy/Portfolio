@@ -1,5 +1,8 @@
 import React from "react";
 
+// FormSpree
+import { useForm, ValidationError } from "@formspree/react";
+
 // motion
 import { motion } from "framer-motion";
 
@@ -10,6 +13,9 @@ import { FiGithub, FiFacebook, FiLinkedin } from "react-icons/fi";
 import { SiUpwork } from "react-icons/si";
 
 const Contact = () => {
+  // formSpree state
+  const [state, handleSubmit] = useForm("xeqdeyeo");
+
   return (
     <section className="max-w-6xl mx-auto px-6 min-h-screen" id="contact">
       <motion.div
@@ -82,45 +88,82 @@ const Contact = () => {
         </div>
 
         {/* Form */}
-        <form
-          action="#"
-          className="max-w-2xl mx-auto w-full flex flex-col space-y-4 mb-4"
-        >
-          <div className="bg-slate-800 p-3.5 rounded-md hover:shadow-md">
-            <input
-              className="outline-none bg-transparent w-full h-full"
-              placeholder="Your Name"
-              type="text"
-              name="name"
-              id="name"
-            />
-          </div>
+        {state.succeeded ? (
+          <motion.div
+            whileInView={{ opacity: [0, 1] }}
+            className="h-[5rem] max-w-3xl mx-auto"
+          >
+            <p className="text-2xl text-center font-semibold md:text-3xl lg:text-4xl">
+              Thank you for your message, I will be in touch as soon as possible
+            </p>
+          </motion.div>
+        ) : (
+          <form
+            onSubmit={handleSubmit}
+            action="https://formspree.io/f/xeqdeyeo"
+            className="max-w-2xl mx-auto w-full flex flex-col space-y-4 mb-4"
+          >
+            <div className="bg-slate-800 p-3.5 rounded-md hover:shadow-md">
+              <input
+                className="outline-none bg-transparent w-full h-full"
+                placeholder="Your Name"
+                type="text"
+                name="name"
+                id="name"
+                required
+              />
 
-          <div className="bg-slate-800 p-3.5 rounded-md hover:shadow-md">
-            <input
-              className="outline-none bg-transparent w-full h-full"
-              placeholder="Your Email"
-              type="email"
-              name="email"
-              id="email"
-            />
-          </div>
+              <ValidationError
+                prefix="Name"
+                field="name"
+                errors={state.errors}
+              />
+            </div>
 
-          <div className="bg-slate-800 p-3.5 rounded-md hover:shadow-md">
-            <textarea
-              placeholder="Your Message"
-              className="outline-none bg-transparent h-[170px] resize-none w-full"
-              name="message"
-              id="message"
-            />
-          </div>
+            <div className="bg-slate-800 p-3.5 rounded-md hover:shadow-md">
+              <input
+                className="outline-none bg-transparent w-full h-full"
+                placeholder="Your Email"
+                type="email"
+                name="email"
+                id="email"
+                required
+              />
 
-          <div className="text-center">
-            <button className="px-6 py-3 mt-4 border text-secondary border-secondary rounded-md cursor-pointer duration-200 font-nav font-semibold text-md tracking-widest hover:bg-secondary hover:text-white">
-              Send Message
-            </button>
-          </div>
-        </form>
+              <ValidationError
+                prefix="Email"
+                field="email"
+                errors={state.errors}
+              />
+            </div>
+
+            <div className="bg-slate-800 p-3.5 rounded-md hover:shadow-md">
+              <textarea
+                placeholder="Your Message"
+                className="outline-none bg-transparent h-[170px] resize-none w-full"
+                name="message"
+                id="message"
+                required
+              />
+
+              <ValidationError
+                prefix="Message"
+                field="message"
+                errors={state.errors}
+              />
+            </div>
+
+            <div className="text-center">
+              <button
+                type="submit"
+                disabled={state.submitting}
+                className="px-6 py-3 mt-4 border text-secondary border-secondary rounded-md cursor-pointer duration-200 font-nav font-semibold text-md tracking-widest hover:bg-secondary hover:text-white"
+              >
+                Send Message
+              </button>
+            </div>
+          </form>
+        )}
       </motion.div>
     </section>
   );

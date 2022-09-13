@@ -12,17 +12,8 @@ import { Header, Home, About, Projects, Skills, Contact } from "./sections";
 const App = () => {
   return (
     <>
-      {/* <AnimatedCursor
-        innerSize={8}
-        outerSize={16}
-        color="17, 163, 231"
-        outerAlpha={0.2}
-        innerScale={0.7}
-        outerScale={4}
-      /> */}
-
       <Circle2
-        time={1500}
+        time={1250}
         background="#0a192f"
         color="#57a3c7"
         animation="fade"
@@ -33,6 +24,15 @@ const App = () => {
       <Projects />
       <Skills />
       <Contact />
+
+      {/* <AnimatedCursor
+        innerSize={10}
+        outerSize={20}
+        color="#0a192f"
+        outerAlpha={0.2}
+        innerScale={0.7}
+        outerScale={4}
+      /> */}
     </>
   );
 };
