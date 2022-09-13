@@ -87,7 +87,7 @@ const Projects = () => {
             className="relative grid md:grid-cols-2 md:px-12"
           >
             {/* Project Description */}
-            <div className="mt-6 text-center md:text-left">
+            <div className="mb-6 text-center md:text-left">
               <h4 className="font-nav font-medium text-secondary tracking-wider">
                 Featured Project
               </h4>
@@ -188,7 +188,7 @@ const Projects = () => {
             className="relative grid md:grid-cols-2 md:px-12"
           >
             {/* Project Description */}
-            <div className="mt-6 text-center md:text-left">
+            <div className="mb-6 text-center md:text-left">
               <h4 className="font-nav font-medium text-secondary tracking-wider">
                 Featured Project
               </h4>
@@ -280,7 +280,7 @@ const Projects = () => {
             className="relative grid md:grid-cols-2 md:px-12"
           >
             {/* Project Description */}
-            <div className="mt-6 text-center md:text-left">
+            <div className="mb-6 text-center md:text-left">
               <h4 className="font-nav font-medium text-secondary tracking-wider">
                 Featured Project
               </h4>
