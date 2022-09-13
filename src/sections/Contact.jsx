@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 
 // Icons
 import { AiOutlineMail } from "react-icons/ai";
-import { BsWhatsapp, BsPhone } from "react-icons/bs";
-import { FiGithub, FiFacebook } from "react-icons/fi";
+import { BsPhone } from "react-icons/bs";
+import { FiGithub, FiFacebook, FiLinkedin } from "react-icons/fi";
 import { SiUpwork } from "react-icons/si";
 
 const Contact = () => {
@@ -25,7 +25,7 @@ const Contact = () => {
         <div className="max-w-2xl mx-auto my-14">
           <div className="flex flex-col space-y-6 justify-center md:flex-row md:flex-wrap-reverse md:-space-y-0 md:gap-8">
             {/* Email */}
-            <div className="text-slate-400 font-medium flex items-center justify-center space-x-3 p-[1.25rem] bg-slate-800 rounded-md select-none md:w-[45%] hover:text-secondary">
+            <div className="text-slate-200 font-medium flex items-center justify-center space-x-3 p-[1.25rem] bg-slate-800 rounded-md select-none md:w-[45%] hover:text-secondary">
               <span>
                 <AiOutlineMail size={28} />
               </span>
@@ -36,7 +36,7 @@ const Contact = () => {
             </div>
 
             {/* Phone */}
-            <div className="text-slate-400 font-medium flex items-center justify-center space-x-3 p-[1.25rem] bg-slate-800 rounded-md select-none md:w-[45%] hover:text-secondary">
+            <div className="text-slate-200 font-medium flex items-center justify-center space-x-3 p-[1.25rem] bg-slate-800 rounded-md select-none md:w-[45%] hover:text-secondary">
               <span>
                 <BsPhone size={28} />
               </span>
@@ -45,20 +45,36 @@ const Contact = () => {
             </div>
 
             {/* Social Accounts */}
-            <div className="text-slate-400 flex items-center justify-center gap-10 p-[1.25rem] bg-slate-800 rounded-md md:w-[60%] md:gap-16">
-              <a className="hover:text-secondary hover:scale-125" href="#">
+            <div className="text-slate-200 flex items-center justify-center gap-10 p-[1.25rem] bg-slate-800 rounded-md md:w-[60%] md:gap-16">
+              <a
+                className="hover:text-secondary hover:scale-125"
+                href="https://www.facebook.com/amine.elkhalidy.73"
+                target="_blank"
+              >
                 <FiFacebook size={28} />
               </a>
 
-              <a className="hover:text-secondary hover:scale-110" href="#">
-                <BsWhatsapp size={28} />
+              <a
+                className="hover:text-secondary hover:scale-110"
+                href="https://www.linkedin.com/in/amine-elkhalidy-b28529233/"
+                target="_blank"
+              >
+                <FiLinkedin size={28} />
               </a>
 
-              <a className="hover:text-secondary hover:scale-110" href="#">
+              <a
+                className="hover:text-secondary hover:scale-110"
+                href="https://github.com/AmineElkhalidy"
+                target="_blank"
+              >
                 <FiGithub size={28} />
               </a>
 
-              <a className="hover:text-secondary hover:scale-110" href="#">
+              <a
+                className="hover:text-secondary hover:scale-110"
+                href="https://www.upwork.com/freelancers/aminee12"
+                target="_blank"
+              >
                 <SiUpwork size={28} />
               </a>
             </div>
@@ -70,7 +86,7 @@ const Contact = () => {
           action="#"
           className="max-w-2xl mx-auto w-full flex flex-col space-y-4 mb-4"
         >
-          <div className="bg-light p-3.5 rounded-md hover:shadow-md">
+          <div className="bg-slate-800 p-3.5 rounded-md hover:shadow-md">
             <input
               className="outline-none bg-transparent w-full h-full"
               placeholder="Your Name"
@@ -80,7 +96,7 @@ const Contact = () => {
             />
           </div>
 
-          <div className="bg-light p-3.5 rounded-md hover:shadow-md">
+          <div className="bg-slate-800 p-3.5 rounded-md hover:shadow-md">
             <input
               className="outline-none bg-transparent w-full h-full"
               placeholder="Your Email"
@@ -90,7 +106,7 @@ const Contact = () => {
             />
           </div>
 
-          <div className="bg-light p-3.5 rounded-md hover:shadow-md">
+          <div className="bg-slate-800 p-3.5 rounded-md hover:shadow-md">
             <textarea
               placeholder="Your Message"
               className="outline-none bg-transparent h-[170px] resize-none w-full"

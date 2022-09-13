@@ -32,7 +32,7 @@ const Projects = () => {
         </h2>
 
         {/* Work Container */}
-        <motion.div className="flex flex-col space-y-24">
+        <motion.div className="flex flex-col space-y-28">
           {/* Omnifood */}
           <motion.div
             whileInView={{ opacity: [0, 1] }}
@@ -54,7 +54,7 @@ const Projects = () => {
                 Omnifood
               </h3>
 
-              <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:text-right md:p-4 md:bg-slate-800 md:shadow-md md:rounded-md md:mr-0">
+              <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:text-right md:p-4 md:bg-slate-800 md:shadow-xl md:rounded-md md:mr-0">
                 Omnifood is an AI-powered food suscription that will make you
                 eat healty again, 365 days per days. It's tailored to your
                 personal tastes and nutritional needs
@@ -96,10 +96,9 @@ const Projects = () => {
                 Clipboarding
               </h3>
 
-              <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:p-4 md:bg-slate-800 md:shadow-md md:rounded-md md:ml-0">
-                Omnifood is an AI-powered food suscription that will make you
-                eat healty again, 365 days per days. It's tailored to your
-                personal tastes and nutritional needs
+              <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:p-4 md:bg-slate-800 md:shadow-xl md:rounded-md md:ml-0">
+                Clipboard allows you to track and organize everything you copy.
+                Instantly access your clipboard on all your devices.
               </p>
 
               <ul className="max-w-md mx-auto text-slate-300 flex flex-wrap justify-start items-center font-nav md:justify-start gap-6 mb-6 ml-0">
@@ -153,10 +152,10 @@ const Projects = () => {
                 Startup Landing
               </h3>
 
-              <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:text-right md:p-4 md:bg-slate-800 md:shadow-md md:rounded-md md:mr-0">
-                Omnifood is an AI-powered food suscription that will make you
-                eat healty again, 365 days per days. It's tailored to your
-                personal tastes and nutritional needs
+              <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:text-right md:p-4 md:bg-slate-800 md:shadow-xl md:rounded-md md:mr-0">
+                Simple startup landing page that was built using Next.js, a
+                React framework for production, with amazing curves, color
+                scheme and animation...
               </p>
 
               <ul className="max-w-md mx-auto flex flex-wrap justify-start items-center font-nav text-slate-300 md:justify-end gap-6 mb-6 mr-0">
@@ -197,10 +196,9 @@ const Projects = () => {
                 Shop Store
               </h3>
 
-              <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:p-4 md:bg-slate-800 md:shadow-md md:rounded-md md:ml-0">
-                Omnifood is an AI-powered food suscription that will make you
-                eat healty again, 365 days per days. It's tailored to your
-                personal tastes and nutritional needs
+              <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:p-4 md:bg-slate-800 md:shadow-xl md:rounded-md md:ml-0">
+                Shop store is a web app that is under development, to allow to
+                users to be able to purchase whatever products they want...
               </p>
 
               <ul className="max-w-md mx-auto text-slate-300 flex flex-wrap justify-start items-center font-nav md:justify-start gap-6 mb-6 ml-0">
@@ -248,10 +246,9 @@ const Projects = () => {
 
               <h3 className="text-lg font-semibold mb-4 lg:text-2xl">Crypto</h3>
 
-              <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:text-right md:p-4 md:bg-slate-800 md:shadow-md md:rounded-md md:mr-0">
-                Omnifood is an AI-powered food suscription that will make you
-                eat healty again, 365 days per days. It's tailored to your
-                personal tastes and nutritional needs
+              <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:text-right md:p-4 md:bg-slate-800 md:shadow-xl md:rounded-md md:mr-0">
+                Crypto is a web app that allow you to send transactions through
+                the blockchain network, after connecting to your wallet.
               </p>
 
               <ul className="max-w-md mx-auto flex flex-wrap justify-start items-center font-nav text-slate-300 md:justify-end gap-6 mb-6 mr-0">
@@ -289,10 +286,8 @@ const Projects = () => {
                 Tesla Clone
               </h3>
 
-              <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:p-4 md:bg-slate-800 md:shadow-md md:rounded-md md:ml-0">
-                Omnifood is an AI-powered food suscription that will make you
-                eat healty again, 365 days per days. It's tailored to your
-                personal tastes and nutritional needs
+              <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:p-4 md:bg-slate-800 md:shadow-xl md:rounded-md md:ml-0">
+                A simple wesbite where I cloned the official website of Tesla.
               </p>
 
               <ul className="max-w-md mx-auto text-slate-300 flex flex-wrap justify-start items-center font-nav md:justify-start gap-6 mb-6 ml-0">

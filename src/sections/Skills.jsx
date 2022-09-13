@@ -77,14 +77,18 @@ const Skills = () => {
                 <motion.div
                   whileInView={{ opacity: [0, 1] }}
                   transition={{ duration: 0.5 }}
+                  className="ml-1"
                 >
                   <h4 className="text-md font-medium uppercase mb-[.75rem] lg:text-lg">
-                    FrontEnd Developer
+                    FrontEnd & Alfresco Dev
                   </h4>
                   <p className="text-slate-200 mb-[.5rem]">
-                    I am working as a freelancer on Upwork.
+                    I have worked on customising Alfresco (CMS) for a large
+                    organization
                   </p>
-                  <p className="text-sm text-slate-300">Upwork</p>
+                  <p className="text-sm text-slate-300">
+                    Prefecture d'arrondissement de Ben M'sick
+                  </p>
                 </motion.div>
               </div>
             </div>
@@ -104,9 +108,9 @@ const Skills = () => {
                     FrontEnd Developer
                   </h4>
                   <p className="text-slate-200 mb-[.5rem]">
-                    I am working as a freelancer on Upwork.
+                    Learning and practicing
                   </p>
-                  <p className="text-sm text-slate-300">Upwork</p>
+                  <p className="text-sm text-slate-300">By myslef</p>
                 </motion.div>
               </div>
             </div>

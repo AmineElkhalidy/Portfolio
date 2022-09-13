@@ -23,61 +23,69 @@ const About = () => {
         {/* Content Container */}
         <div className="max-w-3xl mx-auto">
           <div>
-            <p className="text-slate-300 mb-2 md:text-lg">
-              Hi! My name is Amine Elkhalidy, I am a Moroccan FrontEnd
-              Developer, and I enjoy creating things that live on the internet.
+            <p className="text-slate-300 mb-3 md:text-lg">
+              Hi! My name is{" "}
+              <span className="text-secondary font-medium">
+                Amine Elkhalidy
+              </span>
+              , I am a{" "}
+              <span className="text-secondary font-medium">
+                Moroccan FrontEnd Developer
+              </span>
+              , and I enjoy creating things that live on the internet.
             </p>
 
-            <p className="text-slate-300 mb-2 md:text-lg">
-              I am working as a freelancer on <span>Upwork</span>, and here are
-              some of the services that I provide to my clients:
+            <p className="text-slate-300 mb-3 md:text-lg">
+              I am working as a freelancer on{" "}
+              <span className="text-secondary font-medium">Upwork</span>, and
+              here are some of the services that I provide to my clients:
             </p>
 
-            <ul className=" text-slate-500 grid gap-2 mb-4 md:grid-cols-2 md:text-lg">
+            <ul className=" text-slate-400 grid gap-1 font-nav mb-4 md:grid-cols-2 md:text-lg">
               <li className="flex items-center gap-2">
-                <span>
+                <span className="text-secondary">
                   <BsCheckLg />
                 </span>
                 Front web app
               </li>
 
               <li className="flex items-center gap-2">
-                <span>
+                <span className="text-secondary">
                   <BsCheckLg />
                 </span>
                 Components & Layouts dev
               </li>
 
               <li className="flex items-center gap-2">
-                <span>
+                <span className="text-secondary">
                   <BsCheckLg />
                 </span>
                 Pixel Perfect design
               </li>
 
               <li className="flex items-center gap-2">
-                <span>
+                <span className="text-secondary">
                   <BsCheckLg />
                 </span>
                 Responsive design
               </li>
 
               <li className="flex items-center gap-2">
-                <span>
+                <span className="text-secondary">
                   <BsCheckLg />
                 </span>
                 API integration
               </li>
 
               <li className="flex items-center gap-2">
-                <span>
+                <span className="text-secondary">
                   <BsCheckLg />
                 </span>
                 Database integration
               </li>
 
               <li className="flex items-center gap-2">
-                <span>
+                <span className="text-secondary">
                   <BsCheckLg />
                 </span>
                 Authentication
@@ -88,44 +96,44 @@ const About = () => {
               Here are a few technologies I’ve been working with recently:
             </p>
 
-            <ul className="max-w-sm grid grid-cols-2 text-slate-500 md:text-lg">
+            <ul className="max-w-sm grid grid-cols-2 text-slate-400 font-nav md:text-lg">
               <li className="flex items-center gap-2">
-                <span>
+                <span className="text-secondary">
                   <MdOutlinePlayArrow />
                 </span>
                 HTML
               </li>
 
               <li className="flex items-center gap-2">
-                <span>
+                <span className="text-secondary">
                   <MdOutlinePlayArrow />
                 </span>
                 CSS
               </li>
 
               <li className="flex items-center gap-2">
-                <span>
+                <span className="text-secondary">
                   <MdOutlinePlayArrow />
                 </span>
                 JavaScript
               </li>
 
               <li className="flex items-center gap-2">
-                <span>
+                <span className="text-secondary">
                   <MdOutlinePlayArrow />
                 </span>
                 React
               </li>
 
               <li className="flex items-center gap-2">
-                <span>
+                <span className="text-secondary">
                   <MdOutlinePlayArrow />
                 </span>
                 TypeScript
               </li>
 
               <li className="flex items-center gap-2">
-                <span>
+                <span className="text-secondary">
                   <MdOutlinePlayArrow />
                 </span>
                 TailwindCss
