@@ -25,7 +25,7 @@ const Navbar = () => {
 
       {open ? (
         <motion.div
-          whileInView={{ x: [300, 0] }}
+          whileInView={{ x: [200, 0] }}
           transition={{ duration: 0.55, ease: "easeOut" }}
           className="fixed top-0 right-0 z-50 w-[80%] bg-primary border-l-2 h-screen flex flex-col justify-center items-center bg-opacity-50 backdrop-blur-xl drop-shadow-md md:hidden"
         >
