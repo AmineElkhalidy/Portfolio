@@ -13,13 +13,11 @@ import Cv from "../assets/pdf/Amine-Elkhalidy.pdf";
 const Navbar = () => {
   // Nav state
   const [open, setOpen] = useState(false);
+  const [active, setActive] = useState(false);
 
   return (
-    <nav className="h-20 max-w-6xl mx-auto px-6 flex justify-between items-center">
-      <a
-        className="text-lg font-nav font-medium tracking-wide duration-300 text-white hover:text-secondary"
-        href="#"
-      >
+    <nav className="nav">
+      <a className="nav__logo" href="#">
         Amine Elkhalidy
       </a>
 
@@ -27,12 +25,12 @@ const Navbar = () => {
         <motion.div
           whileInView={{ x: [200, 0] }}
           transition={{ duration: 0.55, ease: "easeOut" }}
-          className="fixed top-0 right-0 z-50 w-[80%] bg-primary border-l-2 h-screen flex flex-col justify-center items-center bg-opacity-50 backdrop-blur-xl drop-shadow-md md:hidden"
+          className="nav__menu"
         >
-          <ul className="flex flex-col gap-8">
+          <ul className="nav__list">
             <li>
               <a
-                className="font-nav text-lg transition-colors duration-300 hover:text-secondary"
+                className="nav__link"
                 href="#about"
                 onClick={() => setOpen(false)}
               >
@@ -42,7 +40,7 @@ const Navbar = () => {
 
             <li>
               <a
-                className="font-nav text-lg transition-colors duration-300 hover:text-secondary"
+                className="nav__link"
                 href="#work"
                 onClick={() => setOpen(false)}
               >
@@ -52,7 +50,7 @@ const Navbar = () => {
 
             <li>
               <a
-                className="font-nav text-lg transition-colors duration-300 hover:text-secondary"
+                className="nav__link"
                 href="#skills"
                 onClick={() => setOpen(false)}
               >
@@ -62,7 +60,7 @@ const Navbar = () => {
 
             <li>
               <a
-                className="font-nav text-lg transition-colors duration-300 hover:text-secondary"
+                className="nav__link"
                 href="#contact"
                 onClick={() => setOpen(false)}
               >
@@ -92,7 +90,7 @@ const Navbar = () => {
         </motion.div>
       ) : (
         <div
-          className="inline-block cursor-pointer hover:text-secondary transition-colors duration-300 md:hidden"
+          className="nav__toggle"
           onClick={() => setOpen((prevState) => !prevState)}
         >
           <BiMenuAltRight size={40} />
@@ -105,6 +103,7 @@ const Navbar = () => {
             <a
               className="font-nav text-md transition-colors duration-300 hover:text-secondary"
               href="#about"
+              onClick={() => setActive(true)}
             >
               <span className="text-secondary">02.</span> About
             </a>

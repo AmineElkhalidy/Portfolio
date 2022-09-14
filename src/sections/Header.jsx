@@ -23,11 +23,7 @@ const Header = () => {
   }, [window]);
 
   return (
-    <header
-      className={`w-full bg-primary fixed top-0 left-0 z-50 duration-300 ${
-        headerShadow ? "shadow-xl" : ""
-      }`}
-    >
+    <header className={`header ${headerShadow ? "shadow-xl" : ""}`}>
       <Navbar />
     </header>
   );
