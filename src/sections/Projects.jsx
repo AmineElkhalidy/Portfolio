@@ -72,11 +72,16 @@ const Projects = () => {
                 <a
                   href="https://github.com/AmineElkhalidy/Omnifood.git"
                   target="_blank"
+                  className="hover:text-secondary"
                 >
                   <FiGithub size={23} className="cursor-pointer" />
                 </a>
 
-                <a href="https://foromnifood.netlify.app/" target="_blank">
+                <a
+                  href="https://foromnifood.netlify.app/"
+                  target="_blank"
+                  className="hover:text-secondary"
+                >
                   <HiOutlineExternalLink size={24} className="cursor-pointer" />
                 </a>
               </div>
@@ -112,11 +117,16 @@ const Projects = () => {
                 <a
                   href="https://github.com/AmineElkhalidy/Clipboard"
                   target="_blank"
+                  className="hover:text-secondary"
                 >
                   <FiGithub size={23} className="cursor-pointer" />
                 </a>
 
-                <a href="https://clipboarding.netlify.app/" target="_blank">
+                <a
+                  href="https://clipboarding.netlify.app/"
+                  target="_blank"
+                  className="hover:text-secondary"
+                >
                   <HiOutlineExternalLink size={23} className="cursor-pointer" />
                 </a>
               </div>
@@ -169,6 +179,7 @@ const Projects = () => {
                 <a
                   href="https://github.com/AmineElkhalidy/Landing-Page"
                   target="_blank"
+                  className="hover:text-secondary"
                 >
                   <FiGithub size={23} className="cursor-pointer" />
                 </a>
@@ -176,6 +187,7 @@ const Projects = () => {
                 <a
                   href="https://landing-page-startup.vercel.app/"
                   target="_blank"
+                  className="hover:text-secondary"
                 >
                   <HiOutlineExternalLink size={24} className="cursor-pointer" />
                 </a>
@@ -229,11 +241,16 @@ const Projects = () => {
                     <a
                       href="https://github.com/AmineElkhalidy/Shopping-App"
                       target="_blank"
+                      className="hover:text-secondary"
                     >
                       <FiGithub size={23} className="cursor-pointer" />
                     </a>
 
-                    <a href="https://shop-store.netlify.app/" target="_blank">
+                    <a
+                      href="https://shop-store.netlify.app/"
+                      target="_blank"
+                      className="hover:text-secondary"
+                    >
                       <HiOutlineExternalLink
                         size={23}
                         className="cursor-pointer"
@@ -289,11 +306,16 @@ const Projects = () => {
                     <a
                       href="https://github.com/AmineElkhalidy/Krypto"
                       target="_blank"
+                      className="hover:text-secondary"
                     >
                       <FiGithub size={23} className="cursor-pointer" />
                     </a>
 
-                    <a href="https://krypto-app.netlify.app/" target="_blank">
+                    <a
+                      href="https://krypto-app.netlify.app/"
+                      target="_blank"
+                      className="hover:text-secondary"
+                    >
                       <HiOutlineExternalLink
                         size={24}
                         className="cursor-pointer"
@@ -331,6 +353,7 @@ const Projects = () => {
                     <a
                       href="https://github.com/AmineElkhalidy/tesla-clone"
                       target="_blank"
+                      className="hover:text-secondary"
                     >
                       <FiGithub size={23} className="cursor-pointer" />
                     </a>
@@ -338,6 +361,7 @@ const Projects = () => {
                     <a
                       href="https://elon-tesla-clone.netlify.app/"
                       target="_blank"
+                      className="hover:text-secondary"
                     >
                       <HiOutlineExternalLink
                         size={23}
