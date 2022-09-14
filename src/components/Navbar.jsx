@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <nav className="h-20 max-w-6xl mx-auto px-6 flex justify-between items-center">
       <a
-        className="text-lg font-nav font-medium tracking-wide duration-300 hover:text-secondary"
+        className="text-lg font-nav font-medium tracking-wide duration-300 text-secondary hover:text-white"
         href="#"
       >
         Amine Elkhalidy
@@ -72,7 +72,7 @@ const Navbar = () => {
 
             <li className="mt-3">
               <a
-                className="font-nav text-lg duration-300 py-3 px-6 border border-secondary rounded-md hover:bg-secondary"
+                className="font-nav text-lg text-secondary duration-300 py-3 px-6 border border-secondary rounded-md hover:bg-secondary/20"
                 href={Cv}
                 download="Amine Elkhalidy"
                 rel="noopener noreferrer"
@@ -139,7 +139,7 @@ const Navbar = () => {
 
           <li>
             <a
-              className="font-nav text-md duration-300 py-2 px-4 border border-secondary rounded-md hover:bg-secondary"
+              className="font-nav text-md text-secondary duration-300 py-2 px-4 border border-secondary rounded-md hover:bg-secondary/20"
               href={Cv}
               download="Amine Elkhalidy"
               rel="noopener noreferrer"
