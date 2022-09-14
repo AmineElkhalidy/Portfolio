@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <nav className="h-20 max-w-6xl mx-auto px-6 flex justify-between items-center">
       <a
-        className="text-lg font-nav font-medium tracking-wide duration-300 text-secondary hover:text-white"
+        className="text-lg font-nav font-medium tracking-wide duration-300 text-white hover:text-secondary"
         href="#"
       >
         Amine Elkhalidy
