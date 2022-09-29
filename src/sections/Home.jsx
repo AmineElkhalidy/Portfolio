@@ -22,7 +22,7 @@ const Home = () => {
         <div>
           {/* Introduction */}
           <h1 className="text-5xl font-semibold mb-4 select-none md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
-            Hi,
+            Hi 👋
             <br />
             I am Amine,
             <br />
