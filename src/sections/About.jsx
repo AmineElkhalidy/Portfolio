@@ -46,6 +46,13 @@ const About = () => {
                 <span className="text-secondary">
                   <BsCheckLg />
                 </span>
+                PSD to HTML
+              </li>
+
+              <li className="flex items-center gap-2">
+                <span className="text-secondary">
+                  <BsCheckLg />
+                </span>
                 Front web app
               </li>
 
