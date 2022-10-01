@@ -41,7 +41,7 @@ const About = () => {
               here are some of the services that I provide to my clients:
             </p>
 
-            <ul className=" text-slate-400 grid gap-1 font-nav mb-4 md:grid-cols-2 md:text-lg">
+            <ul className=" text-slate-400 grid gap-1 font-nav -mt-2 mb-4 md:grid-cols-2 md:text-lg">
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
                   <BsCheckLg />
@@ -103,7 +103,7 @@ const About = () => {
               Here are a few technologies I’ve been working with recently:
             </p>
 
-            <ul className="max-w-sm grid grid-cols-2 text-slate-400 font-nav md:text-lg">
+            <ul className="max-w-sm grid grid-cols-2 -mt-2 text-slate-400 font-nav md:text-lg">
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
                   <MdOutlinePlayArrow />

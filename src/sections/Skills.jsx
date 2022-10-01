@@ -8,7 +8,10 @@ import { skills } from "../data/data";
 
 const Skills = () => {
   return (
-    <section className="max-w-6xl mx-auto px-6 min-h-screen" id="skills">
+    <section
+      className="max-w-6xl mx-auto px-6 min-h-screen select-none"
+      id="skills"
+    >
       <motion.div
         whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
         transition={{ duration: 0.5 }}

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 // FormSpree
 import { useForm, ValidationError } from "@formspree/react";
@@ -15,6 +15,13 @@ import { SiUpwork } from "react-icons/si";
 const Contact = () => {
   // formSpree state
   const [state, handleSubmit] = useForm("xeqdeyeo");
+
+  // Showing form state
+  const [showForm, setShowForm] = useState(false);
+
+  const showFormHandler = () => {
+    setShowForm(true);
+  };
 
   return (
     <section
@@ -171,7 +178,7 @@ const Contact = () => {
         <p className="text-slate-300 text-sm font-light mt-20 mb-4 text-center cursor-pointer hover:text-secondary">
           Designed & Built by Amine Elkhalidy
           <br />
-          &copy; All rights reserved, 2022
+          &copy; 2022 - All Rights Reserved
         </p>
       </motion.div>
     </section>
