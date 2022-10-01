@@ -17,7 +17,10 @@ const Contact = () => {
   const [state, handleSubmit] = useForm("xeqdeyeo");
 
   return (
-    <section className="max-w-6xl mx-auto px-6 min-h-screen" id="contact">
+    <section
+      className="max-w-6xl mx-auto px-6 min-h-screen select-none"
+      id="contact"
+    >
       <motion.div
         whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
         transition={{ duration: 0.5 }}
@@ -164,6 +167,12 @@ const Contact = () => {
             </div>
           </form>
         )}
+
+        <p className="text-slate-300 text-sm font-light mt-20 mb-4 text-center cursor-pointer hover:text-secondary">
+          Designed & Built by Amine Elkhalidy
+          <br />
+          &copy; All rights reserved, 2022
+        </p>
       </motion.div>
     </section>
   );
