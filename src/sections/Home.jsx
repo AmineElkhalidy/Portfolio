@@ -25,7 +25,7 @@ const Home = () => {
             Hi 👋
             <br />I am Amine,
             <br />
-            web developer
+            <span className="circled-line">web developer</span>
           </h1>
 
           {/* Profession */}

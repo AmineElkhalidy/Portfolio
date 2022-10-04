@@ -1,0 +1,16 @@
+.circled-line {
+  position: relative;
+}
+
+@media screen and (min-width: 1024px) {
+  .circled-line::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    height: 2px;
+    width: 100%;
+    border-radius: 40%;
+    border-bottom: 1px solid #38d9a9;
+  }
+}
