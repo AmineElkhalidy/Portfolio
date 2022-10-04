@@ -290,7 +290,6 @@ const Projects = () => {
                   </p>
 
                   <ul className="max-w-md mx-auto flex flex-wrap justify-start items-center font-nav text-slate-400 md:justify-end gap-6 mb-6 mr-0">
-                    <li className="">React</li>
                     <li className="">Next.js</li>
                   </ul>
 
