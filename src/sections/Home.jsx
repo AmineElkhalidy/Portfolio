@@ -23,11 +23,11 @@ const Home = () => {
           {/* Introduction */}
           <h1 className="text-5xl font-semibold mb-4 select-none md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
             Hi 👋
-            <br />
-            I am Amine,
+            <br />I am Amine,
             <br />
             web developer
           </h1>
+
           {/* Profession */}
           <p className="text-slate-200 text-lg font-nav mb-10 select-none md:text-xl lg:text-2xl">
             Front End Developer / React Developer

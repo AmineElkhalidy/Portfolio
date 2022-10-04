@@ -123,6 +123,10 @@ const Contact = () => {
                 required
               />
 
+              <span className="focus-border">
+                <i></i>
+              </span>
+
               <ValidationError
                 prefix="Name"
                 field="name"
@@ -140,6 +144,10 @@ const Contact = () => {
                 required
               />
 
+              <span className="focus-border">
+                <i></i>
+              </span>
+
               <ValidationError
                 prefix="Email"
                 field="email"
@@ -155,6 +163,10 @@ const Contact = () => {
                 id="message"
                 required
               />
+
+              <span className="focus-border">
+                <i></i>
+              </span>
 
               <ValidationError
                 prefix="Message"

@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 
 // Sections
 import { Header, Home, About, Projects, Skills, Contact } from "./sections";
