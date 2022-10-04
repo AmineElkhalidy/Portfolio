@@ -39,7 +39,7 @@ const Skills = () => {
                 </div>
 
                 {/* skill name */}
-                <p className="text-sm font-medium text-slate-300">
+                <p className="text-sm font-medium text-slate-400">
                   {skill.name}
                 </p>
               </motion.div>
@@ -59,13 +59,13 @@ const Skills = () => {
                   whileInView={{ opacity: [0, 1] }}
                   transition={{ duration: 0.5 }}
                 >
-                  <h4 className="text-md font-medium uppercase mb-[.75rem] lg:text-lg">
+                  <h4 className="text-slate-200 text-md font-medium uppercase mb-[.75rem] lg:text-lg">
                     FrontEnd Developer
                   </h4>
-                  <p className="text-slate-200 mb-[.5rem]">
+                  <p className="text-slate-300 mb-[.5rem]">
                     I am working as a freelancer on Upwork.
                   </p>
-                  <p className="text-sm text-slate-300">Upwork</p>
+                  <p className="text-sm font-nav text-slate-300">Upwork</p>
                 </motion.div>
               </div>
             </div>
@@ -82,14 +82,14 @@ const Skills = () => {
                   transition={{ duration: 0.5 }}
                   className="ml-1"
                 >
-                  <h4 className="text-md font-medium uppercase mb-[.75rem] lg:text-lg">
+                  <h4 className="text-slate-200 text-md font-medium uppercase mb-[.75rem] lg:text-lg">
                     FrontEnd & Alfresco Dev
                   </h4>
-                  <p className="text-slate-200 mb-[.5rem]">
+                  <p className="text-slate-300 mb-[.5rem]">
                     I have worked on customising Alfresco (CMS) for a large
                     organization
                   </p>
-                  <p className="text-sm text-slate-300">
+                  <p className="text-sm font-nav text-slate-300">
                     Prefecture d'arrondissement de Ben M'sick
                   </p>
                 </motion.div>
@@ -107,13 +107,13 @@ const Skills = () => {
                   whileInView={{ opacity: [0, 1] }}
                   transition={{ duration: 0.5 }}
                 >
-                  <h4 className="text-md font-medium uppercase mb-[.75rem] lg:text-lg">
+                  <h4 className="text-slate-200 text-md font-medium uppercase mb-[.75rem] lg:text-lg">
                     FrontEnd Developer
                   </h4>
-                  <p className="text-slate-200 mb-[.5rem]">
+                  <p className="text-slate-300 mb-[.5rem]">
                     Learning and practicing
                   </p>
-                  <p className="text-sm text-slate-300">By myslef</p>
+                  <p className="text-sm font-nav text-slate-300">By myslef</p>
                 </motion.div>
               </div>
             </div>

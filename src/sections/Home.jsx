@@ -21,7 +21,7 @@ const Home = () => {
       >
         <div>
           {/* Introduction */}
-          <h1 className="text-5xl font-semibold mb-4 select-none md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
+          <h1 className="text-slate-300 text-5xl font-semibold mb-4 select-none md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
             Hi 👋
             <br />I am Amine,
             <br />
@@ -29,7 +29,7 @@ const Home = () => {
           </h1>
 
           {/* Profession */}
-          <p className="text-slate-200 text-lg font-nav mb-10 select-none md:text-xl lg:text-2xl">
+          <p className="text-slate-400 text-lg font-nav mb-10 select-none md:text-xl lg:text-2xl">
             Front End Developer / React Developer
           </p>
 
@@ -52,7 +52,7 @@ const Home = () => {
         <ul className="flex flex-col gap-8 justify-center items-center">
           <li className="hover:-translate-y-1 duration-200">
             <a
-              className="text-slate-300 hover:text-secondary"
+              className="text-slate-400 hover:text-secondary"
               href="https://www.facebook.com/amine.elkhalidy.73"
               target="_blank"
             >
@@ -62,7 +62,7 @@ const Home = () => {
 
           <li className="hover:-translate-y-1 duration-200">
             <a
-              className="text-slate-300 hover:text-secondary"
+              className="text-slate-400 hover:text-secondary"
               href="https://github.com/AmineElkhalidy"
               target="_blank"
             >
@@ -72,7 +72,7 @@ const Home = () => {
 
           <li className="hover:-translate-y-1 duration-200">
             <a
-              className="text-slate-300 hover:text-secondary"
+              className="text-slate-400 hover:text-secondary"
               href="https://www.linkedin.com/in/amine-elkhalidy-b28529233/"
               target="_blank"
             >
@@ -82,7 +82,7 @@ const Home = () => {
 
           <li className="hover:-translate-y-1 duration-200">
             <a
-              className="text-slate-300 hover:text-secondary"
+              className="text-slate-400 hover:text-secondary"
               href="https://www.upwork.com/freelancers/aminee12"
               target="_blank"
             >
@@ -105,7 +105,7 @@ const Home = () => {
         <ul className="flex flex-col justify-center items-center">
           <li className="rotate-90 text-sm hover:-translate-y-1">
             <a
-              className="text-slate-300 hover:text-secondary"
+              className="text-slate-400 hover:text-secondary"
               href="mailto:a.amineelkhalidy@gmail.com"
             >
               a.amineelkhalidy@gmail.com

@@ -54,18 +54,18 @@ const Projects = () => {
 
               <h3 className="text-lg font-semibold mb-4 lg:text-2xl">Mamiru</h3>
 
-              <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:text-right md:p-4 md:bg-[#0a192f] md:shadow-xl md:rounded-md md:mr-0">
+              <p className="max-w-md mx-auto text-slate-300 text-left my-6 md:text-right md:p-4 md:bg-[#0a192f] md:shadow-xl md:rounded-md md:mr-0">
                 Mamiru is an e-commerce website under construction built using
                 react and redux with Typescript.
               </p>
 
-              <ul className="max-w-md mx-auto flex flex-wrap justify-start items-center font-nav text-slate-300 md:justify-end gap-6 mb-6 mr-0">
+              <ul className="max-w-md mx-auto flex flex-wrap justify-start items-center font-nav text-slate-400 md:justify-end gap-6 mb-6 mr-0">
                 <li className="">React</li>
                 <li className="">Redux</li>
                 <li className="">TypeScript</li>
               </ul>
 
-              <div className="max-w-md mx-auto text-slate-200 flex justify-start items-center md:justify-end gap-6 mr-0 md:mb-4">
+              <div className="max-w-md mx-auto text-slate-300 flex justify-start items-center md:justify-end gap-6 mr-0 md:mb-4">
                 <a
                   href="https://github.com/SamoudiAnas/Mamirou"
                   target="_blank"
@@ -98,17 +98,17 @@ const Projects = () => {
 
               <h3 className="text-lg font-semibold mb-4 lg:text-2xl">Tasty</h3>
 
-              <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:p-4 md:bg-[#0a192f] md:shadow-xl md:rounded-md md:ml-0">
+              <p className="max-w-md mx-auto text-slate-300 text-left my-6 md:p-4 md:bg-[#0a192f] md:shadow-xl md:rounded-md md:ml-0">
                 Simple landing page of a restaurant
               </p>
 
-              <ul className="max-w-md mx-auto text-slate-300 flex flex-wrap justify-start items-center font-nav md:justify-start gap-6 mb-6 ml-0">
+              <ul className="max-w-md mx-auto text-slate-400 flex flex-wrap justify-start items-center font-nav md:justify-start gap-6 mb-6 ml-0">
                 <li className="">HTML</li>
                 <li className="">CSS</li>
                 <li className="">JavaScript</li>
               </ul>
 
-              <div className="max-w-md mx-auto text-slate-200 flex justify-start items-center md:justify-start gap-6 ml-0 mb-4">
+              <div className="max-w-md mx-auto text-slate-300 flex justify-start items-center md:justify-start gap-6 ml-0 mb-4">
                 <a
                   href="https://github.com/AmineElkhalidy/Tasty"
                   target="_blank"
@@ -155,19 +155,19 @@ const Projects = () => {
                 Omnifood
               </h3>
 
-              <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:text-right md:p-4 md:bg-[#0a192f] md:shadow-xl md:rounded-md md:mr-0">
+              <p className="max-w-md mx-auto text-slate-300 text-left my-6 md:text-right md:p-4 md:bg-[#0a192f] md:shadow-xl md:rounded-md md:mr-0">
                 Omnifood is an AI-powered food suscription that will make you
                 eat healty again, 365 days per days. It's tailored to your
                 personal tastes and nutritional needs
               </p>
 
-              <ul className="max-w-md mx-auto flex flex-wrap justify-start items-center font-nav text-slate-300 md:justify-end gap-6 mb-6 mr-0">
+              <ul className="max-w-md mx-auto flex flex-wrap justify-start items-center font-nav text-slate-400 md:justify-end gap-6 mb-6 mr-0">
                 <li className="">HTML</li>
                 <li className="">CSS</li>
                 <li className="">JavaScript</li>
               </ul>
 
-              <div className="max-w-md mx-auto text-slate-200 flex justify-start items-center md:justify-end gap-6 mr-0 md:mb-4">
+              <div className="max-w-md mx-auto text-slate-300 flex justify-start items-center md:justify-end gap-6 mr-0 md:mb-4">
                 <a
                   href="https://github.com/AmineElkhalidy/Omnifood.git"
                   target="_blank"
@@ -202,17 +202,17 @@ const Projects = () => {
                 Clipboarding
               </h3>
 
-              <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:p-4 md:bg-[#0a192f] md:shadow-xl md:rounded-md md:ml-0">
+              <p className="max-w-md mx-auto text-slate-300 text-left my-6 md:p-4 md:bg-[#0a192f] md:shadow-xl md:rounded-md md:ml-0">
                 Clipboard allows you to track and organize everything you copy.
                 Instantly access your clipboard on all your devices.
               </p>
 
-              <ul className="max-w-md mx-auto text-slate-300 flex flex-wrap justify-start items-center font-nav md:justify-start gap-6 mb-6 ml-0">
+              <ul className="max-w-md mx-auto text-slate-400 flex flex-wrap justify-start items-center font-nav md:justify-start gap-6 mb-6 ml-0">
                 <li className="">HTML</li>
                 <li className="">TailwindCss</li>
               </ul>
 
-              <div className="max-w-md mx-auto text-slate-200 flex justify-start items-center md:justify-start gap-6 ml-0 mb-4">
+              <div className="max-w-md mx-auto text-slate-300 flex justify-start items-center md:justify-start gap-6 ml-0 mb-4">
                 <a
                   href="https://github.com/AmineElkhalidy/Clipboard"
                   target="_blank"
@@ -283,18 +283,18 @@ const Projects = () => {
                     Startup Landing
                   </h3>
 
-                  <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:text-right md:p-4 md:bg-[#0a192f] md:shadow-xl md:rounded-md md:mr-0">
+                  <p className="max-w-md mx-auto text-slate-300 text-left my-6 md:text-right md:p-4 md:bg-[#0a192f] md:shadow-xl md:rounded-md md:mr-0">
                     Simple startup landing page that was built using Next.js, a
                     React framework for production, with amazing curves, color
                     scheme and animation...
                   </p>
 
-                  <ul className="max-w-md mx-auto flex flex-wrap justify-start items-center font-nav text-slate-300 md:justify-end gap-6 mb-6 mr-0">
+                  <ul className="max-w-md mx-auto flex flex-wrap justify-start items-center font-nav text-slate-400 md:justify-end gap-6 mb-6 mr-0">
                     <li className="">React</li>
                     <li className="">Next.js</li>
                   </ul>
 
-                  <div className="max-w-md mx-auto text-slate-200 flex justify-start items-center md:justify-end gap-6 mr-0 md:mb-4">
+                  <div className="max-w-md mx-auto text-slate-300 flex justify-start items-center md:justify-end gap-6 mr-0 md:mb-4">
                     <a
                       href="https://github.com/AmineElkhalidy/Landing-Page"
                       target="_blank"
@@ -332,18 +332,18 @@ const Projects = () => {
                     Shop Store
                   </h3>
 
-                  <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:p-4 md:bg-[#0a192f] md:shadow-xl md:rounded-md md:ml-0">
+                  <p className="max-w-md mx-auto text-slate-300 text-left my-6 md:p-4 md:bg-[#0a192f] md:shadow-xl md:rounded-md md:ml-0">
                     Shop store is a web app that is under development, to allow
                     to users to be able to purchase whatever products they
                     want...
                   </p>
 
-                  <ul className="max-w-md mx-auto text-slate-300 flex flex-wrap justify-start items-center font-nav md:justify-start gap-6 mb-6 ml-0">
+                  <ul className="max-w-md mx-auto text-slate-400 flex flex-wrap justify-start items-center font-nav md:justify-start gap-6 mb-6 ml-0">
                     <li className="">HTML</li>
                     <li className="">TailwindCss</li>
                   </ul>
 
-                  <div className="max-w-md mx-auto text-slate-200 flex justify-start items-center md:justify-start gap-6 ml-0 mb-4">
+                  <div className="max-w-md mx-auto text-slate-300 flex justify-start items-center md:justify-start gap-6 ml-0 mb-4">
                     <a
                       href="https://github.com/AmineElkhalidy/Shopping-App"
                       target="_blank"
