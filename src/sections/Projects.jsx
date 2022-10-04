@@ -54,7 +54,7 @@ const Projects = () => {
 
               <h3 className="text-lg font-semibold mb-4 lg:text-2xl">Mamiru</h3>
 
-              <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:text-right md:p-4 md:bg-[#112240] md:shadow-xl md:rounded-md md:mr-0">
+              <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:text-right md:p-4 md:bg-[#0a192f] md:shadow-xl md:rounded-md md:mr-0">
                 Mamiru is an e-commerce website under construction built using
                 react and redux with Typescript.
               </p>
@@ -98,7 +98,7 @@ const Projects = () => {
 
               <h3 className="text-lg font-semibold mb-4 lg:text-2xl">Tasty</h3>
 
-              <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:p-4 md:bg-[#112240] md:shadow-xl md:rounded-md md:ml-0">
+              <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:p-4 md:bg-[#0a192f] md:shadow-xl md:rounded-md md:ml-0">
                 Simple landing page of a restaurant
               </p>
 
@@ -155,7 +155,7 @@ const Projects = () => {
                 Omnifood
               </h3>
 
-              <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:text-right md:p-4 md:bg-[#112240] md:shadow-xl md:rounded-md md:mr-0">
+              <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:text-right md:p-4 md:bg-[#0a192f] md:shadow-xl md:rounded-md md:mr-0">
                 Omnifood is an AI-powered food suscription that will make you
                 eat healty again, 365 days per days. It's tailored to your
                 personal tastes and nutritional needs
@@ -202,7 +202,7 @@ const Projects = () => {
                 Clipboarding
               </h3>
 
-              <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:p-4 md:bg-[#112240] md:shadow-xl md:rounded-md md:ml-0">
+              <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:p-4 md:bg-[#0a192f] md:shadow-xl md:rounded-md md:ml-0">
                 Clipboard allows you to track and organize everything you copy.
                 Instantly access your clipboard on all your devices.
               </p>
@@ -283,7 +283,7 @@ const Projects = () => {
                     Startup Landing
                   </h3>
 
-                  <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:text-right md:p-4 md:bg-[#112240] md:shadow-xl md:rounded-md md:mr-0">
+                  <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:text-right md:p-4 md:bg-[#0a192f] md:shadow-xl md:rounded-md md:mr-0">
                     Simple startup landing page that was built using Next.js, a
                     React framework for production, with amazing curves, color
                     scheme and animation...
@@ -332,7 +332,7 @@ const Projects = () => {
                     Shop Store
                   </h3>
 
-                  <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:p-4 md:bg-[#112240] md:shadow-xl md:rounded-md md:ml-0">
+                  <p className="max-w-md mx-auto text-slate-200 text-left my-6 md:p-4 md:bg-[#0a192f] md:shadow-xl md:rounded-md md:ml-0">
                     Shop store is a web app that is under development, to allow
                     to users to be able to purchase whatever products they
                     want...
