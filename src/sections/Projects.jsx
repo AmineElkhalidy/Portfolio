@@ -177,7 +177,7 @@ const Projects = () => {
                 </a>
 
                 <a
-                  href="https://foromnifood.netlify.app/"
+                  href="https://foodformood.vercel.app/"
                   target="_blank"
                   className="hover:text-secondary"
                 >
@@ -353,7 +353,7 @@ const Projects = () => {
                     </a>
 
                     <a
-                      href="https://shop-store.netlify.app/"
+                      href="https://shoppingstore.vercel.app/"
                       target="_blank"
                       className="hover:text-secondary"
                     >
