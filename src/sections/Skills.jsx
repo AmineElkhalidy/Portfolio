@@ -34,7 +34,7 @@ const Skills = () => {
                 className="flex flex-col justify-center items-center"
               >
                 {/* Image container */}
-                <div className="w-[90px] h-[90px] rounded-full mb-[.75rem] bg-[#112240] flex justify-center items-center">
+                <div className="w-[90px] h-[90px] rounded-full mb-[.75rem] bg-[#0a192f] flex justify-center items-center">
                   <img className="w-[60%]" src={skill.image} alt={skill.name} />
                 </div>
 

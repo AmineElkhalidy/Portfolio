@@ -38,7 +38,7 @@ const Projects = () => {
           {/* Mamiru */}
           <motion.div
             whileInView={{ opacity: [0, 1] }}
-            className="relative grid bg-[#112240] rounded-md shadow-xl p-4 md:bg-transparent md:rounded-none md:shadow-none md:p-0 md:grid-cols-2 md:px-16"
+            className="relative grid bg-[#0a192f] rounded-md shadow-xl p-4 md:bg-transparent md:rounded-none md:shadow-none md:p-0 md:grid-cols-2 md:px-16"
           >
             {/* Project Image */}
             <div className="relative w-full h-full rounded-md overflow-hidden">
@@ -88,7 +88,7 @@ const Projects = () => {
           {/* Tasty */}
           <motion.div
             whileInView={{ opacity: [0, 1] }}
-            className="relative grid bg-[#112240] rounded-md shadow-xl p-4 md:bg-transparent md:rounded-none md:shadow-none md:p-0 md:grid-cols-2 md:px-16"
+            className="relative grid bg-[#0a192f] rounded-md shadow-xl p-4 md:bg-transparent md:rounded-none md:shadow-none md:p-0 md:grid-cols-2 md:px-16"
           >
             {/* Project Description */}
             <div className="mb-6 text-center md:text-left">
@@ -137,7 +137,7 @@ const Projects = () => {
           {/* Omnifood */}
           <motion.div
             whileInView={{ opacity: [0, 1] }}
-            className="relative grid bg-[#112240] rounded-md shadow-xl p-4 md:bg-transparent md:rounded-none md:shadow-none md:p-0 md:grid-cols-2 md:px-16"
+            className="relative grid bg-[#0a192f] rounded-md shadow-xl p-4 md:bg-transparent md:rounded-none md:shadow-none md:p-0 md:grid-cols-2 md:px-16"
           >
             {/* Project Image */}
             <div className="relative w-full h-full rounded-md overflow-hidden">
@@ -190,7 +190,7 @@ const Projects = () => {
           {/* Clipboarding */}
           <motion.div
             whileInView={{ opacity: [0, 1] }}
-            className="relative grid bg-[#112240] rounded-md shadow-xl p-4 md:bg-transparent md:rounded-none md:shadow-none md:p-0 md:grid-cols-2 md:px-16"
+            className="relative grid bg-[#0a192f] rounded-md shadow-xl p-4 md:bg-transparent md:rounded-none md:shadow-none md:p-0 md:grid-cols-2 md:px-16"
           >
             {/* Project Description */}
             <div className="mb-6 text-center md:text-left">
@@ -261,7 +261,7 @@ const Projects = () => {
               {/* Landing Page */}
               <motion.div
                 whileInView={{ opacity: [0, 1] }}
-                className="relative grid bg-[#112240] rounded-md shadow-xl p-4 md:bg-transparent md:rounded-none md:shadow-none md:p-0 md:grid-cols-2 md:px-16"
+                className="relative grid bg-[#0a192f] rounded-md shadow-xl p-4 md:bg-transparent md:rounded-none md:shadow-none md:p-0 md:grid-cols-2 md:px-16"
               >
                 {/* Project Image */}
                 <div className="relative w-full h-full rounded-md overflow-hidden">
@@ -320,7 +320,7 @@ const Projects = () => {
               {/* Shop Store */}
               <motion.div
                 whileInView={{ opacity: [0, 1] }}
-                className="relative grid bg-[#112240] rounded-md shadow-xl p-4 md:bg-transparent md:rounded-none md:shadow-none md:p-0 md:grid-cols-2 md:px-16"
+                className="relative grid bg-[#0a192f] rounded-md shadow-xl p-4 md:bg-transparent md:rounded-none md:shadow-none md:p-0 md:grid-cols-2 md:px-16"
               >
                 {/* Project Description */}
                 <div className="mb-6 text-center md:text-left">

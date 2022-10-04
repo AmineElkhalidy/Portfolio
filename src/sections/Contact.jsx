@@ -41,7 +41,7 @@ const Contact = () => {
         <div className="max-w-2xl mx-auto my-14">
           <div className="flex flex-col space-y-6 justify-center md:flex-row md:flex-wrap-reverse md:-space-y-0 md:gap-8">
             {/* Email */}
-            <div className="text-slate-300 font-medium flex items-center justify-center space-x-3 p-[1.25rem] bg-[#112240] rounded-md select-none md:w-[45%] hover:text-secondary">
+            <div className="text-slate-30a192f00 font-medium flex items-center justify-center space-x-3 p-[1.25rem] bg-[#0a192f] rounded-md select-none md:w-[45%] hover:text-secondary">
               <span>
                 <AiOutlineMail size={28} />
               </span>
@@ -52,7 +52,7 @@ const Contact = () => {
             </div>
 
             {/* Phone */}
-            <div className="text-slate-300 font-medium flex items-center justify-center space-x-3 p-[1.25rem] bg-[#112240] rounded-md select-none md:w-[45%] hover:text-secondary">
+            <div className="text-slate-30a192f00 font-medium flex items-center justify-center space-x-3 p-[1.25rem] bg-[#0a192f] rounded-md select-none md:w-[45%] hover:text-secondary">
               <span>
                 <BsPhone size={28} />
               </span>
@@ -61,7 +61,7 @@ const Contact = () => {
             </div>
 
             {/* Social Accounts */}
-            <div className="text-slate-300 flex items-center justify-center gap-10 p-[1.25rem] bg-[#112240] rounded-md md:w-[60%] md:gap-16">
+            <div className="text-slate-30a192f00 flex items-center justify-center gap-10 p-[1.25rem] bg-[#0a192f] rounded-md md:w-[60%] md:gap-16">
               <a
                 className="hover:text-secondary hover:scale-125"
                 href="https://www.facebook.com/amine.elkhalidy.73"
@@ -113,9 +113,9 @@ const Contact = () => {
             action="https://formspree.io/f/xeqdeyeo"
             className="max-w-2xl mx-auto w-full flex flex-col space-y-4 mb-4"
           >
-            <div className="bg-[#112240] p-3.5 rounded-md hover:shadow-md">
+            <div className="bg-[#0a192f]">
               <input
-                className="outline-none bg-transparent w-full h-full"
+                className="outline-none bg-transparent w-full p-3.5 rounded-md transition duration-200 focus:border focus:border-secondary"
                 placeholder="Your Name"
                 type="text"
                 name="name"
@@ -130,9 +130,9 @@ const Contact = () => {
               />
             </div>
 
-            <div className="bg-[#112240] p-3.5 rounded-md hover:shadow-md">
+            <div className="bg-[#0a192f]">
               <input
-                className="outline-none bg-transparent w-full h-full"
+                className="outline-none bg-transparent w-full p-3.5 rounded-md transition duration-200 focus:border focus:border-secondary"
                 placeholder="Your Email"
                 type="email"
                 name="email"
@@ -147,10 +147,10 @@ const Contact = () => {
               />
             </div>
 
-            <div className="bg-[#112240] p-3.5 rounded-md hover:shadow-md">
+            <div className="bg-[#0a192f]">
               <textarea
                 placeholder="Your Message"
-                className="outline-none bg-transparent h-[170px] resize-none w-full"
+                className="outline-none bg-transparent h-[170px] resize-none w-full p-3.5 rounded-md transition duration-200 focus:border focus:border-secondary"
                 name="message"
                 id="message"
                 required
