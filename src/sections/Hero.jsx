@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { FiGithub, FiLinkedin, FiFacebook } from "react-icons/fi";
 import { SiUpwork } from "react-icons/si";
 
-const Home = () => {
+const Hero = () => {
   return (
     <section
       className="relative max-w-6xl mx-auto px-6 pt-8 h-screen"
@@ -35,7 +35,7 @@ const Home = () => {
 
           {/* Contact me button */}
           <a
-            className="px-8 py-4 border text-secondary border-secondary rounded-md cursor-pointer duration-300 font-nav font-medium text-lg tracking-widest select-none hover:bg-secondary/20  md:text-xl"
+            className="px-8 py-4 border text-secondary border-secondary rounded-md cursor-pointer duration-300 font-nav font-medium text-md tracking-widest select-none hover:bg-secondary/20"
             href="#contact"
           >
             Contact me
@@ -121,4 +121,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Hero;

@@ -25,11 +25,11 @@ const About = () => {
           <div>
             <p className="text-slate-400 mb-3 md:text-lg">
               Hi! My name is{" "}
-              <span className="text-secondary font-medium">
+              <span className=" text-secondary font-medium">
                 Amine Elkhalidy
               </span>
               , I am a{" "}
-              <span className="text-secondary font-medium">
+              <span className=" text-secondary font-medium">
                 FrontEnd Developer
               </span>
               , and I enjoy creating things that live on the internet.
@@ -37,11 +37,11 @@ const About = () => {
 
             <p className="text-slate-400 mb-3 md:text-lg">
               I am working as a freelancer on{" "}
-              <span className="text-secondary font-medium">Upwork</span>, and
+              <span className=" text-secondary font-medium">Upwork</span>, and
               here are some of the services that I provide to my clients:
             </p>
 
-            <ul className=" text-slate-400 grid gap-1 font-nav font-thin -mt-2 mb-4 md:grid-cols-2 md:text-lg">
+            <ul className=" text-slate-400 grid gap-1 font-nav font-thin -mt-2 mb-4 md:grid-cols-2 md:text-[1.05rem]">
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
                   <BsCheckLg />
@@ -103,7 +103,7 @@ const About = () => {
               Here are a few technologies I’ve been working with recently:
             </p>
 
-            <ul className="max-w-sm grid grid-cols-2 -mt-2 text-slate-400 font-nav font-thin md:text-lg">
+            <ul className="max-w-sm grid grid-cols-2 -mt-2 text-slate-400 font-nav font-thin md:text-[1.05rem]">
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
                   <MdOutlinePlayArrow />

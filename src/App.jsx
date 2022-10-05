@@ -2,13 +2,13 @@ import React from "react";
 import "./App.css";
 
 // Sections
-import { Header, Home, About, Projects, Skills, Contact } from "./sections";
+import { Header, Hero, About, Projects, Skills, Contact } from "./sections";
 
 const App = () => {
   return (
     <>
       <Header />
-      <Home />
+      <Hero />
       <About />
       <Projects />
       <Skills />
