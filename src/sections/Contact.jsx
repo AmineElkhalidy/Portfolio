@@ -108,17 +108,13 @@ const Contact = () => {
           >
             <div className="bg-[#0a192f]">
               <input
-                className="outline-none bg-transparent w-full p-3.5 rounded-md transition duration-200 focus:border focus:border-secondary"
+                className="input-field draw relative outline-none bg-transparent w-full p-3.5 rounded-md focus:border focus:border-secondary"
                 placeholder="Your Name"
                 type="text"
                 name="name"
                 id="name"
                 required
               />
-
-              <span className="focus-border">
-                <i></i>
-              </span>
 
               <ValidationError
                 prefix="Name"
@@ -129,17 +125,13 @@ const Contact = () => {
 
             <div className="bg-[#0a192f]">
               <input
-                className="outline-none bg-transparent w-full p-3.5 rounded-md transition duration-200 focus:border focus:border-secondary"
+                className="input-field draw relative outline-none bg-transparent w-full p-3.5 rounded-md focus:border focus:border-secondary"
                 placeholder="Your Email"
                 type="email"
                 name="email"
                 id="email"
                 required
               />
-
-              <span className="focus-border">
-                <i></i>
-              </span>
 
               <ValidationError
                 prefix="Email"
@@ -151,15 +143,11 @@ const Contact = () => {
             <div className="bg-[#0a192f]">
               <textarea
                 placeholder="Your Message"
-                className="outline-none bg-transparent h-[170px] resize-none w-full p-3.5 rounded-md transition duration-200 focus:border focus:border-secondary"
+                className="input-field draw relative outline-none bg-transparent h-[170px] resize-none w-full p-3.5 rounded-md focus:border focus:border-secondary"
                 name="message"
                 id="message"
                 required
               />
-
-              <span className="focus-border">
-                <i></i>
-              </span>
 
               <ValidationError
                 prefix="Message"
