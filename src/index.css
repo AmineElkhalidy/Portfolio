@@ -18,10 +18,6 @@ body {
   @apply h-20 max-w-6xl mx-auto px-6 flex justify-between items-center;
 }
 
-.nav__logo {
-  @apply text-lg font-nav font-medium tracking-wide duration-300 text-white hover:text-secondary;
-}
-
 .nav__toggle {
   @apply inline-block cursor-pointer hover:text-secondary transition-colors duration-300 md:hidden;
 }

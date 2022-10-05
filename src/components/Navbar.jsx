@@ -10,15 +10,21 @@ import { AiOutlineClose } from "react-icons/ai";
 // pdf
 import Cv from "../assets/pdf/Amine-Elkhalidy.pdf";
 
+// Avatar
+import Avatar from "../assets/images/Amine.png";
+
 const Navbar = () => {
   // Nav state
   const [open, setOpen] = useState(false);
-  const [active, setActive] = useState(false);
 
   return (
     <nav className="nav">
-      <a className="nav__logo" href="#">
-        Amine Elkhalidy
+      <a
+        className="flex items-center space-x-2 text-lg font-nav font-medium tracking-wide duration-300 text-white hover:text-secondary"
+        href="#"
+      >
+        <img className="h-[2rem]" src={Avatar} alt="Avatar" />
+        <span>Amine Elkhalidy</span>
       </a>
 
       {open ? (
