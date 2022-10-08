@@ -37,8 +37,15 @@ const About = () => {
 
             <p className="text-slate-400 mb-3 md:text-lg">
               I am working as a freelancer on{" "}
-              <span className=" text-secondary font-medium">Upwork</span>, and
-              here are some of the services that I provide to my clients:
+              <a
+                href="https://www.upwork.com/"
+                target="_blank"
+                rel="referrer noopener"
+                className=" text-secondary font-medium"
+              >
+                Upwork
+              </a>
+              , and here are some of the services that I provide to my clients:
             </p>
 
             <ul className=" text-slate-400 grid gap-1 font-nav font-thin -mt-2 mb-4 md:grid-cols-2 md:text-[1.05rem]">
