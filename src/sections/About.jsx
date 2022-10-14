@@ -30,7 +30,7 @@ const About = () => {
               </span>
               , I am a{" "}
               <span className=" text-secondary font-medium">
-                FrontEnd Developer
+                Front End Developer
               </span>
               , and I enjoy creating things that live on the internet.
             </p>
