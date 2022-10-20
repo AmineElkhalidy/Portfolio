@@ -23,7 +23,7 @@ const Header = () => {
   }, [window]);
 
   return (
-    <header className={`header ${headerShadow ? "shadow-xl" : ""}`}>
+    <header className={`header select-none ${headerShadow ? "shadow-xl" : ""}`}>
       <Navbar />
     </header>
   );
