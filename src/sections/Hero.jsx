@@ -7,6 +7,9 @@ import { motion } from "framer-motion";
 import { FiGithub, FiLinkedin, FiFacebook } from "react-icons/fi";
 import { SiUpwork } from "react-icons/si";
 
+// Images
+import Waving from "../assets/images/waving.gif";
+
 const Hero = () => {
   return (
     <section
@@ -22,10 +25,10 @@ const Hero = () => {
         <div>
           {/* Introduction */}
           <h1 className="text-slate-300 text-5xl font-semibold mb-4 select-none md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
-            Hi 👋
-            <br />I am Amine,
+            Hi👋
+            <br />I am Amine 🙂,
             <br />
-            <span className="circled-line">web developer</span>
+            <span className="circled-line">web developer</span> 👨‍💻
           </h1>
 
           {/* Profession */}
