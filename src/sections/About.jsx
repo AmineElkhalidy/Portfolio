@@ -1,7 +1,7 @@
 import React from "react";
 
 // Icons
-import { BsCheckLg } from "react-icons/bs";
+import { BsCheckLg, BsFillSuitDiamondFill } from "react-icons/bs";
 import { MdOutlinePlayArrow } from "react-icons/md";
 
 // motion
@@ -21,7 +21,7 @@ const About = () => {
         </h2>
 
         {/* Content Container */}
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-3xl mx-auto md:px-8  lg:px-0">
           <div>
             <p className="text-slate-400 mb-3 md:text-lg">
               Hi! My name is{" "}
@@ -48,59 +48,59 @@ const About = () => {
               , and here are some of the services that I provide to my clients:
             </p>
 
-            <ul className=" text-slate-400 grid gap-1 font-nav font-thin -mt-2 mb-4 md:grid-cols-2 md:text-[1.05rem]">
+            <ul className=" text-slate-400 grid gap-1 font-nav font-thin mt-1 mb-4  md:grid-cols-2 md:text-[1.05rem]">
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <BsCheckLg />
+                  <BsFillSuitDiamondFill />
                 </span>
                 PSD to HTML
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <BsCheckLg />
+                  <BsFillSuitDiamondFill />
                 </span>
                 Front web app
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <BsCheckLg />
+                  <BsFillSuitDiamondFill />
                 </span>
                 Components & Layouts dev
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <BsCheckLg />
+                  <BsFillSuitDiamondFill />
                 </span>
                 Pixel Perfect design
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <BsCheckLg />
+                  <BsFillSuitDiamondFill />
                 </span>
                 Responsive design
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <BsCheckLg />
+                  <BsFillSuitDiamondFill />
                 </span>
                 API integration
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <BsCheckLg />
+                  <BsFillSuitDiamondFill />
                 </span>
                 Database integration
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <BsCheckLg />
+                  <BsFillSuitDiamondFill />
                 </span>
                 Authentication
               </li>
@@ -110,7 +110,7 @@ const About = () => {
               Here are a few technologies I’ve been working with recently:
             </p>
 
-            <ul className="max-w-sm grid grid-cols-2 -mt-2 text-slate-400 font-nav font-thin md:text-[1.05rem]">
+            <ul className="max-w-sm grid grid-cols-2 -mt-2 text-slate-400 font-nav font-thin  md:text-[1.05rem]">
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
                   <MdOutlinePlayArrow />
