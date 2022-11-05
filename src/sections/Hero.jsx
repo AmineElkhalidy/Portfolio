@@ -3,12 +3,11 @@ import React from "react";
 // motion
 import { motion } from "framer-motion";
 
+import TypeIt from "typeit-react";
+
 // Icons
 import { FiGithub, FiLinkedin, FiFacebook, FiTwitter } from "react-icons/fi";
 import { SiUpwork } from "react-icons/si";
-
-// Images
-import Waving from "../assets/images/waving.gif";
 
 const Hero = () => {
   return (
@@ -33,7 +32,15 @@ const Hero = () => {
 
           {/* Profession */}
           <p className="text-slate-400 text-lg font-nav mb-10 select-none md:text-xl lg:text-2xl">
-            Front End Developer / React Developer
+            <TypeIt
+              option={{
+                afterComplete: function (instance) {
+                  instance.destroy();
+                },
+              }}
+            >
+              Front-End developer / React developer
+            </TypeIt>
           </p>
 
           {/* Contact me button */}
