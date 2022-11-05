@@ -66,7 +66,7 @@ const Hero = () => {
           <li className="hover:-translate-y-1 duration-200">
             <a
               className="text-slate-400 hover:text-secondary"
-              href="https://www.facebook.com/amine.elkhalidy.73"
+              href="https://twitter.com/ElkhalidyAmine"
               target="_blank"
             >
               <FiTwitter size={21} />
