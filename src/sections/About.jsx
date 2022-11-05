@@ -1,8 +1,9 @@
 import React from "react";
 
 // Icons
-import { BsCheckLg, BsFillSuitDiamondFill } from "react-icons/bs";
+import { BsCheckLg } from "react-icons/bs";
 import { MdOutlinePlayArrow } from "react-icons/md";
+import { RiVipDiamondFill } from "react-icons/ri";
 
 // motion
 import { motion } from "framer-motion";
@@ -51,56 +52,56 @@ const About = () => {
             <ul className=" text-slate-400 grid gap-1 font-nav font-thin mt-1 mb-4  md:grid-cols-2 md:text-[1.05rem]">
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <BsFillSuitDiamondFill />
+                  <RiVipDiamondFill />
                 </span>
                 PSD to HTML
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <BsFillSuitDiamondFill />
+                  <RiVipDiamondFill />
                 </span>
                 Front web app
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <BsFillSuitDiamondFill />
+                  <RiVipDiamondFill />
                 </span>
                 Components & Layouts dev
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <BsFillSuitDiamondFill />
+                  <RiVipDiamondFill />
                 </span>
                 Pixel Perfect design
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <BsFillSuitDiamondFill />
+                  <RiVipDiamondFill />
                 </span>
                 Responsive design
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <BsFillSuitDiamondFill />
+                  <RiVipDiamondFill />
                 </span>
                 API integration
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <BsFillSuitDiamondFill />
+                  <RiVipDiamondFill />
                 </span>
                 Database integration
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <BsFillSuitDiamondFill />
+                  <RiVipDiamondFill />
                 </span>
                 Authentication
               </li>
