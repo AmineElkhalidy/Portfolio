@@ -97,7 +97,7 @@ const Skills = () => {
             </div>
 
             {/* 2020 */}
-            {/* <div className="flex space-x-12">
+            <div className="flex space-x-12">
               <p className="text-md text-secondary font-semibold lg:text-lg">
                 2020
               </p>
@@ -111,12 +111,12 @@ const Skills = () => {
                     FrontEnd Developer
                   </h4>
                   <p className="text-slate-300 mb-[.5rem]">
-                    Learning and practicing
+                    I have developped many frontend projects
                   </p>
                   <p className="text-sm font-nav text-slate-300">By myslef</p>
                 </motion.div>
               </div>
-            </div> */}
+            </div>
           </div>
         </motion.div>
       </motion.div>
