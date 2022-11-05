@@ -33,7 +33,7 @@ const Hero = () => {
           {/* Profession */}
           <p className="text-slate-400 text-lg font-nav mb-10 select-none md:text-xl lg:text-2xl">
             <TypeIt
-              option={{
+              options={{
                 afterComplete: function (instance) {
                   instance.destroy();
                 },
