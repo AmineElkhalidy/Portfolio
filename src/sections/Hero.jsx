@@ -4,7 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 // Icons
-import { FiGithub, FiLinkedin, FiFacebook } from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiFacebook, FiTwitter } from "react-icons/fi";
 import { SiUpwork } from "react-icons/si";
 
 // Images
@@ -52,7 +52,7 @@ const Hero = () => {
         transition={{ delay: 0.1 }}
         className="hidden md:block fixed -bottom-1.5"
       >
-        <ul className="flex flex-col gap-8 justify-center items-center">
+        <ul className="flex flex-col gap-6 justify-center items-center">
           <li className="hover:-translate-y-1 duration-200">
             <a
               className="text-slate-400 hover:text-secondary"
@@ -60,6 +60,16 @@ const Hero = () => {
               target="_blank"
             >
               <FiFacebook size={21} />
+            </a>
+          </li>
+
+          <li className="hover:-translate-y-1 duration-200">
+            <a
+              className="text-slate-400 hover:text-secondary"
+              href="https://www.facebook.com/amine.elkhalidy.73"
+              target="_blank"
+            >
+              <FiTwitter size={21} />
             </a>
           </li>
 
