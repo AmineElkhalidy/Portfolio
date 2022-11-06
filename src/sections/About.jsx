@@ -1,7 +1,6 @@
 import React from "react";
 
 // Icons
-import { BsCheckLg } from "react-icons/bs";
 import { MdOutlinePlayArrow } from "react-icons/md";
 import { RiVipDiamondFill } from "react-icons/ri";
 

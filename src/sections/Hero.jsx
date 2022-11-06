@@ -11,10 +11,7 @@ import { SiUpwork } from "react-icons/si";
 
 const Hero = () => {
   return (
-    <section
-      className="relative max-w-6xl mx-auto px-6 pt-8 h-screen"
-      id="home"
-    >
+    <section className="relative max-w-6xl mx-auto px-6 pt-8 h-screen">
       {/* Content Container with animation */}
       <motion.div
         whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}

@@ -103,7 +103,10 @@ const Navbar = () => {
         </div>
       )}
 
-      <motion.div className="hidden md:block" whileInView={{ opacity: [0, 1] }}>
+      <motion.div
+        className="navigation hidden md:block"
+        whileInView={{ opacity: [0, 1] }}
+      >
         <ul className="flex gap-8">
           <li>
             <a
