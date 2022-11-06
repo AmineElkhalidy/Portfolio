@@ -104,8 +104,8 @@ const Contact = () => {
             whileInView={{ opacity: [0, 1] }}
             className="h-[5rem] max-w-3xl mx-auto"
           >
-            <p className="text-secondary text-2xl text-center font-semibold md:text-3xl lg:text-4xl">
-              Thank you for your message
+            <p className="text-2xl text-center font-semibold md:text-3xl lg:text-4xl">
+              <span className="text-secondary">Thank you</span> for your message
               <br />I will be in touch{" "}
               <span className="text-secondary">as soon as possible</span>.
             </p>
