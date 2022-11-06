@@ -21,11 +21,11 @@ const Hero = () => {
         <div>
           {/* Introduction */}
           <h1 className="text-slate-300 text-5xl font-semibold mb-4 select-none md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
-            Hi👋,
+            Hi👋
             <br />
-            I'm Amine,
+            I'm Amine
             <br />
-            <span className="circled-line">web developer</span>
+            <span className="circled-line">Web developer</span>
           </h1>
 
           {/* Profession */}
