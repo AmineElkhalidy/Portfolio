@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 // FormSpree
 import { useForm, ValidationError } from "@formspree/react";
@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 // Icons
 import { AiOutlineMail } from "react-icons/ai";
 import { BsPhone } from "react-icons/bs";
-import { FiGithub, FiFacebook, FiLinkedin } from "react-icons/fi";
+import { FiGithub, FiFacebook, FiLinkedin, FiTwitter } from "react-icons/fi";
 import { SiUpwork } from "react-icons/si";
 
 const Contact = () => {
@@ -64,6 +64,14 @@ const Contact = () => {
               </a>
 
               <a
+                className="hover:text-secondary hover:scale-125"
+                href="https://twitter.com/ElkhalidyAmine"
+                target="_blank"
+              >
+                <FiTwitter size={28} />
+              </a>
+
+              <a
                 className="hover:text-secondary hover:scale-110"
                 href="https://www.linkedin.com/in/amine-elkhalidy-b28529233/"
                 target="_blank"
@@ -96,8 +104,9 @@ const Contact = () => {
             whileInView={{ opacity: [0, 1] }}
             className="h-[5rem] max-w-3xl mx-auto"
           >
-            <p className="text-2xl text-center font-semibold md:text-3xl lg:text-4xl">
-              Thank you for your message, I will be in touch as soon as possible
+            <p className="text-secondary text-2xl text-center font-semibold md:text-3xl lg:text-4xl">
+              Thank you for your message
+              <br />I will be in touch as soon as possible.
             </p>
           </motion.div>
         ) : (
