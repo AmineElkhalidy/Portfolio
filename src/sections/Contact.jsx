@@ -54,9 +54,9 @@ const Contact = () => {
             </div>
 
             {/* Social Accounts */}
-            <div className="text-slate-300 flex items-center justify-center gap-10 p-[1.25rem] bg-[#0a192f] rounded-md md:w-[60%] md:gap-16">
+            <div className="text-slate-300 flex items-center justify-center gap-10 p-[1.25rem] bg-[#0a192f] rounded-md md:w-[70%] md:gap-16">
               <a
-                className="hover:text-secondary hover:scale-125"
+                className="hover:text-secondary hover:scale-[1.3]"
                 href="https://www.facebook.com/amine.elkhalidy.73"
                 target="_blank"
               >
@@ -72,7 +72,7 @@ const Contact = () => {
               </a>
 
               <a
-                className="hover:text-secondary hover:scale-110"
+                className="hover:text-secondary hover:scale-[1.3]"
                 href="https://www.linkedin.com/in/amine-elkhalidy-b28529233/"
                 target="_blank"
               >
@@ -80,7 +80,7 @@ const Contact = () => {
               </a>
 
               <a
-                className="hover:text-secondary hover:scale-110"
+                className="hover:text-secondary hover:scale-[1.3]"
                 href="https://github.com/AmineElkhalidy"
                 target="_blank"
               >
@@ -88,7 +88,7 @@ const Contact = () => {
               </a>
 
               <a
-                className="hover:text-secondary hover:scale-110"
+                className="hover:text-secondary hover:scale-[1.3]"
                 href="https://www.upwork.com/freelancers/aminee12"
                 target="_blank"
               >
