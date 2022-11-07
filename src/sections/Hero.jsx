@@ -121,7 +121,7 @@ const Hero = () => {
         className="hidden md:block fixed -bottom-1.5 -right-16 xl:-right-6"
       >
         <ul className="flex flex-col justify-center items-center">
-          <li className="rotate-90 text-sm hover:-translate-y-1">
+          <li className="rotate-90 text-sm duration-200 hover:-translate-y-1">
             <a
               className="text-slate-400 hover:text-secondary"
               href="mailto:a.amineelkhalidy@gmail.com"
