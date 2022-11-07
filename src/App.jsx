@@ -5,7 +5,15 @@ import ReactGA from "react-ga";
 const TRACKING_ID = "G-49J1KPT5P7"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 // Sections
-import { Header, Hero, About, Projects, Skills, Contact } from "./sections";
+import {
+  Header,
+  Hero,
+  About,
+  Projects,
+  Skills,
+  Contact,
+  Testimonials,
+} from "./sections";
 
 const App = () => {
   // Google analytics
@@ -47,6 +55,7 @@ const App = () => {
       <About />
       <Projects />
       <Skills />
+      {/* <Testimonials /> */}
       <Contact />
     </>
   );
