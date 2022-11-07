@@ -52,8 +52,7 @@ const reviews = [
     id: "r5",
     name: "Tireson Emma",
     username: "@EmmaTey",
-    description:
-      "Amine is a skilled developer that deliver work with great quality",
+    description: "Amine is a skilled developer that deliver quality work.",
     platform: SiUpwork,
   },
   {
@@ -76,7 +75,7 @@ const reviews = [
 
 const Testimonials = () => {
   return (
-    <section className="max-w-6xl mx-auto" id="reviews">
+    <section className="max-w-4xl mx-auto" id="reviews">
       <motion.div
         whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
         transition={{ duration: 0.5 }}
@@ -87,18 +86,34 @@ const Testimonials = () => {
           Reviews & Feedbacks
         </h2>
 
-        <Splide className="flex">
-          <SplideSlide>
-            {reviews.map((review) => (
+        <Splide
+          className="w-full h-full flex items-center mt-20"
+          options={{
+            type: "loop",
+            drag: "free",
+            gap: "15rem",
+            arrows: false,
+            pagination: false,
+            perPage: 2,
+            autoScroll: {
+              pauseOnHover: true,
+              pauseOnFocus: false,
+              rewind: false,
+              speed: 2,
+            },
+          }}
+          extensions={{ AutoScroll }}
+        >
+          {reviews.map((review) => (
+            <SplideSlide key={review.id}>
               <Testimonial
-                key={review.id}
                 name={review.name}
                 username={review.username}
                 description={review.description}
                 Platform={review.platform}
               />
-            ))}
-          </SplideSlide>
+            </SplideSlide>
+          ))}
         </Splide>
       </motion.div>
     </section>

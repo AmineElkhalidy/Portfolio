@@ -67,7 +67,7 @@ const Navbar = () => {
             <li>
               <a
                 className="nav__link"
-                href="#skills"
+                href="#reviews"
                 onClick={() => setOpen(false)}
               >
                 <span className="text-secondary">05.</span> Reviews
