@@ -34,7 +34,7 @@ const Contact = () => {
         <div className="max-w-2xl mx-auto my-14">
           <div className="flex flex-col space-y-6 justify-center md:flex-row md:flex-wrap-reverse md:-space-y-0 md:gap-8">
             {/* Email */}
-            <div className="text-slate-300 font-medium flex items-center justify-center space-x-3 p-[1.25rem] bg-[#0a192f] rounded-md select-none md:w-[45%] hover:text-secondary hover:border hover:border-secondary">
+            <div className="text-slate-300 duration-200 font-medium flex items-center justify-center space-x-3 p-[1.25rem] bg-[#0a192f] rounded-md select-none md:w-[45%] hover:text-secondary hover:border hover:border-secondary">
               <span>
                 <AiOutlineMail size={28} />
               </span>
@@ -45,7 +45,7 @@ const Contact = () => {
             </div>
 
             {/* Phone */}
-            <div className="text-slate-300 font-medium flex items-center justify-center space-x-3 p-[1.25rem] bg-[#0a192f] rounded-md select-none md:w-[45%] hover:text-secondary hover:border hover:border-secondary">
+            <div className="text-slate-300 duration-200 font-medium flex items-center justify-center space-x-3 p-[1.25rem] bg-[#0a192f] rounded-md select-none md:w-[45%] hover:text-secondary hover:border hover:border-secondary">
               <span>
                 <BsPhone size={28} />
               </span>
@@ -56,7 +56,7 @@ const Contact = () => {
             {/* Social Accounts */}
             <div className="text-slate-300 flex items-center justify-center gap-10 p-[1.25rem] bg-[#0a192f] rounded-md md:w-[70%] md:gap-16">
               <a
-                className="hover:text-secondary hover:scale-[1.3]"
+                className="duration-200 hover:text-secondary hover:scale-[1.3]"
                 href="https://www.facebook.com/amine.elkhalidy.73"
                 target="_blank"
               >
@@ -64,7 +64,7 @@ const Contact = () => {
               </a>
 
               <a
-                className="hover:text-secondary hover:scale-125"
+                className="duration-200 hover:text-secondary hover:scale-125"
                 href="https://twitter.com/ElkhalidyAmine"
                 target="_blank"
               >
@@ -72,7 +72,7 @@ const Contact = () => {
               </a>
 
               <a
-                className="hover:text-secondary hover:scale-[1.3]"
+                className="duration-200 hover:text-secondary hover:scale-[1.3]"
                 href="https://www.linkedin.com/in/amine-elkhalidy-b28529233/"
                 target="_blank"
               >
@@ -80,7 +80,7 @@ const Contact = () => {
               </a>
 
               <a
-                className="hover:text-secondary hover:scale-[1.3]"
+                className="duration-200 hover:text-secondary hover:scale-[1.3]"
                 href="https://github.com/AmineElkhalidy"
                 target="_blank"
               >
@@ -88,7 +88,7 @@ const Contact = () => {
               </a>
 
               <a
-                className="hover:text-secondary hover:scale-[1.3]"
+                className="duration-200 hover:text-secondary hover:scale-[1.3]"
                 href="https://www.upwork.com/freelancers/aminee12"
                 target="_blank"
               >
@@ -118,7 +118,7 @@ const Contact = () => {
           >
             <div className="bg-[#0a192f]">
               <input
-                className="input-field draw relative outline-none bg-transparent w-full p-3.5 rounded-md focus:border focus:border-secondary"
+                className="duration-200 relative outline-none bg-transparent w-full p-3.5 rounded-md focus:border focus:border-secondary"
                 placeholder="Your Name"
                 type="text"
                 name="name"
@@ -135,7 +135,7 @@ const Contact = () => {
 
             <div className="bg-[#0a192f]">
               <input
-                className="input-field draw relative outline-none bg-transparent w-full p-3.5 rounded-md focus:border focus:border-secondary"
+                className="duration-200 relative outline-none bg-transparent w-full p-3.5 rounded-md focus:border focus:border-secondary"
                 placeholder="Your Email"
                 type="email"
                 name="email"
@@ -153,7 +153,7 @@ const Contact = () => {
             <div className="bg-[#0a192f]">
               <textarea
                 placeholder="Your Message"
-                className="input-field draw relative outline-none bg-transparent h-[170px] resize-none w-full p-3.5 rounded-md focus:border focus:border-secondary"
+                className="duration-200 relative outline-none bg-transparent h-[170px] resize-none w-full p-3.5 rounded-md focus:border focus:border-secondary"
                 name="message"
                 id="message"
                 required
