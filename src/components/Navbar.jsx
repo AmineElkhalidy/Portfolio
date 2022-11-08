@@ -67,16 +67,6 @@ const Navbar = () => {
             <li>
               <a
                 className="nav__link"
-                href="#reviews"
-                onClick={() => setOpen(false)}
-              >
-                <span className="text-secondary">05.</span> Reviews
-              </a>
-            </li>
-
-            <li>
-              <a
-                className="nav__link"
                 href="#contact"
                 onClick={() => setOpen(false)}
               >
@@ -143,15 +133,6 @@ const Navbar = () => {
               href="#skills"
             >
               <span className="text-secondary">04.</span> Skills
-            </a>
-          </li>
-
-          <li>
-            <a
-              className="font-nav text-md transition-colors duration-300 hover:text-secondary"
-              href="#reviews"
-            >
-              <span className="text-secondary">05.</span> Reviews
             </a>
           </li>
 
