@@ -16,7 +16,7 @@ import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
 import "@splidejs/splide/dist/css/splide.min.css";
 
 // Data
-const reviews = [
+const rowreviews1 = [
   {
     id: "r1",
     name: "Mossaab Talbi",
@@ -48,6 +48,9 @@ const reviews = [
       "Amine made significant changes to an existing react project, integrating additional functionality. I can highly recommend him as a frontend dev",
     platform: SiUpwork,
   },
+];
+
+const rowreviews2 = [
   {
     id: "r5",
     name: "Tireson Emma",
@@ -71,6 +74,13 @@ const reviews = [
       "A best friend and best developer, helped me to build my own website and launch it to the internet",
     platform: SiUpwork,
   },
+  {
+    id: "r8",
+    name: "Anas Samoudi",
+    username: "@Unlimiteddez",
+    description: "Great developer, with sharpen eye on quality check.",
+    platform: SiUpwork,
+  },
 ];
 
 const Testimonials = () => {
@@ -83,38 +93,72 @@ const Testimonials = () => {
       >
         {/* Heading */}
         <h2 className="text-2xl text-center font-nav font-semibold mb-10 md:text-3xl lg:text-4xl">
-          Reviews & Feedbacks
+          Clients Reviews
         </h2>
 
-        <Splide
-          className="w-full h-full flex items-center mt-20"
-          options={{
-            type: "loop",
-            drag: "free",
-            gap: "15rem",
-            arrows: false,
-            pagination: false,
-            perPage: 2,
-            autoScroll: {
-              pauseOnHover: true,
-              pauseOnFocus: false,
-              rewind: false,
-              speed: 2,
-            },
-          }}
-          extensions={{ AutoScroll }}
-        >
-          {reviews.map((review) => (
-            <SplideSlide key={review.id}>
-              <Testimonial
-                name={review.name}
-                username={review.username}
-                description={review.description}
-                Platform={review.platform}
-              />
-            </SplideSlide>
-          ))}
-        </Splide>
+        <div className="flex flex-col space-y-10">
+          {/* Row 1 */}
+          <Splide
+            className="w-full"
+            options={{
+              type: "loop",
+              drag: "free",
+              gap: "33rem",
+              arrows: false,
+              pagination: false,
+              perPage: 3,
+              autoScroll: {
+                pauseOnHover: true,
+                pauseOnFocus: false,
+                rewind: false,
+                speed: 2,
+              },
+            }}
+            extensions={{ AutoScroll }}
+          >
+            {rowreviews1.map((review) => (
+              <SplideSlide key={review.id}>
+                <Testimonial
+                  name={review.name}
+                  username={review.username}
+                  description={review.description}
+                  Platform={review.platform}
+                />
+              </SplideSlide>
+            ))}
+          </Splide>
+
+          {/* Row 2 */}
+          <Splide
+            className="w-full"
+            options={{
+              type: "loop",
+              drag: "free",
+              gap: "33rem",
+              arrows: false,
+              pagination: false,
+              perPage: 3,
+              autoScroll: {
+                pauseOnHover: true,
+                pauseOnFocus: false,
+                rewind: false,
+                speed: -2,
+              },
+            }}
+            extensions={{ AutoScroll }}
+          >
+            {rowreviews2.map((review) => (
+              <SplideSlide key={review.id}>
+                <Testimonial
+                  name={review.name}
+                  username={review.username}
+                  description={review.description}
+                  Platform={review.platform}
+                />
+              </SplideSlide>
+            ))}
+          </Splide>
+        </div>
       </motion.div>
     </section>
   );
