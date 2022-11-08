@@ -70,7 +70,7 @@ const Navbar = () => {
                 href="#contact"
                 onClick={() => setOpen(false)}
               >
-                <span className="text-secondary">06.</span> Contact
+                <span className="text-secondary">05.</span> Contact
               </a>
             </li>
 
@@ -141,7 +141,7 @@ const Navbar = () => {
               className="font-nav text-md transition-colors duration-300 hover:text-secondary"
               href="#contact"
             >
-              <span className="text-secondary">06.</span> Contact
+              <span className="text-secondary">05.</span> Contact
             </a>
           </li>
 
