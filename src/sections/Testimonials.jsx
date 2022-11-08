@@ -2,6 +2,7 @@ import React from "react";
 
 // Icons
 import { SiUpwork } from "react-icons/si";
+import { BsWhatsapp } from "react-icons/bs";
 
 // motion
 import { motion } from "framer-motion";
@@ -38,7 +39,7 @@ const rowreviews1 = [
     name: "Sacreed Groves",
     username: "@Grooves",
     description: "Amine did an amazing job with my react project",
-    platform: SiUpwork,
+    platform: BsWhatsapp,
   },
   {
     id: "r4",
@@ -56,7 +57,7 @@ const rowreviews2 = [
     name: "Tireson Emma",
     username: "@EmmaTey",
     description: "Amine is a skilled developer that deliver quality work.",
-    platform: SiUpwork,
+    platform: BsWhatsapp,
   },
   {
     id: "r6",
@@ -64,7 +65,7 @@ const rowreviews2 = [
     username: "@Chatouirachid",
     description:
       "Amine helped me a lot with defining the content and layout of my product landing page, definitely recommended!",
-    platform: SiUpwork,
+    platform: BsWhatsapp,
   },
   {
     id: "r7",
@@ -72,14 +73,14 @@ const rowreviews2 = [
     username: "@Et-Achraf",
     description:
       "A best friend and best developer, helped me to build my own website and launch it to the internet",
-    platform: SiUpwork,
+    platform: BsWhatsapp,
   },
   {
     id: "r8",
     name: "Anas Samoudi",
     username: "@Unlimiteddez",
     description: "Great developer, with sharpen eye on quality check.",
-    platform: SiUpwork,
+    platform: BsWhatsapp,
   },
 ];
 
