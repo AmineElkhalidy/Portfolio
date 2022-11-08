@@ -17,7 +17,9 @@ const Testimonial = ({ name, username, description, Platform }) => {
         <Platform className="" size="28" color="green" />
       </div>
 
-      <p className="max-w-xs text-sm md:max-w-md md:text-md">{description}</p>
+      <p className="max-w-xs font-medium text-gray-200 text-sm md:max-w-md md:text-md">
+        {description}
+      </p>
     </div>
   );
 };
