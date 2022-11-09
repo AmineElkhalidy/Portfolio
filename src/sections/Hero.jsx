@@ -92,7 +92,7 @@ const Hero = () => {
           <li className="hover:-translate-y-1 duration-200">
             <a
               className="text-slate-400 hover:text-secondary"
-              href="https://www.linkedin.com/in/amine-elkhalidy-b28529233/"
+              href="https://www.linkedin.com/in/amine-elkhalidy/"
               target="_blank"
             >
               <FiLinkedin size={20} />

@@ -73,7 +73,7 @@ const Contact = () => {
 
               <a
                 className="duration-200 hover:text-secondary hover:scale-[1.3]"
-                href="https://www.linkedin.com/in/amine-elkhalidy-b28529233/"
+                href="https://www.linkedin.com/in/amine-elkhalidy/"
                 target="_blank"
               >
                 <FiLinkedin size={28} />
