@@ -11,7 +11,6 @@ import { motion } from "framer-motion";
 import Mamiru from "../assets/images/projects/mamiru.png";
 import Tasty from "../assets/images/projects/tasty.png";
 import Omnifood from "../assets/images/projects/project-01.png";
-import LandingPage from "../assets/images/projects/project-02.png";
 import ShopStore from "../assets/images/projects/project-03.png";
 import Clipboarding from "../assets/images/projects/project-06.png";
 
@@ -258,7 +257,7 @@ const Projects = () => {
 
           {show && (
             <>
-              {/* Landing Page */}
+              {/* Shopping store */}
               <motion.div
                 whileInView={{ opacity: [0, 1] }}
                 className="relative grid bg-[#0a192f] rounded-md shadow-xl p-4 md:bg-transparent md:rounded-none md:shadow-none md:p-0 md:grid-cols-2 md:px-16"
@@ -268,7 +267,7 @@ const Projects = () => {
                   <div className="absolute top-0 left-0 w-full h-full bg-slate-800/50 duration-300 hover:cursor-pointer hover:bg-transparent"></div>
                   <img
                     className="h-full"
-                    src={LandingPage}
+                    src={ShopStore}
                     alt="Project preview"
                   />
                 </div>
@@ -280,71 +279,24 @@ const Projects = () => {
                   </h4>
 
                   <h3 className="text-lg font-semibold mb-4 lg:text-2xl">
-                    Startup Landing
+                    Shopping store
                   </h3>
 
                   <p className="max-w-md mx-auto text-slate-300 text-left my-6 md:text-right md:p-4 md:bg-[#0a192f] md:shadow-xl md:rounded-md md:mr-0">
-                    Simple startup landing page that was built using Next.js, a
-                    React framework for production, with amazing curves, color
-                    scheme and animation...
+                    Shopping store is a web app that is under development, to
+                    allow to users to be able to purchase whatever products they
+                    want...
                   </p>
 
                   <ul className="max-w-md mx-auto flex flex-wrap justify-start items-center font-nav text-slate-400 md:justify-end gap-6 mb-6 mr-0">
-                    <li className="">Next.js</li>
+                    <li className="">HTML</li>
+                    <li className="">CSS</li>
+                    <li className="">JavaScript</li>
                   </ul>
 
                   <div className="max-w-md mx-auto text-slate-300 flex justify-start items-center md:justify-end gap-6 mr-0 md:mb-4">
                     <a
-                      href="https://github.com/AmineElkhalidy/Landing-Page"
-                      target="_blank"
-                      className="hover:text-secondary"
-                    >
-                      <FiGithub size={23} className="cursor-pointer" />
-                    </a>
-
-                    <a
-                      href="https://landing-page-startup.vercel.app/"
-                      target="_blank"
-                      className="hover:text-secondary"
-                    >
-                      <HiOutlineExternalLink
-                        size={24}
-                        className="cursor-pointer"
-                      />
-                    </a>
-                  </div>
-                </div>
-              </motion.div>
-
-              {/* Shop Store */}
-              <motion.div
-                whileInView={{ opacity: [0, 1] }}
-                className="relative grid bg-[#0a192f] rounded-md shadow-xl p-4 md:bg-transparent md:rounded-none md:shadow-none md:p-0 md:grid-cols-2 md:px-16"
-              >
-                {/* Project Description */}
-                <div className="mb-6 text-center md:text-left">
-                  <h4 className="font-nav font-medium text-secondary tracking-wider">
-                    Featured Project
-                  </h4>
-
-                  <h3 className="text-lg font-semibold mb-4 lg:text-2xl">
-                    Shop Store
-                  </h3>
-
-                  <p className="max-w-md mx-auto text-slate-300 text-left my-6 md:p-4 md:bg-[#0a192f] md:shadow-xl md:rounded-md md:ml-0">
-                    Shop store is a web app that is under development, to allow
-                    to users to be able to purchase whatever products they
-                    want...
-                  </p>
-
-                  <ul className="max-w-md mx-auto text-slate-400 flex flex-wrap justify-start items-center font-nav md:justify-start gap-6 mb-6 ml-0">
-                    <li className="">HTML</li>
-                    <li className="">TailwindCss</li>
-                  </ul>
-
-                  <div className="max-w-md mx-auto text-slate-300 flex justify-start items-center md:justify-start gap-6 ml-0 mb-4">
-                    <a
-                      href="https://github.com/AmineElkhalidy/Shopping-App"
+                      href="https://github.com/AmineElkhalidy/shopStore"
                       target="_blank"
                       className="hover:text-secondary"
                     >
@@ -357,21 +309,11 @@ const Projects = () => {
                       className="hover:text-secondary"
                     >
                       <HiOutlineExternalLink
-                        size={23}
+                        size={24}
                         className="cursor-pointer"
                       />
                     </a>
                   </div>
-                </div>
-
-                {/* Project Image */}
-                <div className="relative w-full h-full rounded-md overflow-hidden">
-                  <div className="absolute top-0 left-0 w-full h-full bg-slate-800/50 duration-300 hover:cursor-pointer hover:bg-transparent"></div>
-                  <img
-                    className="h-full"
-                    src={ShopStore}
-                    alt="Project preview"
-                  />
                 </div>
               </motion.div>
 
