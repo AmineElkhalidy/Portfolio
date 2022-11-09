@@ -3,6 +3,7 @@ import React from "react";
 // motion
 import { motion } from "framer-motion";
 
+// Typeit effect
 import TypeIt from "typeit-react";
 
 // Icons
