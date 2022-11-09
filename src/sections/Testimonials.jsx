@@ -86,7 +86,7 @@ const rowreviews2 = [
 
 const Testimonials = () => {
   return (
-    <section className="max-w-4xl mx-auto" id="reviews">
+    <section className="max-w-4xl mx-auto" id="feedbacks">
       <motion.div
         whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
         transition={{ duration: 0.5 }}
