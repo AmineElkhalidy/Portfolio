@@ -40,7 +40,7 @@ const Navbar = () => {
                 href="#about"
                 onClick={() => setOpen(false)}
               >
-                <span className="text-secondary">02.</span> About
+                <span className="text-secondary">01.</span> About
               </a>
             </li>
 
@@ -50,7 +50,7 @@ const Navbar = () => {
                 href="#work"
                 onClick={() => setOpen(false)}
               >
-                <span className="text-secondary">03.</span> Work
+                <span className="text-secondary">02.</span> Work
               </a>
             </li>
 
@@ -60,7 +60,7 @@ const Navbar = () => {
                 href="#skills"
                 onClick={() => setOpen(false)}
               >
-                <span className="text-secondary">04.</span> Skills
+                <span className="text-secondary">03.</span> Skills
               </a>
             </li>
 
@@ -70,7 +70,7 @@ const Navbar = () => {
                 href="#feedbacks"
                 onClick={() => setOpen(false)}
               >
-                <span className="text-secondary">05.</span> Feedbacks
+                <span className="text-secondary">04.</span> Feedbacks
               </a>
             </li>
 
@@ -80,7 +80,7 @@ const Navbar = () => {
                 href="#contact"
                 onClick={() => setOpen(false)}
               >
-                <span className="text-secondary">06.</span> Contact
+                <span className="text-secondary">05.</span> Contact
               </a>
             </li>
 
@@ -124,7 +124,7 @@ const Navbar = () => {
               href="#about"
               onClick={() => setActive(true)}
             >
-              <span className="text-secondary">02.</span> About
+              <span className="text-secondary">01.</span> About
             </a>
           </li>
 
@@ -133,7 +133,7 @@ const Navbar = () => {
               className="font-nav text-md transition-colors duration-300 hover:text-secondary"
               href="#work"
             >
-              <span className="text-secondary">03.</span> Work
+              <span className="text-secondary">02.</span> Work
             </a>
           </li>
 
@@ -142,7 +142,7 @@ const Navbar = () => {
               className="font-nav text-md transition-colors duration-300 hover:text-secondary"
               href="#skills"
             >
-              <span className="text-secondary">04.</span> Skills
+              <span className="text-secondary">03.</span> Skills
             </a>
           </li>
 
@@ -151,7 +151,7 @@ const Navbar = () => {
               className="font-nav text-md transition-colors duration-300 hover:text-secondary"
               href="#feedbacks"
             >
-              <span className="text-secondary">05.</span> Feedbacks
+              <span className="text-secondary">04.</span> Feedbacks
             </a>
           </li>
 
@@ -160,7 +160,7 @@ const Navbar = () => {
               className="font-nav text-md transition-colors duration-300 hover:text-secondary"
               href="#contact"
             >
-              <span className="text-secondary">06.</span> Contact
+              <span className="text-secondary">05.</span> Contact
             </a>
           </li>
 
