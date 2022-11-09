@@ -8,7 +8,7 @@ module.exports = {
         secondary: "#38d9a9",
       },
       fontFamily: {
-        body: ["Poppins", "sans-serif"],
+        body: ["inter", "sans-serif"],
         nav: ["Bai Jamjuree", "sans serif"],
       },
     },
