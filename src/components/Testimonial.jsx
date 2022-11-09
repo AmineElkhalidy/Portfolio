@@ -23,11 +23,11 @@ const Testimonial = ({ name, username, description, Platform }) => {
 
         {/* Stars */}
         <div className="flex">
-          <RiStarSFill size={22} color={"#FDCC0D"} />
-          <RiStarSFill size={22} color={"#FDCC0D"} />
-          <RiStarSFill size={22} color={"#FDCC0D"} />
-          <RiStarSFill size={22} color={"#FDCC0D"} />
-          <RiStarSFill size={22} color={"#FDCC0D"} />
+          <RiStarSFill size={20} color={"#FDCC0D"} />
+          <RiStarSFill size={20} color={"#FDCC0D"} />
+          <RiStarSFill size={20} color={"#FDCC0D"} />
+          <RiStarSFill size={20} color={"#FDCC0D"} />
+          <RiStarSFill size={20} color={"#FDCC0D"} />
         </div>
       </div>
 
