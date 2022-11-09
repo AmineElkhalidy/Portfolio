@@ -30,7 +30,7 @@ const About = () => {
               </span>
               , I am a{" "}
               <span className=" text-secondary font-medium">
-                Front End Developer
+                Front-End Developer
               </span>
               , and I enjoy creating things that live on the internet.
             </p>
@@ -45,7 +45,7 @@ const About = () => {
               >
                 Upwork
               </a>
-              , and here are some of the services that I provide to my clients:
+              , and here are some of the services that I provide for my clients:
             </p>
 
             <ul className=" text-slate-400 grid gap-1 font-nav font-thin mt-1 mb-4  md:grid-cols-2 md:text-[1.05rem]">
@@ -53,14 +53,14 @@ const About = () => {
                 <span className="text-secondary">
                   <RiVipDiamondFill />
                 </span>
-                PSD to HTML
+                PSD/Figma to HTML
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
                   <RiVipDiamondFill />
                 </span>
-                Front web app
+                Static website
               </li>
 
               <li className="flex items-center gap-2">
@@ -74,35 +74,35 @@ const About = () => {
                 <span className="text-secondary">
                   <RiVipDiamondFill />
                 </span>
-                Pixel Perfect design
+                Pixel-perfect development
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
                   <RiVipDiamondFill />
                 </span>
-                Responsive design
+                Responsiveness
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
                   <RiVipDiamondFill />
                 </span>
-                API integration
+                Cross-browser compatibility
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
                   <RiVipDiamondFill />
                 </span>
-                Database integration
+                Google speed optimization (90+)
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
                   <RiVipDiamondFill />
                 </span>
-                Authentication
+                Mobile-first development
               </li>
             </ul>
 
