@@ -97,7 +97,7 @@ const Testimonials = () => {
           Clients Feedbacks
         </h2>
 
-        <div className="flex flex-col space-y-10">
+        <div className="flex flex-col space-y-6">
           {/* Row 1 */}
           <Splide
             className="w-full"
