@@ -21,7 +21,7 @@ const About = () => {
         </h2>
 
         {/* Content Container */}
-        <div className="max-w-3xl mx-auto md:px-8  lg:px-0">
+        <div className="max-w-3xl mx-auto md:px-8 lg:px-0">
           <div>
             <p className="text-slate-400 mb-3 md:text-lg">
               Hi! My name is{" "}
@@ -115,28 +115,28 @@ const About = () => {
                 <span className="text-secondary">
                   <MdOutlinePlayArrow />
                 </span>
-                HTML
+                HTML5
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
                   <MdOutlinePlayArrow />
                 </span>
-                CSS
+                CSS3
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
                   <MdOutlinePlayArrow />
                 </span>
-                JavaScript
+                JavaScript(ES6)
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
                   <MdOutlinePlayArrow />
                 </span>
-                React
+                React.js
               </li>
 
               <li className="flex items-center gap-2">
