@@ -222,7 +222,7 @@ const Projects = () => {
                 </a>
 
                 <a
-                  href="https://clipboarding.netlify.app/"
+                  href="https://clipboarding.vercel.app/"
                   target="_blank"
                   className="hover:text-secondary"
                 >
