@@ -136,7 +136,7 @@ const About = () => {
                 <span className="text-secondary">
                   <MdOutlinePlayArrow />
                 </span>
-                React.js
+                Reactjs
               </li>
 
               <li className="flex items-center gap-2">
