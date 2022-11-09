@@ -12,21 +12,23 @@
     content: "";
     position: absolute;
     left: 0;
-    bottom: 1rem;
+    bottom: 0.5rem;
     height: 3px;
     width: 100%;
     border-radius: 50%;
     border: 1px solid #38d9a9;
+    z-index: -10;
   }
 
   .circled-line::after {
     content: "";
     position: absolute;
     left: 0;
-    bottom: 1.25rem;
+    bottom: 0.8rem;
     height: 3px;
     width: 100%;
     border-radius: 50%;
     border: 1px solid #38d9a9;
+    z-index: -10;
   }
 }
