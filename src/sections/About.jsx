@@ -13,7 +13,7 @@ const About = () => {
       <motion.div
         whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
         transition={{ duration: 0.5 }}
-        className="pt-24 select-none"
+        className="pt-24"
       >
         {/* Heading */}
         <h2 className="text-2xl text-center font-nav font-semibold mb-10 md:text-3xl lg:text-4xl">

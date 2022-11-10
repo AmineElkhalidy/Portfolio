@@ -17,16 +17,13 @@ const Contact = () => {
   const [state, handleSubmit] = useForm("xeqdeyeo");
 
   return (
-    <section
-      className="max-w-6xl mx-auto px-6 min-h-screen select-none"
-      id="contact"
-    >
+    <section className="max-w-6xl mx-auto px-6 min-h-screen" id="contact">
       <motion.div
         whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
         transition={{ duration: 0.5 }}
         className="pt-24"
       >
-        <h2 className="text-2xl text-center font-nav font-semibold mb-12 select-none md:text-3xl lg:text-4xl">
+        <h2 className="text-2xl text-center font-nav font-semibold mb-12 md:text-3xl lg:text-4xl">
           Get in touch with me
         </h2>
 
@@ -34,7 +31,7 @@ const Contact = () => {
         <div className="max-w-2xl mx-auto my-14">
           <div className="flex flex-col space-y-6 justify-center md:flex-row md:flex-wrap-reverse md:-space-y-0 md:gap-8">
             {/* Email */}
-            <div className="text-slate-300 duration-200 font-medium flex items-center justify-center space-x-3 p-[1.25rem] bg-[#0a192f] rounded-md select-none md:w-[45%] hover:text-secondary hover:border hover:border-secondary">
+            <div className="text-slate-300 duration-200 font-medium flex items-center justify-center space-x-3 p-[1.25rem] bg-[#0a192f] rounded-md md:w-[45%] hover:text-secondary hover:border hover:border-secondary">
               <span>
                 <AiOutlineMail size={28} />
               </span>
@@ -45,7 +42,7 @@ const Contact = () => {
             </div>
 
             {/* Phone */}
-            <div className="text-slate-300 duration-200 font-medium flex items-center justify-center space-x-3 p-[1.25rem] bg-[#0a192f] rounded-md select-none md:w-[45%] hover:text-secondary hover:border hover:border-secondary">
+            <div className="text-slate-300 duration-200 font-medium flex items-center justify-center space-x-3 p-[1.25rem] bg-[#0a192f] rounded-md md:w-[45%] hover:text-secondary hover:border hover:border-secondary">
               <span>
                 <BsPhone size={28} />
               </span>

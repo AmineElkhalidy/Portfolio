@@ -22,7 +22,7 @@ const Hero = () => {
         >
           <div>
             {/* Introduction */}
-            <h1 className="text-slate-300 text-5xl font-semibold mb-4 select-none md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
+            <h1 className="text-slate-300 text-5xl font-semibold mb-4 md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
               Hi👋
               <br />
               I am Amine
@@ -31,7 +31,7 @@ const Hero = () => {
             </h1>
 
             {/* Profession */}
-            <p className="text-slate-400 text-lg font-nav mb-10 select-none md:text-xl lg:text-2xl">
+            <p className="text-slate-400 text-lg font-nav mb-10 md:text-xl lg:text-2xl">
               <TypeIt
                 options={{
                   afterComplete: function (instance) {
@@ -45,7 +45,7 @@ const Hero = () => {
 
             {/* Contact me button */}
             <a
-              className="px-8 py-4 border text-secondary border-secondary rounded-md cursor-pointer duration-300 font-nav font-medium text-md tracking-widest select-none hover:bg-secondary/20"
+              className="px-8 py-4 border text-secondary border-secondary rounded-md cursor-pointer duration-300 font-nav font-medium text-md tracking-widest hover:bg-secondary/20"
               href="#contact"
             >
               Contact me
