@@ -5,4 +5,4 @@
 - Technologies used:
   - React.js
   - Vite.js
-  - TailwindCss
+  - Tailwind CSS
