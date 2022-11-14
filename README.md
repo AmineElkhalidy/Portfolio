@@ -3,6 +3,7 @@
 ![Portfolio image](./src/assets/my-portfolio.png)
 
 - Technologies used:
-  - React.js
-  - Vite.js
+  - Reactjs
+  - Vitejs
+  - Spliderjs
   - Tailwind CSS
