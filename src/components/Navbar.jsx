@@ -120,9 +120,8 @@ const Navbar = () => {
         <ul className="flex gap-8">
           <li>
             <a
-              className="font-nav text-md transition-colors duration-300 hover:text-secondary"
+              className="font-nav text-md duration-300 hover:text-secondary"
               href="#about"
-              onClick={() => setActive(true)}
             >
               <span className="text-secondary">01.</span> About
             </a>
@@ -130,7 +129,7 @@ const Navbar = () => {
 
           <li>
             <a
-              className="font-nav text-md transition-colors duration-300 hover:text-secondary"
+              className="font-nav text-md duration-300 hover:text-secondary"
               href="#work"
             >
               <span className="text-secondary">02.</span> Work
@@ -139,7 +138,7 @@ const Navbar = () => {
 
           <li>
             <a
-              className="font-nav text-md transition-colors duration-300 hover:text-secondary"
+              className="font-nav text-md duration-300 hover:text-secondary"
               href="#skills"
             >
               <span className="text-secondary">03.</span> Skills
@@ -148,7 +147,7 @@ const Navbar = () => {
 
           <li>
             <a
-              className="font-nav text-md transition-colors duration-300 hover:text-secondary"
+              className="font-nav text-md duration-300 hover:text-secondary"
               href="#feedbacks"
             >
               <span className="text-secondary">04.</span> Feedbacks
@@ -157,7 +156,7 @@ const Navbar = () => {
 
           <li>
             <a
-              className="font-nav text-md transition-colors duration-300 hover:text-secondary"
+              className="font-nav text-md duration-300 hover:text-secondary"
               href="#contact"
             >
               <span className="text-secondary">05.</span> Contact
