@@ -1,3 +1,4 @@
+// Technologies
 import Html from "../assets/images/html.png";
 import Css from "../assets/images/css.png";
 import JavaScript from "../assets/images/javascript.png";
@@ -10,11 +11,86 @@ import Redux from "../assets/images/redux.png";
 import TypeScript from "../assets/images/typescript.png";
 import Git from "../assets/images/git.png";
 
+// Projects
+import Mamiro from "../assets/images/projects/mamiro.png";
+import Shoesit from "../assets/images/projects/shoesit.png";
+import Omnifood from "../assets/images/projects/omnifood.png";
+import Clipboarding from "../assets/images/projects/clipboarding.png";
+import Rotinniajad from "../assets/images/projects/rotinniajad.png";
+import Rachid from "../assets/images/projects/elqssab.png";
+import Shoppingstore from "../assets/images/projects/shoppingstore.png";
+
 // Icons
 import { SiUpwork } from "react-icons/si";
 import { BsWhatsapp } from "react-icons/bs";
 
 // Data
+export const work = [
+  {
+    id: 1,
+    image: Mamiro,
+    description:
+      "Mamiru is an e-commerce website under construction built using react and redux with Typescript.",
+    techStack: ["React", "Redux", "TypeScript"],
+    sourceCode: "https://github.com/SamoudiAnas/Mamirou",
+    link: "https://mamirou.vercel.app/",
+  },
+  {
+    id: 2,
+    image: Shoesit,
+    description:
+      "An e-commerce website where you can choose your favorite shoes from your favorite brand.",
+    techStack: ["React", "SASS"],
+    sourceCode: "https://github.com/AmineElkhalidy/shoesit",
+    link: "https://shoesit.vercel.app/",
+  },
+  {
+    id: 3,
+    image: Omnifood,
+    description:
+      "Omnifood is an AI-powered food suscription that will make you eat healty again, 365 days per days. It's tailored to your personal tastes and nutritional needs.",
+    techStack: ["HTML", "CSS", "JavaScript"],
+    sourceCode: "https://github.com/AmineElkhalidy/omnifood",
+    link: "https://foodformood.vercel.app/",
+  },
+  {
+    id: 4,
+    image: Clipboarding,
+    description:
+      "Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.",
+    techStack: ["HTML", "TailwindCSS"],
+    sourceCode: "https://github.com/AmineElkhalidy/omnifood",
+    link: "https://foodformood.vercel.app/",
+  },
+  {
+    id: 5,
+    image: Rotinniajad,
+    description:
+      "Simple static website which showcase an entreprise products called ROTIN-NIAJAD",
+    techStack: ["HTML", "CSS", "JavaScript"],
+    sourceCode: "https://github.com/AmineElkhalidy/rotinniajad",
+    link: "https://www.rotinniajad.com",
+  },
+  {
+    id: 6,
+    image: Rachid,
+    description:
+      "Rachid chatoui is a website that shows products of a special plant called ELQSSAB in Morocco",
+    techStack: ["HTML", "CSS", "JavaScript"],
+    sourceCode: "https://github.com/AmineElkhalidy/clipboarding",
+    link: "https://clipboarding.vercel.app/",
+  },
+  {
+    id: 7,
+    image: Shoppingstore,
+    description:
+      "Shopping store is an e-commerce website which you can use to purchase products that you like(under construction)",
+    techStack: ["HTML", "CSS", "JavaScript"],
+    sourceCode: "https://github.com/AmineElkhalidy/shoppingstore",
+    link: "https://shoppingstore.vercel.app/",
+  },
+];
+
 export const rowreviews1 = [
   {
     id: "r1",
