@@ -17,7 +17,7 @@ import { rowreviews1, rowreviews2 } from "../data/data";
 
 const Testimonials = () => {
   return (
-    <section className="max-w-4xl mx-auto" id="feedbacks">
+    <section className="max-w-5xl mx-auto" id="feedbacks">
       <motion.div
         whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
         transition={{ duration: 0.5 }}
@@ -28,10 +28,10 @@ const Testimonials = () => {
           Clients Feedbacks
         </h2>
 
-        <div className="flex flex-col space-y-4">
+        <div className="flex flex-col space-y-6">
           {/* Row 1 */}
           <Splide
-            className="w-full h-full"
+            className="h-full gird place-items-center place-content-center"
             options={{
               type: "loop",
               drag: "free",
