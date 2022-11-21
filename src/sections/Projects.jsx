@@ -239,111 +239,6 @@ const Projects = () => {
             </div>
           </motion.div>
 
-          {/* Tasty */}
-          <motion.div
-            whileInView={{ opacity: [0, 1] }}
-            className="relative grid bg-[#0a192f] rounded-md shadow-xl p-4 md:bg-transparent md:rounded-none md:shadow-none md:p-0 md:grid-cols-2 md:px-16"
-          >
-            {/* Project Image */}
-            <div className="relative w-full h-full rounded-md overflow-hidden">
-              <div className="absolute top-0 left-0 w-full h-full bg-slate-800/50 duration-300 hover:cursor-pointer hover:bg-transparent"></div>
-              <img className="h-full" src={Tasty} alt="Project preview" />
-            </div>
-
-            {/* Project Description */}
-            <div className="mt-6 text-center md:text-right">
-              <h4 className="font-nav font-medium text-secondary tracking-wider">
-                Featured Project
-              </h4>
-
-              <h3 className="text-lg font-semibold mb-4 lg:text-2xl">Tasty</h3>
-
-              <p className="max-w-md mx-auto text-slate-300 text-left my-6 md:text-right md:p-4 md:bg-[#0a192f] md:shadow-xl md:rounded-md md:mr-0">
-                Tasty is a simple landing page of restaurant which show some of
-                its best salad and food.
-              </p>
-
-              <ul className="max-w-md mx-auto flex flex-wrap justify-start items-center font-nav text-slate-400 md:justify-end gap-6 mb-6 mr-0">
-                <li className="">HTML</li>
-                <li className="">CSS</li>
-                <li className="">JavaScript</li>
-              </ul>
-
-              <div className="max-w-md mx-auto text-slate-300 flex justify-start items-center md:justify-end gap-6 mr-0 md:mb-4">
-                <a
-                  href="https://github.com/AmineElkhalidy/tasty.git"
-                  target="_blank"
-                  className="hover:text-secondary"
-                >
-                  <FiGithub size={23} className="cursor-pointer" />
-                </a>
-
-                <a
-                  href="https://tasty.vercel.app/"
-                  target="_blank"
-                  className="hover:text-secondary"
-                >
-                  <HiOutlineExternalLink size={24} className="cursor-pointer" />
-                </a>
-              </div>
-            </div>
-          </motion.div>
-
-          {/* Clipboarding */}
-          <motion.div
-            whileInView={{ opacity: [0, 1] }}
-            className="relative grid bg-[#0a192f] rounded-md shadow-xl p-4 md:bg-transparent md:rounded-none md:shadow-none md:p-0 md:grid-cols-2 md:px-16"
-          >
-            {/* Project Description */}
-            <div className="mb-6 text-center md:text-left">
-              <h4 className="font-nav font-medium text-secondary tracking-wider">
-                Featured Project
-              </h4>
-
-              <h3 className="text-lg font-semibold mb-4 lg:text-2xl">
-                Clipboarding
-              </h3>
-
-              <p className="max-w-md mx-auto text-slate-300 text-left my-6 md:p-4 md:bg-[#0a192f] md:shadow-xl md:rounded-md md:ml-0">
-                Clipboard allows you to track and organize everything you copy.
-                Instantly access your clipboard on all your devices.
-              </p>
-
-              <ul className="max-w-md mx-auto text-slate-400 flex flex-wrap justify-start items-center font-nav md:justify-start gap-6 mb-6 ml-0">
-                <li className="">HTML</li>
-                <li className="">TailwindCss</li>
-              </ul>
-
-              <div className="max-w-md mx-auto text-slate-300 flex justify-start items-center md:justify-start gap-6 ml-0 mb-4">
-                <a
-                  href="https://github.com/AmineElkhalidy/Clipboard"
-                  target="_blank"
-                  className="hover:text-secondary"
-                >
-                  <FiGithub size={23} className="cursor-pointer" />
-                </a>
-
-                <a
-                  href="https://clipboarding.vercel.app/"
-                  target="_blank"
-                  className="hover:text-secondary"
-                >
-                  <HiOutlineExternalLink size={23} className="cursor-pointer" />
-                </a>
-              </div>
-            </div>
-
-            {/* Project Image */}
-            <div className="relative w-full h-full rounded-md overflow-hidden">
-              <div className="absolute top-0 left-0 w-full h-full bg-slate-800/50 duration-300 hover:cursor-pointer hover:bg-transparent"></div>
-              <img
-                className="h-full"
-                src={Clipboarding}
-                alt="Project preview"
-              />
-            </div>
-          </motion.div>
-
           {!show && (
             <motion.div
               className="inline-block text-center"
@@ -360,6 +255,119 @@ const Projects = () => {
 
           {show && (
             <>
+              {/* Tasty */}
+              <motion.div
+                whileInView={{ opacity: [0, 1] }}
+                className="relative grid bg-[#0a192f] rounded-md shadow-xl p-4 md:bg-transparent md:rounded-none md:shadow-none md:p-0 md:grid-cols-2 md:px-16"
+              >
+                {/* Project Image */}
+                <div className="relative w-full h-full rounded-md overflow-hidden">
+                  <div className="absolute top-0 left-0 w-full h-full bg-slate-800/50 duration-300 hover:cursor-pointer hover:bg-transparent"></div>
+                  <img className="h-full" src={Tasty} alt="Project preview" />
+                </div>
+
+                {/* Project Description */}
+                <div className="mt-6 text-center md:text-right">
+                  <h4 className="font-nav font-medium text-secondary tracking-wider">
+                    Featured Project
+                  </h4>
+
+                  <h3 className="text-lg font-semibold mb-4 lg:text-2xl">
+                    Tasty
+                  </h3>
+
+                  <p className="max-w-md mx-auto text-slate-300 text-left my-6 md:text-right md:p-4 md:bg-[#0a192f] md:shadow-xl md:rounded-md md:mr-0">
+                    Tasty is a simple landing page of restaurant which show some
+                    of its best salad and food.
+                  </p>
+
+                  <ul className="max-w-md mx-auto flex flex-wrap justify-start items-center font-nav text-slate-400 md:justify-end gap-6 mb-6 mr-0">
+                    <li className="">HTML</li>
+                    <li className="">CSS</li>
+                    <li className="">JavaScript</li>
+                  </ul>
+
+                  <div className="max-w-md mx-auto text-slate-300 flex justify-start items-center md:justify-end gap-6 mr-0 md:mb-4">
+                    <a
+                      href="https://github.com/AmineElkhalidy/tasty.git"
+                      target="_blank"
+                      className="hover:text-secondary"
+                    >
+                      <FiGithub size={23} className="cursor-pointer" />
+                    </a>
+
+                    <a
+                      href="https://tasty.vercel.app/"
+                      target="_blank"
+                      className="hover:text-secondary"
+                    >
+                      <HiOutlineExternalLink
+                        size={24}
+                        className="cursor-pointer"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </motion.div>
+
+              {/* Clipboarding */}
+              <motion.div
+                whileInView={{ opacity: [0, 1] }}
+                className="relative grid bg-[#0a192f] rounded-md shadow-xl p-4 md:bg-transparent md:rounded-none md:shadow-none md:p-0 md:grid-cols-2 md:px-16"
+              >
+                {/* Project Description */}
+                <div className="mb-6 text-center md:text-left">
+                  <h4 className="font-nav font-medium text-secondary tracking-wider">
+                    Featured Project
+                  </h4>
+
+                  <h3 className="text-lg font-semibold mb-4 lg:text-2xl">
+                    Clipboarding
+                  </h3>
+
+                  <p className="max-w-md mx-auto text-slate-300 text-left my-6 md:p-4 md:bg-[#0a192f] md:shadow-xl md:rounded-md md:ml-0">
+                    Clipboard allows you to track and organize everything you
+                    copy. Instantly access your clipboard on all your devices.
+                  </p>
+
+                  <ul className="max-w-md mx-auto text-slate-400 flex flex-wrap justify-start items-center font-nav md:justify-start gap-6 mb-6 ml-0">
+                    <li className="">HTML</li>
+                    <li className="">TailwindCss</li>
+                  </ul>
+
+                  <div className="max-w-md mx-auto text-slate-300 flex justify-start items-center md:justify-start gap-6 ml-0 mb-4">
+                    <a
+                      href="https://github.com/AmineElkhalidy/Clipboard"
+                      target="_blank"
+                      className="hover:text-secondary"
+                    >
+                      <FiGithub size={23} className="cursor-pointer" />
+                    </a>
+
+                    <a
+                      href="https://clipboarding.vercel.app/"
+                      target="_blank"
+                      className="hover:text-secondary"
+                    >
+                      <HiOutlineExternalLink
+                        size={23}
+                        className="cursor-pointer"
+                      />
+                    </a>
+                  </div>
+                </div>
+
+                {/* Project Image */}
+                <div className="relative w-full h-full rounded-md overflow-hidden">
+                  <div className="absolute top-0 left-0 w-full h-full bg-slate-800/50 duration-300 hover:cursor-pointer hover:bg-transparent"></div>
+                  <img
+                    className="h-full"
+                    src={Clipboarding}
+                    alt="Project preview"
+                  />
+                </div>
+              </motion.div>
+
               {/* Shopping store */}
               <motion.div
                 whileInView={{ opacity: [0, 1] }}
