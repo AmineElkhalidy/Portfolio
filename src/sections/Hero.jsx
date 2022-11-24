@@ -83,20 +83,20 @@ const Hero = () => {
             <li className="hover:-translate-y-1 duration-200">
               <a
                 className="text-slate-400 hover:text-secondary"
-                href="https://github.com/AmineElkhalidy"
+                href="https://www.linkedin.com/in/amine-elkhalidy/"
                 target="_blank"
               >
-                <FiGithub size={20} />
+                <FiLinkedin size={20} />
               </a>
             </li>
 
             <li className="hover:-translate-y-1 duration-200">
               <a
                 className="text-slate-400 hover:text-secondary"
-                href="https://www.linkedin.com/in/amine-elkhalidy/"
+                href="https://github.com/AmineElkhalidy"
                 target="_blank"
               >
-                <FiLinkedin size={20} />
+                <FiGithub size={20} />
               </a>
             </li>
 
