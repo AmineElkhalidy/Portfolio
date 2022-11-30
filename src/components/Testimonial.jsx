@@ -5,7 +5,7 @@ import { RiStarSFill } from "react-icons/ri";
 
 const Testimonial = ({ name, username, description, Platform }) => {
   return (
-    <div className="bg-[#171e2f] rounded-[2rem] space-y-6 w-max p-6">
+    <div className="bg-[#171e2f] rounded-[2rem] w-[28rem] h-[12rem] p-8 space-y-4">
       {/* Name, username and logo */}
       <div className="w-full">
         <div className="flex items-center justify-between mb-1">

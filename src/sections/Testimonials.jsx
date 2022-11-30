@@ -17,7 +17,7 @@ import { rowreviews1, rowreviews2 } from "../data/data";
 
 const Testimonials = () => {
   return (
-    <section className="max-w-5xl mx-auto" id="feedbacks">
+    <section className="min-h-screen" id="feedbacks">
       <motion.div
         whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
         transition={{ duration: 0.5 }}
@@ -28,68 +28,69 @@ const Testimonials = () => {
           Clients Feedbacks
         </h2>
 
-        <div className="flex flex-col space-y-6">
+        {/* Reviews container */}
+        <div className="space-y-3 max-w-5xl mx-auto flex flex-col">
           {/* Row 1 */}
-          <Splide
-            className="h-full gird place-items-center place-content-center"
-            options={{
-              type: "loop",
-              drag: "free",
-              gap: "33rem",
-              arrows: false,
-              pagination: false,
-              perPage: 3,
-              autoScroll: {
-                pauseOnHover: true,
-                pauseOnFocus: false,
-                rewind: false,
-                speed: 2,
-              },
-            }}
-            extensions={{ AutoScroll }}
-          >
-            {rowreviews1.map((review) => (
-              <SplideSlide key={review.id}>
-                <Testimonial
-                  name={review.name}
-                  username={review.username}
-                  description={review.description}
-                  Platform={review.platform}
-                />
-              </SplideSlide>
-            ))}
-          </Splide>
+          <div>
+            <Splide
+              options={{
+                type: "loop",
+                drag: "free",
+                arrows: false,
+                pagination: false,
+                perPage: 2,
+                autoScroll: {
+                  pauseOnHover: true,
+                  pauseOnFocus: false,
+                  rewind: false,
+                  speed: 2,
+                },
+              }}
+              extensions={{ AutoScroll }}
+            >
+              {rowreviews1.map((review) => (
+                <SplideSlide key={review.id}>
+                  <Testimonial
+                    name={review.name}
+                    username={review.username}
+                    description={review.description}
+                    Platform={review.platform}
+                  />
+                </SplideSlide>
+              ))}
+            </Splide>
+          </div>
 
           {/* Row 2 */}
-          <Splide
-            className="w-full h-full"
-            options={{
-              type: "loop",
-              drag: "free",
-              gap: "33rem",
-              arrows: false,
-              pagination: false,
-              perPage: 3,
-              autoScroll: {
-                pauseOnHover: true,
-                pauseOnFocus: false,
-                rewind: false,
-                speed: -2,
-              },
-            }}
-            extensions={{ AutoScroll }}
-          >
-            {rowreviews2.map((review) => (
-              <SplideSlide key={review.id}>
-                <Testimonial
-                  name={review.name}
-                  username={review.username}
-                  description={review.description}
-                  Platform={review.platform}
-                />
-              </SplideSlide>
-            ))}
-          </Splide>
+          <div>
+            <Splide
+              options={{
+                type: "loop",
+                drag: "free",
+                arrows: false,
+                pagination: false,
+                perPage: 2,
+                autoScroll: {
+                  pauseOnHover: true,
+                  pauseOnFocus: false,
+                  rewind: false,
+                  speed: -2,
+                },
+              }}
+              extensions={{ AutoScroll }}
+            >
+              {rowreviews2.map((review) => (
+                <SplideSlide key={review.id}>
+                  <Testimonial
+                    name={review.name}
+                    username={review.username}
+                    description={review.description}
+                    Platform={review.platform}
+                  />
+                </SplideSlide>
+              ))}
+            </Splide>
+          </div>
         </div>
       </motion.div>
     </section>
