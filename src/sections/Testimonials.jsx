@@ -17,7 +17,7 @@ import { rowreviews1, rowreviews2 } from "../data/data";
 
 const Testimonials = () => {
   return (
-    <section className="min-h-screen" id="feedbacks">
+    <section className="min-h-screen hidden lg:block" id="feedbacks">
       <motion.div
         whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
         transition={{ duration: 0.5 }}
