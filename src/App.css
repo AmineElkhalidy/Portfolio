@@ -1,5 +1,5 @@
 .active-link {
-  color: #38d9a9;
+  color: #08d565;
   font-weight: 600;
 }
 
@@ -16,7 +16,7 @@
     height: 3px;
     width: 100%;
     border-radius: 50%;
-    border: 1px solid #38d9a9;
+    border: 1px solid #08d565;
     z-index: -10;
   }
 
@@ -28,7 +28,7 @@
     height: 3px;
     width: 100%;
     border-radius: 50%;
-    border: 1px solid #38d9a9;
+    border: 1px solid #08d565;
     z-index: -10;
   }
 }
