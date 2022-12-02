@@ -4,8 +4,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 
 // Icons
-import { BiMenuAltRight } from "react-icons/bi";
-import { AiOutlineClose } from "react-icons/ai";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 
 // pdf
 import Cv from "../assets/pdf/Amine-Elkhalidy.pdf";
@@ -27,6 +26,7 @@ const Navbar = () => {
         <span>Amine Elkhalidy</span>
       </a>
 
+      {/* Mobile navigation */}
       {open ? (
         <motion.div
           whileInView={{ x: [200, 0] }}
@@ -101,7 +101,7 @@ const Navbar = () => {
             className="inline-block absolute top-6 right-8 cursor-pointer hover:text-secondary transition-colors duration-300"
             onClick={() => setOpen(false)}
           >
-            <AiOutlineClose size={28} />
+            <XMarkIcon className="h-[1.9rem] w-[1.9rem]" />
           </div>
         </motion.div>
       ) : (
@@ -109,10 +109,11 @@ const Navbar = () => {
           className="nav__toggle"
           onClick={() => setOpen((prevState) => !prevState)}
         >
-          <BiMenuAltRight size={40} />
+          <Bars3Icon className="h-8 w-8" />
         </div>
       )}
 
+      {/* Desktop navigation */}
       <motion.div
         className="navigation hidden md:block"
         whileInView={{ opacity: [0, 1] }}
