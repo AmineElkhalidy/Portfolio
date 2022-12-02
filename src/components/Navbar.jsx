@@ -4,7 +4,8 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 
 // Icons
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import { BiMenuAltRight } from "react-icons/bi";
+import { AiOutlineClose } from "react-icons/ai";
 
 // pdf
 import Cv from "../assets/pdf/Amine-Elkhalidy.pdf";
@@ -101,7 +102,7 @@ const Navbar = () => {
             className="inline-block absolute top-6 right-8 cursor-pointer hover:text-secondary transition-colors duration-300"
             onClick={() => setOpen(false)}
           >
-            <XMarkIcon className="h-[1.9rem] w-[1.9rem]" />
+            <AiOutlineClose size={28} />
           </div>
         </motion.div>
       ) : (
@@ -109,7 +110,7 @@ const Navbar = () => {
           className="nav__toggle"
           onClick={() => setOpen((prevState) => !prevState)}
         >
-          <Bars3Icon className="h-8 w-8" />
+          <BiMenuAltRight size={40} />
         </div>
       )}
 
