@@ -3,6 +3,7 @@ import React from "react";
 // Icons
 import { MdOutlinePlayArrow } from "react-icons/md";
 import { BsCheck2Circle } from "react-icons/bs";
+import { MdKeyboardArrowRight } from "react-icons/md";
 
 // motion
 import { motion } from "framer-motion";
@@ -113,44 +114,44 @@ const About = () => {
             <ul className="max-w-sm grid grid-cols-2 -mt-2 text-slate-400 font-nav font-thin  md:text-[1.05rem]">
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <MdOutlinePlayArrow />
+                  <MdKeyboardArrowRight />
                 </span>
-                HTML5
+                HTML
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <MdOutlinePlayArrow />
+                  <MdKeyboardArrowRight />
                 </span>
-                CSS3
+                CSS
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <MdOutlinePlayArrow />
+                  <MdKeyboardArrowRight />
                 </span>
                 JavaScript(ES6)
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <MdOutlinePlayArrow />
+                  <MdKeyboardArrowRight />
                 </span>
                 Reactjs
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <MdOutlinePlayArrow />
+                  <MdKeyboardArrowRight />
                 </span>
                 TypeScript
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <MdOutlinePlayArrow />
+                  <MdKeyboardArrowRight />
                 </span>
-                TailwindCss
+                TailwindCSS
               </li>
             </ul>
           </div>
