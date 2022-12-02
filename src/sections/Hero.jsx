@@ -23,9 +23,9 @@ const Hero = () => {
           <div>
             {/* Introduction */}
             <h1 className="text-slate-300 text-5xl font-semibold mb-4 md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
-              Hi👋
+              Hello,
               <br />
-              I am Amine
+              I am Amine,
               <br />
               <span className="circled-line">Web developer</span>
             </h1>
