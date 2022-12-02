@@ -2,7 +2,7 @@ import React from "react";
 
 // Icons
 import { MdOutlinePlayArrow } from "react-icons/md";
-import { RiVipDiamondFill } from "react-icons/ri";
+import { BsCheck2Circle } from "react-icons/bs";
 
 // motion
 import { motion } from "framer-motion";
@@ -51,56 +51,56 @@ const About = () => {
             <ul className=" text-slate-400 grid gap-1 font-nav font-thin mt-1 mb-4  md:grid-cols-2 md:text-[1.05rem]">
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <RiVipDiamondFill />
+                  <BsCheck2Circle />
                 </span>
                 PSD/Figma to HTML
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <RiVipDiamondFill />
+                  <BsCheck2Circle />
                 </span>
                 Static website
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <RiVipDiamondFill />
+                  <BsCheck2Circle />
                 </span>
                 Components & Layouts dev
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <RiVipDiamondFill />
+                  <BsCheck2Circle />
                 </span>
                 Pixel-perfect development
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <RiVipDiamondFill />
+                  <BsCheck2Circle />
                 </span>
                 Responsiveness
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <RiVipDiamondFill />
+                  <BsCheck2Circle />
                 </span>
                 Cross-browser compatibility
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <RiVipDiamondFill />
+                  <BsCheck2Circle />
                 </span>
                 Google speed optimization (90+)
               </li>
 
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
-                  <RiVipDiamondFill />
+                  <BsCheck2Circle />
                 </span>
                 Mobile-first development
               </li>
