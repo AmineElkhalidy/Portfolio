@@ -10,6 +10,7 @@ import Tailwind from "../assets/images/tailwind.png";
 import Redux from "../assets/images/redux.png";
 import TypeScript from "../assets/images/typescript.png";
 import Git from "../assets/images/git.png";
+import Chakra from "../assets/images/chakra.png";
 
 // Projects
 import Mamiro from "../assets/images/projects/mamiro.png";
@@ -172,32 +173,36 @@ export const skills = [
     name: "JavaScript",
   },
   {
+    image: TypeScript,
+    name: "TypeScript",
+  },
+  {
     image: ReactImg,
     name: "React",
-  },
-  {
-    image: Tailwind,
-    name: "TailwindCss",
-  },
-  {
-    image: Node,
-    name: "Node",
   },
   {
     image: Next,
     name: "Next",
   },
   {
-    image: Sass,
-    name: "Sass",
-  },
-  {
     image: Redux,
     name: "Redux",
   },
   {
-    image: TypeScript,
-    name: "TypeScript",
+    image: Node,
+    name: "Node",
+  },
+  {
+    image: Chakra,
+    name: "Chakra UI",
+  },
+  {
+    image: Tailwind,
+    name: "TailwindCss",
+  },
+  {
+    image: Sass,
+    name: "Sass",
   },
   {
     image: Git,
