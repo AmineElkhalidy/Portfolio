@@ -124,6 +124,14 @@ export const rowreviews1 = [
       "Amine made significant changes to an existing react project, integrating additional functionality. I can highly recommend him as a frontend dev",
     platform: SiUpwork,
   },
+  {
+    id: "r5",
+    name: "Saswat Das",
+    username: "@DasSaswat",
+    description:
+      "Amine is dedicated to whatever he does. I would recommend him for any sort of front-end tasks.",
+    platform: SiUpwork,
+  },
 ];
 
 export const rowreviews2 = [
