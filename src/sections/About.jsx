@@ -25,7 +25,7 @@ const About = () => {
         <div className="max-w-3xl mx-auto md:px-8 lg:px-0">
           <div>
             <p className="text-slate-400 mb-3 md:text-lg">
-              Hello 👋, My name is{" "}
+              Hello, My name is{" "}
               <span className=" text-secondary font-medium">
                 Amine Elkhalidy
               </span>
