@@ -45,6 +45,28 @@ const Skills = () => {
 
           {/* Experience */}
           <div className="flex flex-col space-y-12 md:w-1/2 md:pt-4">
+            {/* 2023 */}
+            <div className="flex space-x-12">
+              <p className="text-md text-secondary font-semibold lg:text-lg">
+                2023
+              </p>
+
+              <div>
+                <motion.div
+                  whileInView={{ opacity: [0, 1] }}
+                  transition={{ duration: 0.5 }}
+                >
+                  <h4 className="text-slate-200 text-md font-medium uppercase mb-[.75rem] lg:text-lg">
+                    FrontEnd Developer
+                  </h4>
+                  <p className="text-slate-300 mb-[.5rem]">
+                    Still working as a freelancer.
+                  </p>
+                  <p className="text-sm font-nav text-slate-300">Upwork</p>
+                </motion.div>
+              </div>
+            </div>
+
             {/* 2022 */}
             <div className="flex space-x-12">
               <p className="text-md text-secondary font-semibold lg:text-lg">
