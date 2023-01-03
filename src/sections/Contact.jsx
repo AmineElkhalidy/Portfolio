@@ -16,6 +16,8 @@ const Contact = () => {
   // formSpree state
   const [state, handleSubmit] = useForm("xeqdeyeo");
 
+  const currentYear = new Date().getFullYear();
+
   return (
     <section className="max-w-6xl mx-auto px-6 min-h-screen" id="contact">
       <motion.div
@@ -178,7 +180,7 @@ const Contact = () => {
         <p className="text-slate-300 text-sm font-light mt-20 mb-4 text-center cursor-pointer hover:text-secondary">
           Designed & Built by Amine Elkhalidy
           <br />
-          &copy; 2022 - All Rights Reserved
+          &copy; <span>{currentYear}</span> - All Rights Reserved
         </p>
       </motion.div>
     </section>
