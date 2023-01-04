@@ -61,7 +61,7 @@ const Hero = () => {
           className="hidden md:block fixed -bottom-1.5"
         >
           <ul className="flex flex-col gap-6 justify-center items-center">
-            <li className="hover:-translate-y-1 duration-200">
+            {/* <li className="hover:-translate-y-1 duration-200">
               <a
                 className="text-slate-400 hover:text-secondary"
                 href="https://www.facebook.com/amine.elkhalidy.73"
@@ -69,7 +69,7 @@ const Hero = () => {
               >
                 <FiFacebook size={21} />
               </a>
-            </li>
+            </li> */}
 
             <li className="hover:-translate-y-1 duration-200">
               <a
