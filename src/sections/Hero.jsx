@@ -9,6 +9,7 @@ import TypeIt from "typeit-react";
 // Icons
 import { FiGithub, FiLinkedin, FiFacebook, FiTwitter } from "react-icons/fi";
 import { SiUpwork } from "react-icons/si";
+import Fiverr from "../assets/images/fiverr.svg";
 
 const Hero = () => {
   return (
@@ -73,16 +74,6 @@ const Hero = () => {
             <li className="hover:-translate-y-1 duration-200">
               <a
                 className="text-slate-400 hover:text-secondary"
-                href="https://www.facebook.com/amine.elkhalidy.73"
-                target="_blank"
-              >
-                {/* Fiverr icon */}
-              </a>
-            </li>
-
-            <li className="hover:-translate-y-1 duration-200">
-              <a
-                className="text-slate-400 hover:text-secondary"
                 href="https://twitter.com/ElkhalidyAmine"
                 target="_blank"
               >
@@ -109,6 +100,24 @@ const Hero = () => {
                 <FiGithub size={20} />
               </a>
             </li>
+
+            <a
+              className="cursor-pointer hover:-translate-y-1 duration-200 "
+              href="https://www.fiverr.com/amineelkhalidy"
+              target="_blank"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                width="17"
+                height="17"
+              >
+                <g fill="#94a3b8">
+                  <path d="M13 13V5H5v-.5C5 3.673 5.673 3 6.5 3H8V0H6.5A4.505 4.505 0 0 0 2 4.5V5H0v3h2v5H0v3h7v-3H5V8h5.028v5H8v3h7v-3h-2z" />
+                  <circle cx="11.5" cy="1.5" r="1.5" />
+                </g>
+              </svg>
+            </a>
 
             <li className="hover:-translate-y-1 duration-200">
               <a
