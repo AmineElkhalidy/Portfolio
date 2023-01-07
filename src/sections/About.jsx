@@ -17,26 +17,26 @@ const About = () => {
         className="pt-24"
       >
         {/* Heading */}
-        <h2 className="text-2xl text-center font-nav font-semibold mb-10 md:text-3xl lg:text-4xl">
+        <h2 className="text-black-900 text-2xl text-center font-nav font-semibold mb-10 md:text-3xl lg:text-4xl">
           Get to know me
         </h2>
 
         {/* Content Container */}
         <div className="max-w-3xl mx-auto md:px-8 lg:px-0">
           <div>
-            <p className="text-slate-400 mb-3 md:text-lg">
+            <p className="text-grey-400 mb-3 md:text-lg">
               Hello, My name is{" "}
-              <span className=" text-secondary font-medium">
+              <span className=" gradient-text font-medium">
                 Amine Elkhalidy
               </span>
               , I am a{" "}
-              <span className=" text-secondary font-medium">
+              <span className="gradient-text font-medium">
                 Front-End web developer
               </span>
               , and I enjoy creating things that live on the internet.
             </p>
 
-            <p className="text-slate-400 mb-3 md:text-lg">
+            <p className="text-grey-400 mb-3 md:text-lg">
               I am working as a freelancer on{" "}
               <a
                 href="https://www.upwork.com/"
@@ -49,7 +49,7 @@ const About = () => {
               , and here are some of the services that I provide for my clients:
             </p>
 
-            <ul className=" text-slate-400 grid gap-1 font-nav font-thin mt-1 mb-4  md:grid-cols-2 md:text-[1.05rem]">
+            <ul className=" text-grey-400 grid gap-1 font-nav font-thin mt-1 mb-4  md:grid-cols-2 md:text-[1.05rem]">
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
                   <BsCheck2Circle />
@@ -107,11 +107,11 @@ const About = () => {
               </li>
             </ul>
 
-            <p className="text-slate-400 mb-2 md:text-lg">
+            <p className="text-grey-400 mb-2 md:text-lg">
               Here are a few technologies I’ve been working with recently:
             </p>
 
-            <ul className="max-w-sm grid grid-cols-2 -mt-2 text-slate-400 font-nav font-thin  md:text-[1.05rem]">
+            <ul className="max-w-sm grid grid-cols-2 -mt-2 text-grey-400 font-nav font-thin  md:text-[1.05rem]">
               <li className="flex items-center gap-2">
                 <span className="text-secondary">
                   <MdKeyboardArrowRight />
