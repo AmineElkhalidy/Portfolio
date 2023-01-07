@@ -54,7 +54,7 @@ const Hero = () => {
             <div className="flex flex-col space-y-3 sm:flex-row sm:space-x-12">
               <div className="relative">
                 <a
-                  className="inline-block px-[30px] py-5 bg-black-900 text-white cursor-pointer text-lg duration-300 font-nav font-semibold z-10 hover:translate-x-2 hover:translate-y-2"
+                  className="inline-block px-[31px] py-5 bg-black-900 text-white cursor-pointer text-lg duration-300 font-nav font-semibold z-10 hover:translate-x-2 hover:translate-y-2"
                   href="#contact"
                 >
                   Contact me
