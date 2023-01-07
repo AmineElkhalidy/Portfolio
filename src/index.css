@@ -36,3 +36,15 @@ body {
 .nav__link {
   @apply font-nav text-lg font-medium text-black-400 hover:text-grey-300 duration-300;
 }
+
+.gradient-text {
+  background-image: linear-gradient(
+    108deg,
+    #b16cea 8%,
+    #ff5e69 40%,
+    #ff8a56 77%,
+    #ffa84b 91%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -84,18 +84,6 @@ const Navbar = () => {
                 <span className="font-normal">05.</span> Contact
               </a>
             </li>
-
-            <li className="mt-3">
-              <a
-                className="font-nav font-medium bg-black-900 text-lg text-white duration-300 py-3 px-6 border hover:bg-transparent hover:text-black-900 hover:border-black-900"
-                href={Cv}
-                download="Amine Elkhalidy"
-                rel="noopener noreferrer"
-                onClick={() => setOpen(false)}
-              >
-                Resume
-              </a>
-            </li>
           </ul>
 
           <div
@@ -164,18 +152,6 @@ const Navbar = () => {
               <span className="text-lg font-normal">05.</span> Contact
             </a>
           </li>
-
-          {/* You have to place it to hero section */}
-          {/* <li>
-            <a
-              className="font-nav text-md text-secondary duration-300 py-2 px-4 border border-secondary rounded-md hover:bg-secondary/20"
-              href={Cv}
-              download="Amine Elkhalidy"
-              rel="noopener noreferrer"
-            >
-              Resume
-            </a>
-          </li> */}
         </ul>
       </motion.div>
     </nav>

@@ -9,11 +9,16 @@ import TypeIt from "typeit-react";
 // Icons
 import { FiGithub, FiLinkedin, FiFacebook, FiTwitter } from "react-icons/fi";
 import { SiUpwork } from "react-icons/si";
-import Fiverr from "../assets/images/fiverr.svg";
+
+// Icon
+import { ArrowRightIcon } from "@heroicons/react/24/solid";
+
+// CV
+import CV from "../assets/pdf/Amine-Elkhalidy.pdf";
 
 const Hero = () => {
   return (
-    <section className="relative max-w-6xl mx-auto px-6 pt-8 h-screen">
+    <section className="relative max-w-6xl mx-auto px-6 pt-10 h-screen">
       <div className="w-full h-full">
         {/* Content Container with animation */}
         <motion.div
@@ -23,16 +28,16 @@ const Hero = () => {
         >
           <div>
             {/* Introduction */}
-            <h1 className="text-slate-300 text-5xl font-semibold mb-4 md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
+            <h1 className=" text-black-900 text-[2.5rem] leading-none font-semibold mb-3 md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
               Hello,
               <br />
               I am Amine,
               <br />
-              <span className="circled-line">Web developer</span>
+              <span className="circled-line gradient-text">Web developer</span>
             </h1>
 
             {/* Profession */}
-            <p className="text-slate-400 text-lg font-nav mb-10 md:text-xl lg:text-2xl">
+            <p className="text-grey-400 font-medium text-xl font-nav mb-10 md:text-2xl lg:text-3xl">
               <TypeIt
                 options={{
                   afterComplete: function (instance) {
@@ -45,12 +50,27 @@ const Hero = () => {
             </p>
 
             {/* Contact me button */}
-            <a
-              className="px-8 py-4 border text-secondary border-secondary rounded-md cursor-pointer duration-300 font-nav font-medium text-md tracking-widest hover:bg-secondary/20"
-              href="#contact"
-            >
-              Contact me
-            </a>
+
+            <div className="flex flex-col space-y-3">
+              <div>
+                <a
+                  className="inline-block px-[30px] py-5 bg-black-900 text-white  cursor-pointer text-lg duration-300 font-nav font-semibold"
+                  href="#contact"
+                >
+                  Contact me
+                </a>
+              </div>
+
+              <a
+                className="group inline-flex gap-3 items-center py-5 text-black-900  cursor-pointer text-lg duration-300 font-nav font-semibold"
+                href={CV}
+                download="Amine Elkhalidy"
+                rel="noopener noreferrer"
+              >
+                Download CV{" "}
+                <ArrowRightIcon className="w-5 duration-300 group-hover:translate-x-3" />
+              </a>
+            </div>
           </div>
         </motion.div>
 
