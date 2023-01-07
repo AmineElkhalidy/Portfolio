@@ -28,16 +28,16 @@ const Hero = () => {
         >
           <div>
             {/* Introduction */}
-            <h1 className=" text-black-900 text-[2.5rem] leading-none font-semibold mb-3 md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
+            <h1 className=" text-black-900 text-[2.5rem]  leading-none font-bold mb-3 md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
               Hello,
               <br />
               I am Amine,
               <br />
-              <span className="circled-line gradient-text">Web developer</span>
+              <span className="gradient-text">Web developer</span>
             </h1>
 
             {/* Profession */}
-            <p className="text-grey-400 font-medium text-xl font-nav mb-10 md:text-2xl lg:text-3xl">
+            <p className="text-grey-400 font-medium text-xl font-nav mb-10 md:text-xl lg:text-2xl">
               <TypeIt
                 options={{
                   afterComplete: function (instance) {
@@ -51,25 +51,29 @@ const Hero = () => {
 
             {/* Contact me button */}
 
-            <div className="flex flex-col space-y-3">
-              <div>
+            <div className="flex flex-col space-y-3 sm:flex-row sm:space-x-12">
+              <div className="relative">
                 <a
-                  className="inline-block px-[30px] py-5 bg-black-900 text-white  cursor-pointer text-lg duration-300 font-nav font-semibold"
+                  className="inline-block px-[30px] py-5 bg-black-900 text-white cursor-pointer text-lg duration-300 font-nav font-semibold z-10 hover:translate-x-2 hover:translate-y-2"
                   href="#contact"
                 >
                   Contact me
                 </a>
+
+                <span className="contact-btn absolute -z-10 top-2 left-2 px-[4.95rem] py-[2.15rem] bg-red-500" />
               </div>
 
-              <a
-                className="group inline-flex gap-3 items-center py-5 text-black-900  cursor-pointer text-lg duration-300 font-nav font-semibold"
-                href={CV}
-                download="Amine Elkhalidy"
-                rel="noopener noreferrer"
-              >
-                Download CV{" "}
-                <ArrowRightIcon className="w-5 duration-300 group-hover:translate-x-3" />
-              </a>
+              <div>
+                <a
+                  className="group inline-flex gap-3 items-center py-5 text-black-900  cursor-pointer text-lg duration-300 font-nav font-semibold"
+                  href={CV}
+                  download="Amine Elkhalidy"
+                  rel="noopener noreferrer"
+                >
+                  Download CV{" "}
+                  <ArrowRightIcon className="w-5 duration-300 group-hover:translate-x-3" />
+                </a>
+              </div>
             </div>
           </div>
         </motion.div>
@@ -81,19 +85,9 @@ const Hero = () => {
           className="hidden md:block fixed -bottom-1.5"
         >
           <ul className="flex flex-col gap-6 justify-center items-center">
-            {/* <li className="hover:-translate-y-1 duration-200">
-              <a
-                className="text-slate-400 hover:text-secondary"
-                href="https://www.facebook.com/amine.elkhalidy.73"
-                target="_blank"
-              >
-                <FiFacebook size={21} />
-              </a>
-            </li> */}
-
             <li className="hover:-translate-y-1 duration-200">
               <a
-                className="text-slate-400 hover:text-secondary"
+                className="text-black-400 "
                 href="https://twitter.com/ElkhalidyAmine"
                 target="_blank"
               >
@@ -103,7 +97,7 @@ const Hero = () => {
 
             <li className="hover:-translate-y-1 duration-200">
               <a
-                className="text-slate-400 hover:text-secondary"
+                className="text-black-400 "
                 href="https://www.linkedin.com/in/amine-elkhalidy/"
                 target="_blank"
               >
@@ -113,7 +107,7 @@ const Hero = () => {
 
             <li className="hover:-translate-y-1 duration-200">
               <a
-                className="text-slate-400 hover:text-secondary"
+                className="text-black-400 "
                 href="https://github.com/AmineElkhalidy"
                 target="_blank"
               >
@@ -132,7 +126,7 @@ const Hero = () => {
                 width="17"
                 height="17"
               >
-                <g fill="#94a3b8">
+                <g fill="#333">
                   <path d="M13 13V5H5v-.5C5 3.673 5.673 3 6.5 3H8V0H6.5A4.505 4.505 0 0 0 2 4.5V5H0v3h2v5H0v3h7v-3H5V8h5.028v5H8v3h7v-3h-2z" />
                   <circle cx="11.5" cy="1.5" r="1.5" />
                 </g>
@@ -141,7 +135,7 @@ const Hero = () => {
 
             <li className="hover:-translate-y-1 duration-200">
               <a
-                className="text-slate-400 hover:text-secondary"
+                className="text-black-400 "
                 href="https://www.upwork.com/freelancers/aminee12"
                 target="_blank"
               >
@@ -150,7 +144,7 @@ const Hero = () => {
             </li>
 
             <li>
-              <span className="inline-block w-[.05rem] h-24 bg-slate-300" />
+              <span className="inline-block w-[.05rem] h-24 bg-black-400" />
             </li>
           </ul>
         </motion.div>
@@ -164,7 +158,7 @@ const Hero = () => {
           <ul className="flex flex-col justify-center items-center">
             <li className="rotate-90 text-sm duration-200 hover:-translate-y-1">
               <a
-                className="text-slate-400 hover:text-secondary"
+                className="text-black-900 "
                 href="mailto:a.amineelkhalidy@gmail.com"
               >
                 a.amineelkhalidy@gmail.com
@@ -172,7 +166,7 @@ const Hero = () => {
             </li>
 
             <li className="mt-28">
-              <span className="inline-block w-[.05rem] h-24 bg-slate-300" />
+              <span className="inline-block w-[.05rem] h-24 bg-black-400" />
             </li>
           </ul>
         </motion.div>

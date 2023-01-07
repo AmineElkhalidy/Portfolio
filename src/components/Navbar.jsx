@@ -7,9 +7,6 @@ import { motion } from "framer-motion";
 import { BiMenuAltRight } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
 
-// pdf
-import Cv from "../assets/pdf/Amine-Elkhalidy.pdf";
-
 // Avatar
 import Avatar from "../assets/images/Amine.png";
 
@@ -41,7 +38,7 @@ const Navbar = () => {
                 href="#about"
                 onClick={() => setOpen(false)}
               >
-                <span className="font-normal">01.</span> About
+                About
               </a>
             </li>
 
@@ -51,7 +48,7 @@ const Navbar = () => {
                 href="#work"
                 onClick={() => setOpen(false)}
               >
-                <span className="font-normal">02.</span> Work
+                Work
               </a>
             </li>
 
@@ -61,7 +58,7 @@ const Navbar = () => {
                 href="#skills"
                 onClick={() => setOpen(false)}
               >
-                <span className="font-normal">03.</span> Skills
+                Skills
               </a>
             </li>
 
@@ -71,7 +68,7 @@ const Navbar = () => {
                 href="#feedbacks"
                 onClick={() => setOpen(false)}
               >
-                <span className="font-normal">04.</span> Feedbacks
+                Feedbacks
               </a>
             </li>
 
@@ -81,7 +78,7 @@ const Navbar = () => {
                 href="#contact"
                 onClick={() => setOpen(false)}
               >
-                <span className="font-normal">05.</span> Contact
+                Contact
               </a>
             </li>
           </ul>
@@ -113,7 +110,7 @@ const Navbar = () => {
               className="font-nav font-semibold text-md duration-300 hover:text-secondary"
               href="#about"
             >
-              <span className="text-lg font-normal">01.</span> About
+              About
             </a>
           </li>
 
@@ -122,7 +119,7 @@ const Navbar = () => {
               className="font-nav font-semibold text-md duration-300 hover:text-secondary"
               href="#work"
             >
-              <span className="text-lg font-normal">02.</span> Work
+              Work
             </a>
           </li>
 
@@ -131,7 +128,7 @@ const Navbar = () => {
               className="font-nav font-semibold text-md duration-300 hover:text-secondary"
               href="#skills"
             >
-              <span className="text-lg font-normal">03.</span> Skills
+              Skills
             </a>
           </li>
 
@@ -140,7 +137,7 @@ const Navbar = () => {
               className="font-nav font-semibold text-md duration-300 hover:text-secondary"
               href="#feedbacks"
             >
-              <span className="text-lg font-normal">04.</span> Feedbacks
+              Feedbacks
             </a>
           </li>
 
@@ -149,7 +146,7 @@ const Navbar = () => {
               className="font-nav font-semibold text-md duration-300 hover:text-secondary"
               href="#contact"
             >
-              <span className="text-lg font-normal">05.</span> Contact
+              Contact
             </a>
           </li>
         </ul>
