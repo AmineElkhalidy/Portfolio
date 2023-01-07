@@ -10,11 +10,11 @@
 }
 
 body {
-  @apply bg-primary text-white font-body;
+  @apply bg-white text-black-400 font-body;
 }
 
 .header {
-  @apply w-full bg-primary fixed top-0 left-0 z-50 duration-300;
+  @apply bg-white w-full fixed top-0 left-0 z-50 duration-300;
 }
 
 .nav {
@@ -22,17 +22,17 @@ body {
 }
 
 .nav__toggle {
-  @apply inline-block cursor-pointer hover:text-secondary transition-colors duration-300 md:hidden;
+  @apply inline-block cursor-pointer hover:text-grey-300 duration-300 md:hidden;
 }
 
 .nav__menu {
-  @apply fixed top-0 right-0 z-50 w-[80%] bg-primary border-l-2 h-screen flex flex-col justify-center items-center bg-opacity-50 backdrop-blur-xl drop-shadow-md md:hidden;
+  @apply fixed top-0 right-0 z-50 w-[80%] border-l-2 h-screen flex flex-col justify-center items-center bg-opacity-50 backdrop-blur-xl drop-shadow-md md:hidden;
 }
 
 .nav__list {
-  @apply flex flex-col gap-8;
+  @apply flex flex-col justify-center items-center gap-8;
 }
 
 .nav__link {
-  @apply font-nav text-lg transition-colors duration-300 hover:text-secondary;
+  @apply font-nav text-lg font-medium text-black-400 hover:text-grey-300 duration-300;
 }

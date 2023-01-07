@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <nav className="nav">
       <a
-        className="flex items-center space-x-2 text-lg font-nav font-medium tracking-wide duration-300 text-white hover:text-secondary"
+        className="flex items-center space-x-1 font-nav font-bold tracking-wide duration-300 text-black md:text-xl hover:text-grey-300"
         href="#"
       >
         <img className="h-[2rem]" src={Avatar} alt="Avatar" />
@@ -41,7 +41,7 @@ const Navbar = () => {
                 href="#about"
                 onClick={() => setOpen(false)}
               >
-                <span className="text-secondary">01.</span> About
+                <span className="font-normal">01.</span> About
               </a>
             </li>
 
@@ -51,7 +51,7 @@ const Navbar = () => {
                 href="#work"
                 onClick={() => setOpen(false)}
               >
-                <span className="text-secondary">02.</span> Work
+                <span className="font-normal">02.</span> Work
               </a>
             </li>
 
@@ -61,7 +61,7 @@ const Navbar = () => {
                 href="#skills"
                 onClick={() => setOpen(false)}
               >
-                <span className="text-secondary">03.</span> Skills
+                <span className="font-normal">03.</span> Skills
               </a>
             </li>
 
@@ -71,7 +71,7 @@ const Navbar = () => {
                 href="#feedbacks"
                 onClick={() => setOpen(false)}
               >
-                <span className="text-secondary">04.</span> Feedbacks
+                <span className="font-normal">04.</span> Feedbacks
               </a>
             </li>
 
@@ -81,13 +81,13 @@ const Navbar = () => {
                 href="#contact"
                 onClick={() => setOpen(false)}
               >
-                <span className="text-secondary">05.</span> Contact
+                <span className="font-normal">05.</span> Contact
               </a>
             </li>
 
             <li className="mt-3">
               <a
-                className="font-nav text-lg text-secondary duration-300 py-3 px-6 border border-secondary rounded-md hover:bg-secondary/20"
+                className="font-nav font-medium bg-black-900 text-lg text-white duration-300 py-3 px-6 border hover:bg-transparent hover:text-black-900 hover:border-black-900"
                 href={Cv}
                 download="Amine Elkhalidy"
                 rel="noopener noreferrer"
@@ -102,7 +102,7 @@ const Navbar = () => {
             className="inline-block absolute top-6 right-8 cursor-pointer hover:text-secondary transition-colors duration-300"
             onClick={() => setOpen(false)}
           >
-            <AiOutlineClose size={28} />
+            <AiOutlineClose className="w-6 h-6" />
           </div>
         </motion.div>
       ) : (
@@ -110,7 +110,7 @@ const Navbar = () => {
           className="nav__toggle"
           onClick={() => setOpen((prevState) => !prevState)}
         >
-          <BiMenuAltRight size={40} />
+          <BiMenuAltRight className="w-8 h-8" />
         </div>
       )}
 
@@ -122,50 +122,51 @@ const Navbar = () => {
         <ul className="flex gap-8">
           <li>
             <a
-              className="font-nav text-md duration-300 hover:text-secondary"
+              className="font-nav font-semibold text-md duration-300 hover:text-secondary"
               href="#about"
             >
-              <span className="text-secondary">01.</span> About
+              <span className="text-lg font-normal">01.</span> About
             </a>
           </li>
 
           <li>
             <a
-              className="font-nav text-md duration-300 hover:text-secondary"
+              className="font-nav font-semibold text-md duration-300 hover:text-secondary"
               href="#work"
             >
-              <span className="text-secondary">02.</span> Work
+              <span className="text-lg font-normal">02.</span> Work
             </a>
           </li>
 
           <li>
             <a
-              className="font-nav text-md duration-300 hover:text-secondary"
+              className="font-nav font-semibold text-md duration-300 hover:text-secondary"
               href="#skills"
             >
-              <span className="text-secondary">03.</span> Skills
+              <span className="text-lg font-normal">03.</span> Skills
             </a>
           </li>
 
           <li>
             <a
-              className="font-nav text-md duration-300 hover:text-secondary"
+              className="font-nav font-semibold text-md duration-300 hover:text-secondary"
               href="#feedbacks"
             >
-              <span className="text-secondary">04.</span> Feedbacks
+              <span className="text-lg font-normal">04.</span> Feedbacks
             </a>
           </li>
 
           <li>
             <a
-              className="font-nav text-md duration-300 hover:text-secondary"
+              className="font-nav font-semibold text-md duration-300 hover:text-secondary"
               href="#contact"
             >
-              <span className="text-secondary">05.</span> Contact
+              <span className="text-lg font-normal">05.</span> Contact
             </a>
           </li>
 
-          <li>
+          {/* You have to place it to hero section */}
+          {/* <li>
             <a
               className="font-nav text-md text-secondary duration-300 py-2 px-4 border border-secondary rounded-md hover:bg-secondary/20"
               href={Cv}
@@ -174,7 +175,7 @@ const Navbar = () => {
             >
               Resume
             </a>
-          </li>
+          </li> */}
         </ul>
       </motion.div>
     </nav>
