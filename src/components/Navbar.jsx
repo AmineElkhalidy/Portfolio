@@ -107,7 +107,7 @@ const Navbar = () => {
         <ul className="flex gap-8">
           <li>
             <a
-              className="font-nav font-semibold text-md duration-300 hover:text-secondary"
+              className="font-nav font-semibold text-[1.05rem] duration-300 hover:text-secondary"
               href="#about"
             >
               About
@@ -116,7 +116,7 @@ const Navbar = () => {
 
           <li>
             <a
-              className="font-nav font-semibold text-md duration-300 hover:text-secondary"
+              className="font-nav font-semibold text-[1.05rem] duration-300 hover:text-secondary"
               href="#work"
             >
               Work
@@ -125,7 +125,7 @@ const Navbar = () => {
 
           <li>
             <a
-              className="font-nav font-semibold text-md duration-300 hover:text-secondary"
+              className="font-nav font-semibold text-[1.05rem] duration-300 hover:text-secondary"
               href="#skills"
             >
               Skills
@@ -134,7 +134,7 @@ const Navbar = () => {
 
           <li>
             <a
-              className="font-nav font-semibold text-md duration-300 hover:text-secondary"
+              className="font-nav font-semibold text-[1.05rem] duration-300 hover:text-secondary"
               href="#feedbacks"
             >
               Feedbacks
@@ -143,7 +143,7 @@ const Navbar = () => {
 
           <li>
             <a
-              className="font-nav font-semibold text-md duration-300 hover:text-secondary"
+              className="font-nav font-semibold text-[1.05rem] duration-300 hover:text-secondary"
               href="#contact"
             >
               Contact
