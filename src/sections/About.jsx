@@ -1,9 +1,8 @@
 import React from "react";
 
 // Icons
-import { BsCheck2Circle } from "react-icons/bs";
 import { MdKeyboardArrowRight } from "react-icons/md";
-import { CheckBadgeIcon } from "@heroicons/react/24/outline";
+import { CheckBadgeIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
 
 // motion
 import { motion } from "framer-motion";
@@ -56,58 +55,42 @@ const About = () => {
 
               <ul className=" text-grey-400 grid gap-1 font-nav font-thin mt-1 mb-4  md:grid-cols-2 md:text-[1.05rem]">
                 <li className="flex items-center gap-2">
-                  <span className="text-secondary">
-                    <CheckBadgeIcon className="w-5 h-5" />
-                  </span>
+                  <CheckBadgeIcon className="w-5 h-5" />
                   PSD/Figma to HTML
                 </li>
 
                 <li className="flex items-center gap-2">
-                  <span className="text-secondary">
-                    <CheckBadgeIcon className="w-5 h-5" />
-                  </span>
+                  <CheckBadgeIcon className="w-5 h-5" />
                   Static website
                 </li>
 
                 <li className="flex items-center gap-2">
-                  <span className="text-secondary">
-                    <CheckBadgeIcon className="w-5 h-5" />
-                  </span>
+                  <CheckBadgeIcon className="w-5 h-5" />
                   Components & Layouts dev
                 </li>
 
                 <li className="flex items-center gap-2">
-                  <span className="text-secondary">
-                    <CheckBadgeIcon className="w-5 h-5" />
-                  </span>
+                  <CheckBadgeIcon className="w-5 h-5" />
                   Pixel-perfect development
                 </li>
 
                 <li className="flex items-center gap-2">
-                  <span className="text-secondary">
-                    <CheckBadgeIcon className="w-5 h-5" />
-                  </span>
+                  <CheckBadgeIcon className="w-5 h-5" />
                   Responsiveness
                 </li>
 
                 <li className="flex items-center gap-2">
-                  <span className="text-secondary">
-                    <CheckBadgeIcon className="w-5 h-5" />
-                  </span>
+                  <CheckBadgeIcon className="w-5 h-5" />
                   Cross-browser compatibility
                 </li>
 
                 <li className="flex items-center gap-2">
-                  <span className="text-secondary">
-                    <CheckBadgeIcon className="w-5 h-5" />
-                  </span>
+                  <CheckBadgeIcon className="w-5 h-5" />
                   Google speed optimization (90+)
                 </li>
 
                 <li className="flex items-center gap-2">
-                  <span className="text-secondary">
-                    <CheckBadgeIcon className="w-5 h-5" />
-                  </span>
+                  <CheckBadgeIcon className="w-5 h-5" />
                   Mobile-first development
                 </li>
               </ul>
@@ -121,44 +104,32 @@ const About = () => {
 
               <ul className="max-w-sm grid grid-cols-2 -mt-2 text-grey-400 font-nav font-thin  md:text-[1.05rem]">
                 <li className="flex items-center gap-2">
-                  <span className="text-secondary">
-                    <MdKeyboardArrowRight />
-                  </span>
+                  <ChevronRightIcon className="w-3 h-3" />
                   HTML
                 </li>
 
                 <li className="flex items-center gap-2">
-                  <span className="text-secondary">
-                    <MdKeyboardArrowRight />
-                  </span>
+                  <ChevronRightIcon className="w-3 h-3" />
                   CSS
                 </li>
 
                 <li className="flex items-center gap-2">
-                  <span className="text-secondary">
-                    <MdKeyboardArrowRight />
-                  </span>
+                  <ChevronRightIcon className="w-3 h-3" />
                   JavaScript(ES6)
                 </li>
 
                 <li className="flex items-center gap-2">
-                  <span className="text-secondary">
-                    <MdKeyboardArrowRight />
-                  </span>
+                  <ChevronRightIcon className="w-3 h-3" />
                   Reactjs
                 </li>
 
                 <li className="flex items-center gap-2">
-                  <span className="text-secondary">
-                    <MdKeyboardArrowRight />
-                  </span>
+                  <ChevronRightIcon className="w-3 h-3" />
                   TypeScript
                 </li>
 
                 <li className="flex items-center gap-2">
-                  <span className="text-secondary">
-                    <MdKeyboardArrowRight />
-                  </span>
+                  <ChevronRightIcon className="w-3 h-3" />
                   TailwindCSS
                 </li>
               </ul>
