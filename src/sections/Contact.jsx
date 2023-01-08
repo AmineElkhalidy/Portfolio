@@ -25,7 +25,7 @@ const Contact = () => {
         transition={{ duration: 0.5 }}
         className="pt-24"
       >
-        <h2 className="text-2xl text-center font-nav font-semibold mb-12 md:text-3xl lg:text-4xl">
+        <h2 className="text-black-900 text-2xl text-center font-nav font-semibold mb-12 md:text-3xl lg:text-4xl">
           Get in touch with me
         </h2>
 
@@ -33,7 +33,7 @@ const Contact = () => {
         <div className="max-w-2xl mx-auto my-14">
           <div className="flex flex-col space-y-6 justify-center md:flex-row md:flex-wrap-reverse md:-space-y-0 md:gap-8">
             {/* Email */}
-            <div className="text-slate-300 duration-200 font-medium flex items-center justify-center space-x-3 p-[1.25rem] bg-[#0a192f] rounded-md md:w-[45%] hover:text-secondary hover:border hover:border-secondary">
+            {/* <div className="text-slate-300 duration-200 font-medium flex items-center justify-center space-x-3 p-[1.25rem] bg-[#0a192f] rounded-md md:w-[45%] hover:text-secondary hover:border hover:border-secondary">
               <span>
                 <AiOutlineMail size={28} />
               </span>
@@ -41,19 +41,19 @@ const Contact = () => {
               <a href="mailto:a.amineelkhalidy@gmail.com">
                 a.amineelkhalidy@gmail.com
               </a>
-            </div>
+            </div> */}
 
             {/* Phone */}
-            <div className="text-slate-300 duration-200 font-medium flex items-center justify-center space-x-3 p-[1.25rem] bg-[#0a192f] rounded-md md:w-[45%] hover:text-secondary hover:border hover:border-secondary">
+            {/* <div className="text-slate-300 duration-200 font-medium flex items-center justify-center space-x-3 p-[1.25rem] bg-[#0a192f] rounded-md md:w-[45%] hover:text-secondary hover:border hover:border-secondary">
               <span>
                 <BsPhone size={28} />
               </span>
 
               <a href="tel:+212 611154307">+212 611154307</a>
-            </div>
+            </div> */}
 
             {/* Social Accounts */}
-            <div className="text-slate-300 flex items-center justify-center gap-10 p-[1.25rem] bg-[#0a192f] rounded-md md:w-[70%] md:gap-16">
+            {/* <div className="text-slate-300 flex items-center justify-center gap-10 p-[1.25rem] bg-[#0a192f] rounded-md md:w-[70%] md:gap-16">
               <a
                 className="duration-200 hover:text-secondary hover:scale-[1.3]"
                 href="https://www.facebook.com/amine.elkhalidy.73"
@@ -93,12 +93,12 @@ const Contact = () => {
               >
                 <SiUpwork size={28} />
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
 
         {/* Form */}
-        {state.succeeded ? (
+        {/* {state.succeeded ? (
           <motion.div
             whileInView={{ opacity: [0, 1] }}
             className="h-[5rem] max-w-3xl mx-auto"
@@ -175,12 +175,13 @@ const Contact = () => {
               </button>
             </div>
           </form>
-        )}
+        )} */}
 
-        <p className="text-slate-300 text-sm font-light mt-20 mb-4 text-center cursor-pointer hover:text-secondary">
+        <p className="text-black-500 text-sm font-light mt-20 mb-4 text-center cursor-pointer">
           Designed & Built by Amine Elkhalidy
           <br />
-          &copy; <span>{currentYear}</span> - All Rights Reserved
+          &copy; <span className="gradient-text">{currentYear}</span> - All
+          Rights Reserved
         </p>
       </motion.div>
     </section>
