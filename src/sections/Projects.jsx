@@ -69,28 +69,28 @@ const Projects = () => {
         </h2>
 
         {/* Work Container */}
-        <div className="grid gap-24 place-items-center">
+        <div className="grid gap-24 place-items-center lg:gap-12 lg:grid-cols-2 lg:px-12">
           {projects.map((project, index) => (
             <motion.div whileInView={{ opacity: [0, 1] }} key={index}>
               {/* Project container */}
-              <div className="max-w-sm">
+              <div className="max-w-sm sm:max-w-md md:max-w-lg lg:w-full">
                 {/* Container */}
                 <div className="relative">
                   {/* Image container */}
-                  <div className="h-[250px]">
+                  <div className="h-[250px] sm:h-[300px]">
                     <img
-                      className="h-full w-[95%]"
+                      className="h-full w-[95%] lg:w-full"
                       src={project.image}
                       alt={project.name}
                     />
                   </div>
 
                   {/* Project description */}
-                  <div className="bg-black-900 p-5 absolute top-[70%] -right-5">
+                  <div className="bg-black-900 p-5 absolute top-[70%] -right-5 sm:p-8 sm:-right-16 sm:top-[72%] lg:relative lg:left-0">
                     <span className="gradient-text text-sm uppercase tracking-widest font-semibold">
                       Featured Project
                     </span>
-                    <h2 className="text-white text-xl font-bold mb-3">
+                    <h2 className="text-white text-xl font-bold mb-3 lg:text-2xl lg:mb-6">
                       {project.name}
                     </h2>
 
