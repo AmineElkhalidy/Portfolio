@@ -87,9 +87,9 @@ const Projects = () => {
 
                   {/* Project description */}
                   <div className="bg-black-900 p-5 absolute top-[70%] -right-5 sm:p-8 sm:-right-16 sm:top-[72%] lg:relative lg:left-0 lg:p-12">
-                    <span className="gradient-text text-sm uppercase tracking-widest font-semibold">
+                    {/* <span className="gradient-text text-sm uppercase tracking-widest font-semibold">
                       Featured Project
-                    </span>
+                    </span> */}
                     <h2 className="text-white text-xl font-bold mb-4 lg:text-2xl lg:mb-6 2xl:text-3xl">
                       {project.name}
                     </h2>
@@ -102,10 +102,10 @@ const Projects = () => {
                       <a
                         href={project.hrefLink}
                         target="_blank"
-                        className="group inline-flex items-center gap-1 cursor-pointer text-orange-400"
+                        className="gradient-text group inline-flex items-center gap-1 cursor-pointer text-white"
                       >
                         View Project{" "}
-                        <ArrowRightIcon className="w-4 h-4 duration-300 group-hover:translate-x-2" />
+                        <ArrowRightIcon className="w-4 h-4 duration-300 group-hover:translate-x-2 text-orange-400" />
                       </a>
                       <a
                         href={project.githubLink}
