@@ -45,7 +45,7 @@ const Hero = () => {
                   },
                 }}
               >
-                Front-End developer ~ React developer
+                Front-End ~ React developer
               </TypeIt>
             </p>
 
