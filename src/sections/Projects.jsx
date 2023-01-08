@@ -69,7 +69,7 @@ const Projects = () => {
         </h2>
 
         {/* Work Container */}
-        <div className="grid gap-24">
+        <div className="grid gap-24 place-items-center">
           {projects.map((project, index) => (
             <motion.div whileInView={{ opacity: [0, 1] }} key={index}>
               {/* Project container */}
@@ -79,7 +79,7 @@ const Projects = () => {
                   {/* Image container */}
                   <div className="h-[250px]">
                     <img
-                      className="h-full w-[90%]"
+                      className="h-full w-[95%]"
                       src={project.image}
                       alt={project.name}
                     />
@@ -98,7 +98,7 @@ const Projects = () => {
                     <div></div>
 
                     {/* Buttons container */}
-                    <div className="flex gap-6">
+                    <div className="flex gap-4">
                       <a
                         href={project.hrefLink}
                         target="_blank"
