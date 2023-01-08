@@ -28,7 +28,7 @@ const Testimonials = () => {
       >
         {/* Heading */}
         <h2 className="text-white text-2xl text-center font-nav font-semibold mb-10 md:text-3xl lg:text-4xl">
-          Clients Feedbacks
+          Testimonials
         </h2>
 
         {/* Reviews container */}

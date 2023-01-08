@@ -7,16 +7,10 @@ const Testimonial = ({ name, username, description, Platform }) => {
   return (
     <div className="bg-grey-800 rounded-xl w-[28rem] h-[12rem] p-8 space-y-4">
       {/* Name, username and logo */}
-      <div className="w-full">
-        <div className="flex items-center justify-between mb-1">
-          <div>
-            <h3 className="gradient-text text-sm font-medium md:text-md">
-              {name}
-            </h3>
-          </div>
-
-          <Platform className="" size="28" color="green" />
-        </div>
+      <div className="w-full mb-8">
+        <h3 className="text-orange-400 text-sm font-medium md:text-md">
+          {name}
+        </h3>
 
         {/* Stars */}
         <div className="flex">

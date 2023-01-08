@@ -12,7 +12,7 @@ const Skills = () => {
       <motion.div
         whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
         transition={{ duration: 0.5 }}
-        className="max-w-6xl mx-auto px-6 "
+        className="max-w-6xl mx-auto px-6"
       >
         <div className="pt-24">
           {/* Heading */}
@@ -32,7 +32,7 @@ const Skills = () => {
                   className="flex flex-col justify-center items-center"
                 >
                   {/* Image container */}
-                  <div className="bg-gray-100 w-[90px] h-[90px] rounded-full mb-[.75rem] flex justify-center items-center">
+                  <div className="bg-gray-100 w-[90px] h-[90px] rounded-full mb-[.75rem] flex justify-center items-center hover:border hover:border-orange-500">
                     <img
                       className="w-[60%]"
                       src={skill.image}

@@ -102,7 +102,7 @@ const Projects = () => {
                       <a
                         href={project.hrefLink}
                         target="_blank"
-                        className="group inline-flex items-center gap-1 text-white cursor-pointer"
+                        className="group inline-flex items-center gap-1 cursor-pointer text-orange-400"
                       >
                         View Project{" "}
                         <ArrowRightIcon className="w-4 h-4 duration-300 group-hover:translate-x-2" />

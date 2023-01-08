@@ -82,7 +82,7 @@ const Hero = () => {
         <motion.div
           whileInView={{ y: [100, 0] }}
           transition={{ delay: 0.1 }}
-          className="hidden md:block fixed -bottom-1.5"
+          className="hidden md:block absolute -bottom-8"
         >
           <ul className="flex flex-col gap-6 justify-center items-center">
             <li className="hover:-translate-y-1 duration-200">
@@ -144,28 +144,6 @@ const Hero = () => {
             </li>
 
             <li>
-              <span className="inline-block w-[.05rem] h-24 bg-black-400" />
-            </li>
-          </ul>
-        </motion.div>
-
-        {/* Email Container */}
-        <motion.div
-          whileInView={{ y: [100, 0] }}
-          transition={{ delay: 0.1 }}
-          className="hidden md:block fixed -bottom-1.5 -right-16 xl:-right-6"
-        >
-          <ul className="flex flex-col justify-center items-center">
-            <li className="rotate-90 text-sm duration-200 hover:-translate-y-1">
-              <a
-                className="text-black-900 "
-                href="mailto:a.amineelkhalidy@gmail.com"
-              >
-                a.amineelkhalidy@gmail.com
-              </a>
-            </li>
-
-            <li className="mt-28">
               <span className="inline-block w-[.05rem] h-24 bg-black-400" />
             </li>
           </ul>

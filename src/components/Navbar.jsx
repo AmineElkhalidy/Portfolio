@@ -68,7 +68,7 @@ const Navbar = () => {
                 href="#feedbacks"
                 onClick={() => setOpen(false)}
               >
-                Feedbacks
+                Testimonials
               </a>
             </li>
 
@@ -137,7 +137,7 @@ const Navbar = () => {
               className="font-nav font-semibold text-[1.05rem] duration-300"
               href="#feedbacks"
             >
-              Feedbacks
+              Testimonials
             </a>
           </li>
 
