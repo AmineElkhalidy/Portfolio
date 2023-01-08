@@ -49,7 +49,7 @@ const Projects = () => {
       githubLink: "https://github.com/SamoudiAnas/Mamirou",
     },
     {
-      name: "Rotinniajad",
+      name: "Rotin Niajad",
       image: Rotinniajad,
       hrefLink: "https://mamirou.vercel.app/",
       githubLink: "https://github.com/SamoudiAnas/Mamirou",
@@ -69,11 +69,69 @@ const Projects = () => {
         </h2>
 
         {/* Work Container */}
-        <motion.div className="grid gap-44">
+        <div className="grid gap-24">
           {projects.map((project, index) => (
             <motion.div whileInView={{ opacity: [0, 1] }} key={index}>
-              <div className="relative w-full h-full">
-                <div className="w-[95%] h-[200px] bg-black-500">
+              {/* Project container */}
+              <div className="max-w-sm">
+                {/* Container */}
+                <div className="relative">
+                  {/* Image container */}
+                  <div className="h-[250px]">
+                    <img
+                      className="h-full w-[90%]"
+                      src={project.image}
+                      alt={project.name}
+                    />
+                  </div>
+
+                  {/* Project description */}
+                  <div className="bg-black-900 p-5 absolute top-[70%] -right-5">
+                    <span className="gradient-text text-sm uppercase tracking-widest font-semibold">
+                      Featured Project
+                    </span>
+                    <h2 className="text-white text-xl font-bold mb-3">
+                      {project.name}
+                    </h2>
+
+                    {/* Technologies used */}
+                    <div></div>
+
+                    {/* Buttons container */}
+                    <div className="flex gap-6">
+                      <a
+                        href={project.hrefLink}
+                        target="_blank"
+                        className="group inline-flex items-center gap-1 text-white cursor-pointer"
+                      >
+                        View Project{" "}
+                        <ArrowRightIcon className="w-4 h-4 duration-300 group-hover:translate-x-2" />
+                      </a>
+                      <a
+                        href={project.githubLink}
+                        target="_blank"
+                        className="group inline-flex items-center gap-1 text-white cursor-pointer"
+                      >
+                        Github Repo{" "}
+                        <ArrowRightIcon className="w-4 h-4 duration-300 group-hover:translate-x-2" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+
+        {/* <motion.div className="grid gap-36 lg:grid-cols-2">
+          {projects.map((project, index) => (
+            <motion.div
+              className="relative w-full h-full md:max-w-2xl md:mx-auto lg:w-full"
+              whileInView={{ opacity: [0, 1] }}
+              key={index}
+            >
+              <div>
+                <div className="w-[95%] h-[250px] lg:w-full lg:h-full">
                   <img
                     className="h-full"
                     src={project.image}
@@ -81,22 +139,30 @@ const Projects = () => {
                   />
                 </div>
 
-                <div className="absolute top-[70%] -right-5 p-5 bg-black-900">
+                <div className="absolute top-[70%] md:top-[55%] -right-5 lg:top-[100%] lg:left-0 lg:right-0 p-5 bg-black-900 sm:p-10 md:p-14">
                   <span className="gradient-text text-sm uppercase tracking-widest font-semibold">
                     Featured Project
                   </span>
-                  <h2 className="text-xl text-white mb-6 font-bold">
+                  <h2 className="text-xl text-white mb-6 font-bold sm:text-2xl">
                     {project.name}
                   </h2>
 
                   <div></div>
 
                   <div className="flex gap-6">
-                    <a className="group inline-flex items-center gap-1 text-white cursor-pointer">
+                    <a
+                      href={project.hrefLink}
+                      target="_blank"
+                      className="group inline-flex items-center gap-1 text-white cursor-pointer"
+                    >
                       View Project{" "}
                       <ArrowRightIcon className="w-4 h-4 duration-300 group-hover:translate-x-2" />
                     </a>
-                    <a className="group inline-flex items-center gap-1 text-white cursor-pointer">
+                    <a
+                      href={project.githubLink}
+                      target="_blank"
+                      className="group inline-flex items-center gap-1 text-white cursor-pointer"
+                    >
                       Github Repo{" "}
                       <ArrowRightIcon className="w-4 h-4 duration-300 group-hover:translate-x-2" />
                     </a>
@@ -105,7 +171,7 @@ const Projects = () => {
               </div>
             </motion.div>
           ))}
-        </motion.div>
+        </motion.div> */}
       </motion.div>
     </section>
   );
