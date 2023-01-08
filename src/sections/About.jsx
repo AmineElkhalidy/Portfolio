@@ -1,11 +1,13 @@
 import React from "react";
 
 // Icons
-import { MdKeyboardArrowRight } from "react-icons/md";
 import { CheckBadgeIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
 
 // motion
 import { motion } from "framer-motion";
+
+// Amine Image
+import Amine from "../assets/images/AmineElkhalidy.jpg";
 
 const About = () => {
   return (
@@ -21,7 +23,7 @@ const About = () => {
         </h2>
 
         {/* Content Container */}
-        <div className="max-w-3xl mx-auto md:px-8 lg:px-0">
+        <div className="max-w-3xl mx-auto grid md:grid-cols-2 gap-20 md:px-8 lg:px-0">
           <div>
             <div>
               <p className="text-grey-400 mb-3 md:text-lg">
@@ -133,6 +135,20 @@ const About = () => {
                   TailwindCSS
                 </li>
               </ul>
+            </div>
+          </div>
+
+          {/* About Img */}
+          <div className="grid place-items-center">
+            <div className="relative group">
+              <div className="w-[250px] h-[250px] z-50 -translate-x-4 -translate-y-4 duration-300 group-hover:translate-x-0 group-hover:translate-y-0">
+                <img
+                  className="w-full h-full"
+                  src={Amine}
+                  alt="Amine preview img"
+                />
+              </div>
+              <div className="w-[250px] h-[250px] image -z-10 absolute top-0 left-0 " />
             </div>
           </div>
         </div>

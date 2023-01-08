@@ -45,10 +45,10 @@ const App = () => {
       <Header />
       <Hero />
       <About />
-      <Projects />
-      <Skills />
-      <Testimonials />
-      <Contact />
+      {/* <Projects /> */}
+      {/* <Skills /> */}
+      {/* <Testimonials /> */}
+      {/* <Contact /> */}
     </>
   );
 };
