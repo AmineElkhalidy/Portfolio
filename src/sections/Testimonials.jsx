@@ -17,19 +17,22 @@ import { rowreviews1, rowreviews2 } from "../data/data";
 
 const Testimonials = () => {
   return (
-    <section className="min-h-screen hidden lg:block" id="feedbacks">
+    <section
+      className="min-h-screen hidden lg:block bg-black-900"
+      id="feedbacks"
+    >
       <motion.div
         whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
         transition={{ duration: 0.5 }}
         className="pt-24"
       >
         {/* Heading */}
-        <h2 className="text-2xl text-center font-nav font-semibold mb-10 md:text-3xl lg:text-4xl">
+        <h2 className="text-white text-2xl text-center font-nav font-semibold mb-10 md:text-3xl lg:text-4xl">
           Clients Feedbacks
         </h2>
 
         {/* Reviews container */}
-        <div className="space-y-3 max-w-5xl mx-auto flex flex-col">
+        <div className="space-y-3  mx-auto flex flex-col">
           {/* Row 1 */}
           <div>
             <Splide
