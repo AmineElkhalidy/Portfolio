@@ -90,7 +90,7 @@ const Projects = () => {
                     <span className="gradient-text text-sm uppercase tracking-widest font-semibold">
                       Featured Project
                     </span>
-                    <h2 className="text-white text-xl font-bold mb-3 lg:text-2xl lg:mb-6">
+                    <h2 className="text-white text-xl font-bold mb-4 lg:text-2xl lg:mb-6">
                       {project.name}
                     </h2>
 
