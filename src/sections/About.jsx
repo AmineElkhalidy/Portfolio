@@ -23,10 +23,10 @@ const About = () => {
         </h2>
 
         {/* Content Container */}
-        <div className="max-w-3xl mx-auto grid md:grid-cols-2 gap-20 md:px-8 lg:px-0">
+        <div className="grid md:grid-cols-2 gap-20 md:px-12 2xl:px-0">
           <div>
             <div>
-              <p className="text-grey-400 mb-3 md:text-lg">
+              <p className="text-grey-500 mb-3 md:text-lg">
                 Hello, My name is{" "}
                 <span className=" gradient-text font-medium">
                   Amine Elkhalidy
@@ -41,21 +41,21 @@ const About = () => {
 
             {/* Services */}
             <div>
-              <p className="text-grey-400 mb-3 md:text-lg">
+              <p className="text-grey-500 mb-3 md:text-lg">
                 I am working as a freelancer on{" "}
                 <a
                   href="https://www.upwork.com/"
                   target="_blank"
                   rel="referrer noopener"
-                  className=" text-secondary font-medium"
+                  className="gradient-text font-medium"
                 >
                   Upwork
                 </a>
-                , and here are some of the services that I provide for my
-                clients:
+                , I have worked with many clients and turned there ideas to
+                living organs in the network
               </p>
 
-              <ul className=" text-grey-400 grid gap-1 font-nav font-thin mt-1 mb-4  md:grid-cols-2 md:text-[1.05rem]">
+              {/* <ul className=" text-grey-400 grid gap-1 font-nav font-thin mt-1 mb-4 sm:grid-cols-2 md:text-[1.05rem]">
                 <li className="flex items-center gap-2">
                   <CheckBadgeIcon className="w-5 h-5" />
                   PSD/Figma to HTML
@@ -95,24 +95,24 @@ const About = () => {
                   <CheckBadgeIcon className="w-5 h-5" />
                   Mobile-first development
                 </li>
-              </ul>
+              </ul> */}
             </div>
 
             {/* Technologies list */}
             <div>
-              <p className="text-grey-400 mb-2 md:text-lg">
+              <p className="text-grey-500 mb-2 md:text-lg">
                 Here are a few technologies I’ve been working with recently:
               </p>
 
               <ul className="max-w-sm grid grid-cols-2 -mt-2 text-grey-400 font-nav font-thin  md:text-[1.05rem]">
                 <li className="flex items-center gap-2">
                   <ChevronRightIcon className="w-3 h-3" />
-                  HTML
+                  HTML5
                 </li>
 
                 <li className="flex items-center gap-2">
                   <ChevronRightIcon className="w-3 h-3" />
-                  CSS
+                  CSS3
                 </li>
 
                 <li className="flex items-center gap-2">
@@ -122,7 +122,7 @@ const About = () => {
 
                 <li className="flex items-center gap-2">
                   <ChevronRightIcon className="w-3 h-3" />
-                  Reactjs
+                  React
                 </li>
 
                 <li className="flex items-center gap-2">
@@ -139,16 +139,16 @@ const About = () => {
           </div>
 
           {/* About Img */}
-          <div className="grid place-items-center">
+          <div className="grid place-items-center lg:mt-6">
             <div className="relative group">
-              <div className="w-[250px] h-[250px] z-50 -translate-x-4 -translate-y-4 duration-300 group-hover:translate-x-0 group-hover:translate-y-0">
+              <div className="w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] z-50 -translate-x-4 -translate-y-4 duration-300 group-hover:translate-x-0 group-hover:translate-y-0">
                 <img
-                  className="w-full h-full"
+                  className="w-full h-full object-cover"
                   src={Amine}
                   alt="Amine preview img"
                 />
               </div>
-              <div className="w-[250px] h-[250px] image -z-10 absolute top-0 left-0 " />
+              <div className="w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] image -z-10 absolute top-0 left-0" />
             </div>
           </div>
         </div>
