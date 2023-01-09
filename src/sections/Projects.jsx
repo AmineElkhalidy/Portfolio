@@ -64,7 +64,7 @@ const Projects = () => {
         className="pt-24"
       >
         {/* Heading */}
-        <h2 className="text-black-900 text-2xl text-center font-nav font-semibold mb-12 md:text-3xl lg:text-4xl">
+        <h2 className="text-black-900 text-2xl text-center font-nav font-semibold mb-16 sm:text-3xl md:text-4xl lg:text-5xl">
           My Work
         </h2>
 
@@ -98,7 +98,7 @@ const Projects = () => {
                     <div></div>
 
                     {/* Buttons container */}
-                    <div className="flex gap-4 lg:gap-8">
+                    <div className="flex gap-4 lg:gap-8 lg:text-lg">
                       <a
                         href={project.hrefLink}
                         target="_blank"

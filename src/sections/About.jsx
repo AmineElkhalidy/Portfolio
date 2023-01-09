@@ -18,7 +18,7 @@ const About = () => {
         className="pt-24"
       >
         {/* Heading */}
-        <h2 className="text-black-900 text-2xl text-center font-nav font-semibold mb-10 md:text-3xl lg:text-4xl">
+        <h2 className="text-black-900 text-2xl text-center font-nav font-semibold mb-16 sm:text-3xl md:text-4xl lg:text-5xl">
           Get to know me
         </h2>
 
@@ -26,7 +26,7 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-20 md:px-12 2xl:px-0">
           <div>
             <div>
-              <p className="text-grey-500 mb-3 md:text-lg">
+              <p className="text-grey-500 mb-3 md:text-lg lg:text-xl">
                 Hello, My name is{" "}
                 <span className=" gradient-text font-medium">
                   Amine Elkhalidy
@@ -41,7 +41,7 @@ const About = () => {
 
             {/* Services */}
             <div>
-              <p className="text-grey-500 mb-3 md:text-lg">
+              <p className="text-grey-500 mb-3 md:text-lg lg:text-xl">
                 I am working as a freelancer on{" "}
                 <a
                   href="https://www.upwork.com/"
@@ -100,11 +100,11 @@ const About = () => {
 
             {/* Technologies list */}
             <div>
-              <p className="text-grey-500 mb-2 md:text-lg">
+              <p className="text-grey-500 mb-2 md:text-lg lg:text-xl">
                 Here are a few technologies I’ve been working with recently:
               </p>
 
-              <ul className="max-w-sm grid grid-cols-2 -mt-2 text-grey-400 font-nav font-thin  md:text-[1.05rem]">
+              <ul className="max-w-sm grid grid-cols-2 -mt-2 text-grey-400 font-nav font-thin  md:text-[1.05rem] lg:text-lg">
                 <li className="flex items-center gap-2">
                   <ChevronRightIcon className="w-3 h-3" />
                   HTML5
