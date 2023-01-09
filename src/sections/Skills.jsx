@@ -12,7 +12,7 @@ const Skills = () => {
       <motion.div
         whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
         transition={{ duration: 0.5 }}
-        className="max-w-6xl mx-auto px-6"
+        className="max-w-6xl mx-auto px-6 lg:max-w-7xl"
       >
         <div className="pt-24">
           {/* Heading */}
@@ -41,7 +41,7 @@ const Skills = () => {
                   </div>
 
                   {/* skill name */}
-                  <p className="text-sm font-medium text-black-400">
+                  <p className="text-sm font-medium sm:text-md xl:text-lg text-black-400">
                     {skill.name}
                   </p>
                 </motion.div>
@@ -52,7 +52,7 @@ const Skills = () => {
             <div className="flex flex-col space-y-12 md:w-1/2 md:pt-4">
               {/* 2023 */}
               <div className="flex space-x-12">
-                <p className="gradient-text text-md font-semibold lg:text-lg">
+                <p className="gradient-text text-md sm:text-lg lg:text-xl xl:text-2xl font-semibold">
                   2023
                 </p>
 
@@ -61,20 +61,22 @@ const Skills = () => {
                     whileInView={{ opacity: [0, 1] }}
                     transition={{ duration: 0.5 }}
                   >
-                    <h4 className="text-black-900 text-md font-medium uppercase mb-[.75rem] lg:text-lg">
+                    <h4 className="text-black-900 text-md sm:text-lg lg:text-xl xl:text-2xl font-medium uppercase mb-[.75rem]">
                       FrontEnd Developer
                     </h4>
-                    <p className="text-black-400 mb-[.5rem]">
+                    <p className="text-black-400 mb-[.5rem] xl:text-lg">
                       Still working as a freelancer.
                     </p>
-                    <p className="text-sm font-nav text-black-400">Upwork</p>
+                    <p className="text-sm font-nav text-black-400 xl:text-base">
+                      Upwork
+                    </p>
                   </motion.div>
                 </div>
               </div>
 
               {/* 2022 */}
               <div className="flex space-x-12">
-                <p className="gradient-text text-md font-semibold lg:text-lg">
+                <p className="gradient-text text-md sm:text-lg lg:text-xl xl:text-2xl font-semibold ">
                   2022
                 </p>
 
@@ -83,20 +85,22 @@ const Skills = () => {
                     whileInView={{ opacity: [0, 1] }}
                     transition={{ duration: 0.5 }}
                   >
-                    <h4 className="text-black-900 text-md font-medium uppercase mb-[.75rem] lg:text-lg">
+                    <h4 className="text-black-900 text-md sm:text-lg lg:text-xl xl:text-2xl font-medium uppercase mb-[.75rem]">
                       FrontEnd Developer
                     </h4>
-                    <p className="text-black-400 mb-[.5rem]">
+                    <p className="text-black-400 mb-[.5rem] xl:text-lg">
                       I am working as a freelancer on Upwork.
                     </p>
-                    <p className="text-sm font-nav text-black-400">Upwork</p>
+                    <p className="text-sm font-nav text-black-400 xl:text-base">
+                      Upwork
+                    </p>
                   </motion.div>
                 </div>
               </div>
 
               {/* 2021 */}
               <div className="flex space-x-12">
-                <p className="gradient-text text-md  font-semibold lg:text-lg">
+                <p className="gradient-text text-md sm:text-lg lg:text-xl xl:text-2xl  font-semibold">
                   2021
                 </p>
 
@@ -106,14 +110,14 @@ const Skills = () => {
                     transition={{ duration: 0.5 }}
                     className="ml-1"
                   >
-                    <h4 className="text-black-900 text-md font-medium uppercase mb-[.75rem] lg:text-lg">
+                    <h4 className="text-black-900 text-md sm:text-lg lg:text-xl xl:text-2xl font-medium uppercase mb-[.75rem]">
                       FrontEnd & Alfresco Dev
                     </h4>
-                    <p className="text-black-400 mb-[.5rem]">
+                    <p className="text-black-400 mb-[.5rem] xl:text-lg">
                       I have worked on customising Alfresco (CMS) for a large
                       organization
                     </p>
-                    <p className="text-sm font-nav text-black-400">
+                    <p className="text-sm font-nav text-black-400 xl:text-base">
                       Prefecture d'arrondissement de Ben M'sick
                     </p>
                   </motion.div>
@@ -122,7 +126,7 @@ const Skills = () => {
 
               {/* 2020 */}
               <div className="flex space-x-12">
-                <p className="gradient-text text-md font-semibold lg:text-lg">
+                <p className="gradient-text text-md sm:text-lg lg:text-xl xl:text-2xl font-semibold">
                   2020
                 </p>
 
@@ -131,13 +135,15 @@ const Skills = () => {
                     whileInView={{ opacity: [0, 1] }}
                     transition={{ duration: 0.5 }}
                   >
-                    <h4 className="text-black-900 text-md font-medium uppercase mb-[.75rem] lg:text-lg">
+                    <h4 className="text-black-900 text-md sm:text-lg lg:text-xl xl:text-2xl font-medium uppercase mb-[.75rem]">
                       FrontEnd Developer
                     </h4>
-                    <p className="text-grey-400 mb-[.5rem]">
+                    <p className="text-grey-400 mb-[.5rem] xl:text-lg">
                       I have developped many frontend projects
                     </p>
-                    <p className="text-sm font-nav text-grey-400">By myslef</p>
+                    <p className="text-sm font-nav text-grey-400 xl:text-base">
+                      By myslef
+                    </p>
                   </motion.div>
                 </div>
               </div>
