@@ -7,11 +7,11 @@ import { motion } from "framer-motion";
 import TypeIt from "typeit-react";
 
 // Icons
-import { FiGithub, FiLinkedin, FiFacebook, FiTwitter } from "react-icons/fi";
-import { SiUpwork } from "react-icons/si";
-
-// Icon
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
+import Fiverr from "../assets/svg/fiverr.svg";
+import Upwork from "../assets/svg/upwork.svg";
+import Linkedin from "../assets/svg/linkedin.svg";
+import Github from "../assets/svg/github.svg";
 
 // CV
 import CV from "../assets/pdf/Amine-Elkhalidy.pdf";
@@ -84,69 +84,41 @@ const Hero = () => {
           transition={{ delay: 0.1 }}
           className="hidden md:block absolute -bottom-8"
         >
-          <ul className="flex flex-col gap-6 justify-center items-center">
-            <li className="hover:-translate-y-1 duration-200">
-              <a
-                className="text-black-400 "
-                href="https://twitter.com/ElkhalidyAmine"
-                target="_blank"
-              >
-                <FiTwitter size={21} />
-              </a>
-            </li>
-
-            <li className="hover:-translate-y-1 duration-200">
-              <a
-                className="text-black-400 "
-                href="https://www.linkedin.com/in/amine-elkhalidy/"
-                target="_blank"
-              >
-                <FiLinkedin size={20} />
-              </a>
-            </li>
-
-            <li className="hover:-translate-y-1 duration-200">
-              <a
-                className="text-black-400 "
-                href="https://github.com/AmineElkhalidy"
-                target="_blank"
-              >
-                <FiGithub size={20} />
-              </a>
-            </li>
+          <div className="bg-transparent flex flex-col gap-6 justify-center items-center">
+            <a
+              className="cursor-pointer hover:-translate-y-1 duration-200"
+              href="https://www.upwork.com/freelancers/~01f55a2d4b119d3119"
+              target="_blank"
+            >
+              <img src={Upwork} className="w-7 h-full" alt="" />
+            </a>
 
             <a
-              className="cursor-pointer hover:-translate-y-1 duration-200 "
+              className="cursor-pointer hover:-translate-y-1 duration-200"
               href="https://www.fiverr.com/amineelkhalidy"
               target="_blank"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 16 16"
-                width="17"
-                height="17"
-              >
-                <g fill="#333">
-                  <path d="M13 13V5H5v-.5C5 3.673 5.673 3 6.5 3H8V0H6.5A4.505 4.505 0 0 0 2 4.5V5H0v3h2v5H0v3h7v-3H5V8h5.028v5H8v3h7v-3h-2z" />
-                  <circle cx="11.5" cy="1.5" r="1.5" />
-                </g>
-              </svg>
+              <img src={Fiverr} className="w-8 h-full" alt="" />
             </a>
 
-            <li className="hover:-translate-y-1 duration-200">
-              <a
-                className="text-black-400 "
-                href="https://www.upwork.com/freelancers/aminee12"
-                target="_blank"
-              >
-                <SiUpwork size={20} />
-              </a>
-            </li>
+            <a
+              className="cursor-pointer hover:-translate-y-1 duration-200"
+              href="https://github.com/AmineElkhalidy"
+              target="_blank"
+            >
+              <img src={Github} className="w-[1.9rem] -ml-1 h-full" alt="" />
+            </a>
 
-            <li>
-              <span className="inline-block w-[.05rem] h-24 bg-black-400" />
-            </li>
-          </ul>
+            <a
+              className="cursor-pointer hover:-translate-y-1 duration-200 "
+              href="https://www.linkedin.com/in/amine-elkhalidy/"
+              target="_blank"
+            >
+              <img src={Linkedin} className="w-[1.4rem]" alt="" />
+            </a>
+
+            <span className="inline-block w-[.05rem] h-24 bg-black-400" />
+          </div>
         </motion.div>
       </div>
     </section>
