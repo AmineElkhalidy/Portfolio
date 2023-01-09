@@ -155,9 +155,8 @@ const Contact = () => {
         </div>
 
         {/* Copyright text */}
-        <p className="text-sm sm:text-base text-center font-medium">
-          Designed and built by{" "}
-          <span className="gradient-text">Amine Elkhalidy</span>
+        <p className="text-black-900 text-sm sm:text-base text-center font-medium">
+          <span>Amine Elkhalidy</span>
           <br />@<span className="gradient-text">{currentYear}</span> - All
           Rights Reserved
         </p>
