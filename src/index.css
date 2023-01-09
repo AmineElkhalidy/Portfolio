@@ -34,7 +34,7 @@ body {
 }
 
 .nav__link {
-  @apply font-nav text-lg font-medium text-black-400 hover:text-grey-300 duration-300;
+  @apply font-nav text-lg font-semibold text-black-900 hover:text-grey-300 duration-300;
 }
 
 .gradient-text {

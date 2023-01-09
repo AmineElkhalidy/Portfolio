@@ -4,8 +4,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 
 // Icons
-import { BiMenuAltRight } from "react-icons/bi";
-import { AiOutlineClose } from "react-icons/ai";
+import { XMarkIcon, Bars3Icon } from "@heroicons/react/24/solid";
 
 // Avatar
 import Avatar from "../assets/images/Amine.png";
@@ -87,7 +86,7 @@ const Navbar = () => {
             className="inline-block absolute top-6 right-8 cursor-pointer hover:text-secondary transition-colors duration-300"
             onClick={() => setOpen(false)}
           >
-            <AiOutlineClose className="w-6 h-6" />
+            <XMarkIcon className="w-7 h-7 hover:text-grey-300" />
           </div>
         </motion.div>
       ) : (
@@ -95,7 +94,7 @@ const Navbar = () => {
           className="nav__toggle"
           onClick={() => setOpen((prevState) => !prevState)}
         >
-          <BiMenuAltRight className="w-8 h-8" />
+          <Bars3Icon className="w-8 h-8" />
         </div>
       )}
 
