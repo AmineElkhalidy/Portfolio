@@ -51,8 +51,8 @@ const About = () => {
                 >
                   Upwork
                 </a>
-                , I have worked with many clients and turned there ideas to
-                living organs in the network
+                , I've helped many clients to make their ideas live on the
+                network.
               </p>
 
               {/* <ul className=" text-grey-400 grid gap-1 font-nav font-thin mt-1 mb-4 sm:grid-cols-2 md:text-[1.05rem]">

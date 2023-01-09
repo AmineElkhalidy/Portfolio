@@ -27,13 +27,13 @@ const Contact = () => {
         </h2>
 
         {/* Container */}
-        <div className="grid gap-16">
+        <div className="grid gap-16 lg:grid-cols-2 lg:gap-8">
           {/* Text container */}
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-black-900 mb-8">
               Get in touch
             </h2>
-            <p className="text-grey-400 text-lg leading-7">
+            <p className="max-w-lg text-grey-400 text-lg leading-7">
               Have a project in mind? Looking to partner or work together? Reach
               out through the form and I'll get back to you in the next 48
               hours.
@@ -59,9 +59,9 @@ const Contact = () => {
 
           {/* Form Container */}
           <div className="mb-32">
-            <form action="#">
+            <form className="max-w-xl" action="#">
               {/* First and Last name box */}
-              <div className="flex flex-col mb-6">
+              <div className="flex flex-col mb-6 sm:flex-row sm:gap-6 sm:mb-0">
                 {/* First name box */}
                 <div className="mb-6">
                   <label
@@ -154,8 +154,9 @@ const Contact = () => {
           </div>
         </div>
 
-        <p className="text-center text-base font-medium">
-          Designed and coded by{" "}
+        {/* Copyright text */}
+        <p className="text-sm sm:text-base text-center font-medium">
+          Designed and built by{" "}
           <span className="gradient-text">Amine Elkhalidy</span>
           <br />@<span className="gradient-text">{currentYear}</span> - All
           Rights Reserved
