@@ -1,28 +1,28 @@
 import React from "react";
 
 // Icons
-import { RiStarSFill } from "react-icons/ri";
+import { StarIcon } from "@heroicons/react/24/solid";
 
-const Testimonial = ({ name, username, description, Platform }) => {
+const Testimonial = ({ name, description }) => {
   return (
-    <div className="bg-grey-800 rounded-xl w-[28rem] h-[12rem] p-8 space-y-4">
+    <div className="bg-grey-800 rounded-xl lg:max-w-[28rem] h-[12rem] max-w-xs p-6">
       {/* Name, username and logo */}
-      <div className="w-full mb-8">
-        <h3 className="text-orange-400 text-sm font-medium md:text-md">
+      <div className="mb-4">
+        <h3 className="text-orange-400 lg:text-lg font-medium md:text-md">
           {name}
         </h3>
 
         {/* Stars */}
         <div className="flex">
-          <RiStarSFill size={20} color={"#FDCC0D"} />
-          <RiStarSFill size={20} color={"#FDCC0D"} />
-          <RiStarSFill size={20} color={"#FDCC0D"} />
-          <RiStarSFill size={20} color={"#FDCC0D"} />
-          <RiStarSFill size={20} color={"#FDCC0D"} />
+          <StarIcon className="w-5 h-5 text-yellow-500" />
+          <StarIcon className="w-5 h-5 text-yellow-500" />
+          <StarIcon className="w-5 h-5 text-yellow-500" />
+          <StarIcon className="w-5 h-5 text-yellow-500" />
+          <StarIcon className="w-5 h-5 text-yellow-500" />
         </div>
       </div>
 
-      <p className="max-w-xs font-medium text-gray-100 text-sm md:max-w-md md:text-md">
+      <p className="max-w-xs font-medium text-gray-100 text-sm lg:text-lg md:max-w-md md:text-md">
         {description}
       </p>
     </div>
@@ -30,3 +30,4 @@ const Testimonial = ({ name, username, description, Platform }) => {
 };
 
 export default Testimonial;
+// w-[28rem] h-[12rem]

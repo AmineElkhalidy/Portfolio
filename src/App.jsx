@@ -43,12 +43,14 @@ const App = () => {
   return (
     <>
       <Header />
-      <Hero />
-      <About />
-      <Projects />
-      <Skills />
-      <Testimonials />
-      <Contact />
+      <main className="w-full h-full overflow-hidden">
+        <Hero />
+        <About />
+        <Projects />
+        <Skills />
+        <Testimonials />
+        <Contact />
+      </main>
     </>
   );
 };
