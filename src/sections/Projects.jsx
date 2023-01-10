@@ -14,10 +14,16 @@ import ShopStore from "../assets/images/projects/shoppingstore.png";
 import Clipboarding from "../assets/images/projects/clipboarding.png";
 import Shoesit from "../assets/images/projects/shoesit.png";
 import Rotinniajad from "../assets/images/projects/rotinniajad.png";
-import Blogr from "../assets/images/projects/blogr.png";
+import Funiro from "../assets/images/projects/funiro.png";
 
 const Projects = () => {
   const projects = [
+    {
+      name: "Funiro",
+      image: Funiro,
+      hrefLink: "https://funiro-app.vercel.app/",
+      githubLink: "https://github.com/AmineElkhalidy/funiro",
+    },
     {
       name: "Mamiru",
       image: Mamiru,
@@ -27,32 +33,32 @@ const Projects = () => {
     {
       name: "Clipboarding",
       image: Clipboarding,
-      hrefLink: "https://mamirou.vercel.app/",
-      githubLink: "https://github.com/SamoudiAnas/Mamirou",
+      hrefLink: "https://clipboarding.vercel.app/",
+      githubLink: "https://github.com/AmineElkhalidy/clipboarding",
     },
     {
       name: "Tasty",
       image: Tasty,
-      hrefLink: "https://mamirou.vercel.app/",
-      githubLink: "https://github.com/SamoudiAnas/Mamirou",
+      hrefLink: "https://tasty.vercel.app/",
+      githubLink: "https://github.com/AmineElkhalidy/restauranttasty",
     },
     {
       name: "Omnifood",
       image: Omnifood,
-      hrefLink: "https://mamirou.vercel.app/",
-      githubLink: "https://github.com/SamoudiAnas/Mamirou",
+      hrefLink: "https://foodformood.vercel.app/",
+      githubLink: "https://github.com/AmineElkhalidy/omnifood",
     },
     {
       name: "Shoesit",
       image: Shoesit,
-      hrefLink: "https://mamirou.vercel.app/",
-      githubLink: "https://github.com/SamoudiAnas/Mamirou",
+      hrefLink: "https://shoesit.vercel.app/",
+      githubLink: "https://github.com/AmineElkhalidy/shoesit",
     },
     {
       name: "Rotin Niajad",
       image: Rotinniajad,
-      hrefLink: "https://mamirou.vercel.app/",
-      githubLink: "https://github.com/SamoudiAnas/Mamirou",
+      hrefLink: "https://rotinniajad.com",
+      githubLink: "https://github.com/AmineElkhalidy/rotinniajad",
     },
   ];
 
