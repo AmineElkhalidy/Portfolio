@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 
 // Amine Image
 import Amine from "../assets/images/AmineElkhalidy.jpg";
+import Avatar from "../assets/images/avatar.jpg";
 
 const About = () => {
   return (
@@ -144,7 +145,7 @@ const About = () => {
               <div className="w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] z-50 -translate-x-4 -translate-y-4 duration-300 group-hover:translate-x-0 group-hover:translate-y-0">
                 <img
                   className="w-full h-full object-cover"
-                  src={Amine}
+                  src={Avatar}
                   alt="Amine preview img"
                 />
               </div>
