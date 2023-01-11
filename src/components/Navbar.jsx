@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <nav className="nav">
       <a
-        className="flex items-center space-x-1 font-nav font-bold tracking-wide duration-300 text-black md:text-xl"
+        className="inline-flex items-center font-nav font-bold tracking-wide duration-300 text-black sm:text-xl"
         href="#"
       >
         {/* <img className="h-[2rem]" src={Avatar} alt="Avatar" /> */}

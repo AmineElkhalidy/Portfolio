@@ -18,7 +18,7 @@ body {
 }
 
 .nav {
-  @apply h-20 max-w-6xl mx-auto px-6 flex justify-between items-center;
+  @apply h-20 max-w-6xl mx-auto px-6 flex justify-between items-center xl:px-0;
 }
 
 .nav__toggle {
