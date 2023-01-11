@@ -18,13 +18,13 @@ import CV from "../assets/pdf/Amine-Elkhalidy.pdf";
 
 const Hero = () => {
   return (
-    <section className="relative max-w-6xl mx-auto px-6">
-      <div className="w-full h-full mt-44 md:mt-28 xl:mt-0">
-        {/* Content Container with animation */}
+    <section className="max-w-6xl mx-auto px-6 xl:px-0">
+      {/* Content Container with animation */}
+      <div className="relative mt-40 md:mt-32 lg:mt-28">
         <motion.div
           whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
-          transition={{ duration: 0.5 }}
-          className="flex items-center h-full md:pl-16 xl:pt-24"
+          transition={{ duration: 0.3 }}
+          className="flex items-center h-full md:pl-16 "
         >
           <div>
             {/* Introduction */}
@@ -117,7 +117,7 @@ const Hero = () => {
               <img src={Linkedin} className="w-[1.4rem]" alt="" />
             </a>
 
-            <span className="inline-block w-[.05rem] h-24 bg-black-400" />
+            <span className="inline-block w-[.05rem] h-20 bg-black-400" />
           </div>
         </motion.div>
       </div>
