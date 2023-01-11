@@ -12,7 +12,7 @@ import Avatar from "../assets/images/avatar.jpg";
 
 const About = () => {
   return (
-    <section className="max-w-6xl mx-auto px-6 min-h-screen" id="about">
+    <section className="max-w-6xl mx-auto px-6 min-h-screen xl:px-0" id="about">
       <motion.div
         whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
         transition={{ duration: 0.5 }}
@@ -24,7 +24,7 @@ const About = () => {
         </h2>
 
         {/* Content Container */}
-        <div className="grid md:grid-cols-2 gap-20 md:px-12 2xl:px-0">
+        <div className="grid md:grid-cols-2 lg:pl-12">
           <div>
             <div>
               <p className="text-grey-500 mb-3 md:text-lg lg:text-xl">

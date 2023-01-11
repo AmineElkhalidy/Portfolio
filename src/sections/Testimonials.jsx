@@ -21,7 +21,7 @@ const Testimonials = () => {
       <motion.div
         whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
         transition={{ duration: 0.5 }}
-        className="h-full w-full"
+        className="h-full w-full pt-24"
       >
         {/* Heading */}
         <h2 className="text-white text-2xl text-center font-nav font-semibold mb-16 sm:text-3xl md:text-4xl lg:text-5xl">

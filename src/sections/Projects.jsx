@@ -75,7 +75,7 @@ const Projects = () => {
         </h2>
 
         {/* Work Container */}
-        <div className="grid gap-24 place-items-center lg:gap-12 lg:grid-cols-2 lg:px-12">
+        <div className="grid gap-24 place-items-center lg:gap-12 lg:grid-cols-2 lg:px-0">
           {projects.map((project, index) => (
             <motion.div whileInView={{ opacity: [0, 1] }} key={index}>
               {/* Project container */}
