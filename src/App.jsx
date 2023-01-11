@@ -21,7 +21,7 @@ const App = () => {
 
       sections.forEach((current) => {
         const sectionHeight = current.offsetHeight;
-        const sectionTop = current.offsetTop - 5;
+        const sectionTop = current.offsetTop - 7;
         let sectionId = current.getAttribute("id");
 
         if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {

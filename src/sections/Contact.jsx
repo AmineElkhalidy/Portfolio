@@ -22,7 +22,9 @@ const Contact = () => {
         transition={{ duration: 0.5 }}
         className="pt-24"
       >
-        <h2 className="text-black-900 text-2xl text-center font-nav font-semibold mb-12 md:text-3xl lg:text-4xl"></h2>
+        {/* <h2 className="text-black-900 text-2xl text-center font-nav font-semibold mb-12 md:text-3xl lg:text-4xl">
+          Contact Me
+        </h2> */}
 
         {/* Container */}
         <div className="grid gap-16 lg:grid-cols-2 lg:gap-8">
