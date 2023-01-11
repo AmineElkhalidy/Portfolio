@@ -99,7 +99,7 @@ export const allReviews = [
     id: "r2",
     name: "Hi Ba",
     description:
-      "Amine is a great developer who helped me greatly in a very short amount of time and done all the work I required, I would definitely work with him again!",
+      "Amine is a great developer who helped me greatly in a very short amount of time and done all the work I required.",
   },
   {
     id: "r3",
