@@ -8,9 +8,11 @@ const Testimonial = ({ name, description }) => {
     <div className="bg-grey-800 rounded-xl sm:max-w-sm h-[12rem] lg:max-w-[28rem] lg:h-[14rem] max-w-xs p-6">
       {/* Name, username and logo */}
       <div className="mb-6">
-        <h3 className="text-orange-400 lg:text-lg font-medium md:text-md">
-          {name}
-        </h3>
+        <div>
+          <h3 className="text-grey-400 lg:text-lg font-medium md:text-md">
+            {name}
+          </h3>
+        </div>
 
         {/* Stars */}
         <div className="flex">
