@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 // Icon
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
@@ -15,6 +15,7 @@ import Clipboarding from "../assets/images/projects/clipboarding.png";
 import Shoesit from "../assets/images/projects/shoesit.png";
 import Rotinniajad from "../assets/images/projects/rotinniajad.png";
 import Funiro from "../assets/images/projects/funiro.png";
+import Userhive from "../assets/images/projects/userhive.png";
 
 const Projects = () => {
   const projects = [
@@ -59,6 +60,12 @@ const Projects = () => {
       image: Rotinniajad,
       hrefLink: "https://rotinniajad.com",
       githubLink: "https://github.com/AmineElkhalidy/rotinniajad",
+    },
+    {
+      name: "Userhive",
+      image: Userhive,
+      hrefLink: "https://www.userhive.co/",
+      githubLink: "https://github.com/AmineElkhalidy/userhive",
     },
   ];
 
