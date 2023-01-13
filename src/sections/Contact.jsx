@@ -15,6 +15,8 @@ const Contact = () => {
 
   const currentYear = new Date().getFullYear();
 
+  const isSubmittedSuccessfully = state.succeeded ? true : false;
+
   return (
     <section className="max-w-6xl mx-auto px-6 min-h-screen" id="contact">
       <motion.div
@@ -59,7 +61,7 @@ const Contact = () => {
 
           {/* Form Container */}
           <div className="mb-32">
-            <form className="max-w-xl" action="#">
+            <form onSubmit={handleSubmit} className="max-w-xl" action="#">
               {/* First and Last name box */}
               <div className="flex flex-col mb-6 sm:flex-row sm:gap-6 sm:mb-0">
                 {/* First name box */}
@@ -78,6 +80,11 @@ const Contact = () => {
                     placeholder="First Name"
                     required
                   />
+                  <ValidationError
+                    prefix="First Name"
+                    field="firstName"
+                    errors={state.errors}
+                  />
                 </div>
 
                 {/* Last name box */}
@@ -95,6 +102,11 @@ const Contact = () => {
                     id="lastName"
                     placeholder="Last Name"
                     required
+                  />
+                  <ValidationError
+                    prefix="Last Name"
+                    field="lastName"
+                    errors={state.errors}
                   />
                 </div>
               </div>
@@ -117,6 +129,11 @@ const Contact = () => {
                     placeholder="Enter your e-mail"
                     required
                   />
+                  <ValidationError
+                    prefix="Email"
+                    field="email"
+                    errors={state.errors}
+                  />
                 </div>
               </div>
 
@@ -136,17 +153,24 @@ const Contact = () => {
                     maxLength="5000"
                     placeholder="Explain here"
                   ></textarea>
+                  <ValidationError
+                    prefix="Message"
+                    field="message"
+                    errors={state.errors}
+                  />
                 </div>
               </div>
 
               {/* Button box */}
               <div className="relative">
-                <a
+                <button
                   className="inline-block px-[31px] py-5 bg-black-900 text-white cursor-pointer text-lg duration-300 font-nav font-semibold z-10 hover:translate-x-2 hover:translate-y-2"
                   href="#contact"
+                  type="submit"
+                  disabled={state.submitting}
                 >
                   Submit Now!
-                </a>
+                </button>
 
                 <span className="contact-btn absolute -z-10 top-2 left-2 px-[5.25rem] py-[2.15rem] bg-red-500" />
               </div>
