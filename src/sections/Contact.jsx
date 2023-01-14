@@ -181,8 +181,8 @@ const Contact = () => {
         {/* Copyright text */}
         <p className="text-black-900 text-sm sm:text-base text-center font-medium">
           <span>Amine Elkhalidy</span>
-          <br />@<span className="gradient-text">{currentYear}</span> - All
-          Rights Reserved
+          <br />
+          &copy; {currentYear} - All Rights Reserved
         </p>
       </motion.div>
     </section>

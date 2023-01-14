@@ -68,7 +68,7 @@ const Skills = () => {
                       FrontEnd Developer
                     </h4>
                     <p className="text-black-400 mb-[.5rem] xl:text-lg">
-                      Still working as a freelancer.
+                      I am working as a freelancer on Upwrok
                     </p>
                     <p className="text-sm font-nav text-black-400 xl:text-base">
                       Upwork
@@ -92,10 +92,10 @@ const Skills = () => {
                       FrontEnd Developer
                     </h4>
                     <p className="text-black-400 mb-[.5rem] xl:text-lg">
-                      I am working as a freelancer on Upwork.
+                      I am working as a freelancer
                     </p>
                     <p className="text-sm font-nav text-black-400 xl:text-base">
-                      Upwork
+                      Freelancer
                     </p>
                   </motion.div>
                 </div>

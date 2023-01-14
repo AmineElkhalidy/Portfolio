@@ -8,7 +8,6 @@ import { motion } from "framer-motion";
 
 // Amine Image
 import Amine from "../assets/images/AmineElkhalidy.jpg";
-import Avatar from "../assets/images/avatar.jpg";
 
 const About = () => {
   return (
@@ -24,7 +23,7 @@ const About = () => {
         </h2>
 
         {/* Content Container */}
-        <div className="grid md:grid-cols-2 lg:pl-12">
+        <div className="grid gap-20 md:gap-0 md:grid-cols-2 lg:pl-12">
           <div>
             <div>
               <p className="text-grey-500 mb-3 md:text-lg lg:text-xl">
@@ -145,7 +144,7 @@ const About = () => {
               <div className="w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] z-50 -translate-x-4 -translate-y-4 duration-300 group-hover:translate-x-0 group-hover:translate-y-0">
                 <img
                   className="w-full h-full object-cover"
-                  src={Avatar}
+                  src={Amine}
                   alt="Amine preview img"
                 />
               </div>
