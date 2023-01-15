@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 // Toast for notification
 
@@ -17,6 +17,10 @@ import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/solid";
 const Contact = () => {
   // formSpree state
   const [state, handleSubmit] = useForm("xeqdeyeo");
+  let firstName = null;
+  let lastName = null;
+  let email = null;
+  let message = null;
 
   // current year
   const currentYear = new Date().getFullYear();
@@ -25,6 +29,12 @@ const Contact = () => {
   const notify = () =>
     toast.success("Thank you for your message, I'll contact you ASAP.");
 
+  if (state.succeeded) {
+    firstName = "";
+    lastName = "";
+    email = "";
+    message = "";
+  }
   return (
     <section className="max-w-6xl mx-auto px-6 min-h-screen" id="contact">
       <motion.div
@@ -86,6 +96,7 @@ const Contact = () => {
                     name="first-name"
                     id="firstName"
                     placeholder="First Name"
+                    value={firstName}
                     required
                   />
                   <ValidationError
@@ -109,6 +120,7 @@ const Contact = () => {
                     name="last-name"
                     id="lastName"
                     placeholder="Last Name"
+                    value={lastName}
                     required
                   />
                   <ValidationError
@@ -135,6 +147,7 @@ const Contact = () => {
                     name="email"
                     id="email"
                     placeholder="Enter your e-mail"
+                    value={email}
                     required
                   />
                   <ValidationError
@@ -160,6 +173,7 @@ const Contact = () => {
                     id="message"
                     maxLength="5000"
                     placeholder="Explain here"
+                    value={message}
                     autoCorrect="false"
                   ></textarea>
                   <ValidationError
@@ -177,7 +191,6 @@ const Contact = () => {
                   href="#contact"
                   type="submit"
                   disabled={state.submitting}
-                  onClick={state.succeeded && notify}
                 >
                   Submit Now!
                 </button>
