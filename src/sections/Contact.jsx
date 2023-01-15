@@ -1,5 +1,10 @@
 import React from "react";
 
+// Toast for notification
+
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 // FormSpree
 import { useForm, ValidationError } from "@formspree/react";
 
@@ -13,9 +18,12 @@ const Contact = () => {
   // formSpree state
   const [state, handleSubmit] = useForm("xeqdeyeo");
 
+  // current year
   const currentYear = new Date().getFullYear();
 
-  const isSubmittedSuccessfully = state.succeeded ? true : false;
+  // notify function
+  const notify = () =>
+    toast.success("Thank you for your message, I'll contact you ASAP.");
 
   return (
     <section className="max-w-6xl mx-auto px-6 min-h-screen" id="contact">
@@ -152,6 +160,7 @@ const Contact = () => {
                     id="message"
                     maxLength="5000"
                     placeholder="Explain here"
+                    autoCorrect="false"
                   ></textarea>
                   <ValidationError
                     prefix="Message"
@@ -168,9 +177,24 @@ const Contact = () => {
                   href="#contact"
                   type="submit"
                   disabled={state.submitting}
+                  onClick={state.succeeded && notify}
                 >
                   Submit Now!
                 </button>
+
+                <ToastContainer
+                  className="top-20 px-6 sm:px-0"
+                  position="top-center"
+                  autoClose={3000}
+                  hideProgressBar={true}
+                  newestOnTop={false}
+                  closeOnClick
+                  rtl={false}
+                  pauseOnFocusLoss
+                  draggable
+                  pauseOnHover
+                  theme="colored"
+                />
 
                 <span className="contact-btn absolute -z-10 top-2 left-2 px-[5.25rem] py-[2.15rem] bg-red-500" />
               </div>
