@@ -37,6 +37,19 @@ body {
   @apply font-nav text-lg font-semibold text-black-900 hover:text-grey-300 duration-300;
 }
 
+.active-link {
+  background-image: linear-gradient(
+    108deg,
+    #b16cea 8%,
+    #ff5e69 40%,
+    #ff8a56 77%,
+    #ffa84b 91%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
 .gradient-text {
   background-image: linear-gradient(
     108deg,
