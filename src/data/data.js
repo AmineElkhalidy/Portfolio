@@ -119,26 +119,32 @@ export const allReviews = [
       "Amine is dedicated to whatever he does. I would recommend him for any sort of front-end tasks.",
   },
   {
-    id: "r5",
-    name: "Tireson Emma",
-    description: "Amine is a skilled developer that deliver quality work.",
+    id: "r6",
+    name: "Sara F",
+    description: "Excellent job as always",
   },
   {
-    id: "r6",
+    id: "r7",
     name: "Rachid Chatoui",
     description:
       "Amine helped me a lot with defining the content and layout of my product landing page, definitely recommended!",
   },
   {
-    id: "r7",
+    id: "r8",
     name: "Et-thamry Ashraf",
     description:
       "A best friend and best developer, helped me to build my own website and launch it to the internet",
   },
   {
-    id: "r8",
+    id: "r9",
     name: "Anas Samoudi",
     description: "Great developer, with sharpen eye on quality check.",
+  },
+  {
+    id: "r10",
+    name: "Tom Elliot",
+    description:
+      "Amine was very quick to deliver exactly what I was asking for, I'd recommend him.",
   },
 ];
 
@@ -176,26 +182,32 @@ export const rowreviews1 = [
 
 export const rowreviews2 = [
   {
-    id: "r5",
-    name: "Tireson Emma",
+    id: "r6",
+    name: "Sara F",
     description: "Amine is a skilled developer that deliver quality work.",
   },
   {
-    id: "r6",
+    id: "r7",
     name: "Rachid Chatoui",
     description:
       "Amine helped me a lot with defining the content and layout of my product landing page, definitely recommended!",
   },
   {
-    id: "r7",
+    id: "r8",
     name: "Et-thamry Ashraf",
     description:
       "A best friend and best developer, helped me to build my own website and launch it to the internet",
   },
   {
-    id: "r8",
+    id: "r9",
     name: "Anas Samoudi",
     description: "Great developer, with sharpen eye on quality check.",
+  },
+  {
+    id: "r10",
+    name: "Tom Elliot",
+    description:
+      "Amine was very quick to deliver exactly what I was asking for, I'd recommend him.",
   },
 ];
 
