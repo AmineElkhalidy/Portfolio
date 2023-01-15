@@ -6,12 +6,15 @@ import { motion } from "framer-motion";
 // Icons
 import { XMarkIcon, Bars3Icon } from "@heroicons/react/24/solid";
 
+import { SunIcon, MoonIcon } from "@heroicons/react/24/outline";
+
 // Avatar
 import Avatar from "../assets/images/Amine.png";
 
 const Navbar = () => {
   // Nav state
   const [open, setOpen] = useState(false);
+  const [darkModeToggle, setDarkModeToggle] = useState(false);
 
   return (
     <nav className="nav">
@@ -90,11 +93,29 @@ const Navbar = () => {
           </div>
         </motion.div>
       ) : (
-        <div
-          className="nav__toggle"
-          onClick={() => setOpen((prevState) => !prevState)}
-        >
-          <Bars3Icon className="w-8 h-8" />
+        <div className="flex items-center gap-3 duration-300">
+          {darkModeToggle ? (
+            <div>
+              <SunIcon
+                className="w-7 h-7 cursor-pointer"
+                onClick={() => setDarkModeToggle(false)}
+              />
+            </div>
+          ) : (
+            <div>
+              <MoonIcon
+                className="w-[1.7rem] h-[1.7rem] cursor-pointer"
+                onClick={() => setDarkModeToggle(true)}
+              />
+            </div>
+          )}
+
+          <div
+            className="nav__toggle"
+            onClick={() => setOpen((prevState) => !prevState)}
+          >
+            <Bars3Icon className="w-8 h-8" />
+          </div>
         </div>
       )}
 
