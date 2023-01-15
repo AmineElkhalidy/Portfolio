@@ -17,6 +17,18 @@ import Rotinniajad from "../assets/images/projects/rotinniajad.png";
 import Funiro from "../assets/images/projects/funiro.png";
 import Userhive from "../assets/images/projects/userhive.png";
 
+// Images
+import Html from "../assets/images/html.png";
+import Css from "../assets/images/css.png";
+import Js from "../assets/images/javascript.png";
+import REACT from "../assets/images/react.png";
+import Next from "../assets/images/next.png";
+import NextLight from "../assets/images/nextjs-light.png";
+import Tailwind from "../assets/images/tailwind.png";
+import Redux from "../assets/images/redux.png";
+import Node from "../assets/images/node.png";
+import Typescript from "../assets/images/typescript.png";
+
 const Projects = () => {
   const projects = [
     {
@@ -24,48 +36,56 @@ const Projects = () => {
       image: Funiro,
       hrefLink: "https://funiro-app.vercel.app/",
       githubLink: "https://github.com/AmineElkhalidy/funiro",
+      technologies: [NextLight, Tailwind],
     },
     {
       name: "Mamiru",
       image: Mamiru,
       hrefLink: "https://mamirou.vercel.app/",
       githubLink: "https://github.com/SamoudiAnas/Mamirou",
+      technologies: [REACT, Redux, Typescript],
     },
     {
       name: "Clipboarding",
       image: Clipboarding,
       hrefLink: "https://clipboarding.vercel.app/",
       githubLink: "https://github.com/AmineElkhalidy/clipboarding",
+      technologies: [Html, Tailwind],
     },
     {
       name: "Tasty",
       image: Tasty,
       hrefLink: "https://tasty.vercel.app/",
       githubLink: "https://github.com/AmineElkhalidy/restauranttasty",
+      technologies: [Html, Css, Js],
     },
     {
       name: "Omnifood",
       image: Omnifood,
       hrefLink: "https://foodformood.vercel.app/",
       githubLink: "https://github.com/AmineElkhalidy/omnifood",
+      technologies: [Html, Css, Js],
     },
     {
       name: "Shoesit",
       image: Shoesit,
       hrefLink: "https://shoesit.vercel.app/",
       githubLink: "https://github.com/AmineElkhalidy/shoesit",
+      technologies: [REACT],
     },
     {
       name: "Rotin Niajad",
       image: Rotinniajad,
       hrefLink: "https://rotinniajad.com",
       githubLink: "https://github.com/AmineElkhalidy/rotinniajad",
+      technologies: [Html, Tailwind],
     },
     {
       name: "Userhive",
       image: Userhive,
       hrefLink: "https://www.userhive.co/",
       githubLink: "https://github.com/AmineElkhalidy/userhive",
+      technologies: [NextLight, Tailwind],
     },
   ];
 
@@ -92,14 +112,14 @@ const Projects = () => {
                   {/* Image container */}
                   <div className="h-[250px] sm:h-[300px]">
                     <img
-                      className="h-full w-[95%] lg:w-full"
+                      className="h-full w-full lg:w-full"
                       src={project.image}
                       alt={project.name}
                     />
                   </div>
 
                   {/* Project description */}
-                  <div className="bg-black-900 p-5 absolute top-[70%] -right-5 sm:p-8 sm:-right-16 sm:top-[72%] lg:relative lg:left-0 lg:p-12">
+                  <div className="bg-black-900 p-5  sm:p-8 lg:p-12">
                     {/* <span className="gradient-text text-sm uppercase tracking-widest font-semibold">
                       Featured Project
                     </span> */}
@@ -108,7 +128,17 @@ const Projects = () => {
                     </h2>
 
                     {/* Technologies used */}
-                    <div></div>
+                    <div className="w-full flex gap-4  mb-5">
+                      {project.technologies.map((tech, index) => (
+                        <div className="w-[12%]" key={index}>
+                          <img
+                            className="w-full h-full"
+                            src={tech}
+                            alt={tech}
+                          />
+                        </div>
+                      ))}
+                    </div>
 
                     {/* Buttons container */}
                     <div className="flex gap-4 lg:gap-8 lg:text-lg">
