@@ -14,7 +14,8 @@ import Avatar from "../assets/images/Amine.png";
 const Navbar = () => {
   // Nav state
   const [open, setOpen] = useState(false);
-  const [darkModeToggle, setDarkModeToggle] = useState(false);
+  const [darkModeMob, setDarkModeMob] = useState(false);
+  const [darkModeDesk, setDarkModeDesk] = useState(false);
 
   return (
     <nav className="nav">
@@ -93,19 +94,19 @@ const Navbar = () => {
           </div>
         </motion.div>
       ) : (
-        <div className="flex items-center gap-3 duration-300">
-          {darkModeToggle ? (
+        <div className="flex items-center gap-3 duration-300 md:hidden">
+          {darkModeMob ? (
             <div>
               <SunIcon
                 className="w-7 h-7 cursor-pointer"
-                onClick={() => setDarkModeToggle(false)}
+                onClick={() => setDarkModeMob(false)}
               />
             </div>
           ) : (
             <div>
               <MoonIcon
                 className="w-[1.7rem] h-[1.7rem] cursor-pointer"
-                onClick={() => setDarkModeToggle(true)}
+                onClick={() => setDarkModeMob(true)}
               />
             </div>
           )}
@@ -124,52 +125,86 @@ const Navbar = () => {
         className="navigation hidden md:block"
         whileInView={{ opacity: [0, 1] }}
       >
-        <ul className="flex gap-8">
-          <li>
-            <a
-              className="font-nav font-semibold text-[1.05rem] duration-300"
-              href="#about"
-            >
-              About
-            </a>
-          </li>
+        <div className="flex items-center gap-8 duration-300">
+          <ul className="flex gap-8">
+            <li>
+              <a
+                className="font-nav font-semibold text-[1.05rem] duration-300"
+                href="#about"
+              >
+                About
+              </a>
+            </li>
 
-          <li>
-            <a
-              className="font-nav font-semibold text-[1.05rem] duration-300"
-              href="#work"
-            >
-              Work
-            </a>
-          </li>
+            <li>
+              <a
+                className="font-nav font-semibold text-[1.05rem] duration-300"
+                href="#work"
+              >
+                Work
+              </a>
+            </li>
 
-          <li>
-            <a
-              className="font-nav font-semibold text-[1.05rem] duration-300"
-              href="#skills"
-            >
-              Skills
-            </a>
-          </li>
+            <li>
+              <a
+                className="font-nav font-semibold text-[1.05rem] duration-300"
+                href="#skills"
+              >
+                Skills
+              </a>
+            </li>
 
-          <li>
-            <a
-              className="font-nav font-semibold text-[1.05rem] duration-300"
-              href="#feedbacks"
-            >
-              Testimonials
-            </a>
-          </li>
+            <li>
+              <a
+                className="font-nav font-semibold text-[1.05rem] duration-300"
+                href="#feedbacks"
+              >
+                Testimonials
+              </a>
+            </li>
 
-          <li>
-            <a
-              className="font-nav font-semibold text-[1.05rem] duration-300"
-              href="#contact"
-            >
-              Contact
-            </a>
-          </li>
-        </ul>
+            <li>
+              <a
+                className="font-nav font-semibold text-[1.05rem] duration-300"
+                href="#contact"
+              >
+                Contact
+              </a>
+            </li>
+
+            {/* <li>
+            {darkModeToggle ? (
+              <div className="">
+                <SunIcon
+                  className="w-6 h-6 cursor-pointer"
+                  onClick={() => setDarkModeToggle(false)}
+                />
+              </div>
+            ) : (
+              <div className="">
+                <MoonIcon
+                  className="w-[1.6rem] h-[1.6rem] cursor-pointer"
+                  onClick={() => setDarkModeToggle(true)}
+                />
+              </div>
+            )}
+          </li> */}
+          </ul>
+
+          <div>
+            {darkModeDesk ? (
+              <SunIcon
+                className="w-6 h-6 cursor-pointer"
+                onClick={() => setDarkModeDesk(false)}
+              />
+            ) : (
+              <MoonIcon
+                className="w-6 h-6 cursor-pointer"
+                onClick={() => setDarkModeDesk(true)}
+              />
+            )}
+          </div>
+        </div>
       </motion.div>
     </nav>
   );
