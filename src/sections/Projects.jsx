@@ -141,7 +141,7 @@ const Projects = () => {
                     </div>
 
                     {/* Buttons container */}
-                    <div className="flex gap-4 sm:justify-between lg:text-lg">
+                    <div className="flex justify-between lg:text-lg">
                       <a
                         href={project.hrefLink}
                         target="_blank"
