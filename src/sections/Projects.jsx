@@ -112,7 +112,7 @@ const Projects = () => {
                   {/* Image container */}
                   <div className="h-[250px] sm:h-[300px]">
                     <img
-                      className="h-full w-full lg:w-full"
+                      className="h-full w-full border-2 border-black-900 dark:border-white lg:w-full"
                       src={project.image}
                       alt={project.name}
                     />
@@ -132,7 +132,7 @@ const Projects = () => {
                       {project.technologies.map((tech, index) => (
                         <div className="w-[12%]" key={index}>
                           <img
-                            className="w-full h-full"
+                            className="w-full h-full "
                             src={tech}
                             alt={tech}
                           />
@@ -145,7 +145,7 @@ const Projects = () => {
                       <a
                         href={project.hrefLink}
                         target="_blank"
-                        className="gradient-text group inline-flex items-center gap-1 cursor-pointer text-white"
+                        className="gradient-text group inline-flex items-center sm:font-medium text-md gap-1 lg:text-lg cursor-pointer text-white"
                       >
                         View Project{" "}
                         <ArrowRightIcon className="w-4 h-4 duration-300 group-hover:translate-x-2 text-orange-400" />
@@ -153,7 +153,7 @@ const Projects = () => {
                       <a
                         href={project.githubLink}
                         target="_blank"
-                        className="group inline-flex items-center gap-1 text-white dark:text-black-900 cursor-pointer"
+                        className="group inline-flex items-center sm:font-medium text-md gap-1 lg:text-lg text-white dark:text-black-900 cursor-pointer"
                       >
                         Github Repo{" "}
                         <ArrowRightIcon className="w-4 h-4 duration-300 group-hover:translate-x-2" />

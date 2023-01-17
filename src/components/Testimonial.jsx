@@ -9,7 +9,7 @@ const Testimonial = ({ name, description }) => {
       {/* Name, username and logo */}
       <div className="mb-6">
         <div>
-          <h3 className="text-grey-400 lg:text-lg font-medium md:text-md">
+          <h3 className="text-grey-200 lg:text-lg font-medium md:text-md">
             {name}
           </h3>
         </div>
@@ -32,4 +32,3 @@ const Testimonial = ({ name, description }) => {
 };
 
 export default Testimonial;
-// w-[28rem] h-[12rem]

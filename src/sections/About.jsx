@@ -62,7 +62,7 @@ const About = () => {
                 Here are a few technologies I’ve been working with recently:
               </p>
 
-              <ul className="max-w-sm grid grid-cols-2 -mt-2 text-grey-400 dark:text-gray-400  font-nav font-thin  md:text-[1.05rem] lg:text-lg">
+              <ul className="max-w-sm grid grid-cols-2 text-grey-400 dark:text-gray-300  font-nav font-thin  md:text-[1.05rem] lg:text-lg">
                 <li className="flex items-center gap-2">
                   <ChevronRightIcon className="w-3 h-3" />
                   HTML5
