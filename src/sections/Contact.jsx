@@ -51,7 +51,7 @@ const Contact = () => {
             </h2>
             <p className="max-w-lg text-grey-400 text-lg leading-7 dark:text-gray-300">
               Have a project in mind? Looking to partner or work together? Reach
-              out through the form and I'll get back to you in the next 48
+              out through the form and I'll get back to you in the next 24
               hours.
             </p>
 
