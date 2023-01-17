@@ -97,7 +97,7 @@ const Projects = () => {
         className="pt-24"
       >
         {/* Heading */}
-        <h2 className="text-black-900 text-2xl text-center font-nav font-semibold mb-16 sm:text-3xl md:text-4xl lg:text-5xl">
+        <h2 className="text-black-900 dark:text-white text-2xl text-center font-nav font-semibold mb-16 sm:text-3xl md:text-4xl lg:text-5xl">
           My Work
         </h2>
 
@@ -119,11 +119,11 @@ const Projects = () => {
                   </div>
 
                   {/* Project description */}
-                  <div className="bg-black-900 p-5  sm:p-8 lg:p-12">
+                  <div className="bg-black-900 dark:bg-gray-50 p-5 sm:p-8 lg:p-12">
                     {/* <span className="gradient-text text-sm uppercase tracking-widest font-semibold">
                       Featured Project
                     </span> */}
-                    <h2 className="text-white text-xl font-bold mb-4 lg:text-2xl lg:mb-6 2xl:text-3xl">
+                    <h2 className="text-white dark:text-black-900 text-xl font-bold mb-4 lg:text-2xl lg:mb-6 2xl:text-3xl">
                       {project.name}
                     </h2>
 
@@ -141,7 +141,7 @@ const Projects = () => {
                     </div>
 
                     {/* Buttons container */}
-                    <div className="flex gap-4 lg:gap-8 lg:text-lg">
+                    <div className="flex gap-4 sm:justify-between lg:text-lg">
                       <a
                         href={project.hrefLink}
                         target="_blank"
@@ -153,7 +153,7 @@ const Projects = () => {
                       <a
                         href={project.githubLink}
                         target="_blank"
-                        className="group inline-flex items-center gap-1 text-white cursor-pointer"
+                        className="group inline-flex items-center gap-1 text-white dark:text-black-900 cursor-pointer"
                       >
                         Github Repo{" "}
                         <ArrowRightIcon className="w-4 h-4 duration-300 group-hover:translate-x-2" />

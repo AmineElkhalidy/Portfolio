@@ -9,7 +9,7 @@ const Header = () => {
 
   // Function that keeps tracking the scroll event
   const changeHeaderShadow = () => {
-    if (window.scrollY >= 250) {
+    if (window.scrollY >= 200) {
       setHeaderShadow(true);
     } else {
       setHeaderShadow(false);
@@ -23,7 +23,11 @@ const Header = () => {
   }, [window]);
 
   return (
-    <header className={`header ${headerShadow ? "shadow-xl" : ""}`}>
+    <header
+      className={`header ${
+        headerShadow ? "shadow-xl dark:shadow-gray-300/10" : ""
+      }`}
+    >
       <Navbar />
     </header>
   );

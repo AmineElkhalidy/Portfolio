@@ -18,7 +18,7 @@ const About = () => {
         className="pt-24"
       >
         {/* Heading */}
-        <h2 className="text-black-900 text-2xl text-center font-nav font-semibold mb-12 lg:mb-16 sm:text-3xl md:text-4xl lg:text-5xl">
+        <h2 className="text-black-900 dark:text-white text-2xl text-center font-nav font-semibold mb-12 lg:mb-16 sm:text-3xl md:text-4xl lg:text-5xl">
           Get to know me
         </h2>
 
@@ -26,7 +26,7 @@ const About = () => {
         <div className="grid gap-20 md:gap-0 md:grid-cols-2 lg:pl-12">
           <div>
             <div>
-              <p className="text-grey-500 mb-3 md:text-lg lg:text-xl">
+              <p className="text-grey-500 dark:text-gray-200 mb-3 md:text-lg lg:text-xl">
                 Hello, My name is{" "}
                 <span className=" gradient-text font-medium">
                   Amine Elkhalidy
@@ -41,7 +41,7 @@ const About = () => {
 
             {/* Services */}
             <div>
-              <p className="text-grey-500 mb-3 md:text-lg lg:text-xl">
+              <p className="text-grey-500 dark:text-gray-200 mb-3 md:text-lg lg:text-xl">
                 I am working as a freelancer on{" "}
                 <a
                   href="https://www.upwork.com/"
@@ -54,57 +54,15 @@ const About = () => {
                 , I've helped many clients to make their ideas live on the
                 network.
               </p>
-
-              {/* <ul className=" text-grey-400 grid gap-1 font-nav font-thin mt-1 mb-4 sm:grid-cols-2 md:text-[1.05rem]">
-                <li className="flex items-center gap-2">
-                  <CheckBadgeIcon className="w-5 h-5" />
-                  PSD/Figma to HTML
-                </li>
-
-                <li className="flex items-center gap-2">
-                  <CheckBadgeIcon className="w-5 h-5" />
-                  Static website
-                </li>
-
-                <li className="flex items-center gap-2">
-                  <CheckBadgeIcon className="w-5 h-5" />
-                  Components & Layouts dev
-                </li>
-
-                <li className="flex items-center gap-2">
-                  <CheckBadgeIcon className="w-5 h-5" />
-                  Pixel-perfect development
-                </li>
-
-                <li className="flex items-center gap-2">
-                  <CheckBadgeIcon className="w-5 h-5" />
-                  Responsiveness
-                </li>
-
-                <li className="flex items-center gap-2">
-                  <CheckBadgeIcon className="w-5 h-5" />
-                  Cross-browser compatibility
-                </li>
-
-                <li className="flex items-center gap-2">
-                  <CheckBadgeIcon className="w-5 h-5" />
-                  Google speed optimization (90+)
-                </li>
-
-                <li className="flex items-center gap-2">
-                  <CheckBadgeIcon className="w-5 h-5" />
-                  Mobile-first development
-                </li>
-              </ul> */}
             </div>
 
             {/* Technologies list */}
             <div>
-              <p className="text-grey-500 mb-2 md:text-lg lg:text-xl">
+              <p className="text-grey-500 dark:text-gray-200 mb-2 md:text-lg lg:text-xl">
                 Here are a few technologies I’ve been working with recently:
               </p>
 
-              <ul className="max-w-sm grid grid-cols-2 -mt-2 text-grey-400 font-nav font-thin  md:text-[1.05rem] lg:text-lg">
+              <ul className="max-w-sm grid grid-cols-2 -mt-2 text-grey-400 dark:text-gray-400  font-nav font-thin  md:text-[1.05rem] lg:text-lg">
                 <li className="flex items-center gap-2">
                   <ChevronRightIcon className="w-3 h-3" />
                   HTML5

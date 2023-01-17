@@ -19,7 +19,7 @@ const Skills = () => {
       >
         <div className="pt-24">
           {/* Heading */}
-          <h2 className="text-black-900 text-2xl text-center font-nav font-semibold mb-16 sm:text-3xl md:text-4xl lg:text-5xl">
+          <h2 className="text-black-900 dark:text-white text-2xl text-center font-nav font-semibold mb-16 sm:text-3xl md:text-4xl lg:text-5xl">
             Skills & Experience
           </h2>
 
@@ -44,7 +44,7 @@ const Skills = () => {
                   </div>
 
                   {/* skill name */}
-                  <p className="text-sm font-medium sm:text-md xl:text-lg text-black-400">
+                  <p className="text-sm font-medium sm:text-md xl:text-lg text-black-400 dark:text-gray-100">
                     {skill.name}
                   </p>
                 </motion.div>
@@ -64,13 +64,13 @@ const Skills = () => {
                     whileInView={{ opacity: [0, 1] }}
                     transition={{ duration: 0.5 }}
                   >
-                    <h4 className="text-black-900 text-md sm:text-lg lg:text-xl xl:text-2xl font-medium uppercase mb-[.75rem]">
+                    <h4 className="text-black-900 dark:text-white text-md sm:text-lg lg:text-xl xl:text-2xl font-medium uppercase mb-[.75rem]">
                       FrontEnd Developer
                     </h4>
-                    <p className="text-black-400 mb-[.5rem] xl:text-lg">
+                    <p className="text-black-400 dark:text-gray-300 mb-[.5rem] xl:text-lg">
                       I am working as a freelancer on Upwrok
                     </p>
-                    <p className="text-sm font-nav text-black-400 xl:text-base">
+                    <p className="text-sm font-nav dark:text-gray-300 text-black-400 xl:text-base">
                       Upwork
                     </p>
                   </motion.div>
@@ -88,13 +88,13 @@ const Skills = () => {
                     whileInView={{ opacity: [0, 1] }}
                     transition={{ duration: 0.5 }}
                   >
-                    <h4 className="text-black-900 text-md sm:text-lg lg:text-xl xl:text-2xl font-medium uppercase mb-[.75rem]">
+                    <h4 className="text-black-900 dark:text-white text-md sm:text-lg lg:text-xl xl:text-2xl font-medium uppercase mb-[.75rem]">
                       FrontEnd Developer
                     </h4>
-                    <p className="text-black-400 mb-[.5rem] xl:text-lg">
+                    <p className="text-black-400 dark:text-gray-300 mb-[.5rem] xl:text-lg">
                       I am working as a freelancer
                     </p>
-                    <p className="text-sm font-nav text-black-400 xl:text-base">
+                    <p className="text-sm font-nav dark:text-gray-300 text-black-400 xl:text-base">
                       Freelancer
                     </p>
                   </motion.div>
@@ -113,14 +113,14 @@ const Skills = () => {
                     transition={{ duration: 0.5 }}
                     className="ml-1"
                   >
-                    <h4 className="text-black-900 text-md sm:text-lg lg:text-xl xl:text-2xl font-medium uppercase mb-[.75rem]">
+                    <h4 className="text-black-900 dark:text-white text-md sm:text-lg lg:text-xl xl:text-2xl font-medium uppercase mb-[.75rem]">
                       FrontEnd & Alfresco Dev
                     </h4>
-                    <p className="text-black-400 mb-[.5rem] xl:text-lg">
+                    <p className="text-black-400 dark:text-gray-300  mb-[.5rem] xl:text-lg">
                       I have worked on customising Alfresco (CMS) for a large
                       organization
                     </p>
-                    <p className="text-sm font-nav text-black-400 xl:text-base">
+                    <p className="text-sm font-nav dark:text-gray-300 text-black-400 xl:text-base">
                       Prefecture d'arrondissement de Ben M'sick
                     </p>
                   </motion.div>
@@ -138,13 +138,13 @@ const Skills = () => {
                     whileInView={{ opacity: [0, 1] }}
                     transition={{ duration: 0.5 }}
                   >
-                    <h4 className="text-black-900 text-md sm:text-lg lg:text-xl xl:text-2xl font-medium uppercase mb-[.75rem]">
+                    <h4 className="text-black-900 dark:text-white text-md sm:text-lg lg:text-xl xl:text-2xl font-medium uppercase mb-[.75rem]">
                       FrontEnd Developer
                     </h4>
-                    <p className="text-grey-400 mb-[.5rem] xl:text-lg">
+                    <p className="text-grey-400 dark:text-gray-300 mb-[.5rem] xl:text-lg">
                       I have developped many frontend projects
                     </p>
-                    <p className="text-sm font-nav text-grey-400 xl:text-base">
+                    <p className="text-sm font-nav dark:text-gray-300 text-grey-400 xl:text-base">
                       By myslef
                     </p>
                   </motion.div>

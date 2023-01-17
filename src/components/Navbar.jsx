@@ -12,7 +12,6 @@ import Switcher from "./Switcher";
 const Navbar = () => {
   // Nav state
   const [open, setOpen] = useState(false);
-  const [darkMode, setDarkMode] = useState(false);
 
   return (
     <nav className="nav">
@@ -111,7 +110,7 @@ const Navbar = () => {
           <ul className="flex gap-8">
             <li>
               <a
-                className="font-nav font-semibold text-[1.05rem] duration-300 dark:text-grey-100"
+                className="font-nav font-semibold text-[1.05rem] duration-300 dark:text-gray-50"
                 href="#about"
               >
                 About
@@ -120,7 +119,7 @@ const Navbar = () => {
 
             <li>
               <a
-                className="font-nav font-semibold text-[1.05rem] duration-300 dark:text-grey-100"
+                className="font-nav font-semibold text-[1.05rem] duration-300 dark:text-gray-50"
                 href="#work"
               >
                 Work
@@ -129,7 +128,7 @@ const Navbar = () => {
 
             <li>
               <a
-                className="font-nav font-semibold text-[1.05rem] duration-300 dark:text-grey-100"
+                className="font-nav font-semibold text-[1.05rem] duration-300 dark:text-gray-50"
                 href="#skills"
               >
                 Skills
@@ -138,7 +137,7 @@ const Navbar = () => {
 
             <li>
               <a
-                className="font-nav font-semibold text-[1.05rem] duration-300 dark:text-grey-100"
+                className="font-nav font-semibold text-[1.05rem] duration-300 dark:text-gray-50"
                 href="#feedbacks"
               >
                 Testimonials
@@ -147,7 +146,7 @@ const Navbar = () => {
 
             <li>
               <a
-                className="font-nav font-semibold text-[1.05rem] duration-300 dark:text-grey-100"
+                className="font-nav font-semibold text-[1.05rem] duration-300 dark:text-gray-50"
                 href="#contact"
               >
                 Contact

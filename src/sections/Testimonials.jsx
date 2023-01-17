@@ -17,14 +17,17 @@ import { rowreviews1, rowreviews2, allReviews } from "../data/data";
 
 const Testimonials = () => {
   return (
-    <section className="md:min-h-screen bg-black-900" id="feedbacks">
+    <section
+      className="md:min-h-screen bg-black-900 dark:bg-white"
+      id="feedbacks"
+    >
       <motion.div
         whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
         transition={{ duration: 0.5 }}
         className="h-full w-full pt-24 pb-12 mb-12"
       >
         {/* Heading */}
-        <h2 className="text-white text-2xl text-center font-nav font-semibold mb-16 sm:text-3xl md:text-4xl lg:text-5xl">
+        <h2 className="text-white dark:text-black-900 text-2xl text-center font-nav font-semibold mb-16 sm:text-3xl md:text-4xl lg:text-5xl">
           Testimonials
         </h2>
 
