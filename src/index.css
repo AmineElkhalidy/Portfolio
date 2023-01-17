@@ -10,11 +10,11 @@
 }
 
 body {
-  @apply bg-white text-black-400 font-body;
+  @apply bg-white text-black-400 font-body dark:bg-black-900;
 }
 
 .header {
-  @apply bg-white w-full fixed top-0 left-0 z-50 duration-300;
+  @apply bg-white w-full fixed top-0 left-0 z-50 duration-300 dark:bg-black-900;
 }
 
 .nav {
@@ -34,7 +34,7 @@ body {
 }
 
 .nav__link {
-  @apply font-nav text-lg font-semibold text-black-900 hover:text-grey-300 duration-300;
+  @apply font-nav text-lg font-semibold text-black-900 dark:text-grey-100 duration-300;
 }
 
 .active-link {

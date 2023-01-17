@@ -6,21 +6,18 @@ import { motion } from "framer-motion";
 // Icons
 import { XMarkIcon, Bars3Icon } from "@heroicons/react/24/solid";
 
-import { SunIcon, MoonIcon } from "@heroicons/react/24/outline";
-
-// Avatar
-import Avatar from "../assets/images/Amine.png";
+// Switcher
+import Switcher from "./Switcher";
 
 const Navbar = () => {
   // Nav state
   const [open, setOpen] = useState(false);
-  const [darkModeMob, setDarkModeMob] = useState(false);
-  const [darkModeDesk, setDarkModeDesk] = useState(false);
+  const [darkMode, setDarkMode] = useState(false);
 
   return (
     <nav className="nav">
       <a
-        className="inline-flex items-center font-nav font-bold tracking-wide duration-300 text-black sm:text-xl"
+        className="inline-flex dark:text-white items-center font-nav font-bold tracking-wide duration-300 text-black  sm:text-xl"
         href="#"
       >
         {/* <img className="h-[2rem]" src={Avatar} alt="Avatar" /> */}
@@ -87,35 +84,20 @@ const Navbar = () => {
           </ul>
 
           <div
-            className="inline-block absolute top-6 right-8 cursor-pointer hover:text-secondary transition-colors duration-300"
+            className="inline-block absolute top-6 right-8 cursor-pointer duration-300"
             onClick={() => setOpen(false)}
           >
-            <XMarkIcon className="w-7 h-7 hover:text-grey-300" />
+            <XMarkIcon className="w-7 h-7 hover:text-grey-300 dark:text-gray-100 " />
           </div>
         </motion.div>
       ) : (
         <div className="flex items-center gap-3 duration-300 md:hidden">
-          {darkModeMob ? (
-            <div>
-              <SunIcon
-                className="w-7 h-7 cursor-pointer"
-                onClick={() => setDarkModeMob(false)}
-              />
-            </div>
-          ) : (
-            <div>
-              <MoonIcon
-                className="w-[1.7rem] h-[1.7rem] cursor-pointer"
-                onClick={() => setDarkModeMob(true)}
-              />
-            </div>
-          )}
-
+          <Switcher />
           <div
             className="nav__toggle"
             onClick={() => setOpen((prevState) => !prevState)}
           >
-            <Bars3Icon className="w-8 h-8" />
+            <Bars3Icon className="w-8 h-8 dark:text-white hover:text-gray-600 duration-300" />
           </div>
         </div>
       )}
@@ -129,7 +111,7 @@ const Navbar = () => {
           <ul className="flex gap-8">
             <li>
               <a
-                className="font-nav font-semibold text-[1.05rem] duration-300"
+                className="font-nav font-semibold text-[1.05rem] duration-300 dark:text-grey-100"
                 href="#about"
               >
                 About
@@ -138,7 +120,7 @@ const Navbar = () => {
 
             <li>
               <a
-                className="font-nav font-semibold text-[1.05rem] duration-300"
+                className="font-nav font-semibold text-[1.05rem] duration-300 dark:text-grey-100"
                 href="#work"
               >
                 Work
@@ -147,7 +129,7 @@ const Navbar = () => {
 
             <li>
               <a
-                className="font-nav font-semibold text-[1.05rem] duration-300"
+                className="font-nav font-semibold text-[1.05rem] duration-300 dark:text-grey-100"
                 href="#skills"
               >
                 Skills
@@ -156,7 +138,7 @@ const Navbar = () => {
 
             <li>
               <a
-                className="font-nav font-semibold text-[1.05rem] duration-300"
+                className="font-nav font-semibold text-[1.05rem] duration-300 dark:text-grey-100"
                 href="#feedbacks"
               >
                 Testimonials
@@ -165,44 +147,16 @@ const Navbar = () => {
 
             <li>
               <a
-                className="font-nav font-semibold text-[1.05rem] duration-300"
+                className="font-nav font-semibold text-[1.05rem] duration-300 dark:text-grey-100"
                 href="#contact"
               >
                 Contact
               </a>
             </li>
-
-            {/* <li>
-            {darkModeToggle ? (
-              <div className="">
-                <SunIcon
-                  className="w-6 h-6 cursor-pointer"
-                  onClick={() => setDarkModeToggle(false)}
-                />
-              </div>
-            ) : (
-              <div className="">
-                <MoonIcon
-                  className="w-[1.6rem] h-[1.6rem] cursor-pointer"
-                  onClick={() => setDarkModeToggle(true)}
-                />
-              </div>
-            )}
-          </li> */}
           </ul>
 
           <div>
-            {darkModeDesk ? (
-              <SunIcon
-                className="w-6 h-6 cursor-pointer"
-                onClick={() => setDarkModeDesk(false)}
-              />
-            ) : (
-              <MoonIcon
-                className="w-6 h-6 cursor-pointer"
-                onClick={() => setDarkModeDesk(true)}
-              />
-            )}
+            <Switcher />
           </div>
         </div>
       </motion.div>

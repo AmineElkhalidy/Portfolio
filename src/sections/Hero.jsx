@@ -28,7 +28,7 @@ const Hero = () => {
         >
           <div>
             {/* Introduction */}
-            <h1 className=" text-black-900 text-[2.5rem]  leading-none font-bold mb-3 md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
+            <h1 className=" text-black-900 text-[2.5rem] dark:text-gray-100  leading-none font-bold mb-3 md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
               Hello,
               <br />
               I am Amine,
@@ -37,7 +37,7 @@ const Hero = () => {
             </h1>
 
             {/* Profession */}
-            <p className="text-grey-400 font-medium text-xl font-nav mb-10 md:text-xl lg:text-2xl">
+            <p className="text-grey-400 font-medium text-xl font-nav mb-10 md:text-xl lg:text-2xl dark:text-gray-200">
               <TypeIt
                 options={{
                   afterComplete: function (instance) {
@@ -54,7 +54,7 @@ const Hero = () => {
             <div className="flex flex-col space-y-3 sm:flex-row sm:space-x-12">
               <div className="relative">
                 <a
-                  className="inline-block px-[31px] py-5 bg-black-900 text-white cursor-pointer text-lg duration-300 font-nav font-semibold z-10 hover:translate-x-2 hover:translate-y-2"
+                  className="inline-block px-[31px] py-5 bg-black-900 dark:text-black-900 dark:bg-gray-50 text-white cursor-pointer text-lg duration-300 font-nav font-semibold z-10 hover:translate-x-2 hover:translate-y-2"
                   href="#contact"
                 >
                   Contact me
