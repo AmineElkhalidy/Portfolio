@@ -90,6 +90,12 @@ export const work = [
 
 export const allReviews = [
   {
+    id: "r11",
+    name: "Jannetje Van Leeuwen",
+    description:
+      "Great and speedy communication from Amine. Very helpful and delivered great work in half the time requested. Will definitely use again and recommned.",
+  },
+  {
     id: "r1",
     name: "Mossaab Talbi",
     description:
@@ -149,6 +155,12 @@ export const allReviews = [
 ];
 
 export const rowreviews1 = [
+  {
+    id: "r11",
+    name: "Jannetje Van Leeuwen",
+    description:
+      "Great and speedy communication from Amine. Very helpful and delivered great work in half the time requested. Will definitely use again and recommned.",
+  },
   {
     id: "r1",
     name: "Mossaab Talbi",
