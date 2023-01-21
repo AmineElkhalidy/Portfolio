@@ -78,8 +78,7 @@ const Hero = () => {
 
             {/* Social container */}
             <motion.div
-              whileInView={{ y: [100, 0] }}
-              transition={{ delay: 0.1 }}
+              whileInView={{ y: [50, 0] }}
               className="hidden md:block absolute bottom-0"
             >
               <div className="bg-transparent flex flex-col gap-6 justify-center items-center">
