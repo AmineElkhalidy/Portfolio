@@ -28,7 +28,7 @@ const Testimonials = () => {
       >
         {/* Heading */}
         <h2 className="text-white dark:text-black-900 text-2xl text-center font-nav font-semibold mb-16 sm:text-3xl md:text-4xl lg:text-5xl">
-          Testimonials
+          Client Testimonials
         </h2>
 
         {/* All reviews */}
