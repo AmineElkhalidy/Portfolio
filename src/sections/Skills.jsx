@@ -17,7 +17,7 @@ const Skills = () => {
         >
           <div className="pt-24">
             {/* Heading */}
-            <h2 className="text-black-900 dark:text-white text-2xl text-center font-nav font-semibold mb-16 sm:text-3xl md:text-4xl lg:text-5xl">
+            <h2 className="text-black-900 dark:text-white text-2xl text-center font-nav font-bold mb-16 sm:text-3xl md:text-4xl lg:text-5xl">
               Skills & Experience
             </h2>
 
