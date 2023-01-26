@@ -27,7 +27,7 @@ const Testimonials = () => {
         className="h-full w-full pt-24 pb-12 mb-12"
       >
         {/* Heading */}
-        <h2 className="text-white dark:text-black-900 text-2xl text-center font-nav font-semibold mb-16 sm:text-3xl md:text-4xl lg:text-5xl">
+        <h2 className="text-white dark:text-black-900 text-2xl text-center font-nav font-bold mb-16 sm:text-3xl md:text-4xl lg:text-5xl">
           Client Testimonials
         </h2>
 
