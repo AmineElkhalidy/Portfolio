@@ -145,11 +145,12 @@ const Projects = () => {
                         <a
                           href={project.hrefLink}
                           target="_blank"
-                          className="gradient-text group inline-flex items-center sm:font-medium text-md gap-1 lg:text-lg cursor-pointer text-white"
+                          className="px-5 py-3 gradient group inline-flex items-center sm:font-medium text-md gap-1 lg:text-lg cursor-pointer text-white font-semibold"
                         >
                           View Project{" "}
-                          <ArrowRightIcon className="w-4 h-4 duration-300 group-hover:translate-x-2 text-orange-400" />
+                          <ArrowRightIcon className="w-4 h-4 duration-300 group-hover:translate-x-2 text-white " />
                         </a>
+
                         <a
                           href={project.githubLink}
                           target="_blank"
