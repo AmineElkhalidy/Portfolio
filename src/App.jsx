@@ -9,6 +9,7 @@ import {
   Skills,
   Contact,
   Testimonials,
+  Hobbies
 } from "./sections";
 
 const App = () => {
@@ -48,6 +49,7 @@ const App = () => {
         <Projects />
         <Skills />
         <Testimonials />
+        <Hobbies />
         <Contact />
       </main>
     </>

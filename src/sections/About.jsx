@@ -19,7 +19,7 @@ const About = () => {
         <motion.div
           whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
           transition={{ duration: 0.5 }}
-          className="pt-24"
+          className="pt-12"
         >
           {/* Heading */}
           <h2 className="text-black-900 dark:text-white text-2xl text-center font-nav font-bold mb-12 lg:mb-16 sm:text-3xl md:text-4xl lg:text-5xl">
