@@ -26,6 +26,7 @@ import NextLight from "../assets/images/nextjs-light.png";
 import Tailwind from "../assets/images/tailwind.png";
 import Redux from "../assets/images/redux.png";
 import Node from "../assets/images/node.png";
+import Sass from "../assets/images/sass.png";
 import Typescript from "../assets/images/typescript.png";
 
 const Projects = () => {
@@ -70,7 +71,7 @@ const Projects = () => {
       image: Shoesit,
       hrefLink: "https://shoesit.vercel.app/",
       githubLink: "https://github.com/AmineElkhalidy/shoesit",
-      technologies: [REACT],
+      technologies: [REACT, Sass],
     },
     {
       name: "Rotin Niajad",
