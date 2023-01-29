@@ -119,7 +119,7 @@ const Skills = () => {
                         organization
                       </p>
                       <p className="text-sm font-nav dark:text-gray-300 text-black-400 xl:text-base">
-                        Prefecture d'arrondissement de Ben M'sick
+                        Prefecture d'arrondissement de Ben M'sick - Casablanca
                       </p>
                     </motion.div>
                   </div>
