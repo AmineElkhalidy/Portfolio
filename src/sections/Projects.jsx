@@ -145,7 +145,7 @@ const Projects = () => {
                         <a
                           href={project.hrefLink}
                           target="_blank"
-                          className="px-5 py-3 gradient group inline-flex items-center sm:font-medium text-md gap-1 lg:text-lg cursor-pointer text-white font-semibold"
+                          className="p-3 sm:px-5 sm:py-3 gradient group inline-flex items-center sm:font-medium text-md gap-1 lg:text-lg cursor-pointer text-white font-semibold"
                         >
                           View Project{" "}
                           <ArrowRightIcon className="w-4 h-4 duration-300 group-hover:translate-x-2 text-white " />
