@@ -16,7 +16,7 @@ const Hobbies = () => {
         <motion.div
           whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
           transition={{ duration: 0.3 }}
-          className="pt-12 pb-16 xl:pt-20"
+          className="pt-12 pb-16 xl:pt-16"
         >
           {/* Heading */}
           <h2 className="text-black-900 dark:text-white text-2xl text-center font-nav font-bold mb-12 lg:mb-16 sm:text-3xl md:text-4xl lg:text-5xl">
