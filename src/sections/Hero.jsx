@@ -14,10 +14,10 @@ import CV from "../assets/pdf/Amine-Elkhalidy.pdf";
 
 const Hero = () => {
   return (
-    <section className="h-full w-full">
-      <div className="max-w-6xl mx-auto px-6 min-h-screen">
+    <section>
+      <div className="max-w-6xl mx-auto px-6 xl:px-0">
         {/* Content Container with animation */}
-        <div className="h-screen flex items-center mt-20 sm:mt-16 lg:mt-12">
+        <div className="min-h-screen flex items-center mt-20 sm:mt-16 lg:mt-12">
           <div className="relative">
             <motion.div
               whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
