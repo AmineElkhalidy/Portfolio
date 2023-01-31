@@ -26,9 +26,9 @@ const Navbar = () => {
       {/* Mobile navigation */}
       {open ? (
         <motion.div
-          whileInView={{ x: [200, 0] }}
-          transition={{ duration: 0.55, ease: "easeOut" }}
-          className="nav__menu"
+          className={`fixed top-0 z-50 w-[80%] border-l-2 h-screen flex flex-col justify-center items-center bg-opacity-50 backdrop-blur-xl drop-shadow-md md:hidden ${
+            open ? "right-0" : "right-[-100%]"
+          } `}
         >
           <ul className="nav__list">
             <li>
