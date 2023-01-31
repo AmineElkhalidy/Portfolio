@@ -89,7 +89,7 @@ const Contact = () => {
                       First Name
                     </label>
                     <input
-                      className="w-full py-3 pl-6 bg-[#f2f6f7] border-none outline-none"
+                      className="w-full py-3 pl-6 bg-[#f2f6f7] outline-none duration-300 focus:border focus:border-orange-400"
                       type="text"
                       name="first-name"
                       id="firstName"
@@ -113,7 +113,7 @@ const Contact = () => {
                       Last Name
                     </label>
                     <input
-                      className="w-full py-3 pl-6 bg-[#f2f6f7] border-none outline-none"
+                      className="w-full py-3 pl-6 bg-[#f2f6f7] duration-300 focus:border focus:border-orange-400 outline-none"
                       type="text"
                       name="last-name"
                       id="lastName"
@@ -140,7 +140,7 @@ const Contact = () => {
                     </label>
 
                     <input
-                      className="w-full py-3 pl-6 bg-[#f2f6f7] border-none outline-none"
+                      className="w-full py-3 pl-6 bg-[#f2f6f7] duration-300 focus:border focus:border-orange-400 outline-none"
                       type="text"
                       name="email"
                       id="email"
@@ -166,7 +166,7 @@ const Contact = () => {
                       Tell me a bit more what you are looking for?
                     </label>
                     <textarea
-                      className="w-full pt-4 pl-6 outline-none border-none pb-24 bg-[#f2f6f7]"
+                      className="w-full pt-4 pl-6 outline-none duration-300 focus:border focus:border-orange-400 pb-24 bg-[#f2f6f7] resize-none"
                       name="message"
                       id="message"
                       maxLength="5000"
