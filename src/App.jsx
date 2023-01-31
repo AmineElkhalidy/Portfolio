@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 // Sections
 import {
@@ -9,11 +9,16 @@ import {
   Skills,
   Contact,
   Testimonials,
-  Hobbies
+  Hobbies,
 } from "./sections";
 
+// icons
+import { ArrowUpIcon } from "@heroicons/react/24/outline";
+
 const App = () => {
-  React.useEffect(() => {
+  const [showArrow, setShowArrow] = useState(false);
+
+  useEffect(() => {
     const sections = document.querySelectorAll("section[id]");
 
     function scrollActive() {
@@ -35,9 +40,23 @@ const App = () => {
         }
       });
     }
+
     window.addEventListener("scroll", scrollActive);
 
     return () => window.removeEventListener("scroll", scrollActive);
+  }, []);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 450) setShowArrow(true);
+      else setShowArrow(false);
+    });
+
+    return () =>
+      window.removeEventListener("scroll", () => {
+        if (window.scrollY) setShowArrow(true);
+        else setShowArrow(false);
+      });
   }, []);
 
   return (
@@ -52,6 +71,16 @@ const App = () => {
         <Hobbies />
         <Contact />
       </main>
+
+      {/* Arrow up */}
+      <a
+        href="#"
+        className={`fixed p-1.5 duration-300 opacity-50 -right-10 bottom-2 gradient hover:opacity-100 ${
+          showArrow ? "right-2" : ""
+        }`}
+      >
+        <ArrowUpIcon className="w-6 h-6 text-white" />
+      </a>
     </>
   );
 };
