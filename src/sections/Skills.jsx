@@ -124,30 +124,6 @@ const Skills = () => {
                     </motion.div>
                   </div>
                 </div>
-
-                {/* 2020 */}
-                <div className="flex space-x-12">
-                  <p className="gradient-text text-md sm:text-lg lg:text-xl xl:text-2xl font-semibold">
-                    2020
-                  </p>
-
-                  <div>
-                    <motion.div
-                      whileInView={{ opacity: [0, 1] }}
-                      transition={{ duration: 0.5 }}
-                    >
-                      <h4 className="text-black-900 dark:text-white text-md sm:text-lg lg:text-xl xl:text-2xl font-medium uppercase mb-[.75rem]">
-                        FrontEnd Developer
-                      </h4>
-                      <p className="text-grey-400 dark:text-gray-300 mb-[.5rem] xl:text-lg">
-                        I have developped many frontend projects
-                      </p>
-                      <p className="text-sm font-nav dark:text-gray-300 text-grey-400 xl:text-base">
-                        By myslef
-                      </p>
-                    </motion.div>
-                  </div>
-                </div>
               </div>
             </motion.div>
           </div>
