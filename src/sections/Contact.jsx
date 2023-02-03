@@ -17,10 +17,6 @@ import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/solid";
 const Contact = () => {
   // formSpree state
   const [state, handleSubmit] = useForm("xeqdeyeo");
-  let firstName = null;
-  let lastName = null;
-  let email = null;
-  let message = null;
 
   // current year
   const currentYear = new Date().getFullYear();
@@ -30,10 +26,7 @@ const Contact = () => {
     toast.success("Thank you for your message, I'll contact you ASAP.");
 
   if (state.succeeded) {
-    firstName = "";
-    lastName = "";
-    email = "";
-    message = "";
+    notify();
   }
   return (
     <section className="h-full w-full" id="contact">
@@ -94,12 +87,11 @@ const Contact = () => {
                       name="first-name"
                       id="firstName"
                       placeholder="First Name"
-                      value={firstName}
                       required
                     />
                     <ValidationError
                       prefix="First Name"
-                      field="firstName"
+                      field="first-Name"
                       errors={state.errors}
                     />
                   </div>
@@ -118,12 +110,11 @@ const Contact = () => {
                       name="last-name"
                       id="lastName"
                       placeholder="Last Name"
-                      value={lastName}
                       required
                     />
                     <ValidationError
                       prefix="Last Name"
-                      field="lastName"
+                      field="last-Name"
                       errors={state.errors}
                     />
                   </div>
@@ -145,7 +136,6 @@ const Contact = () => {
                       name="email"
                       id="email"
                       placeholder="Enter your e-mail"
-                      value={email}
                       required
                     />
                     <ValidationError
@@ -171,7 +161,6 @@ const Contact = () => {
                       id="message"
                       maxLength="5000"
                       placeholder="Explain here"
-                      value={message}
                       autoCorrect="false"
                     ></textarea>
                     <ValidationError
@@ -193,22 +182,22 @@ const Contact = () => {
                     Submit Now!
                   </button>
 
-                  <ToastContainer
-                    className="top-20 px-6 sm:px-0"
-                    position="top-center"
-                    autoClose={3000}
-                    hideProgressBar={true}
-                    newestOnTop={false}
-                    closeOnClick
-                    rtl={false}
-                    pauseOnFocusLoss
-                    draggable
-                    pauseOnHover
-                    theme="colored"
-                  />
-
                   <span className="contact-btn absolute -z-10 top-2 left-2 px-[5.25rem] py-[2.15rem] bg-red-500" />
                 </div>
+
+                <ToastContainer
+                  className="top-20"
+                  position="top-center"
+                  autoClose={3000}
+                  hideProgressBar={true}
+                  newestOnTop={false}
+                  closeOnClick
+                  rtl={false}
+                  pauseOnFocusLoss
+                  draggable
+                  pauseOnHover
+                  theme="colored"
+                />
               </form>
             </div>
           </div>
