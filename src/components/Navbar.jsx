@@ -26,7 +26,7 @@ const Navbar = () => {
       {/* Mobile navigation */}
       {open ? (
         <motion.div
-          className={`fixed top-0 z-50 w-[80%] border-l-2 h-screen flex flex-col justify-center items-center bg-opacity-50 backdrop-blur-xl drop-shadow-md md:hidden ${
+          className={`fixed top-0 z-50 w-[80%] border-l-2 h-screen flex flex-col justify-center items-center bg-opacity-50 backdrop-blur-xl duration-[0.4s] drop-shadow-md md:hidden ${
             open ? "right-0" : "right-[-100%]"
           } `}
         >
