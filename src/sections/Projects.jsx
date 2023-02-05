@@ -30,7 +30,7 @@ import Sass from "../assets/images/sass.png";
 import Typescript from "../assets/images/typescript.png";
 
 const Projects = () => {
-  const projects = [
+  const firstRowOfProjects = [
     {
       name: "Funiro",
       image: Funiro,
@@ -45,6 +45,23 @@ const Projects = () => {
       githubLink: "https://github.com/SamoudiAnas/Mamirou",
       technologies: [REACT, Redux, Typescript],
     },
+    {
+      name: "Rotin Niajad",
+      image: Rotinniajad,
+      hrefLink: "https://rotinniajad.com",
+      githubLink: "https://github.com/AmineElkhalidy/rotinniajad",
+      technologies: [Html, Tailwind],
+    },
+    {
+      name: "Userhive",
+      image: Userhive,
+      hrefLink: "https://www.userhive.co/",
+      githubLink: "https://github.com/AmineElkhalidy/userhive",
+      technologies: [NextLight, Tailwind],
+    },
+  ];
+
+  const secondRowOfProjects = [
     {
       name: "Clipboarding",
       image: Clipboarding,
@@ -73,20 +90,6 @@ const Projects = () => {
       githubLink: "https://github.com/AmineElkhalidy/shoesit",
       technologies: [REACT, Sass],
     },
-    {
-      name: "Rotin Niajad",
-      image: Rotinniajad,
-      hrefLink: "https://rotinniajad.com",
-      githubLink: "https://github.com/AmineElkhalidy/rotinniajad",
-      technologies: [Html, Tailwind],
-    },
-    {
-      name: "Userhive",
-      image: Userhive,
-      hrefLink: "https://www.userhive.co/",
-      githubLink: "https://github.com/AmineElkhalidy/userhive",
-      technologies: [NextLight, Tailwind],
-    },
   ];
 
   return (
@@ -103,69 +106,80 @@ const Projects = () => {
           </h2>
 
           {/* Work Container */}
-          <div className="grid gap-8 place-items-center lg:gap-10 lg:grid-cols-2 lg:px-0">
-            {projects.map((project, index) => (
-              <motion.div whileInView={{ opacity: [0, 1] }} key={index}>
-                {/* Project container */}
-                <div className="max-w-sm sm:max-w-md md:max-w-lg lg:w-full">
-                  {/* Container */}
-                  <div className="relative">
-                    {/* Image container */}
-                    <div className="h-[250px] sm:h-[300px]">
-                      <img
-                        className="h-full w-full border-2 border-black-900 dark:border-white lg:w-full"
-                        src={project.image}
-                        alt={project.name}
-                      />
-                    </div>
-
-                    {/* Project description */}
-                    <div className="bg-black-900 dark:bg-gray-50 p-5 sm:p-8 lg:p-12">
-                      {/* <span className="gradient-text text-sm uppercase tracking-widest font-semibold">
-                      Featured Project
-                    </span> */}
-                      <h2 className="text-white dark:text-black-900 text-xl font-bold mb-4 lg:text-2xl lg:mb-6 2xl:text-3xl">
-                        {project.name}
-                      </h2>
-
-                      {/* Technologies used */}
-                      <div className="w-full flex gap-4  mb-5">
-                        {project.technologies.map((tech, index) => (
-                          <div className="w-[12%]" key={index}>
-                            <img
-                              className="w-full h-full "
-                              src={tech}
-                              alt={tech}
-                            />
-                          </div>
-                        ))}
+          <div className="w-full h-full">
+            <div className="grid gap-8 place-items-center lg:gap-10 lg:grid-cols-2 lg:px-0">
+              {firstRowOfProjects.map((project, index) => (
+                <motion.div whileInView={{ opacity: [0, 1] }} key={index}>
+                  {/* Project container */}
+                  <div className="max-w-sm sm:max-w-md md:max-w-lg lg:w-full">
+                    {/* Container */}
+                    <div className="relative">
+                      {/* Image container */}
+                      <div className="h-[250px] sm:h-[300px]">
+                        <img
+                          className="h-full w-full border-2 border-black-900 dark:border-white lg:w-full"
+                          src={project.image}
+                          alt={project.name}
+                        />
                       </div>
 
-                      {/* Buttons container */}
-                      <div className="flex justify-between lg:text-lg">
-                        <a
-                          href={project.hrefLink}
-                          target="_blank"
-                          className="p-3 sm:px-5 sm:py-3 gradient group inline-flex items-center sm:font-medium text-md gap-1 lg:text-lg cursor-pointer text-white font-semibold"
-                        >
-                          View Project{" "}
-                          <ArrowRightIcon className="w-4 h-4 duration-300 group-hover:translate-x-2 text-white " />
-                        </a>
+                      {/* Project description */}
+                      <div className="bg-black-900 dark:bg-gray-50 p-5 sm:p-8 lg:p-12">
+                        {/* <span className="gradient-text text-sm uppercase tracking-widest font-semibold">
+                      Featured Project
+                    </span> */}
+                        <h2 className="text-white dark:text-black-900 text-xl font-bold mb-4 lg:text-2xl lg:mb-6 2xl:text-3xl">
+                          {project.name}
+                        </h2>
 
-                        <a
-                          href={project.githubLink}
-                          target="_blank"
-                          className="group inline-flex items-center sm:font-medium text-md gap-1 lg:text-lg text-white dark:text-black-900 cursor-pointer"
-                        >
-                          Github Repo{" "}
-                          <ArrowRightIcon className="w-4 h-4 duration-300 group-hover:translate-x-2" />
-                        </a>
+                        {/* Technologies used */}
+                        <div className="w-full flex gap-4  mb-5">
+                          {project.technologies.map((tech, index) => (
+                            <div className="w-[12%]" key={index}>
+                              <img
+                                className="w-full h-full "
+                                src={tech}
+                                alt={tech}
+                              />
+                            </div>
+                          ))}
+                        </div>
+
+                        {/* Buttons container */}
+                        <div className="flex justify-between lg:text-lg">
+                          <a
+                            href={project.hrefLink}
+                            target="_blank"
+                            className="p-3 sm:px-5 sm:py-3 gradient group inline-flex items-center sm:font-medium text-md gap-1 lg:text-lg cursor-pointer text-white font-semibold"
+                          >
+                            View Project{" "}
+                            <ArrowRightIcon className="w-4 h-4 duration-300 group-hover:translate-x-2 text-white " />
+                          </a>
+
+                          <a
+                            href={project.githubLink}
+                            target="_blank"
+                            className="group inline-flex items-center sm:font-medium text-md gap-1 lg:text-lg text-white dark:text-black-900 cursor-pointer"
+                          >
+                            Github Repo{" "}
+                            <ArrowRightIcon className="w-4 h-4 duration-300 group-hover:translate-x-2" />
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </motion.div>
-            ))}
+                </motion.div>
+              ))}
+            </div>
+
+            <div className="mt-16 text-center">
+              <a
+                className="inline-block px-10 py-5 gradient text-white cursor-pointer text-lg duration-300 font-nav font-semibold hover:scale-105"
+                href="#contact"
+              >
+                Show more
+              </a>
+            </div>
           </div>
         </motion.div>
       </div>
