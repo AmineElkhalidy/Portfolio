@@ -9,7 +9,7 @@ import {
   TvIcon,
   CodeBracketIcon,
 } from "@heroicons/react/24/solid";
-Z;
+
 const Hobbies = () => {
   return (
     <section className="pt-24 pb-16">
