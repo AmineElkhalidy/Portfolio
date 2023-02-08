@@ -8,14 +8,14 @@ import { skills } from "../data/data";
 
 const Skills = () => {
   return (
-    <section className="w-full h-full" id="skills">
-      <div className="relative mb-10">
+    <section className="pt-[6.25rem] pb-8" id="skills">
+      <div className="relative">
         <motion.div
           whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
           transition={{ duration: 0.5 }}
           className="max-w-6xl mx-auto px-6 lg:max-w-7xl"
         >
-          <div className="pt-24">
+          <div>
             {/* Heading */}
             <h2 className="text-black-900 dark:text-white text-2xl text-center font-nav font-bold mb-16 sm:text-3xl md:text-4xl lg:text-5xl">
               Skills & Experience

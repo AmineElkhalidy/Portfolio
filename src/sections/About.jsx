@@ -7,19 +7,15 @@ import { ChevronRightIcon } from "@heroicons/react/24/outline";
 import { motion } from "framer-motion";
 
 // Amine Image
-import Amine from "../assets/images/AmineElkhalidy.jpg";
-import AmineGreen from "../assets/images/Amine-Elkhalidy.jpg";
-import AmineGrey from "../assets/images/Amine-greybg.jpg";
 import AmineLightGrey from "../assets/images/Amine-lightgrey.jpg";
 
 const About = () => {
   return (
-    <section className="h-full w-full" id="about">
+    <section className="pt-[6.25rem]" id="about">
       <div className="max-w-6xl mx-auto px-6 min-h-screen xl:px-0">
         <motion.div
           whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
           transition={{ duration: 0.5 }}
-          className="pt-12 md:pt-24"
         >
           {/* Heading */}
           <h2 className="text-black-900 dark:text-white text-2xl text-center font-nav font-bold mb-12 lg:mb-16 sm:text-3xl md:text-4xl lg:text-5xl">

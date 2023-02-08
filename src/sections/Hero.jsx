@@ -48,7 +48,6 @@ const Hero = () => {
                 </p>
 
                 {/* Contact me button */}
-
                 <div className="flex flex-col space-y-3 sm:flex-row sm:space-x-12">
                   <div className="relative">
                     <a

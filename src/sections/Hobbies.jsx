@@ -1,22 +1,22 @@
-import React from 'react'
+import React from "react";
 
 // motion
 import { motion } from "framer-motion";
 
 // Icons
-import { BookOpenIcon, TvIcon, CodeBracketIcon } from "@heroicons/react/24/solid";
-
-
+import {
+  BookOpenIcon,
+  TvIcon,
+  CodeBracketIcon,
+} from "@heroicons/react/24/solid";
+Z;
 const Hobbies = () => {
-
-
   return (
-    <section>
-      <div className="max-w-6xl mx-auto px-6 xl:px-0">
+    <section className="pt-24 pb-16">
+      <div className="max-w-6xl mx-auto px-6 xl:px-0 ">
         <motion.div
           whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
           transition={{ duration: 0.3 }}
-          className="pt-12 pb-16 xl:pt-16"
         >
           {/* Heading */}
           <h2 className="text-black-900 dark:text-white text-2xl text-center font-nav font-bold mb-12 lg:mb-16 sm:text-3xl md:text-4xl lg:text-5xl">
@@ -45,6 +45,6 @@ const Hobbies = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Hobbies
+export default Hobbies;

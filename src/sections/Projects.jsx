@@ -95,12 +95,11 @@ const Projects = () => {
   // Show projects state
   const [showMore, setShowMore] = useState(false);
   return (
-    <section className="h-full w-full" id="work">
+    <section className="pt-[6.25rem]" id="work">
       <div className="max-w-6xl mx-auto px-6 min-h-screen">
         <motion.div
           whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
           transition={{ duration: 0.5 }}
-          className="pt-24"
         >
           {/* Heading */}
           <h2 className="text-black-900 dark:text-white text-2xl text-center font-nav font-bold mb-16 sm:text-3xl md:text-4xl lg:text-5xl">
