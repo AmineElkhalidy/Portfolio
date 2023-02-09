@@ -12,7 +12,7 @@ import AmineLightGrey from "../assets/images/Amine-lightgrey.jpg";
 const About = () => {
   return (
     <section className="pt-[6.25rem]" id="about">
-      <div className="max-w-6xl mx-auto px-6 min-h-screen xl:px-0">
+      <div className="max-w-6xl mx-auto px-6 xl:px-0">
         <motion.div
           whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
           transition={{ duration: 0.5 }}
