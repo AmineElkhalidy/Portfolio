@@ -9,19 +9,24 @@
       content="I am a professional web developer, I build responsive real world projects that lives on the internet using the following techStack: HTML5, CSS3, JavaScript(ES7), React and more"
     />
 
-    <meta property="og:title" content="Amine Elkhalidy Portfolio" />
-    <meta
-      property="og:description"
-      content="I am Amine Elkhalidy, a web developer interested in web technologies espacially Javascript and its libraries and frameworks, mainly React.js"
-    />
-    <meta property="og:url" content="https://amineelkhalidy.vercel.app" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="./src/assets/developping.svg" />
-    <meta property="og:locale" content="en_GB" />
-
     <link rel="icon" type="image/png" href="./public/webclip.png" />
 
     <title>Amine Elkhalidy</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-S3S3P9H4NE"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-S3S3P9H4NE");
+    </script>
   </head>
   <body>
     <div id="root"></div>
