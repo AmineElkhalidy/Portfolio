@@ -62,9 +62,9 @@ const Skills = () => {
                       whileInView={{ opacity: [0, 1] }}
                       transition={{ duration: 0.5 }}
                     >
-                      <h4 className="text-black-900 dark:text-white text-md sm:text-lg lg:text-xl xl:text-2xl font-medium uppercase mb-[.75rem]">
+                      <h3 className="text-black-900 dark:text-white text-md sm:text-lg lg:text-xl xl:text-2xl font-medium uppercase mb-[.75rem]">
                         FrontEnd Developer
-                      </h4>
+                      </h3>
                       <p className="text-black-400 dark:text-gray-300 mb-[.5rem] xl:text-lg">
                         I am working as a freelancer on Upwrok
                       </p>
@@ -86,9 +86,9 @@ const Skills = () => {
                       whileInView={{ opacity: [0, 1] }}
                       transition={{ duration: 0.5 }}
                     >
-                      <h4 className="text-black-900 dark:text-white text-md sm:text-lg lg:text-xl xl:text-2xl font-medium uppercase mb-[.75rem]">
+                      <h3 className="text-black-900 dark:text-white text-md sm:text-lg lg:text-xl xl:text-2xl font-medium uppercase mb-[.75rem]">
                         FrontEnd Developer
-                      </h4>
+                      </h3>
                       <p className="text-black-400 dark:text-gray-300 mb-[.5rem] xl:text-lg">
                         I am working as a freelancer
                       </p>
@@ -111,9 +111,9 @@ const Skills = () => {
                       transition={{ duration: 0.5 }}
                       className="ml-1"
                     >
-                      <h4 className="text-black-900 dark:text-white text-md sm:text-lg lg:text-xl xl:text-2xl font-medium uppercase mb-[.75rem]">
+                      <h3 className="text-black-900 dark:text-white text-md sm:text-lg lg:text-xl xl:text-2xl font-medium uppercase mb-[.75rem]">
                         FrontEnd & Alfresco Dev
-                      </h4>
+                      </h3>
                       <p className="text-black-400 dark:text-gray-300  mb-[.5rem] xl:text-lg">
                         I have worked on customising Alfresco (CMS) for a large
                         organization

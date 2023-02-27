@@ -85,6 +85,7 @@ const Hero = () => {
                   className="cursor-pointer hover:-translate-y-1 duration-200"
                   href="https://www.upwork.com/freelancers/~01f55a2d4b119d3119"
                   target="_blank"
+                  aria-label="Upwork Profile"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -101,6 +102,7 @@ const Hero = () => {
                   className="cursor-pointer hover:-translate-y-1 duration-200"
                   href="https://www.fiverr.com/amineelkhalidy"
                   target="_blank"
+                  aria-label="Fiverr Profile"
                 >
                   <svg
                     className="w-[1.6rem] dark:fill-white fill-black-900"
@@ -118,6 +120,7 @@ const Hero = () => {
                   className="cursor-pointer hover:-translate-y-1 duration-200"
                   href="https://github.com/AmineElkhalidy"
                   target="_blank"
+                  aria-label="Github Profile"
                 >
                   <svg
                     className="fill-black-900 dark:fill-white w-[1.85rem] -ml-[.20rem] h-full"
@@ -135,6 +138,7 @@ const Hero = () => {
                   className="cursor-pointer hover:-translate-y-1 duration-200 "
                   href="https://www.linkedin.com/in/amine-elkhalidy/"
                   target="_blank"
+                  aria-label="Linkedin Profile"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

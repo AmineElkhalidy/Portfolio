@@ -103,7 +103,7 @@ const About = () => {
                   <img
                     className="w-full h-full object-cover"
                     src={AmineLightGrey}
-                    alt="Amine preview img"
+                    alt="Amine Elkhalidy"
                   />
                 </div>
                 <div className="w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] image -z-10 absolute top-0 left-0" />

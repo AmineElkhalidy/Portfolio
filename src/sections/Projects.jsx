@@ -118,7 +118,7 @@ const Projects = () => {
                       {/* Image container */}
                       <div className="h-[250px] sm:h-[300px]">
                         <img
-                          className="h-full w-full border-2 border-black-900 dark:border-white lg:w-full"
+                          className="h-full w-full border-2 border-black-900 object-cover dark:border-white lg:w-full"
                           src={project.image}
                           alt={project.name}
                         />
@@ -182,7 +182,7 @@ const Projects = () => {
                         {/* Image container */}
                         <div className="h-[250px] sm:h-[300px]">
                           <img
-                            className="h-full w-full border-2 border-black-900 dark:border-white lg:w-full"
+                            className="h-full w-full border-2 border-black-900 object-cover dark:border-white lg:w-full"
                             src={project.image}
                             alt={project.name}
                           />
