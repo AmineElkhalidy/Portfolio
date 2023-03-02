@@ -13,12 +13,12 @@ import Git from "../assets/images/git.png";
 import Chakra from "../assets/images/chakra.png";
 
 // Projects
-import Mamiro from "../assets/images/projects/mamiro.png";
+import Mamiro from "../assets/images/projects/mamiro.webp";
 import Shoesit from "../assets/images/projects/shoesit.png";
 import Omnifood from "../assets/images/projects/omnifood.png";
 import Clipboarding from "../assets/images/projects/clipboarding.png";
 import Rotinniajad from "../assets/images/projects/rotinniajad.png";
-import Rachid from "../assets/images/projects/elqssab.png";
+import Rachid from "../assets/images/projects/elqssab.webp";
 import Shoppingstore from "../assets/images/projects/shoppingstore.png";
 
 // Data
