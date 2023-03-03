@@ -78,6 +78,7 @@ const App = () => {
         className={`fixed p-1.5 duration-300 opacity-50 -right-10 bottom-2 gradient hover:opacity-100 ${
           showArrow ? "right-2" : ""
         }`}
+        aria-labelledby="Go Up"
       >
         <ArrowUpIcon className="w-6 h-6 text-white" />
       </a>
