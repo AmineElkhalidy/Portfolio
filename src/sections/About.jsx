@@ -7,7 +7,7 @@ import { ChevronRightIcon } from "@heroicons/react/24/outline";
 import { motion } from "framer-motion";
 
 // Amine Image
-import AmineLightGrey from "../assets/images/Amine-lightgrey.jpg";
+import AmineLightGrey from "../assets/images/Amine-lightgrey.webp";
 
 const About = () => {
   return (
