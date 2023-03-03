@@ -8,13 +8,13 @@ import { motion } from "framer-motion";
 
 // Data
 import Mamiru from "../assets/images/projects/mamiro.webp";
-import Tasty from "../assets/images/projects/tasty.png";
-import Omnifood from "../assets/images/projects/omnifood.png";
-import Clipboarding from "../assets/images/projects/clipboarding.png";
-import Shoesit from "../assets/images/projects/shoesit.png";
-import Rotinniajad from "../assets/images/projects/rotinniajad.png";
+import Tasty from "../assets/images/projects/tasty.webp";
+import Omnifood from "../assets/images/projects/omnifood.webp";
+import Clipboarding from "../assets/images/projects/clipboarding.webp";
+import Shoesit from "../assets/images/projects/shoesit.webp";
+import Rotinniajad from "../assets/images/projects/rotinniajad.webp";
 import Funiro from "../assets/images/projects/funiro.webp";
-import Userhive from "../assets/images/projects/userhive.png";
+import Userhive from "../assets/images/projects/userhive.webp";
 
 // Images
 import Html from "../assets/images/html.png";
