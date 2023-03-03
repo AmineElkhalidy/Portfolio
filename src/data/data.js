@@ -1,16 +1,16 @@
 // Technologies
-import Html from "../assets/images/html.png";
-import Css from "../assets/images/css.png";
-import JavaScript from "../assets/images/javascript.png";
-import ReactImg from "../assets/images/react.png";
-import Sass from "../assets/images/sass.png";
-import Node from "../assets/images/node.png";
-import Next from "../assets/images/next.png";
-import Tailwind from "../assets/images/tailwind.png";
-import Redux from "../assets/images/redux.png";
-import TypeScript from "../assets/images/typescript.png";
-import Git from "../assets/images/git.png";
-import Chakra from "../assets/images/chakra.png";
+import Html from "../assets/images/html.webp";
+import Css from "../assets/images/css.webp";
+import JavaScript from "../assets/images/javascript.webp";
+import ReactImg from "../assets/images/react.webp";
+import Sass from "../assets/images/sass.webp";
+import Node from "../assets/images/node.webp";
+import Next from "../assets/images/next.webp";
+import Tailwind from "../assets/images/tailwind.webp";
+import Redux from "../assets/images/redux.webp";
+import TypeScript from "../assets/images/typescript.webp";
+import Git from "../assets/images/git.webp";
+import Chakra from "../assets/images/chakra.webp";
 
 // Projects
 import Mamiro from "../assets/images/projects/mamiro.webp";
