@@ -17,17 +17,17 @@ import Funiro from "../assets/images/projects/funiro.webp";
 import Userhive from "../assets/images/projects/userhive.webp";
 
 // Images
-import Html from "../assets/images/html.png";
-import Css from "../assets/images/css.png";
-import Js from "../assets/images/javascript.png";
-import REACT from "../assets/images/react.png";
-import Next from "../assets/images/next.png";
-import NextLight from "../assets/images/nextjs-light.png";
-import Tailwind from "../assets/images/tailwind.png";
-import Redux from "../assets/images/redux.png";
-import Node from "../assets/images/node.png";
-import Sass from "../assets/images/sass.png";
-import Typescript from "../assets/images/typescript.png";
+import Html from "../assets/images/html.webp";
+import Css from "../assets/images/css.webp";
+import Js from "../assets/images/javascript.webp";
+import REACT from "../assets/images/react.webp";
+import Next from "../assets/images/next.webp";
+import NextLight from "../assets/images/nextjs-light.webp";
+import Tailwind from "../assets/images/tailwind.webp";
+import Redux from "../assets/images/redux.webp";
+import Node from "../assets/images/node.webp";
+import Sass from "../assets/images/sass.webp";
+import Typescript from "../assets/images/typescript.webp";
 
 const firstRowOfProjects = [
   {
