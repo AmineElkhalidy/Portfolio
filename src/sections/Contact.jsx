@@ -9,12 +9,21 @@ import { motion } from "framer-motion";
 // Icons
 import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/solid";
 
+// Toast
+import toast from "react-hot-toast";
+
 const Contact = () => {
   // formSpree state
   const [state, handleSubmit] = useForm("xeqdeyeo");
 
   // current year
   const currentYear = new Date().getFullYear();
+
+  // notification trigger function
+  const notify = () =>
+    toast(
+      "Thank you, I got your message and I will get in touch with you ASAP."
+    );
 
   return (
     <section className="h-full w-full" id="contact">

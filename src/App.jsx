@@ -13,7 +13,7 @@ import {
 } from "./sections";
 
 // Toast
-import toast, { Toaster } from "react-hot-toast";
+import { Toaster } from "react-hot-toast";
 
 // icons
 import { ArrowUpIcon } from "@heroicons/react/24/outline";
@@ -66,6 +66,7 @@ const App = () => {
     <>
       <Header />
       <main className="w-full h-full overflow-hidden">
+        <Toaster />
         <Hero />
         <About />
         <Projects />
