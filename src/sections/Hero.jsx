@@ -17,7 +17,7 @@ const Hero = () => {
     <section>
       <div className="max-w-6xl mx-auto px-6 xl:px-0">
         {/* Content Container with animation */}
-        <div className="flex items-center mt-32">
+        <div className="flex items-center mt-48 md:mt-32">
           <div className="relative">
             <motion.div
               whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}

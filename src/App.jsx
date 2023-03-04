@@ -12,6 +12,9 @@ import {
   Hobbies,
 } from "./sections";
 
+// Toast
+import toast, { Toaster } from "react-hot-toast";
+
 // icons
 import { ArrowUpIcon } from "@heroicons/react/24/outline";
 
