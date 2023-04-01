@@ -96,6 +96,11 @@ export const allReviews = [
       "Great and speedy communication from Amine. Very helpful and delivered great work in half the time requested. Will definitely use again and recommned.",
   },
   {
+    id:"r12",
+    name: 'Marco Netto',
+    description: "I would very much recommend this freelancer, quick work, good communication"
+  },
+  {
     id: "r1",
     name: "Mossaab Talbi",
     description:
@@ -220,6 +225,11 @@ export const rowreviews2 = [
     name: "Tom Elliot",
     description:
       "Amine was very quick to deliver exactly what I was asking for, I'd recommend him.",
+  },
+  {
+    id:"r12",
+    name: 'Marco Netto',
+    description: "I would very much recommend this freelancer, quick work, good communication"
   },
 ];
 
