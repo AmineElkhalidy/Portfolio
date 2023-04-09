@@ -15,6 +15,8 @@ import Shoesit from "../assets/images/projects/shoesit.webp";
 import Rotinniajad from "../assets/images/projects/rotinniajad.webp";
 import Funiro from "../assets/images/projects/funiro.webp";
 import Userhive from "../assets/images/projects/userhive.webp";
+import AirTransfer from "../assets/images/projects/airtransfer.webp";
+import AirTransferY from "../assets/images/projects/airtransfer-yellow.webp";
 
 // Images
 import Html from "../assets/images/html.webp";
@@ -30,6 +32,20 @@ import Sass from "../assets/images/sass.webp";
 import Typescript from "../assets/images/typescript.webp";
 
 const firstRowOfProjects = [
+  {
+    name: "Manchester Air Transfer",
+    image: AirTransfer,
+    hrefLink: "https://airtransfer.vercel.app/",
+    githubLink: "https://github.com/AmineElkhalidy/Manchester-Blue-Version.git",
+    technologies: [Html, Tailwind],
+  },
+  {
+    name: "Manchester Air Transfer",
+    image: AirTransferY,
+    hrefLink: "https://manchester-transfer.vercel.app/",
+    githubLink: "https://github.com/AmineElkhalidy/Manchester-transfer.git",
+    technologies: [Html, Tailwind],
+  },
   {
     name: "Funiro",
     image: Funiro,
