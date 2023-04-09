@@ -17,6 +17,7 @@ import Funiro from "../assets/images/projects/funiro.webp";
 import Userhive from "../assets/images/projects/userhive.webp";
 import AirTransfer from "../assets/images/projects/airtransfer.webp";
 import AirTransferY from "../assets/images/projects/airtransfer-yellow.webp";
+import EcoCentar from "../assets/images/projects/Eco-centar.webp";
 
 // Images
 import Html from "../assets/images/html.webp";
@@ -44,6 +45,13 @@ const firstRowOfProjects = [
     image: AirTransferY,
     hrefLink: "https://manchester-transfer.vercel.app/",
     githubLink: "https://github.com/AmineElkhalidy/Manchester-transfer.git",
+    technologies: [Html, Tailwind],
+  },
+  {
+    name: "Eco-Centar",
+    image: EcoCentar,
+    hrefLink: "https://eco-centar.vercel.app/",
+    githubLink: "https://github.com/AmineElkhalidy/EcoCentar.git",
     technologies: [Html, Tailwind],
   },
   {
