@@ -54,13 +54,7 @@ const firstRowOfProjects = [
     githubLink: "https://github.com/AmineElkhalidy/EcoCentar.git",
     technologies: [Html, Tailwind],
   },
-  {
-    name: "Funiro",
-    image: Funiro,
-    hrefLink: "https://funiro-app.vercel.app/",
-    githubLink: "https://github.com/AmineElkhalidy/funiro",
-    technologies: [NextLight, Tailwind],
-  },
+
   {
     name: "Mamiru",
     image: Mamiru,
@@ -85,6 +79,13 @@ const firstRowOfProjects = [
 ];
 
 const secondRowOfProjects = [
+  {
+    name: "Funiro",
+    image: Funiro,
+    hrefLink: "https://funiro-app.vercel.app/",
+    githubLink: "https://github.com/AmineElkhalidy/funiro",
+    technologies: [NextLight, Tailwind],
+  },
   {
     name: "Clipboarding",
     image: Clipboarding,
