@@ -90,15 +90,22 @@ export const work = [
 
 export const allReviews = [
   {
+    id: "r13",
+    name: "Brady Cargle",
+    description:
+      "Amine is an AMAZING freelancer. He's smart, dedicated, and gets the job done. Such a pleasure to work with. Amine understands the heart of the job, the client needs, and requires minimal instruction. Really a pleasure to work with, hope we get to work together in the future for more projects!",
+  },
+  {
     id: "r11",
     name: "Jannetje Van Leeuwen",
     description:
       "Great and speedy communication from Amine. Very helpful and delivered great work in half the time requested. Will definitely use again and recommned.",
   },
   {
-    id:"r12",
-    name: 'Marco Netto',
-    description: "I would very much recommend this freelancer, quick work, good communication"
+    id: "r12",
+    name: "Marco Netto",
+    description:
+      "I would very much recommend this freelancer, quick work, good communication",
   },
   {
     id: "r1",
@@ -160,6 +167,12 @@ export const allReviews = [
 ];
 
 export const rowreviews1 = [
+  {
+    id: "r13",
+    name: "Brady Cargle",
+    description:
+      "Amine is an AMAZING freelancer. He's smart, dedicated, and gets the job done. Such a pleasure to work with. Amine understands the heart of the job, the client needs, and requires minimal instruction. Really a pleasure to work with, hope we get to work together in the future for more projects!",
+  },
   {
     id: "r11",
     name: "Jannetje Van Leeuwen",
@@ -227,9 +240,10 @@ export const rowreviews2 = [
       "Amine was very quick to deliver exactly what I was asking for, I'd recommend him.",
   },
   {
-    id:"r12",
-    name: 'Marco Netto',
-    description: "I would very much recommend this freelancer, quick work, good communication"
+    id: "r12",
+    name: "Marco Netto",
+    description:
+      "I would very much recommend this freelancer, quick work, good communication",
   },
 ];
 
