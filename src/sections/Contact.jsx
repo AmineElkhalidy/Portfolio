@@ -11,6 +11,7 @@ import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/solid";
 
 // Toast
 import toast from "react-hot-toast";
+import Heading from "../components/atoms/Heading";
 
 const Contact = () => {
   // formSpree state
@@ -33,11 +34,12 @@ const Contact = () => {
           transition={{ duration: 0.5 }}
           className="pt-24"
         >
+          <Heading>Contact Me</Heading>
           {/* Container */}
           <div className="grid gap-16 md:grid-cols-2 lg:gap-8">
             {/* Text container */}
             <div>
-              <h2 className="text-4xl md:text-5xl font-bold text-black-900 mb-8 dark:text-white">
+              <h2 className="text-3xl md:text-4xl font-bold text-black-900 mb-8 dark:text-white">
                 Get in touch
               </h2>
               <p className="max-w-lg text-grey-400 text-lg leading-7 dark:text-gray-300">

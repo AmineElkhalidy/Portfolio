@@ -31,6 +31,7 @@ import Redux from "../assets/images/redux.webp";
 import Node from "../assets/images/node.webp";
 import Sass from "../assets/images/sass.webp";
 import Typescript from "../assets/images/typescript.webp";
+import Heading from "../components/atoms/Heading";
 
 const firstRowOfProjects = [
   {
@@ -127,9 +128,7 @@ const Projects = () => {
           transition={{ duration: 0.5 }}
         >
           {/* Heading */}
-          <h2 className="text-black-900 dark:text-white text-2xl text-center font-nav font-bold mb-16 sm:text-3xl md:text-4xl lg:text-5xl">
-            My Work
-          </h2>
+          <Heading>My Work</Heading>
 
           {/* Work Container */}
           <div className="w-full h-full">

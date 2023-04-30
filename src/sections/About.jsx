@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 
 // Amine Image
 import AmineLightGrey from "../assets/images/Amine-lightgrey.webp";
+import Heading from "../components/atoms/Heading";
 
 const About = () => {
   return (
@@ -18,9 +19,7 @@ const About = () => {
           transition={{ duration: 0.5 }}
         >
           {/* Heading */}
-          <h2 className="text-black-900 dark:text-white text-2xl text-center font-nav font-bold mb-12 lg:mb-16 sm:text-3xl md:text-4xl lg:text-5xl">
-            Get to know me
-          </h2>
+          <Heading>Get to know me</Heading>
 
           {/* Content Container */}
           <div className="grid gap-20 md:gap-0 md:grid-cols-2 lg:pl-12">

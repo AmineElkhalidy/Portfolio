@@ -9,6 +9,7 @@ import {
   TvIcon,
   CodeBracketIcon,
 } from "@heroicons/react/24/solid";
+import Heading from "../components/atoms/Heading";
 
 const Hobbies = () => {
   return (
@@ -19,9 +20,7 @@ const Hobbies = () => {
           transition={{ duration: 0.3 }}
         >
           {/* Heading */}
-          <h2 className="text-black-900 dark:text-white text-2xl text-center font-nav font-bold mb-12 lg:mb-16 sm:text-3xl md:text-4xl lg:text-5xl">
-            My hobbies
-          </h2>
+          <Heading>My Hobbies</Heading>
 
           <div className="grid gap-10 sm:grid-cols-2 sm:justify-items-center md:grid-cols-3">
             <div className="flex items-center justify-center flex-col gap-2 dark:text-gray-200 hover:text-orange-400 duration-300">

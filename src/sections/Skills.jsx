@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 
 // Skills data
 import { skills } from "../data/data";
+import Heading from "../components/atoms/Heading";
 
 const Skills = () => {
   return (
@@ -17,9 +18,7 @@ const Skills = () => {
         >
           <div>
             {/* Heading */}
-            <h2 className="text-black-900 dark:text-white text-2xl text-center font-nav font-bold mb-16 sm:text-3xl md:text-4xl lg:text-5xl">
-              Skills & Experience
-            </h2>
+            <Heading>Skills & Experiences</Heading>
 
             {/* Skills & Experience */}
             <motion.div className="flex flex-col space-y-20 md:flex-row md:space-y-0">
@@ -63,10 +62,10 @@ const Skills = () => {
                       transition={{ duration: 0.5 }}
                     >
                       <h3 className="text-black-900 dark:text-white text-md sm:text-lg lg:text-xl xl:text-2xl font-medium uppercase mb-[.75rem]">
-                        FrontEnd Developer
+                        Web Developer
                       </h3>
                       <p className="text-black-400 dark:text-gray-300 mb-[.5rem] xl:text-lg">
-                        I am working as a freelancer on Upwrok
+                        I am Working with an agency and a freelancer on Upwrok
                       </p>
                       <p className="text-sm font-nav dark:text-gray-300 text-black-400 xl:text-base">
                         Upwork
@@ -87,7 +86,7 @@ const Skills = () => {
                       transition={{ duration: 0.5 }}
                     >
                       <h3 className="text-black-900 dark:text-white text-md sm:text-lg lg:text-xl xl:text-2xl font-medium uppercase mb-[.75rem]">
-                        FrontEnd Developer
+                        Web Developer
                       </h3>
                       <p className="text-black-400 dark:text-gray-300 mb-[.5rem] xl:text-lg">
                         I am working as a freelancer

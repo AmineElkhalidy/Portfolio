@@ -14,6 +14,7 @@ import "@splidejs/splide/dist/css/splide.min.css";
 
 // Data
 import { rowreviews1, rowreviews2, allReviews } from "../data/data";
+import Heading from "../components/atoms/Heading";
 
 const Testimonials = () => {
   return (
