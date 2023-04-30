@@ -108,10 +108,10 @@ const secondRowOfProjects = [
     technologies: [Html, Css, Js],
   },
   {
-    name: "Shoesit",
+    name: "Shoes Store",
     image: Shoesit,
-    hrefLink: "https://shoesit.vercel.app/",
-    githubLink: "https://github.com/AmineElkhalidy/shoesit",
+    hrefLink: "https://shoes-it.vercel.app/",
+    githubLink: "https://github.com/AmineElkhalidy/shoesit-shoes.git",
     technologies: [REACT, Sass],
   },
 ];
