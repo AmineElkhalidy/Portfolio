@@ -18,6 +18,10 @@ import Userhive from "../assets/images/projects/userhive.webp";
 import AirTransfer from "../assets/images/projects/airtransfer.webp";
 import AirTransferY from "../assets/images/projects/airtransfer-yellow.webp";
 import EcoCentar from "../assets/images/projects/Eco-centar.webp";
+import Iptv from "../assets/images/projects/iptv.webp";
+import Miriam from "../assets/images/projects/miriamsimon.webp";
+import GradesBar from "../assets/images/projects/dashboard.webp";
+import DigitalPole from "../assets/images/projects/digital-pole.webp";
 
 // Images
 import Html from "../assets/images/html.webp";
@@ -31,23 +35,42 @@ import Redux from "../assets/images/redux.webp";
 import Node from "../assets/images/node.webp";
 import Sass from "../assets/images/sass.webp";
 import Typescript from "../assets/images/typescript.webp";
+import Wordpress from "../assets/images/wordpress.webp";
+import MUI from "../assets/images/mui.webp";
+
+// Components
 import Heading from "../components/atoms/Heading";
 
 const firstRowOfProjects = [
   {
-    name: "Manchester Air Transfer",
-    image: AirTransfer,
-    hrefLink: "https://airtransfer.vercel.app/",
-    githubLink: "https://github.com/AmineElkhalidy/Manchester-Blue-Version.git",
-    technologies: [Html, Tailwind],
+    name: "IPTV Pole",
+    image: Iptv,
+    hrefLink: "https://iptvpole.com/",
+    githubLink: "https://github.com/AmineElkhalidy",
+    technologies: [Wordpress],
   },
   {
-    name: "Manchester Air Transfer",
-    image: AirTransferY,
-    hrefLink: "https://manchester-transfer.vercel.app/",
-    githubLink: "https://github.com/AmineElkhalidy/Manchester-transfer.git",
-    technologies: [Html, Tailwind],
+    name: "Miriam Simon Retail",
+    image: Miriam,
+    hrefLink: "https://miriamsimon.ie/",
+    githubLink: "https://github.com/AmineElkhalidy",
+    technologies: [Wordpress],
   },
+  {
+    name: "GradesBar",
+    image: GradesBar,
+    hrefLink: "#",
+    githubLink: "https://github.com/AmineElkhalidy/",
+    technologies: [MUI, Tailwind, REACT],
+  },
+  {
+    name: "Digital Pole",
+    image: DigitalPole,
+    hrefLink: "https://thedigital-pole.com",
+    githubLink: "https://github.com/AmineElkhalidy/",
+    technologies: [Wordpress],
+  },
+
   {
     name: "Eco-Centar",
     image: EcoCentar,
@@ -63,11 +86,29 @@ const firstRowOfProjects = [
     githubLink: "https://github.com/SamoudiAnas/Mamirou",
     technologies: [REACT, Redux, Typescript],
   },
+
   {
     name: "Rotin Niajad",
     image: Rotinniajad,
     hrefLink: "https://rotinniajad.com",
     githubLink: "https://github.com/AmineElkhalidy/rotinniajad",
+    technologies: [NextLight, Tailwind],
+  },
+  {
+    name: "Manchester Air Transfer",
+    image: AirTransfer,
+    hrefLink: "https://airtransfer.vercel.app/",
+    githubLink: "https://github.com/AmineElkhalidy/Manchester-Blue-Version.git",
+    technologies: [Html, Tailwind],
+  },
+];
+
+const secondRowOfProjects = [
+  {
+    name: "Manchester Air Transfer",
+    image: AirTransferY,
+    hrefLink: "https://manchester-transfer.vercel.app/",
+    githubLink: "https://github.com/AmineElkhalidy/Manchester-transfer.git",
     technologies: [Html, Tailwind],
   },
   {
@@ -77,9 +118,6 @@ const firstRowOfProjects = [
     githubLink: "https://github.com/AmineElkhalidy/userhive",
     technologies: [NextLight, Tailwind],
   },
-];
-
-const secondRowOfProjects = [
   {
     name: "Funiro",
     image: Funiro,
