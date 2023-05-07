@@ -23,6 +23,7 @@ import Miriam from "../assets/images/projects/miriamsimon.webp";
 import GradesBar from "../assets/images/projects/dashboard.webp";
 import DigitalPole from "../assets/images/projects/digital-pole.webp";
 import Shoes from "../assets/images/projects/shoes.webp";
+import Shoppy from "../assets/images/projects/shoppy.webp";
 
 // Images
 import Html from "../assets/images/html.webp";
@@ -38,6 +39,7 @@ import Sass from "../assets/images/sass.webp";
 import Typescript from "../assets/images/typescript.webp";
 import Wordpress from "../assets/images/wordpress.webp";
 import MUI from "../assets/images/mui.webp";
+import Bootstrap from "../assets/images/bootstrap.webp";
 
 // Components
 import Heading from "../components/atoms/Heading";
@@ -45,10 +47,10 @@ import Heading from "../components/atoms/Heading";
 const firstRowOfProjects = [
   {
     name: "Shoppy",
-    image: Shoes,
+    image: Shoppy,
     hrefLink: "https://e-shoppy.vercel.app/",
     githubLink: "https://github.com/AmineElkhalidy/e-commerce",
-    technologies: [REACT, Redux],
+    technologies: [REACT, Redux, Bootstrap, Node],
   },
   {
     name: "Shoesit",
@@ -65,6 +67,13 @@ const firstRowOfProjects = [
     technologies: [Wordpress],
   },
   {
+    name: "Digital Pole",
+    image: DigitalPole,
+    hrefLink: "https://thedigital-pole.com",
+    githubLink: "https://github.com/AmineElkhalidy/",
+    technologies: [Wordpress],
+  },
+  {
     name: "Miriam Simon Retail",
     image: Miriam,
     hrefLink: "https://miriamsimon.ie/",
@@ -77,13 +86,6 @@ const firstRowOfProjects = [
     hrefLink: "#",
     githubLink: "https://github.com/AmineElkhalidy/",
     technologies: [MUI, Tailwind, REACT],
-  },
-  {
-    name: "Digital Pole",
-    image: DigitalPole,
-    hrefLink: "https://thedigital-pole.com",
-    githubLink: "https://github.com/AmineElkhalidy/",
-    technologies: [Wordpress],
   },
 
   {
@@ -109,9 +111,6 @@ const firstRowOfProjects = [
     githubLink: "https://github.com/AmineElkhalidy/rotinniajad",
     technologies: [NextLight, Tailwind],
   },
-];
-
-const secondRowOfProjects = [
   {
     name: "Manchester Air Transfer",
     image: AirTransfer,
@@ -119,6 +118,9 @@ const secondRowOfProjects = [
     githubLink: "https://github.com/AmineElkhalidy/Manchester-Blue-Version.git",
     technologies: [Html, Tailwind],
   },
+];
+
+const secondRowOfProjects = [
   {
     name: "Manchester Air Transfer",
     image: AirTransferY,
