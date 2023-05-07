@@ -44,6 +44,13 @@ import Heading from "../components/atoms/Heading";
 
 const firstRowOfProjects = [
   {
+    name: "Shoppy",
+    image: Shoes,
+    hrefLink: "https://e-shoppy.vercel.app/",
+    githubLink: "https://github.com/AmineElkhalidy/e-commerce",
+    technologies: [REACT, Redux],
+  },
+  {
     name: "Shoesit",
     image: Shoes,
     hrefLink: "https://shoesit.vercel.app/",
