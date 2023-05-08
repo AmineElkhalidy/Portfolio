@@ -161,14 +161,14 @@ const Contact = () => {
                         className="mb-3 block font-bold text-black-900 dark:text-white"
                         htmlFor="message"
                       >
-                        Tell me a bit more what you are looking for?
+                        Your Message :
                       </label>
                       <textarea
                         className="w-full pt-4 pl-6 outline-none duration-300 focus:border focus:border-orange-400 pb-24 bg-[#f2f6f7] resize-none"
                         name="message"
                         id="message"
                         maxLength="5000"
-                        placeholder="Explain here"
+                        placeholder="Explain in further details, PLEASE..."
                         autoCorrect="false"
                       ></textarea>
                       <ValidationError
