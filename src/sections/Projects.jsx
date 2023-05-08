@@ -24,6 +24,8 @@ import GradesBar from "../assets/images/projects/dashboard.webp";
 import DigitalPole from "../assets/images/projects/digital-pole.webp";
 import Shoes from "../assets/images/projects/shoes.webp";
 import Shoppy from "../assets/images/projects/shoppy.webp";
+import FixClinic from "../assets/images/projects/fixclinic.webp";
+import BodyReset from "../assets/images/projects/bodyreset.webp";
 
 // Images
 import Html from "../assets/images/html.webp";
@@ -79,6 +81,20 @@ const firstRowOfProjects = [
     hrefLink: "https://miriamsimon.ie/",
     githubLink: "https://github.com/AmineElkhalidy",
     technologies: [Wordpress],
+  },
+  {
+    name: "Fix Clinic",
+    image: FixClinic,
+    hrefLink: "https://thefixclinic.com/",
+    githubLink: "https://github.com/AmineElkhalidy",
+    technologies: [Html, Css, Js],
+  },
+  {
+    name: "Mindset Body Reset",
+    image: BodyReset,
+    hrefLink: "https://mindsetbodyreset.com/",
+    githubLink: "https://github.com/AmineElkhalidy",
+    technologies: [Html, Css, Js],
   },
   {
     name: "GradesBar",
