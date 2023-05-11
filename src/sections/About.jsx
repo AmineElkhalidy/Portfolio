@@ -34,7 +34,7 @@ const About = () => {
                   <span className="gradient-text font-medium">
                     Web developer
                   </span>
-                  , and I enjoy creating things that live on the internet.
+                  and I enjoy creating things that live on the internet.
                 </p>
               </div>
 
