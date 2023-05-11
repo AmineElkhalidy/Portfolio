@@ -179,13 +179,6 @@ const secondRowOfProjects = [
     githubLink: "https://github.com/AmineElkhalidy/omnifood",
     technologies: [Html, Css, Js],
   },
-  {
-    name: "Shoes Store",
-    image: Shoesit,
-    hrefLink: "https://shoes-it.vercel.app/",
-    githubLink: "https://github.com/AmineElkhalidy/shoesit-shoes.git",
-    technologies: [REACT, Sass],
-  },
 ];
 
 const Projects = () => {
