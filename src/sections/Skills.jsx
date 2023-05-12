@@ -21,9 +21,9 @@ const Skills = () => {
             <Heading>Skills & Experiences</Heading>
 
             {/* Skills & Experience */}
-            <motion.div className="flex flex-col space-y-20 md:flex-row md:space-y-0">
+            <motion.div className="flex flex-col space-y-20 md:flex-row md:space-y-0 md:space-x-20">
               {/* Skills */}
-              <div className="flex flex-wrap gap-10 justify-center items-center md:w-1/2 md:max-w-sm md:mx-auto lg:mb-3">
+              <div className="flex flex-wrap gap-8 justify-center items-center md:w-1/2 md:mx-auto lg:mb-3">
                 {skills.map((skill) => (
                   <motion.div
                     key={skill.name}
