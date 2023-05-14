@@ -17,8 +17,8 @@
     "framer-motion": "^7.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-hot-toast": "^2.4.0",
     "react-icons": "^4.4.0",
+    "react-toastify": "^9.1.2",
     "react-toggle-dark-mode": "^1.1.1",
     "typeit-react": "^2.6.0"
   },

@@ -12,9 +12,6 @@ import {
   Hobbies,
 } from "./sections";
 
-// Toast
-import { Toaster } from "react-hot-toast";
-
 // icons
 import { ArrowUpIcon } from "@heroicons/react/24/outline";
 
@@ -66,7 +63,6 @@ const App = () => {
     <>
       <Header />
       <main className="w-full h-full overflow-hidden">
-        <Toaster />
         <Hero />
         <About />
         <Projects />
