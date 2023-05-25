@@ -96,6 +96,11 @@ export const allReviews = [
       "Amine is an AMAZING freelancer. He's smart, dedicated, and gets the job done. Such a pleasure to work with. Amine understands the heart of the job, the client needs, and requires minimal instruction. Really a pleasure to work with, hope we get to work together in the future for more projects!",
   },
   {
+    id: "r14",
+    name: "James Chris",
+    description: "Great developer",
+  },
+  {
     id: "r11",
     name: "Jannetje Van Leeuwen",
     description:
@@ -178,6 +183,11 @@ export const rowreviews1 = [
     name: "Jannetje Van Leeuwen",
     description:
       "Great and speedy communication from Amine. Very helpful and delivered great work in half the time requested. Will definitely use again and recommned.",
+  },
+  {
+    id: "r14",
+    name: "James Chris",
+    description: "Great developer",
   },
   {
     id: "r1",
