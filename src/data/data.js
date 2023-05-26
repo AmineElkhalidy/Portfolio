@@ -113,6 +113,11 @@ export const allReviews = [
       "I would very much recommend this freelancer, quick work, good communication",
   },
   {
+    id: "r15",
+    name: "Marco Netto",
+    description: "Another excellent experience working with Amine!",
+  },
+  {
     id: "r1",
     name: "Mossaab Talbi",
     description:
@@ -221,6 +226,11 @@ export const rowreviews1 = [
 ];
 
 export const rowreviews2 = [
+  {
+    id: "r15",
+    name: "Marco Netto",
+    description: "Another excellent experience working with Amine!",
+  },
   {
     id: "r6",
     name: "Sara F",
