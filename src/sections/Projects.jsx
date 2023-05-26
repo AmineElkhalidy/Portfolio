@@ -26,6 +26,7 @@ import Shoes from "../assets/images/projects/shoes.webp";
 import Shoppy from "../assets/images/projects/shoppy.webp";
 import FixClinic from "../assets/images/projects/fixclinic.webp";
 import BodyReset from "../assets/images/projects/bodyreset.webp";
+import IPTVPREMIUM from "../assets/images/projects/iptvsmarterspremium.webp";
 
 // Images
 import Html from "../assets/images/html.webp";
@@ -60,6 +61,13 @@ const firstRowOfProjects = [
     hrefLink: "https://shoesit.vercel.app/",
     githubLink: "https://github.com/AmineElkhalidy/shoesit",
     technologies: [NextLight, REACT, Tailwind, Redux],
+  },
+  {
+    name: "IPTV Premium",
+    image: Iptv,
+    hrefLink: "https://iptvsmarterspremium.net/",
+    githubLink: "https://github.com/AmineElkhalidy",
+    technologies: [Wordpress],
   },
   {
     name: "IPTV Pole",
@@ -127,6 +135,9 @@ const firstRowOfProjects = [
     githubLink: "https://github.com/AmineElkhalidy/rotinniajad",
     technologies: [NextLight, Tailwind],
   },
+];
+
+const secondRowOfProjects = [
   {
     name: "Manchester Air Transfer",
     image: AirTransfer,
@@ -134,9 +145,6 @@ const firstRowOfProjects = [
     githubLink: "https://github.com/AmineElkhalidy/Manchester-Blue-Version.git",
     technologies: [Html, Tailwind],
   },
-];
-
-const secondRowOfProjects = [
   {
     name: "Manchester Air Transfer",
     image: AirTransferY,
