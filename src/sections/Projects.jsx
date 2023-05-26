@@ -64,7 +64,7 @@ const firstRowOfProjects = [
   },
   {
     name: "IPTV Premium",
-    image: Iptv,
+    image: IPTVPREMIUM,
     hrefLink: "https://iptvsmarterspremium.net/",
     githubLink: "https://github.com/AmineElkhalidy",
     technologies: [Wordpress],
