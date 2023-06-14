@@ -90,6 +90,12 @@ export const work = [
 
 export const allReviews = [
   {
+    id: "r16",
+    name: "Jannetje Van Leeuwen",
+    description:
+      "Amine is super knowledgeable, helpful and proactive. Initiating recommendations for improvements that I hadn't even considered. Excelelnt communication. Will 100% rehire",
+  },
+  {
     id: "r13",
     name: "Brady Cargle",
     description:
@@ -177,6 +183,12 @@ export const allReviews = [
 ];
 
 export const rowreviews1 = [
+  {
+    id: "r16",
+    name: "Jannetje Van Leeuwen",
+    description:
+      "Amine is super knowledgeable, helpful and proactive. Initiating recommendations for improvements that I hadn't even considered. Excelelnt communication. Will 100% rehire",
+  },
   {
     id: "r13",
     name: "Brady Cargle",
