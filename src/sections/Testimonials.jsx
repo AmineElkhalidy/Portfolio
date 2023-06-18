@@ -7,10 +7,7 @@ import { motion } from "framer-motion";
 import Testimonial from "../components/Testimonial";
 
 // Splide
-import { Splide, SplideSlide } from "@splidejs/react-splide";
-import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
-
-import "@splidejs/splide/dist/css/splide.min.css";
+import Marquee from "react-fast-marquee";
 
 // Data
 import { rowreviews1, rowreviews2, allReviews } from "../data/data";
@@ -19,7 +16,7 @@ import Heading from "../components/atoms/Heading";
 const Testimonials = () => {
   return (
     <section
-      className="md:min-h-screen bg-black-900 dark:bg-white pt-[6.2rem] pb-8"
+      className="lg:h-screen bg-black-900 dark:bg-white pt-[6.2rem] pb-8"
       id="feedbacks"
     >
       <motion.div
@@ -28,10 +25,21 @@ const Testimonials = () => {
       >
         {/* Heading */}
         <h2 className="text-white dark:text-black-900 text-2xl text-center font-nav font-bold mb-16 sm:text-3xl md:text-4xl lg:text-5xl">
-          Client Testimonials
+          My Clients Reviews
         </h2>
 
         {/* All reviews */}
+        <div className="h-full w-full flex justify-center items-center">
+          <Marquee className="overflow-hidden" pauseOnHover={true}>
+            {allReviews.map((review) => (
+              <Testimonial
+                key={review.id}
+                name={review.name}
+                description={review.description}
+              />
+            ))}
+          </Marquee>
+        </div>
       </motion.div>
     </section>
   );
