@@ -6,17 +6,20 @@ import { motion } from "framer-motion";
 // Testimonial
 import Testimonial from "../components/Testimonial";
 
-// Splide
-import Marquee from "react-fast-marquee";
-
 // Data
 import { rowreviews1, rowreviews2, allReviews } from "../data/data";
 import Heading from "../components/atoms/Heading";
 
+// Splide
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
+
+import "@splidejs/splide/dist/css/splide.min.css";
+
 const Testimonials = () => {
   return (
     <section
-      className="lg:h-screen bg-black-900 dark:bg-white pt-[6.2rem] pb-8"
+      className="lg:min-h-screen bg-black-900 dark:bg-white pt-[6.2rem] pb-8"
       id="feedbacks"
     >
       <motion.div
@@ -29,16 +32,98 @@ const Testimonials = () => {
         </h2>
 
         {/* All reviews */}
-        <div className="h-full w-full flex justify-center items-center">
-          <Marquee className="overflow-hidden" pauseOnHover={true}>
-            {allReviews.map((review) => (
-              <Testimonial
-                key={review.id}
-                name={review.name}
-                description={review.description}
-              />
+
+        <div className="md:hidden">
+          <Splide
+            options={{
+              type: "loop",
+              drag: "free",
+              arrows: false,
+              pagination: false,
+              perPage: 1,
+              autoScroll: {
+                pauseOnHover: true,
+                pauseOnFocus: false,
+                rewind: false,
+                speed: 1.5,
+              },
+            }}
+            extensions={{ AutoScroll }}
+          >
+            {allReviews.map((review, index) => (
+              <SplideSlide key={index}>
+                <Testimonial
+                  name={review.name}
+                  description={review.description}
+                />
+              </SplideSlide>
             ))}
-          </Marquee>
+          </Splide>
+        </div>
+
+        {/* Reviews container */}
+        <div className="space-y-4 hidden md:block">
+          {/* Row 1 */}
+          <div>
+            <Splide
+              options={{
+                type: "loop",
+                drag: "free",
+                arrows: false,
+                pagination: false,
+                perPage: 2,
+                autoScroll: {
+                  pauseOnHover: true,
+                  pauseOnFocus: false,
+                  rewind: false,
+                  speed: 2,
+                },
+              }}
+              extensions={{ AutoScroll }}
+            >
+              {rowreviews1.map((review) => (
+                <SplideSlide key={review.id}>
+                  <Testimonial
+                    name={review.name}
+                    username={review.username}
+                    description={review.description}
+                    Platform={review.platform}
+                  />
+                </SplideSlide>
+              ))}
+            </Splide>
+          </div>
+
+          {/* Row 2 */}
+          <div>
+            <Splide
+              options={{
+                type: "loop",
+                drag: "free",
+                arrows: false,
+                pagination: false,
+                perPage: 2,
+                autoScroll: {
+                  pauseOnHover: true,
+                  pauseOnFocus: false,
+                  rewind: false,
+                  speed: -2,
+                },
+              }}
+              extensions={{ AutoScroll }}
+            >
+              {rowreviews2.map((review) => (
+                <SplideSlide key={review.id}>
+                  <Testimonial
+                    name={review.name}
+                    username={review.username}
+                    description={review.description}
+                    Platform={review.platform}
+                  />
+                </SplideSlide>
+              ))}
+            </Splide>
+          </div>
         </div>
       </motion.div>
     </section>
