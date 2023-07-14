@@ -27,6 +27,8 @@ import Shoppy from "../assets/images/projects/shoppy.webp";
 import FixClinic from "../assets/images/projects/fixclinic.webp";
 import BodyReset from "../assets/images/projects/bodyreset.webp";
 import IPTVPREMIUM from "../assets/images/projects/iptvsmarterspremium.webp";
+import Railflow from "../assets/images/projects/railflow.webp";
+import Noormedia from "../assets/images/projects/noormedia.webp";
 
 // Images
 import Html from "../assets/images/html.webp";
@@ -48,6 +50,20 @@ import Bootstrap from "../assets/images/bootstrap.webp";
 import Heading from "../components/atoms/Heading";
 
 const firstRowOfProjects = [
+  {
+    name: "Railflow",
+    image: Railflow,
+    hrefLink: "https://railflow-website-v2.vercel.app/",
+    githubLink: "https://github.com/AmineElkhalidy/railflow",
+    technologies: [NextLight, Tailwind, Node],
+  },
+  {
+    name: "Noormedia",
+    image: Noormedia,
+    hrefLink: "https://noormedia-agency.vercel.app/",
+    githubLink: "https://github.com/AmineElkhalidy/noormedia",
+    technologies: [Html, Css, Js],
+  },
   {
     name: "Shoppy(Under construction)",
     image: Shoppy,
@@ -104,6 +120,9 @@ const firstRowOfProjects = [
     githubLink: "https://github.com/AmineElkhalidy",
     technologies: [Html, Css, Js],
   },
+];
+
+const secondRowOfProjects = [
   {
     name: "GradesBar",
     image: GradesBar,
@@ -119,7 +138,6 @@ const firstRowOfProjects = [
     githubLink: "https://github.com/AmineElkhalidy/EcoCentar.git",
     technologies: [Html, Tailwind],
   },
-
   {
     name: "Mamiru",
     image: Mamiru,
@@ -135,9 +153,6 @@ const firstRowOfProjects = [
     githubLink: "https://github.com/AmineElkhalidy/rotinniajad",
     technologies: [NextLight, Tailwind],
   },
-];
-
-const secondRowOfProjects = [
   {
     name: "Manchester Air Transfer",
     image: AirTransfer,
