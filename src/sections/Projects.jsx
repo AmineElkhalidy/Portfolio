@@ -120,9 +120,6 @@ const firstRowOfProjects = [
     githubLink: "https://github.com/AmineElkhalidy",
     technologies: [Html, Css, Js],
   },
-];
-
-const secondRowOfProjects = [
   {
     name: "GradesBar",
     image: GradesBar,
@@ -130,7 +127,9 @@ const secondRowOfProjects = [
     githubLink: "https://github.com/AmineElkhalidy/",
     technologies: [MUI, Tailwind, REACT],
   },
+];
 
+const secondRowOfProjects = [
   {
     name: "Eco-Centar",
     image: EcoCentar,
