@@ -95,7 +95,7 @@ const firstRowOfProjects = [
   {
     name: "Digital Pole",
     image: DigitalPole,
-    hrefLink: "https://thedigital-pole.shop",
+    hrefLink: "https://digitalpole.shop",
     githubLink: "https://github.com/AmineElkhalidy/",
     technologies: [Wordpress],
   },
