@@ -19,7 +19,6 @@ const Navbar = () => {
         className="inline-flex dark:text-white items-center font-nav font-bold tracking-wide duration-300 text-black text-lg  sm:text-xl"
         href="#"
       >
-        {/* <img className="h-[2rem]" src={Avatar} alt="Avatar" /> */}
         <span>Amine Elkhalidy</span>
       </a>
 
