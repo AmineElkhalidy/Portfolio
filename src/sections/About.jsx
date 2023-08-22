@@ -32,9 +32,9 @@ const About = () => {
                   </span>
                   , I am a{" "}
                   <span className="gradient-text font-medium">
-                    Web developer
+                    Web developer{" "}
                   </span>
-                  and I enjoy creating things that live on the internet.
+                  and I enjoy building stunning web applications for my clients.
                 </p>
               </div>
 
@@ -50,8 +50,8 @@ const About = () => {
                   >
                     Upwork
                   </a>
-                  , I've helped many clients to make their ideas live on the
-                  network.
+                  , I've helped many clients to make their ideas and mockups to
+                  take place in network.
                 </p>
               </div>
 
