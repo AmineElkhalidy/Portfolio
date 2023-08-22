@@ -51,6 +51,27 @@ import Heading from "../components/atoms/Heading";
 
 const firstRowOfProjects = [
   {
+    name: "Fix Clinic",
+    image: FixClinic,
+    hrefLink: "https://thefixclinic.com/",
+    githubLink: "https://github.com/AmineElkhalidy",
+    technologies: [Html, Css, Js],
+  },
+  {
+    name: "Mindset Body Reset",
+    image: BodyReset,
+    hrefLink: "https://mindsetbodyreset.com/",
+    githubLink: "https://github.com/AmineElkhalidy",
+    technologies: [Html, Css, Js],
+  },
+  {
+    name: "Railflow",
+    image: Railflow,
+    hrefLink: "https://railflow-website-v2.vercel.app/",
+    githubLink: "https://github.com/AmineElkhalidy/railflow",
+    technologies: [NextLight, Tailwind, Node],
+  },
+  {
     name: "Noormedia",
     image: Noormedia,
     hrefLink: "https://noormedia-agency.vercel.app/",
@@ -65,11 +86,19 @@ const firstRowOfProjects = [
     technologies: [REACT, Redux, Bootstrap, Node],
   },
   {
-    name: "Shoesit(Under construction)",
+    name: "Shoesit",
     image: Shoes,
     hrefLink: "https://shoesit.vercel.app/",
     githubLink: "https://github.com/AmineElkhalidy/shoesit",
     technologies: [NextLight, REACT, Tailwind, Redux],
+  },
+
+  {
+    name: "Miriam Simon Retail",
+    image: Miriam,
+    hrefLink: "https://miriamsimon.ie/",
+    githubLink: "https://github.com/AmineElkhalidy",
+    technologies: [Wordpress],
   },
   {
     name: "IPTV Premium",
@@ -92,34 +121,9 @@ const firstRowOfProjects = [
     githubLink: "https://github.com/AmineElkhalidy/",
     technologies: [Wordpress],
   },
-  {
-    name: "Railflow",
-    image: Railflow,
-    hrefLink: "https://railflow-website-v2.vercel.app/",
-    githubLink: "https://github.com/AmineElkhalidy/railflow",
-    technologies: [NextLight, Tailwind, Node],
-  },
-  {
-    name: "Miriam Simon Retail",
-    image: Miriam,
-    hrefLink: "https://miriamsimon.ie/",
-    githubLink: "https://github.com/AmineElkhalidy",
-    technologies: [Wordpress],
-  },
-  {
-    name: "Fix Clinic",
-    image: FixClinic,
-    hrefLink: "https://thefixclinic.com/",
-    githubLink: "https://github.com/AmineElkhalidy",
-    technologies: [Html, Css, Js],
-  },
-  {
-    name: "Mindset Body Reset",
-    image: BodyReset,
-    hrefLink: "https://mindsetbodyreset.com/",
-    githubLink: "https://github.com/AmineElkhalidy",
-    technologies: [Html, Css, Js],
-  },
+];
+
+const secondRowOfProjects = [
   {
     name: "GradesBar",
     image: GradesBar,
@@ -127,9 +131,6 @@ const firstRowOfProjects = [
     githubLink: "https://github.com/AmineElkhalidy/",
     technologies: [MUI, Tailwind, REACT],
   },
-];
-
-const secondRowOfProjects = [
   {
     name: "Eco-Centar",
     image: EcoCentar,
