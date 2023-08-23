@@ -66,8 +66,9 @@ const Skills = () => {
                       </h3>
                       <p className="text-black-400 dark:text-gray-300 mb-[.5rem] xl:text-lg">
                         I am Working with an agency and a freelancer on Upwrok
+                        as well.
                       </p>
-                      <p className="text-sm font-nav dark:text-gray-300 text-black-400 xl:text-base">
+                      <p className="text-sm font-nav dark:text-gray-300 text-black-400 xl:text-base underline">
                         Upwork
                       </p>
                     </motion.div>
@@ -91,7 +92,7 @@ const Skills = () => {
                       <p className="text-black-400 dark:text-gray-300 mb-[.5rem] xl:text-lg">
                         I am working as a freelancer
                       </p>
-                      <p className="text-sm font-nav dark:text-gray-300 text-black-400 xl:text-base">
+                      <p className="text-sm font-nav dark:text-gray-300 text-black-400 xl:text-base underline">
                         Freelancer
                       </p>
                     </motion.div>
@@ -117,7 +118,7 @@ const Skills = () => {
                         I have worked on customising Alfresco (CMS) for a large
                         organization
                       </p>
-                      <p className="text-sm font-nav dark:text-gray-300 text-black-400 xl:text-base">
+                      <p className="text-sm font-nav dark:text-gray-300 text-black-400 xl:text-base underline">
                         Prefecture d'arrondissement de Ben M'sick - Casablanca
                       </p>
                     </motion.div>
