@@ -8,7 +8,6 @@ import Testimonial from "../components/Testimonial";
 
 // Data
 import { rowreviews1, rowreviews2, allReviews } from "../data/data";
-import Heading from "../components/atoms/Heading";
 
 // Splide
 import { Splide, SplideSlide } from "@splidejs/react-splide";

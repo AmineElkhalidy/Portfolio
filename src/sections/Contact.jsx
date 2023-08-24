@@ -9,10 +9,6 @@ import { motion } from "framer-motion";
 // Icons
 import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/solid";
 
-// Toast
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-
 // Components
 import Heading from "../components/atoms/Heading";
 
