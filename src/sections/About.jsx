@@ -19,7 +19,7 @@ const About = () => {
           transition={{ duration: 0.5 }}
         >
           {/* Heading */}
-          <Heading>Get to know me</Heading>
+          <Heading>Who Am I ?</Heading>
 
           {/* Content Container */}
           <div className="grid gap-20 md:gap-0 md:grid-cols-2 lg:pl-12">
@@ -46,7 +46,7 @@ const About = () => {
                     href="https://www.upwork.com/"
                     target="_blank"
                     rel="referrer noopener"
-                    className="gradient-text font-medium"
+                    className="gradient-text font-medium underline"
                   >
                     Upwork
                   </a>
@@ -58,7 +58,7 @@ const About = () => {
               {/* Technologies list */}
               <div>
                 <p className="text-grey-500 dark:text-gray-200 mb-2 md:text-lg lg:text-xl">
-                  Here are a few technologies I’ve been working with recently:
+                  Here are a few technologies I’ve been working with:
                 </p>
 
                 <ul className="max-w-sm grid grid-cols-2 text-grey-400 dark:text-gray-300  font-nav font-thin  md:text-[1.05rem] lg:text-lg">
