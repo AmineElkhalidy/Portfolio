@@ -98,14 +98,14 @@ const About = () => {
             {/* About Img */}
             <div className="grid place-items-center lg:mt-6">
               <div className="relative group">
-                <div className="w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] z-50 -translate-x-4 -translate-y-4 duration-300 group-hover:translate-x-0 group-hover:translate-y-0">
+                <div className="w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] z-50 -translate-x-2 -translate-y-4 duration-300 group-hover:translate-x-0 group-hover:translate-y-0">
                   <img
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain rounded-full"
                     src={AmineLightGrey}
                     alt="Amine Elkhalidy"
                   />
                 </div>
-                <div className="w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] image -z-10 absolute top-0 left-0" />
+                <div className="w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] image -z-10 absolute top-0 left-0 rounded-full" />
               </div>
             </div>
           </div>
