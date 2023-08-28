@@ -61,7 +61,7 @@ const Skills = () => {
                       whileInView={{ opacity: [0, 1] }}
                       transition={{ duration: 0.5 }}
                     >
-                      <h3 className="text-black-900 dark:text-white text-md sm:text-lg lg:text-xl xl:text-2xl font-medium uppercase mb-[.75rem]">
+                      <h3 className="text-black-900 dark:text-white text-md sm:text-lg lg:text-xl xl:text-2xl font-semibold capitalize mb-[.75rem]">
                         Web Developer
                       </h3>
                       <p className="text-black-400 dark:text-gray-300 mb-[.5rem] xl:text-lg">
@@ -86,7 +86,7 @@ const Skills = () => {
                       whileInView={{ opacity: [0, 1] }}
                       transition={{ duration: 0.5 }}
                     >
-                      <h3 className="text-black-900 dark:text-white text-md sm:text-lg lg:text-xl xl:text-2xl font-medium uppercase mb-[.75rem]">
+                      <h3 className="text-black-900 dark:text-white text-md sm:text-lg lg:text-xl xl:text-2xl font-semibold capitalize mb-[.75rem]">
                         Web Developer
                       </h3>
                       <p className="text-black-400 dark:text-gray-300 mb-[.5rem] xl:text-lg">
@@ -111,7 +111,7 @@ const Skills = () => {
                       transition={{ duration: 0.5 }}
                       className="ml-1"
                     >
-                      <h3 className="text-black-900 dark:text-white text-md sm:text-lg lg:text-xl xl:text-2xl font-medium uppercase mb-[.75rem]">
+                      <h3 className="text-black-900 dark:text-white text-md sm:text-lg lg:text-xl xl:text-2xl font-semibold capitalize mb-[.75rem]">
                         FrontEnd & Alfresco Dev
                       </h3>
                       <p className="text-black-400 dark:text-gray-300  mb-[.5rem] xl:text-lg">

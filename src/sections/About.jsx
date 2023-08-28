@@ -50,8 +50,7 @@ const About = () => {
                   >
                     Upwork
                   </a>
-                  , I've helped many clients to make their ideas and mockups to
-                  take place in network.
+                  , I've helped many clients to bring their vision to life.
                 </p>
               </div>
 
