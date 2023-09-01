@@ -19,7 +19,7 @@ const Testimonials = () => {
   return (
     <section
       className="lg:min-h-screen bg-black-900 dark:bg-white pt-[6.2rem] pb-8"
-      id="feedbacks"
+      id="testimonials"
     >
       <motion.div
         whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}

@@ -216,7 +216,7 @@ const Projects = () => {
   // Show projects state
   const [showMore, setShowMore] = useState(false);
   return (
-    <section className="pt-[6.25rem]" id="work">
+    <section className="pt-[6.25rem]" id="projects">
       <div className="max-w-6xl mx-auto px-6 min-h-screen">
         <motion.div
           whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}

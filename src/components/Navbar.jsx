@@ -44,10 +44,10 @@ const Navbar = () => {
               <li>
                 <a
                   className="nav__link"
-                  href="#work"
+                  href="#projects"
                   onClick={() => setOpen(false)}
                 >
-                  Work
+                  Projects
                 </a>
               </li>
 
@@ -64,7 +64,7 @@ const Navbar = () => {
               <li>
                 <a
                   className="nav__link"
-                  href="#feedbacks"
+                  href="#testimonials"
                   onClick={() => setOpen(false)}
                 >
                   Testimonials
@@ -121,9 +121,9 @@ const Navbar = () => {
             <li>
               <a
                 className="font-nav font-semibold text-[1.05rem] duration-300 dark:text-gray-50"
-                href="#work"
+                href="#projects"
               >
-                Work
+                Projects
               </a>
             </li>
 
@@ -139,7 +139,7 @@ const Navbar = () => {
             <li>
               <a
                 className="font-nav font-semibold text-[1.05rem] duration-300 dark:text-gray-50"
-                href="#feedbacks"
+                href="#testimonials"
               >
                 Testimonials
               </a>
