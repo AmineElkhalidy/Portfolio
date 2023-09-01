@@ -29,6 +29,7 @@ import BodyReset from "../assets/images/projects/bodyreset.webp";
 import IPTVPREMIUM from "../assets/images/projects/iptvsmarterspremium.webp";
 import Railflow from "../assets/images/projects/railflow.webp";
 import Noormedia from "../assets/images/projects/noormedia.webp";
+import Cars from "../assets/images/projects/cars.webp";
 
 // Images
 import Html from "../assets/images/html.webp";
@@ -50,6 +51,13 @@ import Bootstrap from "../assets/images/bootstrap.webp";
 import Heading from "../components/atoms/Heading";
 
 const firstRowOfProjects = [
+  {
+    name: "Cars",
+    image: Cars,
+    hrefLink: "https://cars-exhibition.vercel.app/",
+    githubLink: "https://github.com/AmineElkhalidy",
+    technologies: [NextLight, Tailwind],
+  },
   {
     name: "Fix Clinic",
     image: FixClinic,
