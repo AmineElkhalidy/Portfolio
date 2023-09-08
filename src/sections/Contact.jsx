@@ -89,7 +89,7 @@ const Contact = () => {
                           type="text"
                           name="first-name"
                           id="firstName"
-                          placeholder="First Name"
+                          placeholder="John"
                           required
                         />
                         <ValidationError
@@ -112,7 +112,7 @@ const Contact = () => {
                           type="text"
                           name="last-name"
                           id="lastName"
-                          placeholder="Last Name"
+                          placeholder="Doe"
                           required
                         />
                         <ValidationError
@@ -163,7 +163,7 @@ const Contact = () => {
                           name="message"
                           id="message"
                           maxLength="5000"
-                          placeholder="Explain in further details, PLEASE..."
+                          placeholder="Your message in details..."
                           autoCorrect="false"
                         ></textarea>
                         <ValidationError
