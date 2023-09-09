@@ -14,15 +14,16 @@ const About = () => {
   return (
     <section className="pt-[6.25rem]" id="about">
       <div className="max-w-6xl mx-auto px-6 xl:px-0">
-        <motion.div
-          whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
-          transition={{ duration: 0.5 }}
-        >
+        <div>
           {/* Heading */}
           <Heading>Who Am I ?</Heading>
 
           {/* Content Container */}
-          <div className="grid gap-20 md:gap-0 md:grid-cols-2 lg:pl-12">
+          <motion.div
+            whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+            transition={{ duration: 0.5 }}
+            className="grid gap-20 md:gap-0 md:grid-cols-2 lg:pl-12"
+          >
             <div>
               <div>
                 <p className="text-grey-500 dark:text-gray-200 mb-3 md:text-lg lg:text-xl">
@@ -107,8 +108,8 @@ const About = () => {
                 <div className="w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] image -z-10 absolute top-0 left-0" />
               </div>
             </div>
-          </div>
-        </motion.div>
+          </motion.div>
+        </div>
       </div>
     </section>
   );

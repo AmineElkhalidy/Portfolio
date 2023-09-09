@@ -26,7 +26,7 @@ const Hero = () => {
             >
               <div>
                 {/* Introduction */}
-                <h1 className=" text-black-900 text-[2.5rem] dark:text-gray-100  leading-none font-bold mb-3 sm:text-6xl md:text-7xl lg:text-8xl ">
+                <h1 className=" text-black-900 text-[2.5rem] dark:text-gray-100  leading-none font-bold mb-3 sm:text-6xl md:text-7xl lg:text-8xl animate-fade-up animate-duration-[2500ms]">
                   Hello <span class="wave">👋</span>,
                   <br />
                   I am Amine,
@@ -35,7 +35,7 @@ const Hero = () => {
                 </h1>
 
                 {/* Profession */}
-                <p className="text-grey-400 font-medium text-xl font-nav mb-10 md:text-xl lg:text-2xl dark:text-gray-200">
+                <p className="text-grey-400 font-medium text-xl font-nav mb-10 md:text-xl lg:text-2xl dark:text-gray-200 animate-jump-in">
                   <TypeIt
                     options={{
                       afterComplete: function (instance) {
@@ -48,8 +48,8 @@ const Hero = () => {
                 </p>
 
                 {/* Contact me button */}
-                <div className="flex flex-col space-y-3 sm:flex-row sm:space-x-12">
-                  <div className="relative">
+                <div className="flex flex-col space-y-3 sm:flex-row sm:space-x-12 ">
+                  <div className="relative animate-fade-up animate-duration-[2000ms]">
                     <a
                       className="inline-block px-[31px] py-5 bg-black-900 dark:text-black-900 dark:bg-gray-100 text-white cursor-pointer text-lg duration-300 font-nav font-semibold z-10 hover:translate-x-2 hover:translate-y-2"
                       href="#contact"
@@ -60,9 +60,9 @@ const Hero = () => {
                     <span className="contact-btn absolute -z-10 top-2 left-2 px-[4.95rem] py-[2.15rem] bg-red-500" />
                   </div>
 
-                  <div>
+                  <div className="">
                     <a
-                      className="group inline-flex gap-3 items-center py-5 text-black-900 dark:text-gray-100  cursor-pointer text-lg duration-300 font-nav font-semibold"
+                      className="group inline-flex gap-3 items-center py-5 text-black-900 dark:text-gray-100  cursor-pointer text-lg duration-300 font-nav font-semibold animate-fade-up animate-duration-[2500ms]"
                       href={CV}
                       download="Amine Elkhalidy"
                       rel="noopener noreferrer"
@@ -78,7 +78,7 @@ const Hero = () => {
             {/* Social container */}
             <motion.div
               whileInView={{ y: [50, 0] }}
-              className="hidden md:block absolute bottom-0"
+              className="hidden md:block absolute bottom-0 "
             >
               <div className="bg-transparent flex flex-col gap-6 justify-center items-center">
                 <a

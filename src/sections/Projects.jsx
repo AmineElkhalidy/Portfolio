@@ -218,15 +218,16 @@ const Projects = () => {
   return (
     <section className="pt-[6.25rem]" id="projects">
       <div className="max-w-6xl mx-auto px-6 min-h-screen">
-        <motion.div
-          whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
-          transition={{ duration: 0.5 }}
-        >
+        <div>
           {/* Heading */}
           <Heading>My Work</Heading>
 
           {/* Work Container */}
-          <div className="w-full h-full">
+          <motion.div
+            whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+            transition={{ duration: 0.5 }}
+            className="w-full h-full"
+          >
             <div className="grid gap-8 place-items-center lg:gap-10 lg:grid-cols-2 lg:px-0">
               {firstRowOfProjects.map((project, index) => (
                 <motion.div whileInView={{ opacity: [0, 1] }} key={index}>
@@ -375,8 +376,8 @@ const Projects = () => {
                 </button>
               </div>
             )}
-          </div>
-        </motion.div>
+          </motion.div>
+        </div>
       </div>
     </section>
   );

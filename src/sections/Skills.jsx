@@ -11,17 +11,17 @@ const Skills = () => {
   return (
     <section className="pt-[6.25rem] pb-8" id="skills">
       <div className="relative">
-        <motion.div
-          whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
-          transition={{ duration: 0.5 }}
-          className="max-w-6xl mx-auto px-6 lg:max-w-7xl"
-        >
+        <div className="max-w-6xl mx-auto px-6 lg:max-w-7xl">
           <div>
             {/* Heading */}
             <Heading>Skills & Experiences</Heading>
 
             {/* Skills & Experience */}
-            <motion.div className="flex flex-col space-y-20 md:flex-row md:space-y-0 md:space-x-20">
+            <motion.div
+              whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+              transition={{ duration: 0.5 }}
+              className="flex flex-col space-y-20 md:flex-row md:space-y-0 md:space-x-20"
+            >
               {/* Skills */}
               <div className="flex flex-wrap gap-8 justify-center items-center md:w-1/2 md:mx-auto lg:mb-3">
                 {skills.map((skill) => (
@@ -127,7 +127,7 @@ const Skills = () => {
               </div>
             </motion.div>
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

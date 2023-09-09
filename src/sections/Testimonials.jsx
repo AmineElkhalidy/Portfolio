@@ -21,18 +21,19 @@ const Testimonials = () => {
       className="lg:min-h-screen bg-black-900 dark:bg-white pt-[6.2rem] pb-8"
       id="testimonials"
     >
-      <motion.div
-        whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
-        transition={{ duration: 0.5 }}
-      >
+      <div>
         {/* Heading */}
-        <h2 className="text-white dark:text-black-900 text-2xl text-center font-nav font-bold mb-16 sm:text-3xl md:text-4xl lg:text-5xl">
+        <h2 className="text-white dark:text-black-900 text-2xl text-center font-nav font-bold mb-16 sm:text-3xl md:text-4xl lg:text-5xl animate-fade-down animate-duration-[2500ms]">
           My Clients Reviews
         </h2>
 
         {/* All reviews */}
 
-        <div className="md:hidden">
+        <motion.div
+          whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+          transition={{ duration: 0.5 }}
+          className="md:hidden"
+        >
           <Splide
             options={{
               type: "loop",
@@ -58,7 +59,7 @@ const Testimonials = () => {
               </SplideSlide>
             ))}
           </Splide>
-        </div>
+        </motion.div>
 
         {/* Reviews container */}
         <div className="space-y-4 hidden md:block">
@@ -124,7 +125,7 @@ const Testimonials = () => {
             </Splide>
           </div>
         </div>
-      </motion.div>
+      </div>
     </section>
   );
 };
