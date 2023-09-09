@@ -23,14 +23,14 @@ const Contact = () => {
     <>
       <section className="h-full w-full" id="contact">
         <div className="max-w-6xl mx-auto px-6 min-h-screen">
-          <motion.div
-            whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
-            transition={{ duration: 0.5 }}
-            className="pt-24"
-          >
+          <div className="pt-24">
             <Heading>Contact Me</Heading>
             {/* Container */}
-            <div className="grid gap-16 md:grid-cols-2 lg:gap-8">
+            <motion.div
+              whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+              transition={{ duration: 0.5 }}
+              className="grid gap-16 md:grid-cols-2 lg:gap-8"
+            >
               {/* Text container */}
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold text-black-900 mb-8 dark:text-white">
@@ -190,7 +190,7 @@ const Contact = () => {
                   </form>
                 )}
               </div>
-            </div>
+            </motion.div>
 
             {/* Copyright text */}
             <p className="text-black-900 py-4 dark:text-white text-sm sm:text-base text-center font-medium">
@@ -198,7 +198,7 @@ const Contact = () => {
               <br />
               &copy; {currentYear} - All Rights Reserved
             </p>
-          </motion.div>
+          </div>
         </div>
       </section>
     </>
