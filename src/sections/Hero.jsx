@@ -7,7 +7,10 @@ import { motion } from "framer-motion";
 import TypeIt from "typeit-react";
 
 // Icons
-import { ArrowRightIcon } from "@heroicons/react/24/solid";
+import {
+  ArrowRightIcon,
+  ChevronDoubleDownIcon,
+} from "@heroicons/react/24/solid";
 
 // CV
 import CV from "../assets/pdf/Amine-Elkhalidy.pdf";
@@ -153,6 +156,9 @@ const Hero = () => {
               </div>
             </motion.div>
           </div>
+        </div>
+        <div className="w-full flex justify-center items-center">
+          <ChevronDoubleDownIcon className="w-8 h-8 animate-bounce" />
         </div>
       </div>
     </section>
