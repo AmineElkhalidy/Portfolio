@@ -87,7 +87,7 @@ const Hero = () => {
             >
               <div className="bg-transparent flex flex-col gap-6 justify-center items-center">
                 <a
-                  className="cursor-pointer hover:-translate-y-1 duration-200"
+                  className="cursor-pointer duration-300 hover:scale-125"
                   href="https://www.upwork.com/freelancers/~01f55a2d4b119d3119"
                   target="_blank"
                   aria-label="Upwork Profile"
@@ -104,7 +104,7 @@ const Hero = () => {
                 </a>
 
                 <a
-                  className="cursor-pointer hover:-translate-y-1 duration-200"
+                  className="cursor-pointer hover:scale-125 duration-300"
                   href="https://www.fiverr.com/amineelkhalidy"
                   target="_blank"
                   aria-label="Fiverr Profile"
@@ -122,7 +122,7 @@ const Hero = () => {
                 </a>
 
                 <a
-                  className="cursor-pointer hover:-translate-y-1 duration-200"
+                  className="cursor-pointer hover:scale-125 duration-300"
                   href="https://github.com/AmineElkhalidy"
                   target="_blank"
                   aria-label="Github Profile"
@@ -140,7 +140,7 @@ const Hero = () => {
                 </a>
 
                 <a
-                  className="cursor-pointer hover:-translate-y-1 duration-200 "
+                  className="cursor-pointer hover:scale-125 duration-300 "
                   href="https://www.linkedin.com/in/amine-elkhalidy/"
                   target="_blank"
                   aria-label="Linkedin Profile"
@@ -158,9 +158,6 @@ const Hero = () => {
               </div>
             </motion.div>
           </div>
-        </div>
-        <div className="w-full flex justify-center items-center">
-          <ChevronDoubleDownIcon className="w-8 h-8 animate-bounce" />
         </div>
       </div>
     </section>
