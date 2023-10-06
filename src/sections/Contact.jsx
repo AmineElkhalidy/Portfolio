@@ -26,13 +26,12 @@ const Contact = () => {
           <div className="pt-24">
             <Heading>Contact Me</Heading>
             {/* Container */}
-            <motion.div
-              whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
-              transition={{ duration: 0.5 }}
-              className="grid gap-16 md:grid-cols-2 lg:gap-8"
-            >
+            <div className="grid gap-16 md:grid-cols-2 lg:gap-8">
               {/* Text container */}
-              <div>
+              <motion.div
+                whileInView={{ x: [-100, 0] }}
+                transition={{ duration: 0.75 }}
+              >
                 <h2 className="text-3xl md:text-4xl font-bold text-black-900 mb-8 dark:text-white">
                   Get in touch
                 </h2>
@@ -59,10 +58,14 @@ const Contact = () => {
                     +212611154307
                   </a>
                 </div>
-              </div>
+              </motion.div>
 
               {/* Form Container */}
-              <div className="mb-16">
+              <motion.div
+                whileInView={{ x: [100, 0] }}
+                transition={{ duration: 0.75 }}
+                className="mb-16"
+              >
                 {state.succeeded ? (
                   <div className="w-full h-full">
                     <p className="text-xl text-center font-semibold sm:text-2xl md:text-3xl lg:text-4xl md:mt-12">
@@ -189,8 +192,8 @@ const Contact = () => {
                     </div>
                   </form>
                 )}
-              </div>
-            </motion.div>
+              </motion.div>
+            </div>
 
             {/* Copyright text */}
             <p className="text-black-900 py-4 dark:text-white text-sm sm:text-base text-center font-medium">

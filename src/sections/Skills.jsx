@@ -17,13 +17,13 @@ const Skills = () => {
             <Heading>Skills & Experiences</Heading>
 
             {/* Skills & Experience */}
-            <motion.div
-              whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
-              transition={{ duration: 0.5 }}
-              className="flex flex-col space-y-20 md:flex-row md:space-y-0 md:space-x-20"
-            >
+            <div className="flex flex-col space-y-20 md:flex-row md:space-y-0 md:space-x-20">
               {/* Skills */}
-              <div className="flex flex-wrap gap-8 justify-center items-center md:w-1/2 md:mx-auto lg:mb-3">
+              <motion.div
+                whileInView={{ x: [-100, 0] }}
+                transition={{ duration: 0.75 }}
+                className="flex flex-wrap gap-8 justify-center items-center md:w-1/2 md:mx-auto lg:mb-3"
+              >
                 {skills.map((skill) => (
                   <motion.div
                     key={skill.name}
@@ -46,10 +46,14 @@ const Skills = () => {
                     </p>
                   </motion.div>
                 ))}
-              </div>
+              </motion.div>
 
               {/* Experience */}
-              <div className="flex flex-col space-y-12 md:w-1/2 md:pt-4">
+              <motion.div
+                whileInView={{ x: [100, 0] }}
+                transition={{ duration: 0.75 }}
+                className="flex flex-col space-y-12 md:w-1/2 md:pt-4"
+              >
                 {/* 2023 */}
                 <div className="flex space-x-12">
                   <p className="gradient-text text-md sm:text-lg lg:text-xl xl:text-2xl font-semibold">
@@ -124,8 +128,8 @@ const Skills = () => {
                     </motion.div>
                   </div>
                 </div>
-              </div>
-            </motion.div>
+              </motion.div>
+            </div>
           </div>
         </div>
       </div>

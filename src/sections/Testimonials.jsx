@@ -23,9 +23,12 @@ const Testimonials = () => {
     >
       <div>
         {/* Heading */}
-        <h2 className="text-white dark:text-black-900 text-2xl text-center font-nav font-bold mb-16 sm:text-3xl md:text-4xl lg:text-5xl animate-fade-down animate-duration-[2500ms]">
+        <motion.h2
+          whileInView={{ y: [-20, 0] }}
+          className="text-white dark:text-black-900 text-2xl text-center font-nav font-bold mb-16 sm:text-3xl md:text-4xl lg:text-5xl animate-fade-down animate-duration-[2500ms]"
+        >
           My Clients Reviews
-        </h2>
+        </motion.h2>
 
         {/* All reviews */}
 

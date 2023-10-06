@@ -225,12 +225,16 @@ const Projects = () => {
           {/* Work Container */}
           <motion.div
             whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
-            transition={{ duration: 0.5 }}
+            transition={{ duration: 0.75 }}
             className="w-full h-full"
           >
             <div className="grid gap-8 place-items-center lg:gap-10 lg:grid-cols-2 lg:px-0">
               {firstRowOfProjects.map((project, index) => (
-                <motion.div whileInView={{ opacity: [0, 1] }} key={index}>
+                <motion.div
+                  whileInView={{ opacity: [0, 1] }}
+                  transition={{ duration: 0.75 }}
+                  key={index}
+                >
                   {/* Project container */}
                   <div className="max-w-sm sm:max-w-md md:max-w-lg lg:w-full">
                     {/* Container */}
