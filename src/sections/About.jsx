@@ -19,12 +19,11 @@ const About = () => {
           <Heading>Who Am I ?</Heading>
 
           {/* Content Container */}
-          <motion.div
-            whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
-            transition={{ duration: 0.5 }}
-            className="grid gap-20 md:gap-0 md:grid-cols-2 lg:pl-12"
-          >
-            <div>
+          <motion.div className="grid gap-20 md:gap-0 md:grid-cols-2 lg:pl-12">
+            <motion.div
+              whileInView={{ x: [-100, 0] }}
+              transition={{ duration: 0.75 }}
+            >
               <div>
                 <p className="text-grey-500 dark:text-gray-200 mb-3 md:text-lg lg:text-xl">
                   Hello, My name is{" "}
@@ -93,10 +92,14 @@ const About = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </motion.div>
 
             {/* About Img */}
-            <div className="grid place-items-center lg:mt-6">
+            <motion.div
+              whileInView={{ x: [100, 0] }}
+              transition={{ duration: 0.75 }}
+              className="grid place-items-center lg:mt-6"
+            >
               <div className="relative group">
                 <div className="w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] z-50 -translate-x-4 -translate-y-4 duration-300 group-hover:translate-x-0 group-hover:translate-y-0">
                   <img
@@ -110,7 +113,7 @@ const About = () => {
                 <div className="hidden xl:block w-[120px] h-[120px] lg:w-[170px] lg:h-[170px] image rounded-full absolute -top-24 -right-24 opacity-70"></div>
                 <div className="hidden xl:block w-[80px] h-[80px] lg:w-[100px] lg:h-[100px] image rounded-full absolute -bottom-10 -left-12 opacity-50"></div>
               </div>
-            </div>
+            </motion.div>
           </motion.div>
         </div>
       </div>

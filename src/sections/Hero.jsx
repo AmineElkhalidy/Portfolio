@@ -24,7 +24,7 @@ const Hero = () => {
           <div className="relative">
             <motion.div
               whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
-              transition={{ duration: 0.3 }}
+              transition={{ duration: 0.9 }}
               className="flex items-center h-full md:pl-16 "
             >
               <div>
@@ -80,7 +80,8 @@ const Hero = () => {
 
             {/* Social container */}
             <motion.div
-              whileInView={{ y: [50, 0] }}
+              whileInView={{ y: [75, 0] }}
+              transition={{ ease: "easeIn", duration: 1 }}
               className="hidden md:block absolute bottom-0 "
             >
               <div className="bg-transparent flex flex-col gap-6 justify-center items-center">
