@@ -16,12 +16,13 @@ const About = () => {
       <div className="max-w-6xl mx-auto px-6 xl:px-0">
         <div>
           {/* Heading */}
-          <Heading>Who Am I ?</Heading>
+          <Heading>Who Am I?</Heading>
 
           {/* Content Container */}
           <motion.div className="grid gap-20 md:gap-0 md:grid-cols-2 lg:pl-12">
             <motion.div
-              whileInView={{ x: [-100, 0] }}
+              initial={{ opacity: 0 }}
+              whileInView={{ x: [-100, 0], opacity: 1 }}
               transition={{ duration: 0.75 }}
             >
               <div>
@@ -96,7 +97,8 @@ const About = () => {
 
             {/* About Img */}
             <motion.div
-              whileInView={{ x: [100, 0] }}
+              initial={{ opacity: 0 }}
+              whileInView={{ x: [100, 0], opacity: 1 }}
               transition={{ duration: 0.75 }}
               className="grid place-items-center lg:mt-6"
             >

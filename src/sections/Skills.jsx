@@ -20,7 +20,8 @@ const Skills = () => {
             <div className="flex flex-col space-y-20 md:flex-row md:space-y-0 md:space-x-20">
               {/* Skills */}
               <motion.div
-                whileInView={{ x: [-100, 0] }}
+                initial={{ opacity: 0 }}
+                whileInView={{ x: [-100, 0], opacity: 1 }}
                 transition={{ duration: 0.75 }}
                 className="flex flex-wrap gap-8 justify-center items-center md:w-1/2 md:mx-auto lg:mb-3"
               >
@@ -50,7 +51,8 @@ const Skills = () => {
 
               {/* Experience */}
               <motion.div
-                whileInView={{ x: [100, 0] }}
+                initial={{ opacity: 0 }}
+                whileInView={{ x: [100, 0], opacity: 1 }}
                 transition={{ duration: 0.75 }}
                 className="flex flex-col space-y-12 md:w-1/2 md:pt-4"
               >

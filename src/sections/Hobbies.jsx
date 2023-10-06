@@ -21,6 +21,7 @@ const Hobbies = () => {
 
           <div className="grid gap-10 sm:grid-cols-2 sm:justify-items-center md:grid-cols-3">
             <motion.div
+              initial={{ opacity: 0 }}
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.3 }}
               className="flex items-center justify-center flex-col gap-2 dark:text-gray-200 hover:text-orange-400 duration-300"
@@ -30,6 +31,7 @@ const Hobbies = () => {
             </motion.div>
 
             <motion.div
+              initial={{ opacity: 0 }}
               whileInView={{ opacity: [0, 0, 1] }}
               transition={{ duration: 0.6 }}
               className="flex items-center justify-center flex-col gap-2 dark:text-gray-200 hover:text-orange-400 duration-300"
@@ -41,6 +43,7 @@ const Hobbies = () => {
             </motion.div>
 
             <motion.div
+              initial={{ opacity: 0 }}
               whileInView={{ opacity: [0, 0, 0, 1] }}
               transition={{ duration: 0.9 }}
               className="flex items-center justify-center flex-col gap-2 dark:text-gray-200 hover:text-orange-400 duration-300"

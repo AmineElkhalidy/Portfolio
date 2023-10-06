@@ -29,7 +29,8 @@ const Contact = () => {
             <div className="grid gap-16 md:grid-cols-2 lg:gap-8">
               {/* Text container */}
               <motion.div
-                whileInView={{ x: [-100, 0] }}
+                initial={{ opacity: 0 }}
+                whileInView={{ x: [-100, 0], opacity: 1 }}
                 transition={{ duration: 0.75 }}
               >
                 <h2 className="text-3xl md:text-4xl font-bold text-black-900 mb-8 dark:text-white">
@@ -62,7 +63,8 @@ const Contact = () => {
 
               {/* Form Container */}
               <motion.div
-                whileInView={{ x: [100, 0] }}
+                initial={{ opacity: 0 }}
+                whileInView={{ x: [100, 0], opacity: 1 }}
                 transition={{ duration: 0.75 }}
                 className="mb-16"
               >

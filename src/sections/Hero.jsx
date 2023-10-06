@@ -23,6 +23,7 @@ const Hero = () => {
         <div className="flex items-center mt-48 md:mt-32">
           <div className="relative">
             <motion.div
+              initial={{ opacity: 0 }}
               whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
               transition={{ duration: 0.9 }}
               className="flex items-center h-full md:pl-16 "
