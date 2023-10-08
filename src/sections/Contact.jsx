@@ -94,7 +94,7 @@ const Contact = () => {
                           type="text"
                           name="first-name"
                           id="firstName"
-                          placeholder="John"
+                          placeholder="Your first name"
                           required
                         />
                         <ValidationError
@@ -117,7 +117,7 @@ const Contact = () => {
                           type="text"
                           name="last-name"
                           id="lastName"
-                          placeholder="Doe"
+                          placeholder="Your last name"
                           required
                         />
                         <ValidationError
