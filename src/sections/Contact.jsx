@@ -36,7 +36,7 @@ const Contact = () => {
                 <h2 className="text-3xl md:text-4xl font-bold text-black-900 mb-8 dark:text-white">
                   Get in touch
                 </h2>
-                <p className="max-w-lg text-grey-400 text-lg leading-7 dark:text-gray-300">
+                <p className="max-w-lg w-full text-grey-400 text-base sm:text-lg leading-7 dark:text-gray-300">
                   Have a project in mind? Looking to partner or work together?
                   Reach out through the form and I'll get back to you in the
                   next 24 hours.
@@ -46,16 +46,16 @@ const Contact = () => {
                 <div className="mt-[60px] flex flex-col gap-6">
                   <a
                     href="mailto:a.amineelkhalidy@gmail.com"
-                    className="dark:text-gray-100 inline-flex items-center gap-4 text-[20px] font-bold"
+                    className="dark:text-gray-100 inline-flex items-center gap-4 text-base sm:text-[20px] font-bold"
                   >
-                    <EnvelopeIcon className="w-7 h-7" />{" "}
+                    <EnvelopeIcon className="w-5 h-5 sm:w-7 sm:h-7" />{" "}
                     a.amineelkhalidy@gmail.com
                   </a>
                   <a
                     href="tel:+212611154307"
-                    className="dark:text-gray-100 inline-flex items-center gap-4 text-[20px] font-bold"
+                    className="dark:text-gray-100 inline-flex items-center gap-4 text-base sm:text-[20px] font-bold"
                   >
-                    <PhoneIcon className="w-7 h-7" />
+                    <PhoneIcon className="w-5 h-5 sm:w-7 sm:h-7" />
                     +212611154307
                   </a>
                 </div>
@@ -78,11 +78,11 @@ const Contact = () => {
                     </p>
                   </div>
                 ) : (
-                  <form onSubmit={handleSubmit} className="max-w-xl" action="#">
+                  <form onSubmit={handleSubmit} className="" action="#">
                     {/* First and Last name box */}
-                    <div className="flex flex-col mb-6 sm:flex-row sm:gap-6 sm:mb-0">
+                    <div className="w-full flex flex-col mb-6 sm:flex-row sm:gap-6 sm:mb-0">
                       {/* First name box */}
-                      <div className="mb-6">
+                      <div className="mb-6 w-1/2">
                         <label
                           className="mb-3 block font-bold text-black-900 dark:text-white"
                           htmlFor="firstName"
@@ -105,7 +105,7 @@ const Contact = () => {
                       </div>
 
                       {/* Last name box */}
-                      <div className="">
+                      <div className="w-1/2">
                         <label
                           className="mb-3 block font-bold text-black-900 dark:text-white"
                           htmlFor="lastName"
