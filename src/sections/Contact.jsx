@@ -82,7 +82,7 @@ const Contact = () => {
                     {/* First and Last name box */}
                     <div className="w-full flex flex-col mb-6 sm:flex-row sm:gap-6 sm:mb-0">
                       {/* First name box */}
-                      <div className="mb-6 w-1/2">
+                      <div className="mb-6 sm:w-1/2">
                         <label
                           className="mb-3 block font-bold text-black-900 dark:text-white"
                           htmlFor="firstName"
@@ -105,7 +105,7 @@ const Contact = () => {
                       </div>
 
                       {/* Last name box */}
-                      <div className="w-1/2">
+                      <div className="sm:w-1/2">
                         <label
                           className="mb-3 block font-bold text-black-900 dark:text-white"
                           htmlFor="lastName"
