@@ -129,6 +129,13 @@ const firstRowOfProjects = [
     githubLink: "https://github.com/AmineElkhalidy/",
     technologies: [Wordpress],
   },
+  {
+    name: "Mamiru",
+    image: Mamiru,
+    hrefLink: "https://mamirou.vercel.app/",
+    githubLink: "https://github.com/SamoudiAnas/Mamirou",
+    technologies: [REACT, Redux, Typescript],
+  },
 ];
 
 const secondRowOfProjects = [
@@ -146,35 +153,14 @@ const secondRowOfProjects = [
     githubLink: "https://github.com/AmineElkhalidy/EcoCentar.git",
     technologies: [Html, Tailwind],
   },
-  {
-    name: "Mamiru",
-    image: Mamiru,
-    hrefLink: "https://mamirou.vercel.app/",
-    githubLink: "https://github.com/SamoudiAnas/Mamirou",
-    technologies: [REACT, Redux, Typescript],
-  },
 
   {
     name: "Rotin Niajad",
     image: Rotinniajad,
-    hrefLink: "https://rotinniajad.com",
+    hrefLink: "https://rotinniajad.netlify.app",
     githubLink: "https://github.com/AmineElkhalidy/rotinniajad",
     technologies: [NextLight, Tailwind],
   },
-  // {
-  //   name: "Manchester Air Transfer",
-  //   image: AirTransfer,
-  //   hrefLink: "https://airtransfer.vercel.app/",
-  //   githubLink: "https://github.com/AmineElkhalidy/Manchester-Blue-Version.git",
-  //   technologies: [Html, Tailwind],
-  // },
-  // {
-  //   name: "Manchester Air Transfer",
-  //   image: AirTransferY,
-  //   hrefLink: "https://manchester-transfer.vercel.app/",
-  //   githubLink: "https://github.com/AmineElkhalidy/Manchester-transfer.git",
-  //   technologies: [Html, Tailwind],
-  // },
   {
     name: "Userhive",
     image: Userhive,
@@ -217,7 +203,7 @@ const Projects = () => {
   const [showMore, setShowMore] = useState(false);
   return (
     <section className="pt-[6.25rem]" id="projects">
-      <div className="max-w-6xl mx-auto px-6 min-h-screen">
+      <div className="container min-h-screen">
         <div>
           {/* Heading */}
           <Heading>My Work</Heading>
@@ -226,9 +212,8 @@ const Projects = () => {
           <motion.div
             whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
             transition={{ duration: 0.75 }}
-            className="w-full h-full"
           >
-            <div className="grid gap-8 place-items-center lg:gap-10 lg:grid-cols-2 lg:px-0">
+            <div className="projects__container">
               {firstRowOfProjects.map((project, index) => (
                 <motion.div
                   whileInView={{ opacity: [0, 1] }}

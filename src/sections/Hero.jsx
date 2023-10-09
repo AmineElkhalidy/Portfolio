@@ -18,7 +18,7 @@ import CV from "../assets/pdf/Amine-Elkhalidy.pdf";
 const Hero = () => {
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-6 xl:px-0">
+      <div className="container">
         {/* Content Container with animation */}
         <div className="flex items-center mt-48 md:mt-32">
           <div className="relative">
@@ -30,7 +30,7 @@ const Hero = () => {
             >
               <div>
                 {/* Introduction */}
-                <h1 className=" text-black-900 text-[2.5rem] dark:text-gray-100  leading-none font-bold mb-3 sm:text-6xl md:text-7xl lg:text-8xl animate-fade-up animate-duration-[2500ms]">
+                <h1 className=" text-black-900 text-[2.5rem] dark:text-gray-100  leading-none font-bold mb-3 sm:text-6xl md:text-7xl lg:text-8xl">
                   Hello <span class="wave">👋</span>,
                   <br />
                   I am Amine,
@@ -39,7 +39,7 @@ const Hero = () => {
                 </h1>
 
                 {/* Profession */}
-                <p className="text-grey-400 font-medium text-xl font-nav mb-10 md:text-xl lg:text-2xl dark:text-gray-200 animate-jump-in">
+                <p className="text-grey-400 font-medium text-xl font-nav mb-10 md:text-xl lg:text-2xl dark:text-gray-200">
                   <TypeIt
                     options={{
                       afterComplete: function (instance) {
@@ -83,7 +83,7 @@ const Hero = () => {
             <motion.div
               whileInView={{ y: [75, 0] }}
               transition={{ ease: "easeIn", duration: 1 }}
-              className="hidden md:block absolute bottom-0 "
+              className="hidden md:block absolute bottom-0"
             >
               <div className="bg-transparent flex flex-col gap-6 justify-center items-center">
                 <a

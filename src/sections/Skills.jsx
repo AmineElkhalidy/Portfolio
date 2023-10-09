@@ -11,19 +11,19 @@ const Skills = () => {
   return (
     <section className="pt-[6.25rem] pb-8" id="skills">
       <div className="relative">
-        <div className="max-w-6xl mx-auto px-6 lg:max-w-7xl">
+        <div className="container">
           <div>
             {/* Heading */}
             <Heading>Skills & Experiences</Heading>
 
             {/* Skills & Experience */}
-            <div className="flex flex-col space-y-20 md:flex-row md:space-y-0 md:space-x-20">
+            <div className="skillsexperience__container">
               {/* Skills */}
               <motion.div
                 initial={{ opacity: 0 }}
                 whileInView={{ x: [-100, 0], opacity: 1 }}
                 transition={{ duration: 0.75 }}
-                className="flex flex-wrap gap-8 justify-center items-center md:w-1/2 md:mx-auto lg:mb-3"
+                className="skills__container"
               >
                 {skills.map((skill) => (
                   <motion.div
@@ -54,62 +54,48 @@ const Skills = () => {
                 initial={{ opacity: 0 }}
                 whileInView={{ x: [100, 0], opacity: 1 }}
                 transition={{ duration: 0.75 }}
-                className="flex flex-col space-y-12 md:w-1/2 md:pt-4"
+                className="experience__container"
               >
                 {/* 2023 */}
-                <div className="flex space-x-12">
-                  <p className="gradient-text text-md sm:text-lg lg:text-xl xl:text-2xl font-semibold">
-                    2023
-                  </p>
+                <div className="experience__info">
+                  <p className="experience__year">2023</p>
 
                   <div>
                     <motion.div
                       whileInView={{ opacity: [0, 1] }}
                       transition={{ duration: 0.5 }}
                     >
-                      <h3 className="text-black-900 dark:text-white text-md sm:text-lg lg:text-xl xl:text-2xl font-semibold capitalize mb-[.75rem]">
-                        Web Developer
-                      </h3>
-                      <p className="text-black-400 dark:text-gray-300 mb-[.5rem] xl:text-lg">
+                      <h3 className="experience__profession">Web Developer</h3>
+                      <p className="experience__desc">
                         I am Working with an agency and a freelancer on Upwrok
                         as well.
                       </p>
-                      <p className="text-sm font-nav dark:text-gray-300 text-black-400 xl:text-base underline">
-                        Upwork
-                      </p>
+                      <p className="experience__company">Upwork</p>
                     </motion.div>
                   </div>
                 </div>
 
                 {/* 2022 */}
-                <div className="flex space-x-12">
-                  <p className="gradient-text text-md sm:text-lg lg:text-xl xl:text-2xl font-semibold ">
-                    2022
-                  </p>
+                <div className="experience__info">
+                  <p className="experience__year">2022</p>
 
                   <div>
                     <motion.div
                       whileInView={{ opacity: [0, 1] }}
                       transition={{ duration: 0.5 }}
                     >
-                      <h3 className="text-black-900 dark:text-white text-md sm:text-lg lg:text-xl xl:text-2xl font-semibold capitalize mb-[.75rem]">
-                        Web Developer
-                      </h3>
-                      <p className="text-black-400 dark:text-gray-300 mb-[.5rem] xl:text-lg">
+                      <h3 className="experience__profession">Web Developer</h3>
+                      <p className="experience__desc">
                         I am working as a freelancer
                       </p>
-                      <p className="text-sm font-nav dark:text-gray-300 text-black-400 xl:text-base underline">
-                        Freelancer
-                      </p>
+                      <p className="experience__company">Freelancer</p>
                     </motion.div>
                   </div>
                 </div>
 
                 {/* 2021 */}
-                <div className="flex space-x-12">
-                  <p className="gradient-text text-md sm:text-lg lg:text-xl xl:text-2xl  font-semibold">
-                    2021
-                  </p>
+                <div className="experience__info">
+                  <p className="experience__year">2021</p>
 
                   <div>
                     <motion.div
@@ -117,14 +103,14 @@ const Skills = () => {
                       transition={{ duration: 0.5 }}
                       className="ml-1"
                     >
-                      <h3 className="text-black-900 dark:text-white text-md sm:text-lg lg:text-xl xl:text-2xl font-semibold capitalize mb-[.75rem]">
+                      <h3 className="experience__profession">
                         FrontEnd & Alfresco Dev
                       </h3>
-                      <p className="text-black-400 dark:text-gray-300  mb-[.5rem] xl:text-lg">
+                      <p className="experience__desc">
                         I have worked on customising Alfresco (CMS) for a large
                         organization
                       </p>
-                      <p className="text-sm font-nav dark:text-gray-300 text-black-400 xl:text-base underline">
+                      <p className="experience__company">
                         Prefecture d'arrondissement de Ben M'sick - Casablanca
                       </p>
                     </motion.div>
