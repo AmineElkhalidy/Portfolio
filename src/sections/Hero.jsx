@@ -85,9 +85,9 @@ const Hero = () => {
               transition={{ ease: "easeIn", duration: 1 }}
               className="hidden md:block absolute bottom-0"
             >
-              <div className="bg-transparent flex flex-col gap-6 justify-center items-center">
+              <div className="heading__social-links">
                 <a
-                  className="cursor-pointer duration-300 hover:scale-125"
+                  className="heading__social-link"
                   href="https://www.upwork.com/freelancers/~01f55a2d4b119d3119"
                   target="_blank"
                   aria-label="Upwork Profile"
@@ -104,7 +104,7 @@ const Hero = () => {
                 </a>
 
                 <a
-                  className="cursor-pointer hover:scale-125 duration-300"
+                  className="heading__social-link"
                   href="https://www.fiverr.com/amineelkhalidy"
                   target="_blank"
                   aria-label="Fiverr Profile"
@@ -122,7 +122,7 @@ const Hero = () => {
                 </a>
 
                 <a
-                  className="cursor-pointer hover:scale-125 duration-300"
+                  className="heading__social-link"
                   href="https://github.com/AmineElkhalidy"
                   target="_blank"
                   aria-label="Github Profile"
@@ -140,7 +140,7 @@ const Hero = () => {
                 </a>
 
                 <a
-                  className="cursor-pointer hover:scale-125 duration-300 "
+                  className="heading__social-link"
                   href="https://www.linkedin.com/in/amine-elkhalidy/"
                   target="_blank"
                   aria-label="Linkedin Profile"

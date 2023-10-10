@@ -100,6 +100,14 @@ body {
   @apply text-black-900 dark:text-white text-2xl text-center font-nav font-bold mb-12 lg:mb-16 sm:text-3xl md:text-4xl lg:text-5xl;
 }
 
+.heading__social-links {
+  @apply bg-transparent flex flex-col gap-6 justify-center items-center;
+}
+
+.heading__social-link {
+  @apply cursor-pointer duration-300 hover:scale-125;
+}
+
 .about__container {
   @apply grid gap-20 md:gap-0 md:grid-cols-2 lg:pl-12;
 }
