@@ -67,8 +67,7 @@ const Skills = () => {
                     >
                       <h3 className="experience__profession">Web Developer</h3>
                       <p className="experience__desc">
-                        I am Working with an agency and a freelancer on Upwrok
-                        as well.
+                        I am Working with an agency currently.
                       </p>
                       <p className="experience__company">Upwork</p>
                     </motion.div>
