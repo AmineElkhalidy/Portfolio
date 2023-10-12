@@ -72,7 +72,7 @@ const Hero = () => {
                       rel="noopener noreferrer"
                     >
                       Download CV{" "}
-                      <ArrowRightIcon className="w-5 duration-300 group-hover:translate-x-3" />
+                      {/* <ArrowRightIcon className="w-5 duration-300 group-hover:translate-x-3" /> */}
                     </a>
                   </div>
                 </div>
