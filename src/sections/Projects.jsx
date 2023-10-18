@@ -79,6 +79,9 @@ const firstRowOfProjects = [
     githubLink: "https://github.com/AmineElkhalidy/railflow",
     technologies: [NextLight, Tailwind, Node],
   },
+];
+
+const secondRowOfProjects = [
   {
     name: "Noormedia",
     image: Noormedia,
@@ -136,9 +139,6 @@ const firstRowOfProjects = [
     githubLink: "https://github.com/SamoudiAnas/Mamirou",
     technologies: [REACT, Redux, Typescript],
   },
-];
-
-const secondRowOfProjects = [
   {
     name: "GradesBar",
     image: GradesBar,
