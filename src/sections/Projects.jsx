@@ -18,15 +18,12 @@ import Userhive from "../assets/images/projects/userhive.webp";
 import AirTransfer from "../assets/images/projects/airtransfer.webp";
 import AirTransferY from "../assets/images/projects/airtransfer-yellow.webp";
 import EcoCentar from "../assets/images/projects/Eco-centar.webp";
-import Iptv from "../assets/images/projects/iptv.webp";
 import Miriam from "../assets/images/projects/miriamsimon.webp";
 import GradesBar from "../assets/images/projects/dashboard.webp";
-import DigitalPole from "../assets/images/projects/digital-pole.webp";
 import Shoes from "../assets/images/projects/shoes.webp";
 import Shoppy from "../assets/images/projects/shoppy.webp";
 import FixClinic from "../assets/images/projects/fixclinic.webp";
 import BodyReset from "../assets/images/projects/bodyreset.webp";
-import IPTVPREMIUM from "../assets/images/projects/iptvsmarterspremium.webp";
 import Railflow from "../assets/images/projects/railflow.webp";
 import Noormedia from "../assets/images/projects/noormedia.webp";
 import Cars from "../assets/images/projects/cars.webp";
@@ -111,27 +108,27 @@ const secondRowOfProjects = [
     githubLink: "https://github.com/AmineElkhalidy",
     technologies: [Wordpress],
   },
-  {
-    name: "IPTV Premium",
-    image: IPTVPREMIUM,
-    hrefLink: "https://iptvsmarterspremium.net/",
-    githubLink: "https://github.com/AmineElkhalidy",
-    technologies: [Wordpress],
-  },
-  {
-    name: "IPTV Pole",
-    image: Iptv,
-    hrefLink: "https://iptvpole.com/",
-    githubLink: "https://github.com/AmineElkhalidy",
-    technologies: [Wordpress],
-  },
-  {
-    name: "Digital Pole",
-    image: DigitalPole,
-    hrefLink: "https://digitalpole.shop",
-    githubLink: "https://github.com/AmineElkhalidy/",
-    technologies: [Wordpress],
-  },
+  // {
+  //   name: "IPTV Premium",
+  //   image: IPTVPREMIUM,
+  //   hrefLink: "https://iptvsmarterspremium.net/",
+  //   githubLink: "https://github.com/AmineElkhalidy",
+  //   technologies: [Wordpress],
+  // },
+  // {
+  //   name: "IPTV Pole",
+  //   image: Iptv,
+  //   hrefLink: "https://iptvpole.com/",
+  //   githubLink: "https://github.com/AmineElkhalidy",
+  //   technologies: [Wordpress],
+  // },
+  // {
+  //   name: "Digital Pole",
+  //   image: DigitalPole,
+  //   hrefLink: "https://digitalpole.shop",
+  //   githubLink: "https://github.com/AmineElkhalidy/",
+  //   technologies: [Wordpress],
+  // },
   {
     name: "Mamiru",
     image: Mamiru,
@@ -201,6 +198,7 @@ const secondRowOfProjects = [
 const Projects = () => {
   // Show projects state
   const [showMore, setShowMore] = useState(false);
+
   return (
     <section className="pt-[6.25rem]" id="projects">
       <div className="container min-h-screen">
