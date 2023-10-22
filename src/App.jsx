@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-
-// Sections
 import {
   Header,
   Hero,
@@ -11,13 +9,10 @@ import {
   Testimonials,
   Hobbies,
 } from "./sections";
-
-// icons
 import { ArrowUpIcon } from "@heroicons/react/24/outline";
 
 const App = () => {
   const [showArrow, setShowArrow] = useState(false);
-
   useEffect(() => {
     const sections = document.querySelectorAll("section[id]");
 
@@ -51,7 +46,6 @@ const App = () => {
       if (window.scrollY > 450) setShowArrow(true);
       else setShowArrow(false);
     });
-
     return () =>
       window.removeEventListener("scroll", () => {
         if (window.scrollY) setShowArrow(true);
@@ -62,7 +56,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <main className="w-full h-full overflow-hidden">
+      <main>
         <Hero />
         <About />
         <Projects />
@@ -72,15 +66,12 @@ const App = () => {
         <Contact />
       </main>
 
-      {/* Arrow up */}
       <a
         href="#"
-        className={`fixed p-1.5 duration-300 opacity-50 -right-10 bottom-2 gradient hover:opacity-100 ${
-          showArrow ? "right-2" : ""
-        }`}
+        className={`scrollup ${showArrow ? "right-2" : ""}`}
         aria-labelledby="Go Up"
       >
-        <ArrowUpIcon className="w-6 h-6 text-white" />
+        <ArrowUpIcon className="scrollup-icon" />
       </a>
     </>
   );

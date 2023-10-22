@@ -20,13 +20,13 @@ const Hero = () => {
     <section>
       <div className="container">
         {/* Content Container with animation */}
-        <div className="flex items-center mt-48 md:mt-32">
+        <div className="flex items-center mt-36 md:mt-32">
           <div className="relative">
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
               transition={{ duration: 0.9 }}
-              className="flex items-center h-full md:pl-16 "
+              className="flex items-center h-full md:pl-16"
             >
               <div>
                 {/* Introduction */}
@@ -71,8 +71,8 @@ const Hero = () => {
                       download="Amine Elkhalidy"
                       rel="noopener noreferrer"
                     >
-                      Download CV{" "}
-                      {/* <ArrowRightIcon className="w-5 duration-300 group-hover:translate-x-3" /> */}
+                      Download Resume{" "}
+                      <ArrowRightIcon className="w-5 duration-300 group-hover:translate-x-3" />
                     </a>
                   </div>
                 </div>
