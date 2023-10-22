@@ -1,16 +1,10 @@
 import React, { useState } from "react";
-
-// motion
 import { motion } from "framer-motion";
-
-// Icons
 import { XMarkIcon, Bars3Icon } from "@heroicons/react/24/solid";
 
-// Switcher
 import Switcher from "./Switcher";
 
 const Navbar = () => {
-  // Nav state
   const [open, setOpen] = useState(false);
 
   return (
@@ -47,7 +41,7 @@ const Navbar = () => {
                   href="#projects"
                   onClick={() => setOpen(false)}
                 >
-                  Projects
+                  Work
                 </a>
               </li>
 
@@ -123,7 +117,7 @@ const Navbar = () => {
                 className="font-nav font-semibold text-[1.05rem] duration-300 dark:text-gray-50"
                 href="#projects"
               >
-                Projects
+                Work
               </a>
             </li>
 

@@ -1,12 +1,7 @@
 import React, { useState } from "react";
-
-// Icon
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
-
-// motion
 import { motion } from "framer-motion";
 
-// Data
 import Mamiru from "../assets/images/projects/mamiro.webp";
 import Tasty from "../assets/images/projects/tasty.webp";
 import Omnifood from "../assets/images/projects/omnifood.webp";
@@ -196,7 +191,6 @@ const secondRowOfProjects = [
 ];
 
 const Projects = () => {
-  // Show projects state
   const [showMore, setShowMore] = useState(false);
 
   return (
@@ -204,7 +198,7 @@ const Projects = () => {
       <div className="container min-h-screen">
         <div>
           {/* Heading */}
-          <Heading>My Work</Heading>
+          <Heading>My Latest Work</Heading>
 
           {/* Work Container */}
           <motion.div
