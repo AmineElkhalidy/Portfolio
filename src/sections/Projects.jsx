@@ -38,6 +38,7 @@ import Typescript from "../assets/images/typescript.webp";
 import Wordpress from "../assets/images/wordpress.webp";
 import MUI from "../assets/images/mui.webp";
 import Bootstrap from "../assets/images/bootstrap.webp";
+import MongoDB from "../assets/images/mongodb.webp";
 
 // Components
 import Heading from "../components/atoms/Heading";
@@ -48,21 +49,21 @@ const firstRowOfProjects = [
     image: Cars,
     hrefLink: "https://cars-exhibition.vercel.app/",
     githubLink: "https://github.com/AmineElkhalidy",
-    technologies: [NextLight, Tailwind],
+    technologies: [NextLight, Tailwind, MongoDB],
   },
   {
     name: "Fix Clinic",
     image: FixClinic,
     hrefLink: "https://thefixclinic.com/",
     githubLink: "https://github.com/AmineElkhalidy",
-    technologies: [Html, Css, Js],
+    technologies: [Html, Css, Js, Bootstrap],
   },
   {
     name: "Mindset Body Reset",
     image: BodyReset,
     hrefLink: "https://mindsetbodyreset.com/",
     githubLink: "https://github.com/AmineElkhalidy",
-    technologies: [Html, Css, Js],
+    technologies: [Html, Css, Js, Bootstrap],
   },
   {
     name: "Railflow",
@@ -74,13 +75,13 @@ const firstRowOfProjects = [
 ];
 
 const secondRowOfProjects = [
-  {
-    name: "Noormedia",
-    image: Noormedia,
-    hrefLink: "https://noormedia-agency.vercel.app/",
-    githubLink: "https://github.com/AmineElkhalidy/noormedia",
-    technologies: [Html, Css, Js],
-  },
+  // {
+  //   name: "Noormedia",
+  //   image: Noormedia,
+  //   hrefLink: "https://noormedia-agency.vercel.app/",
+  //   githubLink: "https://github.com/AmineElkhalidy/noormedia",
+  //   technologies: [Html, Css, Js],
+  // },
   {
     name: "Shoppy(Under construction)",
     image: Shoppy,
@@ -96,13 +97,13 @@ const secondRowOfProjects = [
     technologies: [NextLight, REACT, Tailwind, Redux],
   },
 
-  {
-    name: "Miriam Simon Retail",
-    image: Miriam,
-    hrefLink: "https://miriamsimon.ie/",
-    githubLink: "https://github.com/AmineElkhalidy",
-    technologies: [Wordpress],
-  },
+  // {
+  //   name: "Miriam Simon Retail",
+  //   image: Miriam,
+  //   hrefLink: "https://miriamsimon.ie/",
+  //   githubLink: "https://github.com/AmineElkhalidy",
+  //   technologies: [Wordpress],
+  // },
   // {
   //   name: "IPTV Premium",
   //   image: IPTVPREMIUM,
@@ -205,77 +206,14 @@ const Projects = () => {
             whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
             transition={{ duration: 0.75 }}
           >
-            <div className="projects__container">
-              {firstRowOfProjects.map((project, index) => (
-                <motion.div
-                  whileInView={{ opacity: [0, 1] }}
-                  transition={{ duration: 0.75 }}
-                  key={index}
-                >
-                  {/* Project container */}
-                  <div className="max-w-sm sm:max-w-md md:max-w-lg lg:w-full">
-                    {/* Container */}
-                    <div className="relative">
-                      {/* Image container */}
-                      <div className="h-[250px] sm:h-[300px]">
-                        <img
-                          className="h-full w-full border-2 border-black-900 object-cover dark:border-white lg:w-full"
-                          src={project.image}
-                          alt={project.name}
-                        />
-                      </div>
-
-                      {/* Project description */}
-                      <div className="bg-black-900 dark:bg-gray-50 p-5 sm:p-8 lg:p-12">
-                        {/* <span className="gradient-text text-sm uppercase tracking-widest font-semibold">
-                      Featured Project
-                    </span> */}
-                        <h2 className="text-white dark:text-black-900 text-xl font-bold mb-4 lg:text-2xl lg:mb-6 2xl:text-3xl">
-                          {project.name}
-                        </h2>
-
-                        {/* Technologies used */}
-                        <div className="w-full flex gap-4  mb-5">
-                          {project.technologies.map((tech, index) => (
-                            <div className="w-[12%]" key={index}>
-                              <img
-                                className="w-full h-full "
-                                src={tech}
-                                alt={tech}
-                              />
-                            </div>
-                          ))}
-                        </div>
-
-                        {/* Buttons container */}
-                        <div className="flex justify-between lg:text-lg">
-                          <a
-                            href={project.hrefLink}
-                            target="_blank"
-                            className="p-3 sm:px-5 sm:py-3 gradient group inline-flex items-center sm:font-medium text-md gap-1 lg:text-lg cursor-pointer text-white font-semibold"
-                          >
-                            View Project{" "}
-                            <ArrowRightIcon className="w-4 h-4 duration-300 group-hover:translate-x-2 text-white " />
-                          </a>
-
-                          <a
-                            href={project.githubLink}
-                            target="_blank"
-                            className="group inline-flex items-center sm:font-medium text-md gap-1 lg:text-lg text-white dark:text-black-900 cursor-pointer"
-                          >
-                            Github Repo{" "}
-                            <ArrowRightIcon className="w-4 h-4 duration-300 group-hover:translate-x-2" />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </motion.div>
-              ))}
-
-              {showMore &&
-                secondRowOfProjects.map((project, index) => (
-                  <motion.div whileInView={{ opacity: [0, 1] }} key={index}>
+            <div className="w-full flex justify-center items-center">
+              <div className="projects__container">
+                {firstRowOfProjects.map((project, index) => (
+                  <motion.div
+                    whileInView={{ opacity: [0, 1] }}
+                    transition={{ duration: 0.75 }}
+                    key={index}
+                  >
                     {/* Project container */}
                     <div className="max-w-sm sm:max-w-md md:max-w-lg lg:w-full">
                       {/* Container */}
@@ -303,7 +241,7 @@ const Projects = () => {
                             {project.technologies.map((tech, index) => (
                               <div className="w-[12%]" key={index}>
                                 <img
-                                  className="w-full h-full "
+                                  className="w-full h-full rounded-full"
                                   src={tech}
                                   alt={tech}
                                 />
@@ -336,6 +274,71 @@ const Projects = () => {
                     </div>
                   </motion.div>
                 ))}
+
+                {showMore &&
+                  secondRowOfProjects.map((project, index) => (
+                    <motion.div whileInView={{ opacity: [0, 1] }} key={index}>
+                      {/* Project container */}
+                      <div className="max-w-sm sm:max-w-md md:max-w-lg lg:w-full">
+                        {/* Container */}
+                        <div className="relative">
+                          {/* Image container */}
+                          <div className="h-[250px] sm:h-[300px]">
+                            <img
+                              className="h-full w-full border-2 border-black-900 object-cover dark:border-white lg:w-full"
+                              src={project.image}
+                              alt={project.name}
+                            />
+                          </div>
+
+                          {/* Project description */}
+                          <div className="bg-black-900 dark:bg-gray-50 p-5 sm:p-8 lg:p-12">
+                            {/* <span className="gradient-text text-sm uppercase tracking-widest font-semibold">
+                      Featured Project
+                    </span> */}
+                            <h2 className="text-white dark:text-black-900 text-xl font-bold mb-4 lg:text-2xl lg:mb-6 2xl:text-3xl">
+                              {project.name}
+                            </h2>
+
+                            {/* Technologies used */}
+                            <div className="w-full flex gap-4  mb-5">
+                              {project.technologies.map((tech, index) => (
+                                <div className="w-[12%]" key={index}>
+                                  <img
+                                    className="w-full h-full "
+                                    src={tech}
+                                    alt={tech}
+                                  />
+                                </div>
+                              ))}
+                            </div>
+
+                            {/* Buttons container */}
+                            <div className="flex justify-between lg:text-lg">
+                              <a
+                                href={project.hrefLink}
+                                target="_blank"
+                                className="p-3 sm:px-5 sm:py-3 gradient group inline-flex items-center sm:font-medium text-md gap-1 lg:text-lg cursor-pointer text-white font-semibold"
+                              >
+                                View Project{" "}
+                                <ArrowRightIcon className="w-4 h-4 duration-300 group-hover:translate-x-2 text-white " />
+                              </a>
+
+                              <a
+                                href={project.githubLink}
+                                target="_blank"
+                                className="group inline-flex items-center sm:font-medium text-md gap-1 lg:text-lg text-white dark:text-black-900 cursor-pointer"
+                              >
+                                Github Repo{" "}
+                                <ArrowRightIcon className="w-4 h-4 duration-300 group-hover:translate-x-2" />
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </motion.div>
+                  ))}
+              </div>
             </div>
 
             {showMore ? (

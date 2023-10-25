@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="nav">
       <a
-        className="inline-flex dark:text-white items-center font-nav font-bold tracking-wide duration-300 text-black text-lg  sm:text-xl"
+        className="inline-flex dark:text-white items-center font-nav font-bold tracking-wide duration-300 text-black text-lg sm:text-xl"
         href="#"
       >
         <span>Amine Elkhalidy</span>
@@ -80,7 +80,7 @@ const Navbar = () => {
               className="inline-block absolute top-6 right-8 cursor-pointer duration-300"
               onClick={() => setOpen(false)}
             >
-              <XMarkIcon className="w-7 h-7 hover:text-grey-300 dark:text-gray-100 " />
+              <XMarkIcon className="w-6 h-6 hover:text-grey-300 dark:text-gray-100 " />
             </div>
           </div>
         </div>
@@ -91,7 +91,7 @@ const Navbar = () => {
             className="nav__toggle"
             onClick={() => setOpen((prevState) => !prevState)}
           >
-            <Bars3Icon className="w-8 h-8 dark:text-white hover:text-gray-600 duration-300" />
+            <Bars3Icon className="w-7 h-7 dark:text-white hover:text-gray-600 duration-300" />
           </div>
         </div>
       )}

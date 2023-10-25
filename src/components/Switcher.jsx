@@ -15,7 +15,11 @@ const Switcher = () => {
 
   return (
     <>
-      <DarkModeSwitch checked={darkMode} onChange={toggleDarkMode} size={28} />
+      <DarkModeSwitch
+        checked={darkMode}
+        onChange={toggleDarkMode}
+        className="w-7 h-7"
+      />
     </>
   );
 };

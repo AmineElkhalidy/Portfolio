@@ -30,7 +30,7 @@ const Hero = () => {
             >
               <div>
                 {/* Introduction */}
-                <h1 className=" text-black-900 text-[2.5rem] dark:text-gray-100  leading-none font-bold mb-3 sm:text-6xl md:text-7xl lg:text-8xl">
+                <h1 className=" text-black-900 text-[2.6rem] dark:text-gray-100  leading-none font-bold mb-3 sm:text-6xl md:text-7xl lg:text-8xl">
                   Hello <span class="wave">👋</span>,
                   <br />
                   I am Amine,

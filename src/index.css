@@ -39,7 +39,7 @@ body {
 }
 
 .nav__link {
-  @apply font-nav text-lg font-semibold text-black-900 dark:text-grey-100 duration-300;
+  @apply font-nav font-semibold text-black-900 dark:text-grey-100 duration-300;
 }
 
 .active-link {
