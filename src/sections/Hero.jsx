@@ -30,7 +30,7 @@ const Hero = () => {
             >
               <div>
                 {/* Introduction */}
-                <h1 className=" text-black-900 text-[2.6rem] dark:text-gray-100  leading-none font-bold mb-3 sm:text-6xl md:text-7xl lg:text-8xl">
+                <h1 className="hero__title">
                   Hello <span class="wave">👋</span>,
                   <br />
                   I am Amine,
@@ -39,7 +39,7 @@ const Hero = () => {
                 </h1>
 
                 {/* Profession */}
-                <p className="text-grey-400 font-medium text-xl font-nav mb-10 md:text-xl lg:text-2xl dark:text-gray-200">
+                <p className="hero__desc">
                   <TypeIt
                     options={{
                       afterComplete: function (instance) {
@@ -52,7 +52,7 @@ const Hero = () => {
                 </p>
 
                 {/* Contact me button */}
-                <div className="flex flex-col space-y-3 sm:flex-row sm:space-x-12 ">
+                <div className="hero__buttons-container">
                   <div className="relative animate-fade-up animate-duration-[2000ms]">
                     <a
                       className="inline-block px-[31px] py-5 bg-black-900 dark:text-black-900 dark:bg-gray-100 text-white cursor-pointer text-lg duration-300 font-nav font-semibold z-10 hover:translate-x-2 hover:translate-y-2"
@@ -85,9 +85,8 @@ const Hero = () => {
               transition={{ ease: "easeIn", duration: 1 }}
               className="hidden md:block absolute bottom-0"
             >
-              <div className="heading__social-links">
+              <div className="header__social-links">
                 <a
-                  className="heading__social-link"
                   href="https://www.upwork.com/freelancers/~01f55a2d4b119d3119"
                   target="_blank"
                   aria-label="Upwork Profile"
@@ -104,7 +103,6 @@ const Hero = () => {
                 </a>
 
                 <a
-                  className="heading__social-link"
                   href="https://www.fiverr.com/amineelkhalidy"
                   target="_blank"
                   aria-label="Fiverr Profile"
@@ -122,7 +120,6 @@ const Hero = () => {
                 </a>
 
                 <a
-                  className="heading__social-link"
                   href="https://github.com/AmineElkhalidy"
                   target="_blank"
                   aria-label="Github Profile"
@@ -140,7 +137,6 @@ const Hero = () => {
                 </a>
 
                 <a
-                  className="heading__social-link"
                   href="https://www.linkedin.com/in/amine-elkhalidy/"
                   target="_blank"
                   aria-label="Linkedin Profile"
