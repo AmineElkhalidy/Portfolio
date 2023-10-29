@@ -206,7 +206,7 @@ const Projects = () => {
             whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
             transition={{ duration: 0.75 }}
           >
-            <div className="w-full flex justify-center items-center">
+            <div className="projects">
               <div className="projects__container">
                 {firstRowOfProjects.map((project, index) => (
                   <motion.div
@@ -215,7 +215,7 @@ const Projects = () => {
                     key={index}
                   >
                     {/* Project container */}
-                    <div className="max-w-sm sm:max-w-md md:max-w-lg lg:w-full">
+                    <div className="project__container">
                       {/* Container */}
                       <div className="relative">
                         {/* Image container */}
@@ -279,7 +279,7 @@ const Projects = () => {
                   secondRowOfProjects.map((project, index) => (
                     <motion.div whileInView={{ opacity: [0, 1] }} key={index}>
                       {/* Project container */}
-                      <div className="max-w-sm sm:max-w-md md:max-w-lg lg:w-full">
+                      <div className="project__container">
                         {/* Container */}
                         <div className="relative">
                           {/* Image container */}
