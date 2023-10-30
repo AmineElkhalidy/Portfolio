@@ -187,7 +187,7 @@ const Contact = () => {
                         type="submit"
                         disabled={state.submitting}
                       >
-                        Submit Now!
+                        Submit Now
                       </button>
 
                       <span className="contact-btn absolute -z-10 top-2 left-2 px-[5.25rem] py-[2.15rem] bg-red-500" />
