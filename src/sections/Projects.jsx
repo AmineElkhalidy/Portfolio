@@ -2,46 +2,50 @@ import React, { useState } from "react";
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
 
-import Mamiru from "../assets/images/projects/mamiro.webp";
-import Tasty from "../assets/images/projects/tasty.webp";
-import Omnifood from "../assets/images/projects/omnifood.webp";
-import Clipboarding from "../assets/images/projects/clipboarding.webp";
-import Shoesit from "../assets/images/projects/shoesit.webp";
-import Rotinniajad from "../assets/images/projects/rotinniajad.webp";
-import Funiro from "../assets/images/projects/funiro.webp";
-import Userhive from "../assets/images/projects/userhive.webp";
-import AirTransfer from "../assets/images/projects/airtransfer.webp";
-import AirTransferY from "../assets/images/projects/airtransfer-yellow.webp";
-import EcoCentar from "../assets/images/projects/Eco-centar.webp";
-import Miriam from "../assets/images/projects/miriamsimon.webp";
-import GradesBar from "../assets/images/projects/dashboard.webp";
-import Shoes from "../assets/images/projects/shoes.webp";
-import Shoppy from "../assets/images/projects/shoppy.webp";
-import FixClinic from "../assets/images/projects/fixclinic.webp";
-import BodyReset from "../assets/images/projects/bodyreset.webp";
-import Railflow from "../assets/images/projects/railflow.webp";
-import Noormedia from "../assets/images/projects/noormedia.webp";
-import Cars from "../assets/images/projects/cars.webp";
-
-// Images
-import Html from "../assets/images/html.webp";
-import Css from "../assets/images/css.webp";
-import Js from "../assets/images/javascript.webp";
-import REACT from "../assets/images/react.webp";
-import Next from "../assets/images/next.webp";
-import NextLight from "../assets/images/nextjs-light.webp";
-import Tailwind from "../assets/images/tailwind.webp";
-import Redux from "../assets/images/redux.webp";
-import Node from "../assets/images/node.webp";
-import Sass from "../assets/images/sass.webp";
-import Typescript from "../assets/images/typescript.webp";
-import Wordpress from "../assets/images/wordpress.webp";
-import MUI from "../assets/images/mui.webp";
-import Bootstrap from "../assets/images/bootstrap.webp";
-import MongoDB from "../assets/images/mongodb.webp";
-
 // Components
 import Heading from "../components/atoms/Heading";
+import { techs, projects } from "../data/data";
+
+const {
+  Html,
+  CSS,
+  JavaScript,
+  ReactImg,
+  NextLight,
+  Node,
+  Bootstrap,
+  Sass,
+  Tailwind,
+  MUI,
+  MongoDB,
+  TypeScript,
+  Redux,
+  Git,
+  Chakra,
+  Wordpress,
+} = techs;
+
+const {
+  Mamiru,
+  Tasty,
+  Omnifood,
+  Clipboarding,
+  Shoesit,
+  Rotinniajad,
+  Funiro,
+  Userhive,
+  AirTransfer,
+  AirTransferY,
+  EcoCentar,
+  Miriam,
+  GradesBar,
+  Shoes,
+  Shoppy,
+  FixClinic,
+  BodyReset,
+  Railflow,
+  Cars,
+} = projects;
 
 const firstRowOfProjects = [
   {
@@ -49,102 +53,65 @@ const firstRowOfProjects = [
     image: Cars,
     hrefLink: "https://cars-exhibition.vercel.app/",
     githubLink: "https://github.com/AmineElkhalidy",
-    technologies: [NextLight, Tailwind, MongoDB],
+    technologies: [NextLight, Tailwind, MongoDB, Git],
   },
   {
     name: "Fix Clinic",
     image: FixClinic,
     hrefLink: "https://thefixclinic.com/",
     githubLink: "https://github.com/AmineElkhalidy",
-    technologies: [Html, Css, Js, Bootstrap],
+    technologies: [Html, CSS, JavaScript, Bootstrap, Git],
   },
   {
     name: "Mindset Body Reset",
     image: BodyReset,
     hrefLink: "https://mindsetbodyreset.com/",
     githubLink: "https://github.com/AmineElkhalidy",
-    technologies: [Html, Css, Js, Bootstrap],
+    technologies: [Html, CSS, JavaScript, Bootstrap, Git],
   },
   {
     name: "Railflow",
     image: Railflow,
     hrefLink: "https://railflow-website-v2.vercel.app/",
     githubLink: "https://github.com/AmineElkhalidy/railflow",
-    technologies: [NextLight, Tailwind, Node],
+    technologies: [NextLight, Tailwind, Node, Git],
   },
 ];
-
 const secondRowOfProjects = [
-  // {
-  //   name: "Noormedia",
-  //   image: Noormedia,
-  //   hrefLink: "https://noormedia-agency.vercel.app/",
-  //   githubLink: "https://github.com/AmineElkhalidy/noormedia",
-  //   technologies: [Html, Css, Js],
-  // },
   {
     name: "Shoppy(Under construction)",
     image: Shoppy,
     hrefLink: "https://e-shoppy.vercel.app/",
     githubLink: "https://github.com/AmineElkhalidy/e-commerce",
-    technologies: [REACT, Redux, Bootstrap, Node],
+    technologies: [ReactImg, Redux, Bootstrap, Node],
   },
   {
     name: "Shoesit",
     image: Shoes,
     hrefLink: "https://shoesit.vercel.app/",
     githubLink: "https://github.com/AmineElkhalidy/shoesit",
-    technologies: [NextLight, REACT, Tailwind, Redux],
+    technologies: [NextLight, ReactImg, Tailwind, Redux],
   },
-
-  // {
-  //   name: "Miriam Simon Retail",
-  //   image: Miriam,
-  //   hrefLink: "https://miriamsimon.ie/",
-  //   githubLink: "https://github.com/AmineElkhalidy",
-  //   technologies: [Wordpress],
-  // },
-  // {
-  //   name: "IPTV Premium",
-  //   image: IPTVPREMIUM,
-  //   hrefLink: "https://iptvsmarterspremium.net/",
-  //   githubLink: "https://github.com/AmineElkhalidy",
-  //   technologies: [Wordpress],
-  // },
-  // {
-  //   name: "IPTV Pole",
-  //   image: Iptv,
-  //   hrefLink: "https://iptvpole.com/",
-  //   githubLink: "https://github.com/AmineElkhalidy",
-  //   technologies: [Wordpress],
-  // },
-  // {
-  //   name: "Digital Pole",
-  //   image: DigitalPole,
-  //   hrefLink: "https://digitalpole.shop",
-  //   githubLink: "https://github.com/AmineElkhalidy/",
-  //   technologies: [Wordpress],
-  // },
   {
     name: "Mamiru",
     image: Mamiru,
     hrefLink: "https://mamirou.vercel.app/",
     githubLink: "https://github.com/SamoudiAnas/Mamirou",
-    technologies: [REACT, Redux, Typescript],
+    technologies: [ReactImg, Redux, TypeScript, Git],
   },
   {
     name: "GradesBar",
     image: GradesBar,
     hrefLink: "#",
     githubLink: "https://github.com/AmineElkhalidy/",
-    technologies: [MUI, Tailwind, REACT],
+    technologies: [MUI, Tailwind, ReactImg, Git],
   },
   {
     name: "Eco-Centar",
     image: EcoCentar,
     hrefLink: "https://eco-centar.vercel.app/",
     githubLink: "https://github.com/AmineElkhalidy/EcoCentar.git",
-    technologies: [Html, Tailwind],
+    technologies: [Html, Tailwind, Git],
   },
 
   {
@@ -152,42 +119,42 @@ const secondRowOfProjects = [
     image: Rotinniajad,
     hrefLink: "https://rotinniajad.netlify.app",
     githubLink: "https://github.com/AmineElkhalidy/rotinniajad",
-    technologies: [NextLight, Tailwind],
+    technologies: [NextLight, Tailwind, Git],
   },
   {
     name: "Userhive",
     image: Userhive,
     hrefLink: "https://www.userhive.co/",
     githubLink: "https://github.com/AmineElkhalidy/userhive",
-    technologies: [NextLight, Tailwind],
+    technologies: [NextLight, Tailwind, Git],
   },
   {
     name: "Funiro",
     image: Funiro,
     hrefLink: "https://funiro-app.vercel.app/",
     githubLink: "https://github.com/AmineElkhalidy/funiro",
-    technologies: [NextLight, Tailwind],
+    technologies: [NextLight, Tailwind, Git],
   },
   {
     name: "Clipboarding",
     image: Clipboarding,
     hrefLink: "https://clipboarding.vercel.app/",
     githubLink: "https://github.com/AmineElkhalidy/clipboarding",
-    technologies: [Html, Tailwind],
+    technologies: [Html, Tailwind, Git],
   },
   {
     name: "Tasty",
     image: Tasty,
     hrefLink: "https://tasty.vercel.app/",
     githubLink: "https://github.com/AmineElkhalidy/restauranttasty",
-    technologies: [Html, Css, Js],
+    technologies: [Html, CSS, JavaScript, Git],
   },
   {
     name: "Omnifood",
     image: Omnifood,
     hrefLink: "https://foodformood.vercel.app/",
     githubLink: "https://github.com/AmineElkhalidy/omnifood",
-    technologies: [Html, Css, Js],
+    technologies: [Html, CSS, JavaScript, Git],
   },
 ];
 

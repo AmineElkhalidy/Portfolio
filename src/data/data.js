@@ -5,7 +5,7 @@ import JavaScript from "../assets/images/javascript.webp";
 import ReactImg from "../assets/images/react.webp";
 import Sass from "../assets/images/sass.webp";
 import Node from "../assets/images/node.webp";
-import Next from "../assets/images/next.webp";
+import NextLight from "../assets/images/nextjs-light.webp";
 import Tailwind from "../assets/images/tailwind.webp";
 import Redux from "../assets/images/redux.webp";
 import TypeScript from "../assets/images/typescript.webp";
@@ -14,15 +14,28 @@ import Chakra from "../assets/images/chakra.webp";
 import Bootstrap from "../assets/images/bootstrap.webp";
 import MongoDB from "../assets/images/mongodb.webp";
 import MUI from "../assets/images/mui.webp";
+import Wordpress from "../assets/images/wordpress.webp";
 
 // Projects
-import Mamiro from "../assets/images/projects/mamiro.webp";
-import Shoesit from "../assets/images/projects/shoesit.webp";
+import Mamiru from "../assets/images/projects/mamiro.webp";
+import Tasty from "../assets/images/projects/tasty.webp";
 import Omnifood from "../assets/images/projects/omnifood.webp";
 import Clipboarding from "../assets/images/projects/clipboarding.webp";
+import Shoesit from "../assets/images/projects/shoesit.webp";
 import Rotinniajad from "../assets/images/projects/rotinniajad.webp";
-import Rachid from "../assets/images/projects/elqssab.webp";
-import Shoppingstore from "../assets/images/projects/shoppingstore.webp";
+import Funiro from "../assets/images/projects/funiro.webp";
+import Userhive from "../assets/images/projects/userhive.webp";
+import AirTransfer from "../assets/images/projects/airtransfer.webp";
+import AirTransferY from "../assets/images/projects/airtransfer-yellow.webp";
+import EcoCentar from "../assets/images/projects/Eco-centar.webp";
+import Miriam from "../assets/images/projects/miriamsimon.webp";
+import GradesBar from "../assets/images/projects/dashboard.webp";
+import Shoes from "../assets/images/projects/shoes.webp";
+import Shoppy from "../assets/images/projects/shoppy.webp";
+import FixClinic from "../assets/images/projects/fixclinic.webp";
+import BodyReset from "../assets/images/projects/bodyreset.webp";
+import Railflow from "../assets/images/projects/railflow.webp";
+import Cars from "../assets/images/projects/cars.webp";
 
 // Data
 export const work = [
@@ -348,7 +361,7 @@ export const techs = {
   CSS,
   JavaScript,
   ReactImg,
-  Next,
+  NextLight,
   Node,
   Bootstrap,
   Sass,
@@ -356,4 +369,68 @@ export const techs = {
   MUI,
   MongoDB,
   TypeScript,
+  Redux,
+  TypeScript,
+  Git,
+  Chakra,
+  MUI,
+  Wordpress,
 };
+
+export const projects = {
+  Mamiru,
+  Tasty,
+  Omnifood,
+  Clipboarding,
+  Shoesit,
+  Rotinniajad,
+  Funiro,
+  Userhive,
+  AirTransfer,
+  AirTransferY,
+  EcoCentar,
+  Miriam,
+  GradesBar,
+  Shoes,
+  Shoppy,
+  FixClinic,
+  BodyReset,
+  Railflow,
+  Cars,
+};
+
+// {
+//   name: "Miriam Simon Retail",
+//   image: Miriam,
+//   hrefLink: "https://miriamsimon.ie/",
+//   githubLink: "https://github.com/AmineElkhalidy",
+//   technologies: [Wordpress],
+// },
+// {
+//   name: "IPTV Premium",
+//   image: IPTVPREMIUM,
+//   hrefLink: "https://iptvsmarterspremium.net/",
+//   githubLink: "https://github.com/AmineElkhalidy",
+//   technologies: [Wordpress],
+// },
+// {
+//   name: "IPTV Pole",
+//   image: Iptv,
+//   hrefLink: "https://iptvpole.com/",
+//   githubLink: "https://github.com/AmineElkhalidy",
+//   technologies: [Wordpress],
+// },
+// {
+//   name: "Digital Pole",
+//   image: DigitalPole,
+//   hrefLink: "https://digitalpole.shop",
+//   githubLink: "https://github.com/AmineElkhalidy/",
+//   technologies: [Wordpress],
+// },
+// {
+//   name: "Noormedia",
+//   image: Noormedia,
+//   hrefLink: "https://noormedia-agency.vercel.app/",
+//   githubLink: "https://github.com/AmineElkhalidy/noormedia",
+//   technologies: [Html, Css, Js],
+// },
