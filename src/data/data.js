@@ -29,6 +29,7 @@ import AirTransfer from "../assets/images/projects/airtransfer.webp";
 import AirTransferY from "../assets/images/projects/airtransfer-yellow.webp";
 import EcoCentar from "../assets/images/projects/Eco-centar.webp";
 import Miriam from "../assets/images/projects/miriamsimon.webp";
+import Mamiro from "../assets/images/projects/mamiro.webp";
 import GradesBar from "../assets/images/projects/dashboard.webp";
 import Shoes from "../assets/images/projects/shoes.webp";
 import Shoppy from "../assets/images/projects/shoppy.webp";
@@ -83,24 +84,6 @@ export const work = [
     techStack: ["HTML", "CSS", "JavaScript"],
     sourceCode: "https://github.com/AmineElkhalidy/rotinniajad",
     link: "https://www.rotinniajad.com",
-  },
-  {
-    id: 6,
-    image: Rachid,
-    description:
-      "Rachid chatoui is a website that shows products of a special plant called ELQSSAB in Morocco",
-    techStack: ["HTML", "CSS", "JavaScript"],
-    sourceCode: "https://github.com/AmineElkhalidy/clipboarding",
-    link: "https://clipboarding.vercel.app/",
-  },
-  {
-    id: 7,
-    image: Shoppingstore,
-    description:
-      "Shopping store is an e-commerce website which you can use to purchase products that you like(under construction)",
-    techStack: ["HTML", "CSS", "JavaScript"],
-    sourceCode: "https://github.com/AmineElkhalidy/shoppingstore",
-    link: "https://shoppingstore.vercel.app/",
   },
 ];
 
@@ -327,7 +310,7 @@ export const skills = [
     name: "React",
   },
   {
-    image: Next,
+    image: NextLight,
     name: "Next",
   },
   {
@@ -358,7 +341,7 @@ export const skills = [
 
 export const techs = {
   Html,
-  CSS,
+  Css,
   JavaScript,
   ReactImg,
   NextLight,

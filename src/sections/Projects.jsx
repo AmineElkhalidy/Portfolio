@@ -8,7 +8,7 @@ import { techs, projects } from "../data/data";
 
 const {
   Html,
-  CSS,
+  Css,
   JavaScript,
   ReactImg,
   NextLight,
@@ -34,10 +34,7 @@ const {
   Rotinniajad,
   Funiro,
   Userhive,
-  AirTransfer,
-  AirTransferY,
   EcoCentar,
-  Miriam,
   GradesBar,
   Shoes,
   Shoppy,
@@ -60,14 +57,14 @@ const firstRowOfProjects = [
     image: FixClinic,
     hrefLink: "https://thefixclinic.com/",
     githubLink: "https://github.com/AmineElkhalidy",
-    technologies: [Html, CSS, JavaScript, Bootstrap, Git],
+    technologies: [Html, Css, JavaScript, Bootstrap, Git],
   },
   {
     name: "Mindset Body Reset",
     image: BodyReset,
     hrefLink: "https://mindsetbodyreset.com/",
     githubLink: "https://github.com/AmineElkhalidy",
-    technologies: [Html, CSS, JavaScript, Bootstrap, Git],
+    technologies: [Html, Css, JavaScript, Bootstrap, Git],
   },
   {
     name: "Railflow",
@@ -83,7 +80,7 @@ const secondRowOfProjects = [
     image: Shoppy,
     hrefLink: "https://e-shoppy.vercel.app/",
     githubLink: "https://github.com/AmineElkhalidy/e-commerce",
-    technologies: [ReactImg, Redux, Bootstrap, Node],
+    technologies: [ReactImg, Redux, Bootstrap, Css, Node],
   },
   {
     name: "Shoesit",
@@ -147,14 +144,14 @@ const secondRowOfProjects = [
     image: Tasty,
     hrefLink: "https://tasty.vercel.app/",
     githubLink: "https://github.com/AmineElkhalidy/restauranttasty",
-    technologies: [Html, CSS, JavaScript, Git],
+    technologies: [Html, Css, JavaScript, Git],
   },
   {
     name: "Omnifood",
     image: Omnifood,
     hrefLink: "https://foodformood.vercel.app/",
     githubLink: "https://github.com/AmineElkhalidy/omnifood",
-    technologies: [Html, CSS, JavaScript, Git],
+    technologies: [Html, Css, JavaScript, Git],
   },
 ];
 
