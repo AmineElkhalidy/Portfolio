@@ -65,11 +65,9 @@ const Skills = () => {
                       whileInView={{ opacity: [0, 1] }}
                       transition={{ duration: 0.5 }}
                     >
-                      <h3 className="experience__profession">
-                        Front-End Developer
-                      </h3>
-                      <p className="experience__desc">Upwork Freelancer.</p>
-                      <p className="experience__company">Upwork</p>
+                      <h3 className="experience__profession">Freelancer</h3>
+                      <p className="experience__desc">Fiverr Freelancer.</p>
+                      <p className="experience__company">Fiverr</p>
                     </motion.div>
                   </div>
                 </div>
@@ -83,9 +81,7 @@ const Skills = () => {
                       whileInView={{ opacity: [0, 1] }}
                       transition={{ duration: 0.5 }}
                     >
-                      <h3 className="experience__profession">
-                        Front-End Developer
-                      </h3>
+                      <h3 className="experience__profession">Freelancer</h3>
                       <p className="experience__desc">Upwork Freelancer</p>
                       <p className="experience__company">Freelancer</p>
                     </motion.div>
@@ -102,9 +98,7 @@ const Skills = () => {
                       transition={{ duration: 0.5 }}
                       className="ml-1"
                     >
-                      <h3 className="experience__profession">
-                        Front-End Developer
-                      </h3>
+                      <h3 className="experience__profession">Freelancer</h3>
                       <p className="experience__desc">
                         I have worked on customising Alfresco (CMS) for a large
                         organization
