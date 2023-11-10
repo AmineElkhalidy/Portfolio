@@ -89,6 +89,12 @@ export const work = [
 
 export const allReviews = [
   {
+    id: "r18",
+    name: "Jannetje Van Leeuwen",
+    description:
+      "I've hired Amine multiple times and every time he completed his work in record time. Amine is friendly and easy to communicate with and goes the extra mile. Will rehire and highly recommend",
+  },
+  {
     id: "r16",
     name: "Jannetje Van Leeuwen",
     description:
@@ -247,6 +253,12 @@ export const rowreviews1 = [
 ];
 
 export const rowreviews2 = [
+  {
+    id: "r18",
+    name: "Jannetje Van Leeuwen",
+    description:
+      "I've hired Amine multiple times and every time he completed his work in record time. Amine is friendly and easy to communicate with and goes the extra mile. Will rehire and highly recommend",
+  },
   {
     id: "r15",
     name: "Marco Netto",
