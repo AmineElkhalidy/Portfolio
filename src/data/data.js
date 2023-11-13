@@ -37,6 +37,7 @@ import FixClinic from "../assets/images/projects/fixclinic.webp";
 import BodyReset from "../assets/images/projects/bodyreset.webp";
 import Railflow from "../assets/images/projects/railflow.webp";
 import Cars from "../assets/images/projects/cars.webp";
+import Veezen from "../assets/images/projects/veezen.webp";
 
 // Data
 export const work = [
@@ -392,6 +393,7 @@ export const projects = {
   BodyReset,
   Railflow,
   Cars,
+  Veezen,
 };
 
 // {

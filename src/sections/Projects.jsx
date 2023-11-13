@@ -42,9 +42,17 @@ const {
   BodyReset,
   Railflow,
   Cars,
+  Veezen,
 } = projects;
 
 const firstRowOfProjects = [
+  {
+    name: "Veezen",
+    image: Veezen,
+    hrefLink: "https://veezen-official.vercel.app/",
+    githubLink: "https://github.com/AmineElkhalidy/veezen",
+    technologies: [NextLight, Tailwind, Git],
+  },
   {
     name: "Cars",
     image: Cars,
