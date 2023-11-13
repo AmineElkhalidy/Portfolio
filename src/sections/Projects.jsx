@@ -43,6 +43,7 @@ const {
   Railflow,
   Cars,
   Veezen,
+  Shippium,
 } = projects;
 
 const firstRowOfProjects = [
@@ -52,6 +53,13 @@ const firstRowOfProjects = [
     hrefLink: "https://veezen-official.vercel.app/",
     githubLink: "https://github.com/AmineElkhalidy/veezen",
     technologies: [NextLight, Tailwind, Git],
+  },
+  {
+    name: "Shippium",
+    image: Shippium,
+    hrefLink: "https://veezen-official.vercel.app/",
+    githubLink: "https://github.com/AmineElkhalidy/veezen",
+    technologies: [ReactImg, Tailwind, TypeScript, Git],
   },
   {
     name: "Cars",
