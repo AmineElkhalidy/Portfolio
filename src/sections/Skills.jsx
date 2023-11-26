@@ -87,28 +87,6 @@ const Skills = () => {
                     </motion.div>
                   </div>
                 </div>
-
-                {/* 2021 */}
-                <div className="experience__info">
-                  <p className="experience__year">2021</p>
-
-                  <div>
-                    <motion.div
-                      whileInView={{ opacity: [0, 1] }}
-                      transition={{ duration: 0.5 }}
-                      className="ml-1"
-                    >
-                      <h3 className="experience__profession">Freelancer</h3>
-                      <p className="experience__desc">
-                        I have worked on customising Alfresco (CMS) for a large
-                        organization
-                      </p>
-                      <p className="experience__company">
-                        Prefecture d'arrondissement de Ben M'sick - Casablanca
-                      </p>
-                    </motion.div>
-                  </div>
-                </div>
               </motion.div>
             </div>
           </div>
