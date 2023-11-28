@@ -66,8 +66,10 @@ const Skills = () => {
                       transition={{ duration: 0.5 }}
                     >
                       <h3 className="experience__profession">Freelancer</h3>
-                      <p className="experience__desc">Fiverr Freelancer.</p>
-                      <p className="experience__company">Fiverr</p>
+                      <p className="experience__desc">
+                        I am working as a freelancer
+                      </p>
+                      <p className="experience__company">Upwork || Fiverr</p>
                     </motion.div>
                   </div>
                 </div>
@@ -82,8 +84,10 @@ const Skills = () => {
                       transition={{ duration: 0.5 }}
                     >
                       <h3 className="experience__profession">Freelancer</h3>
-                      <p className="experience__desc">Upwork Freelancer</p>
-                      <p className="experience__company">Freelancer</p>
+                      <p className="experience__desc">
+                        I am working as a freelancer on Upwork
+                      </p>
+                      <p className="experience__company">Upwork</p>
                     </motion.div>
                   </div>
                 </div>
