@@ -33,13 +33,6 @@ const Hero = () => {
                 <h1 className="hero__title">
                   Hello <span class="wave">👋</span>,
                   <br />
-                  I am Amine,
-                  <br />
-                  <span className="gradient-text">Web developer</span>
-                </h1>
-
-                {/* Profession */}
-                <p className="hero__desc">
                   <TypeIt
                     options={{
                       afterComplete: function (instance) {
@@ -47,9 +40,13 @@ const Hero = () => {
                       },
                     }}
                   >
-                    I am a React & Next.js Developer
+                    I'm Amine, <br />
+                    <span className="gradient-text">Web Developer</span>
                   </TypeIt>
-                </p>
+                </h1>
+
+                {/* Profession */}
+                <p className="hero__desc">I am a React & Next.js Developer</p>
 
                 {/* Contact me button */}
                 <div className="hero__buttons-container">
