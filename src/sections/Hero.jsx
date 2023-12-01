@@ -31,8 +31,6 @@ const Hero = () => {
               <div>
                 {/* Introduction */}
                 <h1 className="hero__title">
-                  Hello <span class="wave">👋</span>,
-                  <br />
                   <TypeIt
                     options={{
                       afterComplete: function (instance) {
@@ -40,6 +38,8 @@ const Hero = () => {
                       },
                     }}
                   >
+                    Hello <span class="wave">👋</span>,
+                    <br />
                     I'm Amine, <br />
                     <span className="gradient-text">Web Developer</span>
                   </TypeIt>
