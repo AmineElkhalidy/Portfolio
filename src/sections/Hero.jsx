@@ -7,17 +7,14 @@ import { motion } from "framer-motion";
 import TypeIt from "typeit-react";
 
 // Icons
-import {
-  ArrowRightIcon,
-  ChevronDoubleDownIcon,
-} from "@heroicons/react/24/solid";
+import { ArrowRightIcon } from "@heroicons/react/24/solid";
 
 // CV
 import CV from "../assets/pdf/Amine-Elkhalidy.pdf";
 
 const Hero = () => {
   return (
-    <section>
+    <section className="min-h-screen">
       <div className="container">
         {/* Content Container with animation */}
         <div className="flex items-center mt-36 md:mt-32">
@@ -31,6 +28,9 @@ const Hero = () => {
               <div>
                 {/* Introduction */}
                 <h1 className="hero__title">
+                  Hello <span class="wave">👋</span>,
+                  <br />
+                  I'm Amine, <br />
                   <TypeIt
                     options={{
                       afterComplete: function (instance) {
@@ -38,9 +38,6 @@ const Hero = () => {
                       },
                     }}
                   >
-                    Hello <span class="wave">👋</span>,
-                    <br />
-                    I'm Amine, <br />
                     <span className="gradient-text">Web Developer</span>
                   </TypeIt>
                 </h1>

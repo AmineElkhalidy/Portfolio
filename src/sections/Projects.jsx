@@ -175,8 +175,8 @@ const Projects = () => {
   const [showMore, setShowMore] = useState(false);
 
   return (
-    <section className="pt-[6.25rem]" id="projects">
-      <div className="container min-h-screen">
+    <section className="pt-[6rem] min-h-screen" id="projects">
+      <div className="container ">
         <div>
           {/* Heading */}
           <Heading>My Latest Work</Heading>

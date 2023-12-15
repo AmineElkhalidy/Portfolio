@@ -21,8 +21,8 @@ const Contact = () => {
 
   return (
     <>
-      <section className="h-full w-full" id="contact">
-        <div className="max-w-6xl mx-auto px-6 min-h-screen">
+      <section className="h-screen w-full" id="contact">
+        <div className="container">
           <div className="pt-24">
             <Heading>Contact Me</Heading>
             {/* Container */}
@@ -198,7 +198,7 @@ const Contact = () => {
             </div>
 
             {/* Copyright text */}
-            <p className="text-black-900 py-4 dark:text-white text-sm sm:text-base text-center font-medium">
+            <p className="text-black-900 py-4 pt-20 dark:text-white text-sm sm:text-base text-center font-medium">
               <span>Amine Elkhalidy</span>
               <br />
               &copy; {currentYear} - All Rights Reserved

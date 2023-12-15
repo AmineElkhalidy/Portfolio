@@ -18,7 +18,7 @@ import "@splidejs/splide/dist/css/splide.min.css";
 const Testimonials = () => {
   return (
     <section
-      className="lg:min-h-screen bg-black-900 dark:bg-white pt-[6.2rem] pb-8"
+      className=" bg-black-900 dark:bg-white pt-[6.2rem] pb-8"
       id="testimonials"
     >
       <div>
