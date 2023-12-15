@@ -97,7 +97,7 @@ body {
   );
 }
 
-.container {
+.p-container {
   @apply max-w-6xl mx-auto px-6 xl:px-0;
 }
 
