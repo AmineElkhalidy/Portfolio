@@ -43,7 +43,7 @@ const Contact = () => {
                 </p>
 
                 {/* Contact resources container */}
-                <div className="mt-[60px] flex flex-col gap-6">
+                {/* <div className="mt-[60px] flex flex-col gap-6">
                   <a
                     href="mailto:a.amineelkhalidy@gmail.com"
                     className="dark:text-gray-100 inline-flex items-center gap-4 text-base sm:text-[20px] font-bold"
@@ -58,7 +58,7 @@ const Contact = () => {
                     <PhoneIcon className="w-5 h-5 sm:w-7 sm:h-7" />
                     +212611154307
                   </a>
-                </div>
+                </div> */}
               </motion.div>
 
               {/* Form Container */}
