@@ -14,7 +14,7 @@ import Heading from "../components/atoms/Heading";
 const Hobbies = () => {
   return (
     <section className="pt-24 pb-16">
-      <div className="container">
+      <div className="p-container">
         <div>
           {/* Heading */}
           <Heading>My Hobbies</Heading>

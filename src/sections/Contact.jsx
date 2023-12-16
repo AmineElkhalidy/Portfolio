@@ -21,7 +21,7 @@ const Contact = () => {
 
   return (
     <>
-      <section className="h-screen" id="contact">
+      <section id="contact">
         <div className="p-container">
           <div className="pt-24">
             <Heading>Contact Me</Heading>

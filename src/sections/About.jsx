@@ -12,7 +12,7 @@ import Heading from "../components/atoms/Heading";
 
 const About = () => {
   return (
-    <section className="min-h-screen pt-[6rem]" id="about">
+    <section className="pt-[6rem]" id="about">
       <div className="p-container">
         <div>
           {/* Heading */}

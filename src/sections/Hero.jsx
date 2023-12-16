@@ -23,7 +23,7 @@ const Hero = () => {
             transition={{ duration: 0.9 }}
             className="flex items-center md:pl-16"
           >
-            <div>
+            <div className="mt-32">
               {/* Introduction */}
               <h1 className="hero__title">
                 Hello <span class="wave">👋</span>,
