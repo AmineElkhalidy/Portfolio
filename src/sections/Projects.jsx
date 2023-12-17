@@ -75,6 +75,8 @@ const firstRowOfProjects = [
     githubLink: "https://github.com/AmineElkhalidy",
     technologies: [Html, Css, JavaScript, Bootstrap, Git],
   },
+];
+const secondRowOfProjects = [
   {
     name: "Mindset Body Reset",
     image: BodyReset,
@@ -89,8 +91,6 @@ const firstRowOfProjects = [
     githubLink: "https://github.com/AmineElkhalidy/railflow",
     technologies: [NextLight, Tailwind, Node, Git],
   },
-];
-const secondRowOfProjects = [
   {
     name: "Shoppy(Under construction)",
     image: Shoppy,
