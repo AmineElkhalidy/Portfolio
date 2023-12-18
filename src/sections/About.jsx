@@ -26,7 +26,7 @@ const About = () => {
               transition={{ duration: 0.75 }}
             >
               <p className="about__desc mb-3">
-                Hello, My name is{" "}
+                Hello, I am{" "}
                 <span className=" gradient-text font-medium">
                   Amine Elkhalidy
                 </span>
@@ -34,7 +34,8 @@ const About = () => {
                 <span className="gradient-text font-medium">
                   Web developer{" "}
                 </span>
-                and I enjoy building stunning web applications for my clients.
+                and I enjoy building stunning websites, web applications for my
+                clients.
               </p>
 
               <p className="about__desc mb-3">
@@ -47,7 +48,8 @@ const About = () => {
                 >
                   Upwork
                 </a>
-                , I've helped many clients to bring their vision to life.
+                , I've helped many clients to bring their vision to life in the
+                network.
               </p>
 
               <p className="about__desc mb-2">
@@ -63,7 +65,7 @@ const About = () => {
 
                 <li className="flex items-center gap-2">
                   <ChevronRightIcon className="w-3 h-3" />
-                  CSS3
+                  CSS3 & TailwindCSS
                 </li>
 
                 <li className="flex items-center gap-2">
@@ -83,7 +85,7 @@ const About = () => {
 
                 <li className="flex items-center gap-2">
                   <ChevronRightIcon className="w-3 h-3" />
-                  TailwindCSS
+                  Next.js
                 </li>
               </ul>
             </motion.div>
