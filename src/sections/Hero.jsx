@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import TypeIt from "typeit-react";
 
 // Icons
-import { ArrowRightIcon } from "@heroicons/react/24/solid";
+import { ArrowDownIcon } from "@heroicons/react/24/solid";
 
 // CV
 import CV from "../assets/pdf/Amine-Elkhalidy.pdf";
@@ -41,7 +41,7 @@ const Hero = () => {
               </h1>
 
               {/* Profession */}
-              <p className="hero__desc">I am a React & Next.js Developer</p>
+              <p className="hero__desc">React & Next.js Developer</p>
 
               {/* Contact me button */}
               <div className="hero__buttons-container">
@@ -58,13 +58,12 @@ const Hero = () => {
 
                 <div className="">
                   <a
-                    className="group inline-flex gap-3 items-center py-5 text-black-900 dark:text-gray-100  cursor-pointer text-lg duration-300 font-nav font-semibold animate-fade-up animate-duration-[2500ms]"
+                    className="group inline-flex gap-2 items-center py-5 text-black-900 dark:text-gray-100  cursor-pointer text-lg duration-300 font-nav font-semibold animate-fade-up animate-duration-[2500ms]"
                     href={CV}
                     download="Amine Elkhalidy"
                     rel="noopener noreferrer"
                   >
-                    Download Resume{" "}
-                    <ArrowRightIcon className="w-5 duration-300 group-hover:translate-x-3" />
+                    Download Resume <ArrowDownIcon className="w-4" />
                   </a>
                 </div>
               </div>
