@@ -34,7 +34,7 @@ const Hobbies = () => {
               initial={{ opacity: 0 }}
               whileInView={{ opacity: [0, 0, 1] }}
               transition={{ duration: 0.6 }}
-              className="flex items-center justify-center flex-col gap-2 dark:text-gray-200 hover:text-orange-400 duration-300"
+              className="hobby__container"
             >
               <TvIcon className="hobby__icon" />
               <h3 className="hobby__title font-medium">
@@ -46,7 +46,7 @@ const Hobbies = () => {
               initial={{ opacity: 0 }}
               whileInView={{ opacity: [0, 0, 0, 1] }}
               transition={{ duration: 0.9 }}
-              className="flex items-center justify-center flex-col gap-2 dark:text-gray-200 hover:text-orange-400 duration-300"
+              className="hobby__container"
             >
               <CodeBracketIcon className="hobby__icon" />
               <h3 className="hobby__title font-medium">Coding</h3>

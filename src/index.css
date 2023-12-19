@@ -54,6 +54,8 @@ body {
   ); */
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
   font-weight: 600;
 }
 
@@ -204,7 +206,7 @@ body {
 }
 
 .hobby__container {
-  @apply flex items-center justify-center flex-col gap-2 dark:text-gray-200 hover:text-orange-400 duration-300;
+  @apply flex items-center justify-center flex-col gap-2 dark:text-gray-200 hover:text-green-700 duration-300;
 }
 
 .hobby__icon {
