@@ -182,7 +182,7 @@ const Contact = () => {
                     {/* Button box */}
                     <div className="relative">
                       <button
-                        className="inline-block px-[31px] py-5 dark:bg-white dark:text-black-900 bg-black-900 text-white cursor-pointer text-lg duration-300 font-nav font-semibold z-10 hover:translate-x-2 hover:translate-y-2"
+                        className="inline-block px-[33px] py-5 dark:bg-white dark:text-black-900 bg-black-900 text-white cursor-pointer text-lg duration-300 font-nav font-semibold z-10 hover:translate-x-2 hover:translate-y-2"
                         href="#contact"
                         type="submit"
                         disabled={state.submitting}
