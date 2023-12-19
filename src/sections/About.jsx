@@ -70,12 +70,12 @@ const About = () => {
 
                 <li className="flex items-center gap-2">
                   <ChevronRightIcon className="w-3 h-3" />
-                  JavaScript(ES6)
+                  JavaScript
                 </li>
 
                 <li className="flex items-center gap-2">
                   <ChevronRightIcon className="w-3 h-3" />
-                  React
+                  React.js
                 </li>
 
                 <li className="flex items-center gap-2">
