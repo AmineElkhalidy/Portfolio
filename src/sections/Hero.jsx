@@ -41,7 +41,7 @@ const Hero = () => {
               </h1>
 
               {/* Profession */}
-              <p className="hero__desc">🌟 React & Next.js Developer 🌟</p>
+              <p className="hero__desc">🌟 React / Next.js Developer 🌟</p>
 
               {/* Contact me button */}
               <div className="hero__buttons-container">
