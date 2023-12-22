@@ -15,6 +15,7 @@ import Bootstrap from "../assets/images/bootstrap.webp";
 import MongoDB from "../assets/images/mongodb.webp";
 import MUI from "../assets/images/mui.webp";
 import Wordpress from "../assets/images/wordpress.webp";
+import Svelte from "../assets/images/svelte.webp";
 
 // Projects
 import Mamiru from "../assets/images/projects/mamiro.webp";
@@ -328,16 +329,16 @@ export const skills = [
     name: "Next",
   },
   {
+    image: Svelte,
+    name: "Svelte",
+  },
+  {
     image: Redux,
     name: "Redux",
   },
   {
     image: Node,
     name: "Node",
-  },
-  {
-    image: Chakra,
-    name: "Chakra UI",
   },
   {
     image: Tailwind,
@@ -369,9 +370,9 @@ export const techs = {
   Redux,
   TypeScript,
   Git,
-  Chakra,
   MUI,
   Wordpress,
+  Svelte,
 };
 
 export const projects = {
