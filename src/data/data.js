@@ -10,7 +10,6 @@ import Tailwind from "../assets/images/tailwind.webp";
 import Redux from "../assets/images/redux.webp";
 import TypeScript from "../assets/images/typescript.webp";
 import Git from "../assets/images/git.webp";
-import Chakra from "../assets/images/chakra.webp";
 import Bootstrap from "../assets/images/bootstrap.webp";
 import MongoDB from "../assets/images/mongodb.webp";
 import MUI from "../assets/images/mui.webp";
