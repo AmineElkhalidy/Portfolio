@@ -45,7 +45,7 @@ const Navbar = () => {
                 </a>
               </li>
 
-              <li>
+              {/* <li>
                 <a
                   className="nav__link"
                   href="#skills"
@@ -53,7 +53,7 @@ const Navbar = () => {
                 >
                   Skills
                 </a>
-              </li>
+              </li> */}
 
               <li>
                 <a
@@ -121,14 +121,14 @@ const Navbar = () => {
               </a>
             </li>
 
-            <li>
+            {/* <li>
               <a
                 className="font-nav font-semibold text-[1.05rem] duration-300 dark:text-gray-50"
                 href="#skills"
               >
                 Skills
               </a>
-            </li>
+            </li> */}
 
             <li>
               <a
