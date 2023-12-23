@@ -1,12 +1,6 @@
 import React from "react";
-
-// Icons
 import { ChevronRightIcon } from "@heroicons/react/24/outline";
-
-// motion
 import { motion } from "framer-motion";
-
-// Amine Image
 import AmineLightGrey from "../assets/images/Amine-lightgrey.webp";
 import Heading from "../components/atoms/Heading";
 

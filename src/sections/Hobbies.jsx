@@ -1,9 +1,5 @@
 import React from "react";
-
-// motion
 import { motion } from "framer-motion";
-
-// Icons
 import {
   BookOpenIcon,
   TvIcon,

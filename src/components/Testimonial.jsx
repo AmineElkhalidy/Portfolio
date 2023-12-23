@@ -1,6 +1,4 @@
 import React from "react";
-
-// Icons
 import { StarIcon } from "@heroicons/react/24/solid";
 import { SiUpwork } from "react-icons/si";
 

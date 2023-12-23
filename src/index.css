@@ -218,7 +218,7 @@ body {
 }
 
 .scrollup {
-  @apply fixed p-1.5 duration-300 opacity-50 -right-10 bottom-2 gradient hover:opacity-100;
+  @apply fixed p-1.5 duration-300 opacity-50 bottom-2 gradient hover:opacity-100;
 }
 
 .scrollup-icon {

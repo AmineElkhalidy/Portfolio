@@ -2,14 +2,8 @@ import React from "react";
 
 // motion
 import { motion } from "framer-motion";
-
-// Typeit effect
 import TypeIt from "typeit-react";
-
-// Icons
 import { ArrowDownIcon } from "@heroicons/react/24/solid";
-
-// CV
 import CV from "../assets/pdf/Amine-Elkhalidy.pdf";
 
 const Hero = () => {
@@ -23,10 +17,10 @@ const Hero = () => {
             transition={{ duration: 0.9 }}
             className="flex items-center md:pl-16"
           >
-            <div className="mt-32">
+            <div className="mt-40">
               {/* Introduction */}
               <h1 className="hero__title">
-                Hello <span class="wave">👋</span>,
+                Hello <span className="wave">👋</span>,
                 <br />
                 I'm Amine, <br />
                 <TypeIt

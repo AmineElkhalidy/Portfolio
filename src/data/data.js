@@ -89,6 +89,132 @@ export const work = [
   },
 ];
 
+export const firstRowOfProjects = [
+  {
+    name: "Veezen",
+    image: Veezen,
+    hrefLink: "https://veezen-official.vercel.app/",
+    githubLink: "https://github.com/AmineElkhalidy/veezen",
+    technologies: [NextLight, Tailwind, Git],
+  },
+  {
+    name: "Shippium",
+    image: Shippium,
+    hrefLink: "https://veezen-official.vercel.app/",
+    githubLink: "https://github.com/AmineElkhalidy/veezen",
+    technologies: [ReactImg, Tailwind, TypeScript, Git],
+  },
+  {
+    name: "Cars",
+    image: Cars,
+    hrefLink: "https://cars-exhibition.vercel.app/",
+    githubLink: "https://github.com/AmineElkhalidy",
+    technologies: [NextLight, Tailwind, MongoDB, Git],
+  },
+  {
+    name: "Fix Clinic",
+    image: FixClinic,
+    hrefLink: "https://thefixclinic.com/",
+    githubLink: "https://github.com/AmineElkhalidy",
+    technologies: [Html, Css, JavaScript, Bootstrap, Git],
+  },
+];
+
+export const secondRowOfProjects = [
+  {
+    name: "Mindset Body Reset",
+    image: BodyReset,
+    hrefLink: "https://mindsetbodyreset.com/",
+    githubLink: "https://github.com/AmineElkhalidy",
+    technologies: [Html, Css, JavaScript, Bootstrap, Git],
+  },
+  {
+    name: "Railflow",
+    image: Railflow,
+    hrefLink: "https://railflow-website-v2.vercel.app/",
+    githubLink: "https://github.com/AmineElkhalidy/railflow",
+    technologies: [NextLight, Tailwind, Node, Git],
+  },
+  {
+    name: "Shoppy(Under construction)",
+    image: Shoppy,
+    hrefLink: "https://e-shoppy.vercel.app/",
+    githubLink: "https://github.com/AmineElkhalidy/e-commerce",
+    technologies: [ReactImg, Redux, Bootstrap, Css, Node],
+  },
+  {
+    name: "Shoesit",
+    image: Shoes,
+    hrefLink: "https://shoesit.vercel.app/",
+    githubLink: "https://github.com/AmineElkhalidy/shoesit",
+    technologies: [NextLight, ReactImg, Tailwind, Redux],
+  },
+  {
+    name: "Mamiru",
+    image: Mamiru,
+    hrefLink: "https://mamirou.vercel.app/",
+    githubLink: "https://github.com/SamoudiAnas/Mamirou",
+    technologies: [ReactImg, Redux, TypeScript, Git],
+  },
+  {
+    name: "GradesBar",
+    image: GradesBar,
+    hrefLink: "#",
+    githubLink: "https://github.com/AmineElkhalidy/",
+    technologies: [MUI, Tailwind, ReactImg, Git],
+  },
+  {
+    name: "Eco-Centar",
+    image: EcoCentar,
+    hrefLink: "https://eco-centar.vercel.app/",
+    githubLink: "https://github.com/AmineElkhalidy/EcoCentar.git",
+    technologies: [Html, Tailwind, Git],
+  },
+
+  {
+    name: "Rotin Niajad",
+    image: Rotinniajad,
+    hrefLink: "https://rotinniajad.netlify.app",
+    githubLink: "https://github.com/AmineElkhalidy/rotinniajad",
+    technologies: [NextLight, Tailwind, Git],
+  },
+  {
+    name: "Userhive",
+    image: Userhive,
+    hrefLink: "https://www.userhive.co/",
+    githubLink: "https://github.com/AmineElkhalidy/userhive",
+    technologies: [NextLight, Tailwind, Git],
+  },
+  {
+    name: "Funiro",
+    image: Funiro,
+    hrefLink: "https://funiro-app.vercel.app/",
+    githubLink: "https://github.com/AmineElkhalidy/funiro",
+    technologies: [NextLight, Tailwind, Git],
+  },
+  {
+    name: "Clipboarding",
+    image: Clipboarding,
+    hrefLink: "https://clipboarding.vercel.app/",
+    githubLink: "https://github.com/AmineElkhalidy/clipboarding",
+    technologies: [Html, Tailwind, Git],
+  },
+  {
+    name: "Tasty",
+    image: Tasty,
+    hrefLink: "https://tasty.vercel.app/",
+    githubLink: "https://github.com/AmineElkhalidy/restauranttasty",
+    technologies: [Html, Css, JavaScript, Git],
+  },
+  {
+    name: "Omnifood",
+    image: Omnifood,
+    hrefLink: "https://foodformood.vercel.app/",
+    githubLink: "https://github.com/AmineElkhalidy/omnifood",
+    technologies: [Html, Css, JavaScript, Git],
+  },
+];
+
 export const allReviews = [
   {
     id: "r18",

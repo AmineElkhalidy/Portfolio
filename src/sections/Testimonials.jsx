@@ -1,18 +1,9 @@
 import React from "react";
-
-// motion
 import { motion } from "framer-motion";
-
-// Testimonial
 import Testimonial from "../components/Testimonial";
-
-// Data
 import { rowreviews1, rowreviews2, allReviews } from "../data/data";
-
-// Splide
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
-
 import "@splidejs/splide/dist/css/splide.min.css";
 
 const Testimonials = () => {
