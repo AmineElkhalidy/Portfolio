@@ -68,9 +68,7 @@ const App = () => {
 
       <a
         href="#"
-        className={`scrollup duration-300 ${
-          showArrow ? "right-2" : "-right-100"
-        }`}
+        className={`scrollup ${!showArrow ? "-right-20" : "right-2"}`}
         aria-labelledby="Go Up"
       >
         <ArrowUpIcon className="scrollup-icon" />
