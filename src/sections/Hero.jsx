@@ -94,7 +94,7 @@ const Hero = () => {
               </a>
 
               <a
-                href="https://www.fiverr.com/amineelkhalidy"
+                href="https://www.fiverr.com/amineelkhalidy/make-responsive-modern-and-pixel-perfect-website"
                 target="_blank"
                 aria-label="Fiverr Profile"
               >
