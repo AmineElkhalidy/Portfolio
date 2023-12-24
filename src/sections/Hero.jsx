@@ -17,7 +17,7 @@ const Hero = () => {
             transition={{ duration: 0.9 }}
             className="flex items-center md:pl-16"
           >
-            <div className="mt-40">
+            <div className="mt-40 md:mt-32">
               {/* Introduction */}
               <h1 className="hero__title">
                 Hello <span className="wave">👋</span>,
