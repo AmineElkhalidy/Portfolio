@@ -14,7 +14,7 @@ import { RingLoader } from "react-spinners";
 
 const App = () => {
   const [loading, setLoading] = useState(false);
-  let [color, setColor] = useState("#005dbb");
+  let [color, setColor] = useState("#17c969");
   const [showArrow, setShowArrow] = useState(false);
 
   useEffect(() => {
