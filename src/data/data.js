@@ -100,8 +100,8 @@ export const firstRowOfProjects = [
   {
     name: "Shippium",
     image: Shippium,
-    hrefLink: "https://veezen-official.vercel.app/",
-    githubLink: "https://github.com/AmineElkhalidy/veezen",
+    hrefLink: "https://shippium-app.vercel.app/login",
+    githubLink: "https://github.com/AmineElkhalidy/shippium",
     technologies: [ReactImg, Tailwind, TypeScript, Git],
   },
   {

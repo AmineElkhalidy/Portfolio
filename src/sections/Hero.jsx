@@ -1,15 +1,14 @@
 import React from "react";
-
-// motion
 import { motion } from "framer-motion";
 import TypeIt from "typeit-react";
-import { ArrowDownIcon } from "@heroicons/react/24/solid";
+import { ArrowDownTrayIcon } from "@heroicons/react/24/solid";
 import CV from "../assets/pdf/Amine-Elkhalidy.pdf";
+import ParentContainer from "../components/Container";
 
 const Hero = () => {
   return (
     <section>
-      <div className="p-container">
+      <ParentContainer>
         <div className="relative">
           <motion.div
             initial={{ opacity: 0 }}
@@ -57,7 +56,7 @@ const Hero = () => {
                     download="Amine Elkhalidy"
                     rel="noopener noreferrer"
                   >
-                    Download Resume <ArrowDownIcon className="w-4" />
+                    Download Resume <ArrowDownTrayIcon className="w-6" />
                   </a>
                 </div>
               </div>
@@ -139,7 +138,7 @@ const Hero = () => {
             </div>
           </motion.div>
         </div>
-      </div>
+      </ParentContainer>
     </section>
   );
 };

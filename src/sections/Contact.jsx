@@ -2,6 +2,7 @@ import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import { motion } from "framer-motion";
 import Heading from "../components/atoms/Heading";
+import ParentContainer from "../components/Container";
 
 const Contact = () => {
   // formSpree state
@@ -10,7 +11,7 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <div className="p-container">
+      <ParentContainer>
         <div className="pt-24">
           <Heading>Contact Me</Heading>
           <div className="grid gap-16 md:grid-cols-2 lg:gap-8">
@@ -189,7 +190,7 @@ const Contact = () => {
             &copy; {currentYear} - All Rights Reserved
           </p>
         </div>
-      </div>
+      </ParentContainer>
     </section>
   );
 };

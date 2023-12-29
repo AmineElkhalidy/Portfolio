@@ -3,11 +3,12 @@ import { ChevronRightIcon } from "@heroicons/react/24/outline";
 import { motion } from "framer-motion";
 import AmineLightGrey from "../assets/images/Amine-lightgrey.webp";
 import Heading from "../components/atoms/Heading";
+import ParentContainer from "../components/Container";
 
 const About = () => {
   return (
     <section className="pt-[6rem]" id="about">
-      <div className="p-container">
+      <ParentContainer>
         <div>
           {/* Heading */}
           <Heading>Who Am I?</Heading>
@@ -107,7 +108,7 @@ const About = () => {
             </motion.div>
           </motion.div>
         </div>
-      </div>
+      </ParentContainer>
     </section>
   );
 };
