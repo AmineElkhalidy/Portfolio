@@ -82,7 +82,7 @@ const App = () => {
             <Projects />
             {/* <Skills /> */}
             <Testimonials />
-            <Hobbies />
+            {/* <Hobbies /> */}
             <Contact />
           </main>
 
