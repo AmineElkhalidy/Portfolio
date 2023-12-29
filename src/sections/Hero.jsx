@@ -34,7 +34,7 @@ const Hero = () => {
               </h1>
 
               {/* Profession */}
-              <p className="hero__desc">🌟 React / Next.js Developer 🌟</p>
+              <p className="hero__desc">🌟 React ~ Next.js Developer 🌟</p>
 
               {/* Contact me button */}
               <div className="hero__buttons-container">
@@ -51,12 +51,12 @@ const Hero = () => {
 
                 <div className="">
                   <a
-                    className="group inline-flex gap-2 items-center py-5 text-black-900 dark:text-gray-100  cursor-pointer text-lg duration-300 font-nav font-semibold animate-fade-up animate-duration-[2500ms]"
+                    className="group inline-flex gap-2 items-center py-5 text-black-900 dark:text-gray-100  cursor-pointer text-lg font-nav font-semibold animate-fade-up animate-duration-[2500ms]"
                     href={CV}
                     download="Amine Elkhalidy"
                     rel="noopener noreferrer"
                   >
-                    Download Resume <ArrowDownTrayIcon className="w-6" />
+                    <ArrowDownTrayIcon className="w-6" /> Download Resume
                   </a>
                 </div>
               </div>
