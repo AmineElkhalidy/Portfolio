@@ -15,6 +15,7 @@ import MongoDB from "../assets/images/mongodb.webp";
 import MUI from "../assets/images/mui.webp";
 import Wordpress from "../assets/images/wordpress.webp";
 import Svelte from "../assets/images/svelte.webp";
+import Firebase from "../assets/images/firebase.webp";
 
 // Projects
 import Mamiru from "../assets/images/projects/mamiro.webp";
@@ -39,11 +40,11 @@ import Railflow from "../assets/images/projects/railflow.webp";
 import Cars from "../assets/images/projects/cars.webp";
 import Veezen from "../assets/images/projects/veezen.webp";
 import Shippium from "../assets/images/projects/shippium.webp";
+import Linkee from "../assets/images/projects/linkee.webp";
 
 // Data
 export const work = [
   {
-    id: 1,
     image: Mamiro,
     description:
       "Mamiru is an e-commerce website under construction built using react and redux with Typescript.",
@@ -52,7 +53,6 @@ export const work = [
     link: "https://mamirou.vercel.app/",
   },
   {
-    id: 2,
     image: Shoesit,
     description:
       "An e-commerce website where you can choose your favorite shoes from your favorite brand.",
@@ -61,7 +61,6 @@ export const work = [
     link: "https://shoesit.vercel.app/",
   },
   {
-    id: 3,
     image: Omnifood,
     description:
       "Omnifood is an AI-powered food suscription that will make you eat healty again, 365 days per days. It's tailored to your personal tastes and nutritional needs.",
@@ -70,7 +69,6 @@ export const work = [
     link: "https://foodformood.vercel.app/",
   },
   {
-    id: 4,
     image: Clipboarding,
     description:
       "Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.",
@@ -79,7 +77,6 @@ export const work = [
     link: "https://foodformood.vercel.app/",
   },
   {
-    id: 5,
     image: Rotinniajad,
     description:
       "Simple static website which showcase an entreprise products called ROTIN-NIAJAD",
@@ -90,6 +87,13 @@ export const work = [
 ];
 
 export const firstRowOfProjects = [
+  {
+    name: "Linkee",
+    image: Veezen,
+    hrefLink: "https://linkee-app.vercel.app/",
+    githubLink: "https://github.com/AmineElkhalidy/linkee",
+    technologies: [Svelte, Tailwind, Firebase],
+  },
   {
     name: "Veezen",
     image: Veezen,
@@ -118,9 +122,6 @@ export const firstRowOfProjects = [
     githubLink: "https://github.com/AmineElkhalidy",
     technologies: [Html, Css, JavaScript, Bootstrap, Git],
   },
-];
-
-export const secondRowOfProjects = [
   {
     name: "Mindset Body Reset",
     image: BodyReset,
@@ -128,6 +129,9 @@ export const secondRowOfProjects = [
     githubLink: "https://github.com/AmineElkhalidy",
     technologies: [Html, Css, JavaScript, Bootstrap, Git],
   },
+];
+
+export const secondRowOfProjects = [
   {
     name: "Railflow",
     image: Railflow,
@@ -217,104 +221,72 @@ export const secondRowOfProjects = [
 
 export const allReviews = [
   {
-    id: "r18",
     name: "Jannetje Van Leeuwen",
     description:
       "I've hired Amine multiple times and every time he completed his work in record time. Amine is friendly and easy to communicate with and goes the extra mile. Will rehire and highly recommend",
   },
   {
-    id: "r16",
     name: "Jannetje Van Leeuwen",
     description:
       "Amine is super knowledgeable, helpful and proactive. Initiating recommendations for improvements that I hadn't even considered. Excelelnt communication. Will 100% rehire",
   },
   {
-    id: "r13",
     name: "Brady Cargle",
     description:
       "Amine is an AMAZING freelancer. He's smart, dedicated, and gets the job done. Such a pleasure to work with. Amine understands the heart of the job, the client needs, and requires minimal instruction. Really a pleasure to work with, hope we get to work together in the future for more projects!",
   },
   {
-    id: "r14",
     name: "James Chris",
     description: "Great developer",
   },
   {
-    id: "r11",
     name: "Jannetje Van Leeuwen",
     description:
       "Great and speedy communication from Amine. Very helpful and delivered great work in half the time requested. Will definitely use again and recommned.",
   },
   {
-    id: "r12",
     name: "Marco Netto",
     description:
       "I would very much recommend this freelancer, quick work, good communication",
   },
   {
-    id: "r15",
     name: "Marco Netto",
     description: "Another excellent experience working with Amine!",
   },
   {
-    id: "r1",
     name: "Mossaab Talbi",
     description:
       "Amine is one of the best and skilled developers I have known, he did an amazing job with my project, I will definitely work with him again",
   },
   {
-    id: "r2",
     name: "Hi Ba",
     description:
       "Amine is a great developer who helped me greatly in a very short amount of time and done all the work I required.",
   },
   {
-    id: "r3",
     name: "Sacreed Groves",
     description: "Amine did an amazing job with my react project",
   },
   {
-    id: "r4",
     name: "Aaron Sangerson",
     description:
       "Amine made significant changes to an existing react project, integrating additional functionality. I can highly recommend him as a frontend dev",
   },
   {
-    id: "r5",
     name: "Saswat Das",
     description:
       "Amine is dedicated to whatever he does. I would recommend him for any sort of front-end tasks.",
   },
   {
-    id: "r6",
     name: "Sara F",
     description: "Excellent job as always",
   },
   {
-    id: "r7",
-    name: "Rachid Chatoui",
-    description:
-      "Amine helped me a lot with defining the content and layout of my product landing page, definitely recommended!",
-  },
-  {
-    id: "r8",
-    name: "Et-thamry Ashraf",
-    description:
-      "A best friend and best developer, helped me to build my own website and launch it to the internet",
-  },
-  {
-    id: "r9",
-    name: "Anas Samoudi",
-    description: "Great developer, with sharpen eye on quality check.",
-  },
-  {
-    id: "r10",
     name: "Tom Elliot",
     description:
       "Amine was very quick to deliver exactly what I was asking for, I'd recommend him.",
   },
   {
-    id: "r17",
     name: "Production SD",
     description: "Great work by Amine, his enthusiasm is addictive!",
   },
@@ -322,58 +294,48 @@ export const allReviews = [
 
 export const rowreviews1 = [
   {
-    id: "r17",
     name: "Production SD",
     description: "Great work by Amine, his enthusiasm is addictive!",
   },
   {
-    id: "r16",
     name: "Jannetje Van Leeuwen",
     description:
       "Amine is super knowledgeable, helpful and proactive. Initiating recommendations for improvements that I hadn't even considered. Excelelnt communication. Will 100% rehire",
   },
   {
-    id: "r13",
     name: "Brady Cargle",
     description:
       "Amine is an AMAZING freelancer. He's smart, dedicated, and gets the job done. Such a pleasure to work with. Amine understands the heart of the job, the client needs, and requires minimal instruction. Really a pleasure to work with, hope we get to work together in the future for more projects!",
   },
   {
-    id: "r11",
     name: "Jannetje Van Leeuwen",
     description:
       "Great and speedy communication from Amine. Very helpful and delivered great work in half the time requested. Will definitely use again and recommned.",
   },
   {
-    id: "r14",
     name: "James Chris",
     description: "Great developer",
   },
   {
-    id: "r1",
     name: "Mossaab Talbi",
     description:
       "Amine is one of the best and skilled developers I have known, he did an amazing job with my project, I will definitely work with him again",
   },
   {
-    id: "r2",
     name: "Hi Ba",
     description:
       "Amine is a great developer who helped me greatly in a very short amount of time and done all the work I required, I would definitely work with him again!",
   },
   {
-    id: "r3",
     name: "Sacreed Groves",
     description: "Amine did an amazing job with my react project",
   },
   {
-    id: "r4",
     name: "Aaron Sangerson",
     description:
       "Amine made significant changes to an existing react project, integrating additional functionality. I can highly recommend him as a frontend dev",
   },
   {
-    id: "r5",
     name: "Saswat Das",
     description:
       "Amine is dedicated to whatever he does. I would recommend him for any sort of front-end tasks.",
@@ -382,46 +344,24 @@ export const rowreviews1 = [
 
 export const rowreviews2 = [
   {
-    id: "r18",
     name: "Jannetje Van Leeuwen",
     description:
       "I've hired Amine multiple times and every time he completed his work in record time. Amine is friendly and easy to communicate with and goes the extra mile. Will rehire and highly recommend",
   },
   {
-    id: "r15",
     name: "Marco Netto",
     description: "Another excellent experience working with Amine!",
   },
   {
-    id: "r6",
     name: "Sara F",
     description: "Amine is a skilled developer that deliver quality work.",
   },
   {
-    id: "r7",
-    name: "Rachid Chatoui",
-    description:
-      "Amine helped me a lot with defining the content and layout of my product landing page, definitely recommended!",
-  },
-  {
-    id: "r8",
-    name: "Et-thamry Ashraf",
-    description:
-      "A best friend and best developer, helped me to build my own website and launch it to the internet",
-  },
-  {
-    id: "r9",
-    name: "Anas Samoudi",
-    description: "Great developer, with sharpen eye on quality check.",
-  },
-  {
-    id: "r10",
     name: "Tom Elliot",
     description:
       "Amine was very quick to deliver exactly what I was asking for, I'd recommend him.",
   },
   {
-    id: "r12",
     name: "Marco Netto",
     description:
       "I would very much recommend this freelancer, quick work, good communication",
@@ -498,6 +438,7 @@ export const techs = {
   MUI,
   Wordpress,
   Svelte,
+  Firebase,
 };
 
 export const projects = {
@@ -522,6 +463,7 @@ export const projects = {
   Cars,
   Veezen,
   Shippium,
+  Linkee,
 };
 
 // {

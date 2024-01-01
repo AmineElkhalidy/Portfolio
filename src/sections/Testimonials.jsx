@@ -75,8 +75,8 @@ const Testimonials = () => {
               }}
               extensions={{ AutoScroll }}
             >
-              {rowreviews1.map((review) => (
-                <SplideSlide key={review.id}>
+              {rowreviews1.map((review, index) => (
+                <SplideSlide key={index}>
                   <Testimonial
                     name={review.name}
                     username={review.username}
@@ -106,8 +106,8 @@ const Testimonials = () => {
               }}
               extensions={{ AutoScroll }}
             >
-              {rowreviews2.map((review) => (
-                <SplideSlide key={review.id}>
+              {rowreviews2.map((review, index) => (
+                <SplideSlide key={index}>
                   <Testimonial
                     name={review.name}
                     username={review.username}
