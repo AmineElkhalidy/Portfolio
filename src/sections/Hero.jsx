@@ -4,6 +4,7 @@ import TypeIt from "typeit-react";
 import { ArrowDownTrayIcon } from "@heroicons/react/24/solid";
 import CV from "../assets/pdf/Amine-Elkhalidy.pdf";
 import ParentContainer from "../components/Container";
+import MainButton from "../components/atoms/MainButton";
 
 const Hero = () => {
   return (
@@ -38,18 +39,9 @@ const Hero = () => {
 
               {/* Contact me button */}
               <div className="hero__buttons-container">
-                <div className="relative animate-fade-up animate-duration-[2000ms]">
-                  <a
-                    className="inline-block px-[31px] py-5 bg-black-900 dark:text-black-900 dark:bg-gray-100 text-white cursor-pointer text-lg duration-300 font-nav font-semibold z-10 hover:translate-x-2 hover:translate-y-2"
-                    href="#contact"
-                  >
-                    Contact Me
-                  </a>
+                <MainButton>Contact Me</MainButton>
 
-                  <span className="contact-btn absolute -z-10 top-2 left-2 px-[4.95rem] py-[2.15rem] bg-red-500" />
-                </div>
-
-                <div className="">
+                <div>
                   <a
                     className="group inline-flex gap-2 items-center py-5 text-black-900 dark:text-gray-100  cursor-pointer text-lg font-nav font-semibold animate-fade-up animate-duration-[2500ms]"
                     href={CV}
@@ -63,7 +55,6 @@ const Hero = () => {
             </div>
           </motion.div>
 
-          {/* Social container */}
           <motion.div
             whileInView={{ y: [75, 0] }}
             transition={{ ease: "easeIn", duration: 1 }}

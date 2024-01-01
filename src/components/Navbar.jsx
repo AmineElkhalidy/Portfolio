@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { XMarkIcon, Bars3Icon } from "@heroicons/react/24/solid";
-
 import Switcher from "./Switcher";
 
 const Navbar = () => {
@@ -120,15 +119,6 @@ const Navbar = () => {
                 Work
               </a>
             </li>
-
-            {/* <li>
-              <a
-                className="font-nav font-semibold text-[1.05rem] duration-300 dark:text-gray-50"
-                href="#skills"
-              >
-                Skills
-              </a>
-            </li> */}
 
             <li>
               <a

@@ -21,9 +21,9 @@ const App = () => {
     setLoading(true);
     setTimeout(() => setLoading(false), 2000);
   }, []);
+
   useEffect(() => {
     const sections = document.querySelectorAll("section[id]");
-
     function scrollActive() {
       const scrollY = window.pageYOffset;
 
@@ -80,9 +80,7 @@ const App = () => {
             <Hero />
             <About />
             <Projects />
-            {/* <Skills /> */}
             <Testimonials />
-            {/* <Hobbies /> */}
             <Contact />
           </main>
 

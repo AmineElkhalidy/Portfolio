@@ -1,9 +1,10 @@
 import React from "react";
 import { ChevronRightIcon } from "@heroicons/react/24/outline";
 import { motion } from "framer-motion";
-import AmineLightGrey from "../assets/images/Amine-lightgrey.webp";
 import Heading from "../components/atoms/Heading";
 import ParentContainer from "../components/Container";
+import ImageBox from "../components/ImageBox";
+import Paragraph from "../components/atoms/Paragraph";
 
 const About = () => {
   return (
@@ -20,7 +21,7 @@ const About = () => {
               whileInView={{ x: [-100, 0], opacity: 1 }}
               transition={{ duration: 0.75 }}
             >
-              <p className="about__desc mb-3">
+              <Paragraph styles="about__desc mb-3">
                 Hello, I am{" "}
                 <span className=" gradient-text font-medium">
                   Amine Elkhalidy
@@ -31,9 +32,9 @@ const About = () => {
                 </span>
                 and I enjoy building stunning websites, web applications for my
                 clients.
-              </p>
+              </Paragraph>
 
-              <p className="about__desc mb-3">
+              <Paragraph styles="about__desc mb-3">
                 I am working as a freelancer on{" "}
                 <a
                   href="https://www.upwork.com/"
@@ -45,43 +46,26 @@ const About = () => {
                 </a>
                 , I've helped many clients to bring their vision to life in the
                 network.
-              </p>
+              </Paragraph>
 
-              <p className="about__desc mb-2">
+              <Paragraph styles="about__desc mb-3">
                 Here are a few technologies I’ve been working with:
-              </p>
+              </Paragraph>
 
-              {/* Technologies list */}
               <ul className="about__techlist">
-                <li className="flex items-center gap-2">
-                  <ChevronRightIcon className="w-3 h-3" />
-                  HTML5
-                </li>
-
-                <li className="flex items-center gap-2">
-                  <ChevronRightIcon className="w-3 h-3" />
-                  CSS3 & TailwindCSS
-                </li>
-
-                <li className="flex items-center gap-2">
-                  <ChevronRightIcon className="w-3 h-3" />
-                  JavaScript
-                </li>
-
-                <li className="flex items-center gap-2">
-                  <ChevronRightIcon className="w-3 h-3" />
-                  React.js
-                </li>
-
-                <li className="flex items-center gap-2">
-                  <ChevronRightIcon className="w-3 h-3" />
-                  TypeScript
-                </li>
-
-                <li className="flex items-center gap-2">
-                  <ChevronRightIcon className="w-3 h-3" />
-                  Next.js
-                </li>
+                {[
+                  "HTML5",
+                  "CSS3 & TailwindCSS",
+                  "  JavaScript",
+                  "React.js",
+                  "Next.js",
+                  "TypeScript",
+                ].map((item, index) => (
+                  <li key={index} className="flex items-center gap-2">
+                    <ChevronRightIcon className="w-3 h-3" />
+                    {item}
+                  </li>
+                ))}
               </ul>
             </motion.div>
 
@@ -92,19 +76,7 @@ const About = () => {
               transition={{ duration: 0.75 }}
               className="about__img-container"
             >
-              <div className="relative group">
-                <div className="w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] z-50 -translate-x-4 -translate-y-4 duration-300 group-hover:translate-x-0 group-hover:translate-y-0">
-                  <img
-                    className="w-full h-full object-contain"
-                    src={AmineLightGrey}
-                    alt="Amine Elkhalidy"
-                  />
-                </div>
-                <div className="w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] image -z-10 absolute top-0 left-0" />
-
-                <div className="hidden xl:block w-[120px] h-[120px] lg:w-[170px] lg:h-[170px] image rounded-full absolute -top-24 -right-24 opacity-70 -z-20"></div>
-                <div className="hidden xl:block w-[80px] h-[80px] lg:w-[100px] lg:h-[100px] image rounded-full absolute -bottom-10 -left-12 opacity-50 z-20"></div>
-              </div>
+              <ImageBox />
             </motion.div>
           </motion.div>
         </div>

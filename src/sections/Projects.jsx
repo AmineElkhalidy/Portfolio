@@ -4,6 +4,7 @@ import Heading from "../components/atoms/Heading";
 import { firstRowOfProjects, secondRowOfProjects } from "../data/data";
 import Project from "../components/Project";
 import ParentContainer from "../components/Container";
+import Button from "../components/atoms/Button";
 
 const Projects = () => {
   const [showMore, setShowMore] = useState(false);
@@ -43,21 +44,21 @@ const Projects = () => {
 
             {showMore ? (
               <div className="mt-16 text-center">
-                <button
-                  className="inline-block px-10 py-5 gradient text-white cursor-pointer text-lg duration-300 font-nav font-semibold hover:scale-105"
+                <Button
+                  styles="inline-block px-10 py-5 gradient text-white cursor-pointer text-lg duration-300 font-nav font-semibold hover:scale-105"
                   onClick={() => setShowMore(false)}
                 >
                   Show less
-                </button>
+                </Button>
               </div>
             ) : (
               <div className="mt-16 text-center">
-                <button
-                  className="inline-block px-10 py-5 gradient text-white cursor-pointer text-lg duration-300 font-nav font-semibold hover:scale-105"
+                <Button
+                  styles="inline-block px-10 py-5 gradient text-white cursor-pointer text-lg duration-300 font-nav font-semibold hover:scale-105"
                   onClick={() => setShowMore(true)}
                 >
                   Show more
-                </button>
+                </Button>
               </div>
             )}
           </motion.div>

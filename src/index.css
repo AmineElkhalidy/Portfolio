@@ -10,7 +10,7 @@
 }
 
 body {
-  @apply bg-white text-black-400 font-body dark:bg-black-900;
+  @apply bg-white text-black-500 font-body dark:bg-black-900;
 }
 
 .main {
@@ -42,71 +42,24 @@ body {
   @apply font-nav font-semibold text-black-900 dark:text-grey-100 duration-300;
 }
 
+.gradient,
+.image,
+.contact-btn,
+.gradient-text,
 .active-link {
   background-color: #17c969;
   background-image: linear-gradient(107.65deg, #17c969 17.53%, #005dbb 94.64%);
-  /* background-image: linear-gradient(
-    108deg,
-    #b16cea 8%,
-    #ff5e69 40%,
-    #ff8a56 77%,
-    #ffa84b 91%
-  ); */
+}
+
+.active-link,
+.gradient-text {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+}
 
+.active-link {
   font-weight: 600;
-}
-
-.gradient-text {
-  background-color: #17c969;
-  background-image: linear-gradient(107.65deg, #17c969 17.53%, #005dbb 94.64%);
-  /* background-image: linear-gradient(
-    108deg,
-    #b16cea 8%,
-    #ff5e69 40%,
-    #ff8a56 77%,
-    #ffa84b 91%
-  ); */
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.contact-btn {
-  background-color: #17c969;
-  background-image: linear-gradient(107.65deg, #17c969 17.53%, #005dbb 94.64%);
-  /* background-image: linear-gradient(
-    108deg,
-    #b16cea 8%,
-    #ff5e69 40%,
-    #ff8a56 77%,
-    #ffa84b 91%
-  ); */
-}
-
-.gradient {
-  background-color: #17c969;
-  background-image: linear-gradient(107.65deg, #17c969 17.53%, #005dbb 94.64%);
-  /* background-image: linear-gradient(
-    108deg,
-    #b16cea 8%,
-    #ff5e69 40%,
-    #ff8a56 77%,
-    #ffa84b 91%
-  ); */
-}
-
-.image {
-  background-color: #17c969;
-  background-image: linear-gradient(107.65deg, #17c969 17.53%, #005dbb 94.64%);
-  /* background-image: linear-gradient(
-    108deg,
-    #b16cea 8%,
-    #ff5e69 40%,
-    #ff8a56 77%,
-    #ffa84b 91%
-  ); */
 }
 
 .p-container {

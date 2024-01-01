@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-
-// Navbar
 import Navbar from "../components/Navbar";
 
 const Header = () => {

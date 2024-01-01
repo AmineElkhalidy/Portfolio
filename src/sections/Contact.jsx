@@ -3,9 +3,10 @@ import { useForm, ValidationError } from "@formspree/react";
 import { motion } from "framer-motion";
 import Heading from "../components/atoms/Heading";
 import ParentContainer from "../components/Container";
+import Paragraph from "../components/atoms/Paragraph";
+import MainButton from "../components/atoms/MainButton";
 
 const Contact = () => {
-  // formSpree state
   const [state, handleSubmit] = useForm("xeqdeyeo");
   const currentYear = new Date().getFullYear();
 
@@ -23,11 +24,11 @@ const Contact = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-black-900 mb-8 dark:text-white">
                 Get in touch
               </h2>
-              <p className="max-w-lg w-full text-grey-400 text-base sm:text-lg leading-7 dark:text-gray-300">
+              <Paragraph styles="max-w-lg w-full text-grey-400 text-base sm:text-lg leading-7 dark:text-gray-300">
                 Have a project in mind? Looking to partner or work together?
                 Reach out through the form and I'll get back to you in the next
                 24 hours.
-              </p>
+              </Paragraph>
 
               {/* Contact resources container */}
               {/* <div className="mt-[60px] flex flex-col gap-6">

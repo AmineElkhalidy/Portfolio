@@ -1,5 +1,6 @@
 import React from "react";
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
+import Link from "./atoms/Link";
 
 const Project = ({ project }) => {
   return (
@@ -17,9 +18,6 @@ const Project = ({ project }) => {
 
         {/* Project description */}
         <div className="bg-black-900 dark:bg-gray-50 p-5 sm:p-8 lg:p-12">
-          {/* <span className="gradient-text text-sm uppercase tracking-widest font-semibold">
-    Featured Project
-  </span> */}
           <h2 className="text-white dark:text-black-900 text-xl font-bold mb-4 lg:text-2xl lg:mb-6 2xl:text-3xl">
             {project.name}
           </h2>
@@ -39,23 +37,24 @@ const Project = ({ project }) => {
 
           {/* Buttons container */}
           <div className="flex justify-between lg:text-lg">
-            <a
+            <Link
               href={project.hrefLink}
               target="_blank"
               className="p-3 sm:px-5 sm:py-3 gradient group inline-flex items-center sm:font-medium text-md gap-1 lg:text-lg cursor-pointer text-white font-semibold"
             >
+              {" "}
               View Project{" "}
               <ArrowRightIcon className="w-4 h-4 duration-300 group-hover:translate-x-2 text-white " />
-            </a>
+            </Link>
 
-            <a
+            <Link
               href={project.githubLink}
               target="_blank"
               className="group inline-flex items-center sm:font-medium text-md gap-1 lg:text-lg text-white dark:text-black-900 cursor-pointer"
             >
               Github Repo{" "}
               <ArrowRightIcon className="w-4 h-4 duration-300 group-hover:translate-x-2" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
