@@ -89,7 +89,7 @@ export const work = [
 export const firstRowOfProjects = [
   {
     name: "Linkee",
-    image: Veezen,
+    image: Linkee,
     hrefLink: "https://linkee-app.vercel.app/",
     githubLink: "https://github.com/AmineElkhalidy/linkee",
     technologies: [Svelte, Tailwind, Firebase],
