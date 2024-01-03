@@ -11,10 +11,8 @@ const About = () => {
     <section className="pt-[6rem]" id="about">
       <ParentContainer>
         <div>
-          {/* Heading */}
           <Heading>Who Am I?</Heading>
 
-          {/* Content Container */}
           <motion.div className="about__container">
             <motion.div
               initial={{ opacity: 0 }}
@@ -69,7 +67,6 @@ const About = () => {
               </ul>
             </motion.div>
 
-            {/* About Img */}
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ x: [100, 0], opacity: 1 }}

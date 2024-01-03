@@ -81,6 +81,7 @@ const App = () => {
             <About />
             <Projects />
             <Testimonials />
+            <Hobbies />
             <Contact />
           </main>
 
