@@ -5,6 +5,7 @@ import { rowreviews1, rowreviews2, allReviews } from "../data/data";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
 import "@splidejs/splide/dist/css/splide.min.css";
+import Marquee from "react-fast-marquee";
 
 const Testimonials = () => {
   return (
@@ -28,7 +29,7 @@ const Testimonials = () => {
           transition={{ duration: 0.5 }}
           className="md:hidden"
         >
-          <Splide
+          {/* <Splide
             options={{
               type: "loop",
               drag: "free",
@@ -52,14 +53,23 @@ const Testimonials = () => {
                 />
               </SplideSlide>
             ))}
-          </Splide>
+          </Splide> */}
+          <Marquee>
+            {allReviews.map((review, index) => (
+              <Testimonial
+                key={index}
+                name={review.name}
+                description={review.description}
+              />
+            ))}
+          </Marquee>
         </motion.div>
 
         {/* Reviews container */}
         <div className="space-y-4 hidden md:block">
           {/* Row 1 */}
           <div>
-            <Splide
+            {/* <Splide
               options={{
                 type: "loop",
                 drag: "free",
@@ -85,12 +95,23 @@ const Testimonials = () => {
                   />
                 </SplideSlide>
               ))}
-            </Splide>
+            </Splide> */}
+            <Marquee>
+              {rowreviews1.map((review, index) => (
+                <Testimonial
+                  key={index}
+                  name={review.name}
+                  username={review.username}
+                  description={review.description}
+                  Platform={review.platform}
+                />
+              ))}
+            </Marquee>
           </div>
 
           {/* Row 2 */}
           <div>
-            <Splide
+            {/* <Splide
               options={{
                 type: "loop",
                 drag: "free",
@@ -116,7 +137,18 @@ const Testimonials = () => {
                   />
                 </SplideSlide>
               ))}
-            </Splide>
+            </Splide> */}
+            <Marquee direction="right">
+              {rowreviews1.map((review, index) => (
+                <Testimonial
+                  key={index}
+                  name={review.name}
+                  username={review.username}
+                  description={review.description}
+                  Platform={review.platform}
+                />
+              ))}
+            </Marquee>
           </div>
         </div>
       </div>
