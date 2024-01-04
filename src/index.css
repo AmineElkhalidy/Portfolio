@@ -71,7 +71,7 @@ body {
 }
 
 .hero__desc {
-  @apply text-grey-500 font-medium text-xl font-nav mb-10 md:text-xl lg:text-2xl dark:text-gray-200;
+  @apply text-grey-500 font-medium text-xl font-nav mb-6 md:mb-10 md:text-xl lg:text-2xl dark:text-gray-200;
 }
 
 .hero__buttons-container {
