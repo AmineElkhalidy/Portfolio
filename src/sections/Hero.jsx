@@ -37,7 +37,7 @@ const Hero = () => {
               {/* Profession */}
               <p className="hero__desc">🌟 React ~ Next.js Developer 🌟</p>
 
-              <div className="md:hidden mb-6">
+              <div className="md:hidden mb-10">
                 <div className="flex gap-6 items-center justify-between">
                   <a
                     href="https://www.upwork.com/freelancers/~01f55a2d4b119d3119"
