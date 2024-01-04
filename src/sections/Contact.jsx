@@ -5,6 +5,7 @@ import Heading from "../components/atoms/Heading";
 import ParentContainer from "../components/Container";
 import Paragraph from "../components/atoms/Paragraph";
 import MainButton from "../components/atoms/MainButton";
+import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/solid";
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("xeqdeyeo");
@@ -31,22 +32,22 @@ const Contact = () => {
               </Paragraph>
 
               {/* Contact resources container */}
-              {/* <div className="mt-[60px] flex flex-col gap-6">
-                  <a
-                    href="mailto:a.amineelkhalidy@gmail.com"
-                    className="dark:text-gray-100 inline-flex items-center gap-4 text-base sm:text-[20px] font-bold"
-                  >
-                    <EnvelopeIcon className="w-5 h-5 sm:w-7 sm:h-7" />{" "}
-                    a.amineelkhalidy@gmail.com
-                  </a>
-                  <a
-                    href="tel:+212611154307"
-                    className="dark:text-gray-100 inline-flex items-center gap-4 text-base sm:text-[20px] font-bold"
-                  >
-                    <PhoneIcon className="w-5 h-5 sm:w-7 sm:h-7" />
-                    +212611154307
-                  </a>
-                </div> */}
+              <div className="mt-[60px] flex flex-col gap-6">
+                <a
+                  href="mailto:a.amineelkhalidy@gmail.com"
+                  className="dark:text-gray-100 inline-flex items-center gap-4 text-base sm:text-lg md:text-[20px] font-bold"
+                >
+                  <EnvelopeIcon className="w-5 h-5 sm:w-7 sm:h-7" />{" "}
+                  a.amineelkhalidy@gmail.com
+                </a>
+                <a
+                  href="tel:+212611154307"
+                  className="dark:text-gray-100 inline-flex items-center gap-4 text-base sm:text-lg md:text-[20px] font-bold"
+                >
+                  <PhoneIcon className="w-5 h-5 sm:w-7 sm:h-7" />
+                  +212611154307
+                </a>
+              </div>
             </motion.div>
 
             {/* Form Container */}
