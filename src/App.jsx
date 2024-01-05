@@ -14,7 +14,6 @@ import { RingLoader } from "react-spinners";
 
 const App = () => {
   const [loading, setLoading] = useState(false);
-  let [color, setColor] = useState("#1864ab");
   const [showArrow, setShowArrow] = useState(false);
 
   useEffect(() => {
@@ -66,7 +65,7 @@ const App = () => {
       {loading ? (
         <div className="h-screen w-full flex justify-center items-center">
           <RingLoader
-            color={color}
+            color={"#15aabf"}
             loading={loading}
             size={100}
             aria-label="Loading Spinner"
