@@ -4,7 +4,7 @@ import { SiUpwork } from "react-icons/si";
 
 const Testimonial = ({ name, description }) => {
   return (
-    <div className="bg-grey-800 rounded-xl sm:max-w-sm h-[12rem] lg:max-w-[28rem] lg:h-[14rem] max-w-xs p-6 mx-4 overflow-y-scroll">
+    <div className="bg-grey-700 rounded-xl sm:max-w-sm h-[12rem] lg:max-w-[28rem] lg:h-[14rem] max-w-xs p-6 mx-4 overflow-y-scroll">
       {/* Name, username and logo */}
       <div className="flex justify-between items-center mb-6">
         <div>

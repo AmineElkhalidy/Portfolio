@@ -86,7 +86,7 @@ const App = () => {
 
           <a
             href="#"
-            className={`scrollup ${!showArrow ? "-right-20" : "right-2"}`}
+            className={`scrollup z-50 ${!showArrow ? "-right-20" : "right-2"}`}
             aria-labelledby="Go Up"
           >
             <ArrowUpIcon className="scrollup-icon" />
