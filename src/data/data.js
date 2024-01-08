@@ -139,13 +139,13 @@ export const secondRowOfProjects = [
     githubLink: "https://github.com/AmineElkhalidy/railflow",
     technologies: [NextLight, Tailwind, Node, Git],
   },
-  {
-    name: "Shoppy(Under construction)",
-    image: Shoppy,
-    hrefLink: "https://e-shoppy.vercel.app/",
-    githubLink: "https://github.com/AmineElkhalidy/e-commerce",
-    technologies: [ReactImg, Redux, Bootstrap, Css, Node],
-  },
+  // {
+  //   name: "Shoppy(Under construction)",
+  //   image: Shoppy,
+  //   hrefLink: "https://e-shoppy.vercel.app/",
+  //   githubLink: "https://github.com/AmineElkhalidy/e-commerce",
+  //   technologies: [ReactImg, Redux, Bootstrap, Css, Node],
+  // },
   {
     name: "Shoesit",
     image: Shoes,
@@ -182,13 +182,13 @@ export const secondRowOfProjects = [
     githubLink: "https://github.com/AmineElkhalidy/rotinniajad",
     technologies: [NextLight, Tailwind, Git],
   },
-  {
-    name: "Userhive",
-    image: Userhive,
-    hrefLink: "https://www.userhive.co/",
-    githubLink: "https://github.com/AmineElkhalidy/userhive",
-    technologies: [NextLight, Tailwind, Git],
-  },
+  // {
+  //   name: "Userhive",
+  //   image: Userhive,
+  //   hrefLink: "https://www.userhive.co/",
+  //   githubLink: "https://github.com/AmineElkhalidy/userhive",
+  //   technologies: [NextLight, Tailwind, Git],
+  // },
   {
     name: "Funiro",
     image: Funiro,
@@ -316,11 +316,11 @@ export const rowreviews1 = [
     name: "James Chris",
     description: "Great developer",
   },
-  {
-    name: "Mossaab Talbi",
-    description:
-      "Amine is one of the best and skilled developers I have known, he did an amazing job with my project, I will definitely work with him again",
-  },
+  // {
+  //   name: "Mossaab Talbi",
+  //   description:
+  //     "Amine is one of the best and skilled developers I have known, he did an amazing job with my project, I will definitely work with him again",
+  // },
   {
     name: "Hi Ba",
     description:
