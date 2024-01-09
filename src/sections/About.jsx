@@ -56,7 +56,7 @@ const About = () => {
                   "CSS3 & TailwindCSS",
                   "  JavaScript",
                   "React.js",
-                  "Next.js",
+                  "Next.js/ Sveltekit",
                   "TypeScript",
                 ].map((item, index) => (
                   <li key={index} className="flex items-center gap-2">
