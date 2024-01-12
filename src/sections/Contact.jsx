@@ -6,10 +6,10 @@ import ParentContainer from "../components/Container";
 import Paragraph from "../components/atoms/Paragraph";
 import MainButton from "../components/atoms/MainButton";
 import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/solid";
+import Copyright from "../components/Copyright";
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("xeqdeyeo");
-  const currentYear = new Date().getFullYear();
 
   return (
     <section id="contact">
@@ -185,12 +185,7 @@ const Contact = () => {
             </motion.div>
           </div>
 
-          {/* Copyright text */}
-          <p className="text-black-900 py-4 pt-20 dark:text-white text-sm sm:text-base text-center font-medium">
-            <span>Amine Elkhalidy</span>
-            <br />
-            &copy; {currentYear} - All Rights Reserved
-          </p>
+          <Copyright />
         </div>
       </ParentContainer>
     </section>
