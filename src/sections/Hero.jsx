@@ -15,7 +15,7 @@ const Hero = () => {
             initial={{ opacity: 0 }}
             whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
             transition={{ duration: 0.9 }}
-            className="flex items-center md:pl-16"
+            className="relative flex items-center md:pl-16"
           >
             <div className="mt-40 md:mt-32">
               {/* Introduction */}
@@ -37,7 +37,7 @@ const Hero = () => {
               {/* Profession */}
               <p className="hero__desc">🌟 React ~ Next.js Developer 🌟</p>
 
-              <div className="md:hidden mb-10">
+              <div className="md:hidden">
                 <div className="flex gap-6 items-center justify-between">
                   <a
                     href="https://www.upwork.com/freelancers/~01f55a2d4b119d3119"
@@ -106,6 +106,14 @@ const Hero = () => {
                   </a>
                 </div>
               </div>
+
+              <p className="relative my-10 inline-block py-3 px-6 rounded-lg bg-transparent border border-green-800 text-green-800 font-semibold md:absolute md:top-28 md:right-0">
+                <span class="absolute -top-1 -right-1 flex h-3 w-3">
+                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                  <span class="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+                </span>
+                <a href="#contact">Available for work</a>
+              </p>
 
               {/* Contact me button */}
               <div className="hero__buttons-container">
