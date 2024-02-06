@@ -80,7 +80,7 @@ const App = () => {
             <About />
             <Projects />
             <Testimonials />
-            <Hobbies />
+            {/* <Hobbies /> */}
             <Contact />
           </main>
 

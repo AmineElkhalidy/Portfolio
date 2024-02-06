@@ -26,7 +26,7 @@ const About = () => {
                 </span>
                 , I am a{" "}
                 <span className="gradient-text font-medium">
-                  Web developer{" "}
+                  software developer{" "}
                 </span>
                 and I enjoy building stunning websites, web applications for my
                 clients.
@@ -47,7 +47,7 @@ const About = () => {
               </Paragraph>
 
               <Paragraph styles="about__desc mb-3">
-                Here are a few technologies I’ve been working with:
+                Here are a few technologies I&apos;ve been working with:
               </Paragraph>
 
               <ul className="about__techlist">
