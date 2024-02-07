@@ -76,11 +76,11 @@ body {
 }
 
 .hero__title {
-  @apply text-black-900 text-[3.5rem]  leading-none font-bold mb-3 sm:text-6xl md:text-7xl lg:text-8xl;
+  @apply text-black-900 dark:text-gray-100 text-[3.5rem]  leading-none font-bold mb-3 sm:text-6xl md:text-7xl lg:text-8xl;
 }
 
 .hero__desc {
-  @apply text-grey-500 font-medium text-xl font-nav mb-10 md:text-xl lg:text-2xl;
+  @apply text-grey-500 dark:text-gray-200 font-medium text-xl font-nav mb-10 md:text-xl lg:text-2xl;
 }
 
 .hero__buttons-container {
