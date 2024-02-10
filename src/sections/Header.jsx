@@ -7,7 +7,7 @@ const Header = () => {
 
   // Function that keeps tracking the scroll event
   const changeHeaderShadow = () => {
-    if (window.scrollY >= 200) {
+    if (window.scrollY >= 400) {
       setHeaderShadow(true);
     } else {
       setHeaderShadow(false);

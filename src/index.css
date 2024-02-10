@@ -28,7 +28,7 @@ body {
 }
 
 .header {
-  @apply bg-transparent w-full fixed top-0 left-0 z-50 duration-300 dark:bg-black-900 backdrop-blur-md;
+  @apply bg-white w-full fixed top-0 left-0 z-50 duration-300 dark:bg-black-900 backdrop-blur-md;
 }
 
 .nav {

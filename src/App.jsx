@@ -48,6 +48,7 @@ const App = () => {
     return () => window.removeEventListener("scroll", scrollActive);
   }, []);
 
+  // Show arrow code
   useEffect(() => {
     window.addEventListener("scroll", () => {
       if (window.scrollY > 450) setShowArrow(true);
