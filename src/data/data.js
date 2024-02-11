@@ -125,7 +125,7 @@ export const firstRowOfProjects = [
   {
     name: "Mindset Body Reset",
     image: BodyReset,
-    hrefLink: "https://mindsetbodyreset.com/",
+    hrefLink: "https://themindsetforprosperity.com/",
     githubLink: "https://github.com/AmineElkhalidy",
     technologies: [Html, Css, JavaScript, Bootstrap, Git],
   },
