@@ -1,10 +1,8 @@
-import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import { motion } from "framer-motion";
 import Heading from "../components/atoms/Heading";
 import ParentContainer from "../components/Container";
 import Paragraph from "../components/atoms/Paragraph";
-import MainButton from "../components/atoms/MainButton";
 import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/solid";
 import Copyright from "../components/Copyright";
 
@@ -225,7 +223,6 @@ const Contact = () => {
                         className="w-full pt-4 pl-6 outline-none duration-300 focus:border focus:border-green-700 pb-24 bg-[#f2f6f7] resize-none"
                         name="message"
                         id="message"
-                        maxLength="5000"
                         placeholder="Your message in details..."
                         autoCorrect="false"
                       ></textarea>
@@ -241,7 +238,6 @@ const Contact = () => {
                   <div className="relative">
                     <button
                       className="inline-block px-[33px] py-5 dark:bg-white dark:text-black-900 bg-black-900 text-white cursor-pointer text-lg duration-300 font-nav font-semibold z-10 hover:translate-x-2 hover:translate-y-2"
-                      href="#contact"
                       type="submit"
                       disabled={state.submitting}
                     >

@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from "react";
+//@ts-ignore
+
+import { useState, useEffect } from "react";
 import {
   Header,
   Hero,
   About,
   Projects,
-  Skills,
   Contact,
   Testimonials,
-  Hobbies,
 } from "./sections";
 import { ArrowUpIcon } from "@heroicons/react/24/outline";
 import { RingLoader } from "react-spinners";
