@@ -241,10 +241,10 @@ const Contact = () => {
                       type="submit"
                       disabled={state.submitting}
                     >
-                      Submit Now
+                      Send Message
                     </button>
 
-                    <span className="contact-btn absolute -z-10 top-2 left-2 px-[5.25rem] py-[2.15rem] bg-red-500" />
+                    <span className="contact-btn absolute -z-10 top-2 left-2 px-[5.96rem] py-[2.15rem] bg-red-500" />
                   </div>
                 </form>
               )}
