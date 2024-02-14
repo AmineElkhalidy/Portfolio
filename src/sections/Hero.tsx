@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import TypeIt from "typeit-react";
 import { ArrowDownTrayIcon } from "@heroicons/react/24/solid";
@@ -14,7 +13,7 @@ const Hero = () => {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
-            transition={{ duration: 0.9 }}
+            transition={{ ease: "easeIn", duration: 0.8 }}
             className="relative flex items-center md:pl-16"
           >
             <div className="mt-40 md:mt-32">
@@ -25,7 +24,7 @@ const Hero = () => {
                 I'm Amine, <br />
                 <TypeIt
                   options={{
-                    afterComplete: function (instance) {
+                    afterComplete: function (instance: any) {
                       instance.destroy();
                     },
                   }}
@@ -108,9 +107,9 @@ const Hero = () => {
               </div>
 
               <p className="relative my-10 inline-block py-3 px-6 rounded-lg bg-green-50 border border-green-800 text-green-800 font-semibold md:absolute md:top-24 md:right-0">
-                <span class="absolute -top-1 -right-1 flex h-3 w-3">
-                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                  <span class="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+                <span className="absolute -top-1 -right-1 flex h-3 w-3">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
                 </span>
                 <a href="#contact">Available for work</a>
               </p>
@@ -134,7 +133,7 @@ const Hero = () => {
           </motion.div>
 
           <motion.div
-            whileInView={{ y: [75, 0] }}
+            whileInView={{ y: [120, 0] }}
             transition={{ ease: "easeIn", duration: 1 }}
             className="hidden md:block absolute bottom-0"
           >

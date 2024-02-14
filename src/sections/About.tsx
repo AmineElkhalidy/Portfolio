@@ -1,4 +1,3 @@
-import React from "react";
 import { ChevronRightIcon } from "@heroicons/react/24/outline";
 import { motion } from "framer-motion";
 import Heading from "../components/atoms/Heading";
@@ -17,7 +16,7 @@ const About = () => {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ x: [-100, 0], opacity: 1 }}
-              transition={{ duration: 0.75 }}
+              transition={{ ease: "linear", duration: 1 }}
             >
               <Paragraph styles="about__desc mb-3">
                 Hello, I am{" "}
@@ -54,7 +53,7 @@ const About = () => {
                 {[
                   "HTML5",
                   "CSS3 & TailwindCSS",
-                  "  JavaScript",
+                  "JavaScript",
                   "React.js",
                   "Next.js/ Sveltekit",
                   "TypeScript",

@@ -24,13 +24,15 @@ const Contact = () => {
                 Get in touch
               </h2>
               <Paragraph styles="max-w-lg w-full text-grey-400 text-base sm:text-lg leading-7 dark:text-gray-300">
-                Have a project in mind? Looking to partner or work together?
+                Have a project in mind?
+                <br /> Looking to partner or work together?
+                <br />
                 Reach out through the form and I'll get back to you in the next
                 24 hours.
               </Paragraph>
 
               {/* Contact resources container */}
-              <div className="mt-[60px] flex flex-col gap-6">
+              <div className="mt-6 md:mt-10 flex flex-col gap-6">
                 <a
                   href="mailto:a.amineelkhalidy@gmail.com"
                   className="dark:text-gray-100 inline-flex items-center gap-4 text-base sm:text-lg md:text-[20px] font-bold"
@@ -47,7 +49,7 @@ const Contact = () => {
                 </a>
               </div>
 
-              <div className="max-w-sm mt-16">
+              <div className="max-w-sm mt-10 md:mt-14">
                 <div className="flex gap-6 items-center justify-between">
                   <a
                     href="https://www.upwork.com/freelancers/~01f55a2d4b119d3119"
@@ -152,6 +154,7 @@ const Contact = () => {
                         id="firstName"
                         placeholder="Your first name"
                         required
+                        autoComplete="true"
                       />
                       <ValidationError
                         prefix="First Name"
@@ -175,6 +178,7 @@ const Contact = () => {
                         id="lastName"
                         placeholder="Your last name"
                         required
+                        autoComplete="true"
                       />
                       <ValidationError
                         prefix="Last Name"
@@ -201,6 +205,7 @@ const Contact = () => {
                         id="email"
                         placeholder="Enter your e-mail"
                         required
+                        autoComplete="true"
                       />
                       <ValidationError
                         prefix="Email"

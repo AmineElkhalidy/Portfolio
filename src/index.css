@@ -74,7 +74,7 @@
     @apply border-border scroll-smooth;
   }
   body {
-    @apply bg-background text-foreground dark:bg-black-900 font-body;
+    @apply bg-background text-foreground dark:bg-black-900 font-body duration-300;
   }
 }
 
@@ -117,27 +117,21 @@
 }
 
 .nav__link {
-  @apply font-nav font-semibold text-black-900 dark:text-grey-100 duration-300;
+  @apply font-nav capitalize font-semibold text-black-900 dark:text-grey-100 duration-300;
 }
 
 .gradient,
 .image,
 .contact-btn,
-.gradient-text,
-.active-link {
+.gradient-text {
   background-color: #17c969;
   background-image: linear-gradient(107.65deg, #17c969 17.53%, #005dbb 94.64%);
 }
 
-.active-link,
 .gradient-text {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-}
-
-.active-link {
-  font-weight: 600;
 }
 
 .p-container {

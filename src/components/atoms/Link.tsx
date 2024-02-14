@@ -1,8 +1,15 @@
 import React from "react";
 
-const Link = ({ styles, children, ...props }) => {
+interface LinkProps {
+  children: React.ReactNode;
+  className?: string;
+  href: string;
+  target?: string;
+}
+
+const Link = ({ className, children, href, target }: LinkProps) => {
   return (
-    <a className={styles} {...props}>
+    <a className={className} href={href} target={target}>
       {children}
     </a>
   );

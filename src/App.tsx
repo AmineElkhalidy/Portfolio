@@ -18,34 +18,7 @@ const App = () => {
 
   useEffect(() => {
     setLoading(true);
-    setTimeout(() => setLoading(false), 2000);
-  }, []);
-
-  useEffect(() => {
-    const sections = document.querySelectorAll("section[id]");
-    function scrollActive() {
-      const scrollY = window.pageYOffset;
-
-      sections.forEach((current) => {
-        const sectionHeight = current.offsetHeight;
-        const sectionTop = current.offsetTop - 5;
-        let sectionId = current.getAttribute("id");
-
-        if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-          document
-            .querySelector(".navigation a[href*=" + sectionId + "]")
-            .classList.add("active-link");
-        } else {
-          document
-            .querySelector(".navigation a[href*=" + sectionId + "]")
-            .classList.remove("active-link");
-        }
-      });
-    }
-
-    window.addEventListener("scroll", scrollActive);
-
-    return () => window.removeEventListener("scroll", scrollActive);
+    setTimeout(() => setLoading(false), 800);
   }, []);
 
   // Show arrow code
@@ -88,7 +61,7 @@ const App = () => {
           <a
             href="#"
             className={`scrollup z-50 ${!showArrow ? "-right-20" : "right-2"}`}
-            aria-labelledby="Go Up"
+            aria-label="go up"
           >
             <ArrowUpIcon className="scrollup-icon" />
           </a>

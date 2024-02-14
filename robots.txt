@@ -1,2 +1,2 @@
 User-agent: Googlebot-Image
-Disallow: ./src/assets/images/Amine-lightgrey.webp
+Disallow: /src/assets/images/Amine-lightgrey.webp

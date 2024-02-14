@@ -1,8 +1,7 @@
-import React from "react";
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import Link from "./atoms/Link";
 
-const Project = ({ project }) => {
+const Project = ({ project }: { project: any }) => {
   return (
     <div className="project__container">
       {/* Container */}
@@ -23,9 +22,9 @@ const Project = ({ project }) => {
           </h2>
 
           {/* Technologies used */}
-          <div className="w-full flex gap-4  mb-5">
-            {project.technologies.map((tech, index) => (
-              <div className="w-[12%]" key={index}>
+          <div className="w-full flex gap-4 mb-6">
+            {project.technologies.map((tech: any, index: any) => (
+              <div className="w-[12%] h-[12%] " key={index}>
                 <img
                   className="w-full h-full rounded-full"
                   src={tech}
@@ -42,9 +41,9 @@ const Project = ({ project }) => {
               target="_blank"
               className="p-3 sm:px-5 sm:py-3 gradient group inline-flex items-center sm:font-medium text-md gap-1 lg:text-lg cursor-pointer text-white font-semibold"
             >
-              {" "}
-              View Project{" "}
-              <ArrowRightIcon className="w-4 h-4 duration-300 group-hover:translate-x-2 text-white " />
+              <span>View Project</span>
+
+              <ArrowRightIcon className="w-4 h-4 duration-300 group-hover:translate-x-1 text-white " />
             </Link>
 
             <Link
@@ -52,8 +51,8 @@ const Project = ({ project }) => {
               target="_blank"
               className="group inline-flex items-center sm:font-medium text-md gap-1 lg:text-lg text-white dark:text-black-900 cursor-pointer"
             >
-              Github Repo{" "}
-              <ArrowRightIcon className="w-4 h-4 duration-300 group-hover:translate-x-2" />
+              <span>Github Repo</span>
+              <ArrowRightIcon className="w-4 h-4 duration-300 group-hover:translate-x-1" />
             </Link>
           </div>
         </div>

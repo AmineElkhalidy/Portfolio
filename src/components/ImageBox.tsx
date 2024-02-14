@@ -1,5 +1,4 @@
-import React from "react";
-import AmineLightGrey from "../assets/images/Amine-lightgrey.webp";
+import { images } from "@/constants";
 
 const ImageBox = () => {
   return (
@@ -7,7 +6,7 @@ const ImageBox = () => {
       <div className="w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] z-50 -translate-x-4 -translate-y-4 duration-300 group-hover:translate-x-0 group-hover:translate-y-0">
         <img
           className="w-full h-full object-contain"
-          src={AmineLightGrey}
+          src={images.amine}
           alt="Amine Elkhalidy"
         />
       </div>

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import Heading from "../components/atoms/Heading";
 import { firstRowOfProjects, secondRowOfProjects } from "../data/data";
@@ -10,7 +10,7 @@ const Projects = () => {
   const [showMore, setShowMore] = useState(false);
 
   return (
-    <section className="pt-[6rem]" id="projects">
+    <section className="pt-[6rem]" id="work">
       <ParentContainer>
         <div className="mb-20">
           {/* Heading */}
@@ -23,10 +23,10 @@ const Projects = () => {
           >
             <div className="projects">
               <div className="projects__container">
-                {firstRowOfProjects.map((project, index) => (
+                {firstRowOfProjects.map((project: any, index: any) => (
                   <motion.div
-                    whileInView={{ opacity: [0, 1] }}
-                    transition={{ duration: 0.75 }}
+                    whileInView={{ opacity: [0, 0.5, 1] }}
+                    transition={{ duration: 1 }}
                     key={index}
                   >
                     <Project project={project} />
@@ -34,8 +34,12 @@ const Projects = () => {
                 ))}
 
                 {showMore &&
-                  secondRowOfProjects.map((project, index) => (
-                    <motion.div whileInView={{ opacity: [0, 1] }} key={index}>
+                  secondRowOfProjects.map((project: any, index: any) => (
+                    <motion.div
+                      whileInView={{ opacity: [0, 0.5, 1] }}
+                      transition={{ ease: "linear", duration: 1 }}
+                      key={index}
+                    >
                       <Project project={project} />
                     </motion.div>
                   ))}
