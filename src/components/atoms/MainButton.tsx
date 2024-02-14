@@ -1,6 +1,6 @@
 import React from "react";
 
-const MainButton = ({ children }) => {
+const MainButton = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="relative">
       <a

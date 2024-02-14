@@ -1,9 +1,4 @@
-import React from "react";
-
-// motion
 import { motion } from "framer-motion";
-
-// Skills data
 import { skills } from "../data/data";
 import Heading from "../components/atoms/Heading";
 
@@ -21,10 +16,10 @@ const Skills = () => {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ x: [-100, 0], opacity: 1 }}
-              transition={{ duration: 0.75 }}
+              transition={{ ease: "linear", duration: 1 }}
               className="skills__container"
             >
-              {skills.map((skill) => (
+              {skills.map((skill: any) => (
                 <motion.div
                   key={skill.name}
                   whileInView={{ opacity: [0, 1] }}

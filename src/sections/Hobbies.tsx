@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import {
   BookOpenIcon,
@@ -18,8 +17,8 @@ const Hobbies = () => {
           <div className="hobbies__container">
             <motion.div
               initial={{ opacity: 0 }}
-              whileInView={{ opacity: [0, 1] }}
-              transition={{ duration: 0.3 }}
+              whileInView={{ opacity: [0, 0.5, 1] }}
+              transition={{ ease: "linear", duration: 1 }}
               className="hobby__container"
             >
               <BookOpenIcon className="hobby__icon" />
