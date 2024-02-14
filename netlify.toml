@@ -1,4 +1,0 @@
-[[build]]
-  # Exclude the directory you want to ignore
-  path = "sanity_backend"
-  exclude = true
