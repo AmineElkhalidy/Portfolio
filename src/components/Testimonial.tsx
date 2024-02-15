@@ -9,7 +9,7 @@ const Testimonial = ({
   description: string;
 }) => {
   return (
-    <div className="bg-grey-700 rounded-xl h-[12rem] lg:max-w-[28rem] lg:h-[14rem] max-w-xs p-6 mx-4 overflow-hidden">
+    <div className="bg-grey-700 rounded-xl h-[12rem] lg:max-w-[28rem] lg:h-[14rem] max-w-sm p-6 mx-4 overflow-hidden">
       {/* Name, username and logo */}
       <div className="flex justify-between items-center mb-6">
         <div>
