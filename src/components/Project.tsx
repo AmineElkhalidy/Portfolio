@@ -1,22 +1,42 @@
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import Link from "./atoms/Link";
+import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
 
 const Project = ({ project }: { project: any }) => {
   return (
     <div className="project__container">
       {/* Container */}
       <div className="relative">
-        {/* Image container */}
-        <div className="h-[250px] sm:h-[300px]">
-          <img
-            className="h-full w-full border-2 border-black-900 object-cover dark:border-white lg:w-full cursor-pointer"
-            src={project.image}
-            alt={project.name}
-          />
-        </div>
+        <Dialog>
+          <DialogTrigger>
+            <div className="h-[250px] sm:h-[300px]">
+              <img
+                className="h-full w-full border-2 border-black-900 object-cover dark:border-white lg:w-full cursor-pointer"
+                src={project.image}
+                alt={project.name}
+              />
+            </div>
+          </DialogTrigger>
+
+          <DialogContent className="max-w-sm sm:max-w-xl md:max-w-2xl lg:max-w-3xl">
+            <DialogHeader className="text-center w-full">
+              <DialogTitle>{project.name}</DialogTitle>
+              <DialogDescription>The project description</DialogDescription>
+            </DialogHeader>
+          </DialogContent>
+        </Dialog>
 
         {/* Project description */}
-        <div className="bg-black-900 dark:bg-gray-50 p-5 sm:p-8 lg:p-12">
+        <div className="bg-black-900 dark:bg-gray-50 p-5 sm:p-8 lg:p-12 -mt-2">
           <h2 className="text-white dark:text-black-900 text-xl font-bold mb-4 lg:text-2xl lg:mb-6 2xl:text-3xl">
             {project.name}
           </h2>
