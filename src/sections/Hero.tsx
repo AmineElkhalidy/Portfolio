@@ -14,13 +14,16 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             className="hidden w-full md:flex gap-4 items-center md:flex-row-reverse md:gap-8 md:mt-4"
           >
-            <Button size="lg" className="py-6 font-nav font-semibold text-lg">
+            <Button
+              size="lg"
+              className="py-6 font-nav font-semibold text-lg rounded-full"
+            >
               <a href="#contact">Contact Me</a>
             </Button>
 
             <div>
               <a
-                className="inline-flex gap-2 items-center text-black-900 text-lg font-nav font-semibold"
+                className="inline-flex gap-2 items-center text-black-900 text-lg font-nav font-semibold border py-3 px-5 rounded-full"
                 href={CV}
                 download="Amine Elkhalidy"
                 rel="noopener noreferrer"
@@ -237,7 +240,7 @@ const Hero = () => {
                   download="Amine Elkhalidy"
                   rel="noopener noreferrer"
                 >
-                  <ArrowDownTrayIcon className="w-6" /> Download Resume
+                  <ArrowDownTrayIcon className="w-6" /> Resume
                 </a>
               </div>
             </div>
