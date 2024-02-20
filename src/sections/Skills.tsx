@@ -7,12 +7,9 @@ const Skills = () => {
     <section className="pt-[6rem] pb-20" id="skills">
       <div className="p-container">
         <div>
-          {/* Heading */}
           <Heading>Skills & Experiences</Heading>
 
-          {/* Skills & Experience */}
           <div className="skillsexperience__container">
-            {/* Skills */}
             <div className="skills__container">
               {skills.map((skill: any, index: number) => (
                 <motion.div
@@ -27,8 +24,7 @@ const Skills = () => {
                   }}
                   className="flex flex-col justify-center items-center"
                 >
-                  {/* Image container */}
-                  <div className="bg-gray-100 dark:bg-gray-100/20 w-[90px] h-[90px] rounded-full mb-[.75rem] flex justify-center items-center hover:border hover:border-green-700">
+                  <div className="bg-gray-100 w-[90px] h-[90px] rounded-full mb-[.75rem] flex justify-center items-center hover:border hover:border-green-700">
                     <img
                       className="w-[60%]"
                       src={skill.image}
@@ -36,15 +32,13 @@ const Skills = () => {
                     />
                   </div>
 
-                  {/* skill name */}
-                  <p className="text-sm font-medium sm:text-md xl:text-lg text-black-400 dark:text-gray-100">
+                  <p className="text-sm font-medium sm:text-md xl:text-lg text-black-400">
                     {skill.name}
                   </p>
                 </motion.div>
               ))}
             </div>
 
-            {/* Experience */}
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ x: [100, 0], opacity: 1 }}

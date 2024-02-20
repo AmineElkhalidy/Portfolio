@@ -74,7 +74,7 @@
     @apply border-border scroll-smooth;
   }
   body {
-    @apply bg-background text-foreground dark:bg-black-900 font-body duration-300;
+    @apply bg-background text-foreground font-body duration-300;
   }
 }
 
@@ -97,7 +97,7 @@
 }
 
 .header {
-  @apply bg-white w-full fixed top-0 left-0 z-50 duration-300 dark:bg-black-900 backdrop-blur-md;
+  @apply bg-white w-full fixed top-0 left-0 z-50 duration-300 backdrop-blur-md;
 }
 
 .nav {
@@ -137,9 +137,8 @@
   -webkit-text-fill-color: transparent;
 }
 
-/* Section title */
 .heading {
-  @apply text-black-900 dark:text-white text-3xl text-center font-nav font-bold mb-12 lg:mb-16 sm:text-4xl md:text-5xl;
+  @apply text-black-900 text-3xl text-center font-nav font-bold mb-12 lg:mb-16 sm:text-4xl md:text-5xl;
 }
 
 .header__social-links a {
@@ -147,11 +146,11 @@
 }
 
 .about__desc {
-  @apply text-grey-500 dark:text-gray-200 md:text-lg lg:text-xl;
+  @apply text-grey-500 md:text-lg lg:text-xl;
 }
 
 .about__techlist {
-  @apply max-w-sm grid grid-cols-2 text-grey-400 dark:text-gray-300  font-nav font-thin md:text-[1.05rem] lg:text-lg;
+  @apply max-w-sm grid grid-cols-2 text-grey-400 font-nav font-thin md:text-[1.05rem] lg:text-lg;
 }
 
 .about__img-container {
@@ -193,15 +192,15 @@
 }
 
 .experience__profession {
-  @apply text-black-900 dark:text-white text-lg lg:text-xl xl:text-2xl font-semibold capitalize mb-[.75rem];
+  @apply text-black-900 text-lg lg:text-xl xl:text-2xl font-semibold capitalize mb-[.75rem];
 }
 
 .experience__desc {
-  @apply text-black-400 dark:text-gray-300 mb-[.5rem] xl:text-lg;
+  @apply text-black-400 mb-[.5rem] xl:text-lg;
 }
 
 .experience__company {
-  @apply text-sm font-nav dark:text-gray-300 text-black-400 xl:text-base underline;
+  @apply text-sm font-nav text-black-400 xl:text-base underline;
 }
 
 /* Hobbies */
@@ -210,7 +209,7 @@
 }
 
 .hobby__container {
-  @apply flex items-center justify-center flex-col gap-2 dark:text-gray-200 hover:text-green-700 duration-300;
+  @apply flex items-center justify-center flex-col gap-2 hover:text-green-700 duration-300;
 }
 
 .hobby__icon {

@@ -18,7 +18,7 @@ const Project = ({ project }: { project: any }) => {
           <DialogTrigger>
             <div className="h-[250px] sm:h-[350px]">
               <img
-                className="h-full w-full border-2 border-black-900 object-cover dark:border-white lg:w-full cursor-pointer"
+                className="h-full w-full border-2 border-black-900 object-cover lg:w-full cursor-pointer"
                 src={project.image}
                 alt={project.name}
               />
@@ -34,8 +34,8 @@ const Project = ({ project }: { project: any }) => {
         </Dialog>
 
         {/* Project description */}
-        <div className="bg-black-900 dark:bg-gray-50 p-5 sm:p-8 lg:p-12 -mt-2">
-          <h2 className="text-white dark:text-black-900 text-xl font-bold mb-4 lg:text-2xl lg:mb-6 2xl:text-3xl">
+        <div className="bg-black-900  p-5 sm:p-8 lg:p-12 -mt-2">
+          <h2 className="text-white  text-xl font-bold mb-4 lg:text-2xl lg:mb-6 2xl:text-3xl">
             {project.name}
           </h2>
 
@@ -67,7 +67,7 @@ const Project = ({ project }: { project: any }) => {
             <Link
               href={project.githubLink}
               target="_blank"
-              className="group inline-flex items-center sm:font-medium text-md gap-1 lg:text-lg text-white dark:text-black-900 cursor-pointer"
+              className="group inline-flex items-center sm:font-medium text-md gap-1 lg:text-lg text-white cursor-pointer"
             >
               <span>Github Repo</span>
               <ArrowRightIcon className="w-4 h-4 duration-300 group-hover:translate-x-1" />
