@@ -13,17 +13,18 @@ const Skills = () => {
           {/* Skills & Experience */}
           <div className="skillsexperience__container">
             {/* Skills */}
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ x: [-100, 0], opacity: 1 }}
-              transition={{ ease: "linear", duration: 1 }}
-              className="skills__container"
-            >
-              {skills.map((skill: any) => (
+            <div className="skills__container">
+              {skills.map((skill: any, index: number) => (
                 <motion.div
                   key={skill.name}
-                  whileInView={{ opacity: [0, 1] }}
-                  transition={{ duration: 0.5 }}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  whileInView={{ y: [30, 0], opacity: [0, 0.5, 1] }}
+                  transition={{
+                    ease: "easeIn",
+                    duration: 1,
+                    delay: 0.2 * index,
+                  }}
                   className="flex flex-col justify-center items-center"
                 >
                   {/* Image container */}
@@ -41,7 +42,7 @@ const Skills = () => {
                   </p>
                 </motion.div>
               ))}
-            </motion.div>
+            </div>
 
             {/* Experience */}
             <motion.div

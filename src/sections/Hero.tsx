@@ -7,18 +7,18 @@ import MainButton from "../components/atoms/MainButton";
 
 const Hero = () => {
   return (
-    <section className="relative pb-10">
+    <section className="relative">
       <ParentContainer>
         <div className="relative">
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
-            transition={{ ease: "easeIn", duration: 0.8 }}
-            className="relative flex items-center md:pl-16"
-          >
-            <div className="mt-40 md:mt-32">
+          <motion.div className="relative flex items-center md:pl-16">
+            <div className="mt-20">
               {/* Introduction */}
-              <h1 className="hero__title">
+              <motion.h1
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ ease: "easeIn", duration: 1 }}
+                className="hero__title"
+              >
                 Hello <span className="wave">👋</span>,
                 <br />
                 I'm Amine, <br />
@@ -29,12 +29,18 @@ const Hero = () => {
                     },
                   }}
                 >
-                  <span className=" gradient-text ">Web Developer</span>
+                  <span className="gradient-text ">Web Developer</span>
                 </TypeIt>
-              </h1>
+              </motion.h1>
 
-              {/* Profession */}
-              <p className="hero__desc">🌟 React ~ Next.js Developer 🌟</p>
+              <motion.p
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ ease: "easeIn", duration: 0.7, delay: 0.2 }}
+                className="hero__desc"
+              >
+                🌟 React ~ Next.js Developer 🌟
+              </motion.p>
 
               <div className="md:hidden">
                 <div className="flex gap-6 items-center justify-between">
@@ -106,16 +112,27 @@ const Hero = () => {
                 </div>
               </div>
 
-              <p className="relative my-10 inline-block py-3 px-6 rounded-lg bg-green-50 border border-green-800 text-green-800 font-semibold md:absolute md:top-24 md:right-0">
+              <motion.p
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                whileInView={{ y: [30, 0], opacity: [0, 0.5, 1] }}
+                transition={{ duration: 1, ease: "easeIn" }}
+                className="relative my-10 inline-block py-3 px-6 rounded-lg bg-green-50 border border-green-800 text-green-800 font-semibold md:absolute md:top-14 md:right-0"
+              >
                 <span className="absolute -top-1 -right-1 flex h-3 w-3">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
                 </span>
                 <a href="#contact">Available for work</a>
-              </p>
+              </motion.p>
 
-              {/* Contact me button */}
-              <div className="hero__buttons-container">
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                whileInView={{ y: [25, 0], opacity: [0, 0.5, 1] }}
+                transition={{ ease: "easeIn", duration: 0.7 }}
+                className="hero__buttons-container"
+              >
                 <MainButton>Contact Me</MainButton>
 
                 <div>
@@ -128,12 +145,12 @@ const Hero = () => {
                     <ArrowDownTrayIcon className="w-6" /> Download Resume
                   </a>
                 </div>
-              </div>
+              </motion.div>
             </div>
           </motion.div>
 
           <motion.div
-            whileInView={{ y: [120, 0] }}
+            whileInView={{ y: [60, 0] }}
             transition={{ ease: "easeIn", duration: 1 }}
             className="hidden md:block absolute bottom-0"
           >

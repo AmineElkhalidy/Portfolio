@@ -12,12 +12,9 @@ const Testimonials = () => {
     >
       <div>
         {/* Heading */}
-        <motion.h2
-          whileInView={{ y: [-20, 0] }}
-          className="text-white dark:text-black-900 text-3xl text-center font-nav font-bold mb-16 sm:text-4xl md:text-5xl"
-        >
+        <h2 className="text-white dark:text-black-900 text-3xl text-center font-nav font-bold mb-16 sm:text-4xl md:text-5xl">
           My Clients Reviews
-        </motion.h2>
+        </h2>
 
         <motion.div
           whileInView={{ y: [100, 50, 0], opacity: [0, 0.5, 1] }}

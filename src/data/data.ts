@@ -1,4 +1,5 @@
-// Technologies
+//@ts-nocheck
+
 import Html from "../assets/images/html.webp";
 import Css from "../assets/images/css.webp";
 import JavaScript from "../assets/images/javascript.webp";

@@ -12,10 +12,8 @@ const Navbar = () => {
         Amine Elkhalidy
       </a>
 
-      {/* Mobile navigation */}
       <MobileNavbar />
 
-      {/* Desktop navigation */}
       <motion.div className="hidden md:block" whileInView={{ opacity: [0, 1] }}>
         <div className="flex items-center gap-8">
           <ul className="flex gap-8">
