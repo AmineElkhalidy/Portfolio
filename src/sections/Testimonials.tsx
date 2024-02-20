@@ -6,13 +6,9 @@ import Marquee from "react-fast-marquee";
 
 const Testimonials = () => {
   return (
-    <section
-      className=" bg-black-900 dark:bg-white pt-[6.2rem] pb-8"
-      id="testimonials"
-    >
+    <section className=" bg-black-900 pt-[6.2rem] pb-8" id="testimonials">
       <div>
-        {/* Heading */}
-        <h2 className="text-white dark:text-black-900 text-3xl text-center font-nav font-bold mb-16 sm:text-4xl md:text-5xl">
+        <h2 className="text-white text-3xl text-center font-nav font-bold mb-16 sm:text-4xl md:text-5xl">
           My Clients Reviews
         </h2>
 
@@ -32,10 +28,9 @@ const Testimonials = () => {
           </Marquee>
         </motion.div>
 
-        {/* Reviews container */}
         <div className="space-y-6 hidden md:block">
           <div>
-            <Marquee>
+            <Marquee className="z-10">
               {rowreviews1.map((review: any, index: any) => (
                 <Testimonial
                   key={index}
@@ -47,7 +42,7 @@ const Testimonials = () => {
           </div>
 
           <div>
-            <Marquee direction="right">
+            <Marquee direction="right" className="z-10">
               {rowreviews2.map((review: any, index: any) => (
                 <Testimonial
                   key={index}

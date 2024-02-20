@@ -116,10 +116,6 @@
   @apply flex flex-col justify-center items-center gap-8;
 }
 
-.nav__link {
-  @apply font-nav capitalize font-semibold text-black-900 dark:text-grey-100 duration-300;
-}
-
 .gradient,
 .image,
 .contact-btn,
@@ -134,20 +130,11 @@
   -webkit-background-clip: text;
 }
 
-.p-container {
-  @apply max-w-6xl mx-auto px-6 xl:px-0;
-}
-
-.hero__title {
-  @apply text-black-900 dark:text-gray-100 text-[3.5rem]  leading-none font-bold mb-3 sm:text-6xl md:text-7xl lg:text-8xl;
-}
-
-.hero__desc {
-  @apply text-grey-500 dark:text-gray-200 font-medium text-xl font-nav mb-10 md:text-xl lg:text-2xl;
-}
-
-.hero__buttons-container {
-  @apply flex flex-col space-y-3 sm:flex-row sm:space-x-12;
+.text-gradient {
+  background: linear-gradient(90deg, #4ca5ff, #b573f8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Section title */
@@ -155,16 +142,8 @@
   @apply text-black-900 dark:text-white text-3xl text-center font-nav font-bold mb-12 lg:mb-16 sm:text-4xl md:text-5xl;
 }
 
-.header__social-links {
-  @apply bg-transparent flex flex-col gap-6 justify-center items-center;
-}
-
 .header__social-links a {
   @apply cursor-pointer duration-300 hover:scale-125;
-}
-
-.about__container {
-  @apply grid gap-20 md:gap-0 md:grid-cols-2 lg:pl-12;
 }
 
 .about__desc {
@@ -240,14 +219,6 @@
 
 .hoppy__title {
   @apply text-lg md:text-xl;
-}
-
-.scrollup {
-  @apply fixed p-1.5 duration-300 opacity-50 bottom-2 gradient hover:opacity-100;
-}
-
-.scrollup-icon {
-  @apply w-6 h-6 text-white;
 }
 
 ::-webkit-scrollbar {

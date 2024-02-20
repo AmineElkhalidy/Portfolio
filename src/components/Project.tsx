@@ -1,11 +1,9 @@
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import Link from "./atoms/Link";
-import { Button } from "@/components/ui/button";
 import {
   Dialog,
   DialogContent,
   DialogDescription,
-  DialogFooter,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
@@ -18,7 +16,7 @@ const Project = ({ project }: { project: any }) => {
       <div className="relative">
         <Dialog>
           <DialogTrigger>
-            <div className="h-[250px] sm:h-[300px]">
+            <div className="h-[250px] sm:h-[350px]">
               <img
                 className="h-full w-full border-2 border-black-900 object-cover dark:border-white lg:w-full cursor-pointer"
                 src={project.image}

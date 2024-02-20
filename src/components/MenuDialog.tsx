@@ -1,19 +1,16 @@
-import React from "react";
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import { cn } from "@/lib/utils";
 import { DialogClose } from "@radix-ui/react-dialog";
-import Switcher from "./Switcher";
 
-const MenuDialog = () => {
+const MenuDialog = ({ isShown }: { isShown: boolean }) => {
   return (
-    <div className="fixed right-4 bottom-4">
+    <div
+      className={cn(
+        "fixed right-2 duration-300",
+        isShown ? "bottom-[4.8rem]" : "bottom-4"
+      )}
+      style={{ zIndex: 1000 }}
+    >
       <Dialog>
         <DialogTrigger>
           <div className="w-12 md:w-16 h-12 md:h-16 rounded-full border bg-white flex items-center justify-center shadow-xl">
@@ -36,14 +33,17 @@ const MenuDialog = () => {
           </div>
         </DialogTrigger>
 
-        <DialogContent className="max-w-xl py-16 shadow-xl">
+        <DialogContent className="max-w-xs mx-auto sm:max-w-xl w-full py-10 sm:py-16 shadow-xl">
           <div className="relative">
             <ul className="nav__list">
               {["about", "work", "testimonials", "contact"].map(
                 (link, index) => (
                   <li key={index}>
                     <DialogClose asChild>
-                      <a className="nav__link" href={`#${link}`}>
+                      <a
+                        className="font-nav sm:text-lg capitalize font-semibold text-black-900 duration-300 hover:text-emerald-600"
+                        href={`#${link}`}
+                      >
                         {link}
                       </a>
                     </DialogClose>
@@ -51,10 +51,6 @@ const MenuDialog = () => {
                 )
               )}
             </ul>
-
-            <div className="absolute -top-[43px] right-8">
-              <Switcher />
-            </div>
           </div>
         </DialogContent>
       </Dialog>

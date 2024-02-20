@@ -7,18 +7,18 @@ import Paragraph from "../components/atoms/Paragraph";
 
 const About = () => {
   return (
-    <section className="pt-[6rem]" id="about">
+    <section className="min-h-screen" id="about">
       <ParentContainer>
-        <div>
+        <div className="pt-16">
           <Heading>Who Am I?</Heading>
 
-          <motion.div className="about__container">
+          <motion.div className="grid gap-20 md:gap-0 md:grid-cols-2 lg:pl-12">
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ x: [-100, 0], opacity: 1 }}
               transition={{ ease: "linear", duration: 1 }}
             >
-              <Paragraph styles="about__desc mb-3">
+              <Paragraph styles="about__desc mb-3 font-medium">
                 Hello, I am{" "}
                 <span className=" gradient-text font-medium">
                   Amine Elkhalidy
@@ -31,7 +31,7 @@ const About = () => {
                 clients.
               </Paragraph>
 
-              <Paragraph styles="about__desc mb-3">
+              <Paragraph styles="about__desc mb-3 font-medium">
                 I am working as a freelancer on{" "}
                 <a
                   href="https://www.upwork.com/"
@@ -45,7 +45,7 @@ const About = () => {
                 network.
               </Paragraph>
 
-              <Paragraph styles="about__desc mb-3">
+              <Paragraph styles="about__desc mb-3 font-medium">
                 Here are a few technologies I&apos;ve been working with:
               </Paragraph>
 
@@ -58,7 +58,10 @@ const About = () => {
                   "Next.js/ Sveltekit",
                   "TypeScript",
                 ].map((item, index) => (
-                  <li key={index} className="flex items-center gap-2">
+                  <li
+                    key={index}
+                    className="flex items-center gap-2 font-medium"
+                  >
                     <ChevronRightIcon className="w-3 h-3" />
                     {item}
                   </li>

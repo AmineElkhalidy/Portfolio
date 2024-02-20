@@ -30,7 +30,7 @@
     "react-toggle-dark-mode": "^1.1.1",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7",
-    "typeit-react": "^2.6.0"
+    "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
     "@svgr/cli": "^6.5.1",

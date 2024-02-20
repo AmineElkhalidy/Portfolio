@@ -4,7 +4,7 @@ const MainButton = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="relative">
       <a
-        className="inline-block z-50 px-[31px] py-5 bg-black-900 text-white dark:text-black-900 dark:bg-gray-100 cursor-pointer text-lg duration-300 font-nav font-semibold hover:translate-x-2 hover:translate-y-2"
+        className="inline-block z-50 px-[31px] py-5 bg-black-900 text-white cursor-pointer text-lg duration-300 font-nav font-semibold hover:translate-x-2 hover:translate-y-2"
         href="#contact"
       >
         {children}

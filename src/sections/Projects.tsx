@@ -10,17 +10,12 @@ const Projects = () => {
   const [showMore, setShowMore] = useState<boolean>(false);
 
   return (
-    <section className="pt-[6rem]" id="work">
+    <section className="min-h-screen" id="work">
       <ParentContainer>
-        <div className="mb-20">
-          {/* Heading */}
+        <div className="mb-20 pt-[6rem]">
           <Heading>My Latest Work</Heading>
 
-          {/* Work Container */}
-          <motion.div
-            whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
-            transition={{ duration: 0.75 }}
-          >
+          <div>
             <div className="projects">
               <div className="projects__container">
                 {firstRowOfProjects.map((project: any, index: any) => (
@@ -75,7 +70,7 @@ const Projects = () => {
                 </Button>
               </div>
             )}
-          </motion.div>
+          </div>
         </div>
       </ParentContainer>
     </section>
