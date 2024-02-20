@@ -33,6 +33,17 @@ export default {
       },
     },
     {
+      name: 'images',
+      title: 'Project Images',
+      type: 'array',
+      of: [
+        {
+          type: 'image',
+          hotspot: true,
+        },
+      ],
+    },
+    {
       name: 'techs',
       title: 'Techs',
       type: 'array',

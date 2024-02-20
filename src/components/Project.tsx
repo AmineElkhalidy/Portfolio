@@ -8,54 +8,65 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
+import { urlFor } from "@/client";
 
 const Project = ({ project }: { project: any }) => {
   return (
     <div className="project__container">
-      {/* Container */}
       <div className="relative">
         <Dialog>
           <DialogTrigger>
             <div className="h-[250px] sm:h-[350px]">
               <img
-                className="h-full w-full border-2 border-black-900 object-cover lg:w-full cursor-pointer"
-                src={project.image}
-                alt={project.name}
+                className="h-full border-2 border-black-900 object-cover cursor-pointer"
+                src={urlFor(project.imgUrl).url() || ""}
+                alt={project.title}
               />
             </div>
           </DialogTrigger>
 
           <DialogContent className="max-w-sm sm:max-w-xl md:max-w-2xl lg:max-w-3xl">
             <DialogHeader className="text-center w-full">
-              <DialogTitle>{project.name}</DialogTitle>
-              <DialogDescription>The project description</DialogDescription>
+              <DialogTitle>{project.title}</DialogTitle>
+              <DialogDescription>{project.description}</DialogDescription>
             </DialogHeader>
+
+            {/* <div className="">
+              {project.images.map((image: any, index: number) => (
+                <div key={index}>
+                  <div className="w-full h-full">
+                    <img
+                      className="w-fit h-fit"
+                      src={urlFor(image).url()}
+                      alt="project images"
+                    />
+                  </div>
+                </div>
+              ))}
+            </div> */}
           </DialogContent>
         </Dialog>
 
-        {/* Project description */}
-        <div className="bg-black-900  p-5 sm:p-8 lg:p-12 -mt-2">
-          <h2 className="text-white  text-xl font-bold mb-4 lg:text-2xl lg:mb-6 2xl:text-3xl">
-            {project.name}
+        <div className="w-full bg-black-900 p-5 sm:p-8 lg:p-12 -mt-2">
+          <h2 className="text-white text-xl font-bold mb-4 lg:text-2xl lg:mb-6 2xl:text-3xl">
+            {project.title}
           </h2>
 
-          {/* Technologies used */}
-          <div className="w-full flex gap-4 mb-6">
-            {project.technologies.map((tech: any, index: any) => (
-              <div className="w-[12%] h-[12%] " key={index}>
+          <div className="w-full flex gap-4 mb-12">
+            {project.techs.map((tech: any, index: any) => (
+              <div className="w-[11%] h-[11%]" key={index}>
                 <img
                   className="w-full h-full rounded-full"
-                  src={tech}
-                  alt={tech}
+                  src={urlFor(tech).url()}
+                  alt="Web tech"
                 />
               </div>
             ))}
           </div>
 
-          {/* Buttons container */}
-          <div className="flex justify-between lg:text-lg">
+          <div className="flex justify-between mt-6 lg:text-lg">
             <Link
-              href={project.hrefLink}
+              href={project.projectLink}
               target="_blank"
               className="p-3 sm:px-5 sm:py-3 gradient group inline-flex items-center sm:font-medium text-md gap-1 lg:text-lg cursor-pointer text-white font-semibold"
             >
@@ -65,7 +76,7 @@ const Project = ({ project }: { project: any }) => {
             </Link>
 
             <Link
-              href={project.githubLink}
+              href={project.codeLink}
               target="_blank"
               className="group inline-flex items-center sm:font-medium text-md gap-1 lg:text-lg text-white cursor-pointer"
             >

@@ -1,14 +1,21 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Heading from "../components/atoms/Heading";
 import { firstRowOfProjects, secondRowOfProjects } from "../data/data";
 import Project from "../components/Project";
 import ParentContainer from "../components/Container";
 import Button from "../components/atoms/Button";
+import { client, urlFor } from "@/client";
 
 const Projects = () => {
   const [showMore, setShowMore] = useState<boolean>(false);
+  const [works, setWorks] = useState([]);
 
+  useEffect(() => {
+    const query = "*[_type == 'works']";
+
+    client.fetch(query).then((data) => setWorks(data));
+  }, []);
   return (
     <section className="min-h-screen" id="work">
       <ParentContainer>
@@ -18,7 +25,7 @@ const Projects = () => {
           <div>
             <div className="projects">
               <div className="projects__container">
-                {firstRowOfProjects.map((project: any, index: any) => (
+                {works.map((project: any, index: any) => (
                   <motion.div
                     initial={{ opacity: 0 }}
                     whileInView={{ y: [50, 0], opacity: [0, 0.5, 1] }}
@@ -33,7 +40,7 @@ const Projects = () => {
                   </motion.div>
                 ))}
 
-                {showMore &&
+                {/* {showMore &&
                   secondRowOfProjects.map((project: any, index: any) => (
                     <motion.div
                       initial={{ opacity: 0 }}
@@ -47,7 +54,7 @@ const Projects = () => {
                     >
                       <Project project={project} />
                     </motion.div>
-                  ))}
+                  ))} */}
               </div>
             </div>
 

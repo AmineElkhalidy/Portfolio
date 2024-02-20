@@ -6,13 +6,13 @@ import ParentContainer from "../components/Container";
 
 const Hero = () => {
   return (
-    <section className={`min-h-screen`}>
+    <section className="min-h-screen">
       <ParentContainer>
         <div>
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            className="hidden w-full md:flex gap-4 items-center md:flex-row-reverse md:gap-8 md:mt-4"
+            className="hidden w-full md:flex gap-4 items-center md:flex-row-reverse md:gap-8 md:pt-4"
           >
             <Button
               size="lg"
@@ -34,7 +34,7 @@ const Hero = () => {
           </motion.div>
 
           <motion.div className="relative flex items-center">
-            <div className="mt-20 md:mt-14">
+            <div className="mt-24 md:mt-14">
               <motion.h1
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
