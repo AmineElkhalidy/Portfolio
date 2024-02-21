@@ -62,7 +62,7 @@ const Hero = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ ease: "easeIn", duration: 0.7, delay: 0.2 }}
-                className="text-grey-500 text-center font-medium text-xl font-nav mb-10 md:text-xl lg:text-2xl"
+                className="text-grey-500 text-center font-medium text-xl font-nav md:text-xl lg:text-2xl"
               >
                 🌟 Next.js Developer 🌟
               </motion.p>
@@ -153,8 +153,8 @@ const Hero = () => {
             </div>
           </motion.div>
 
-          {/* <motion.div className="w-full flex justify-center items-center">
-            <div className="bg-transparent flex gap-6 justify-center items-center">
+          <motion.div className="w-full flex justify-center items-center my-8">
+            <div className="bg-transparent flex gap-10 justify-center items-center">
               <a
                 href="https://www.upwork.com/freelancers/~01f55a2d4b119d3119"
                 target="_blank"
@@ -221,7 +221,7 @@ const Hero = () => {
                 </svg>
               </a>
             </div>
-          </motion.div> */}
+          </motion.div>
 
           <motion.div
             initial={{ opacity: 0 }}
