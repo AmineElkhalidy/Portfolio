@@ -38,7 +38,7 @@ const Hero = () => {
               <motion.h1
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ ease: "easeIn", duration: 1 }}
+                transition={{ ease: "easeIn", duration: 1, delay: 0.5 }}
                 className="text-black-500 text-center text-[2.5rem] leading-[1.2] font-bold mb-3 sm:text-[51px] md:text-[63px] lg:text-[72px] "
               >
                 <span className="bg-gradient-to-r from-cyan-500 to-blue-900 bg-clip-text text-transparent">
@@ -61,7 +61,7 @@ const Hero = () => {
               <motion.p
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ ease: "easeIn", duration: 0.7, delay: 0.2 }}
+                transition={{ ease: "easeIn", duration: 0.7, delay: 0.7 }}
                 className="text-grey-500 text-center font-medium text-xl font-nav md:text-xl lg:text-2xl"
               >
                 🌟 Next.js Developer 🌟
@@ -136,20 +136,6 @@ const Hero = () => {
                   </a>
                 </div>
               </div>
-
-              {/* <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                whileInView={{ y: [30, 0], opacity: [0, 0.5, 1] }}
-                transition={{ duration: 1, ease: "easeIn" }}
-                className="relative my-10 inline-block py-3 px-6 rounded-lg bg-green-50 border border-green-800 text-green-800 font-semibold md:hidden "
-              >
-                <span className="absolute -top-1 -right-1 flex h-3 w-3">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
-                </span>
-                <a href="#contact">Available for work</a>
-              </motion.div> */}
             </div>
           </motion.div>
 

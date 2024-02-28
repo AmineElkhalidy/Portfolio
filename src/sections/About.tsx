@@ -7,9 +7,12 @@ import Paragraph from "../components/atoms/Paragraph";
 
 const About = () => {
   return (
-    <section className="min-h-screen" id="about">
+    <section
+      className="min-h-screen flex items-center justify-center"
+      id="about"
+    >
       <ParentContainer>
-        <div className="pt-16">
+        <div className="md:pt-16">
           <Heading>Who Am I?</Heading>
 
           <motion.div className="grid gap-20 md:gap-0 md:grid-cols-2 lg:pl-12">

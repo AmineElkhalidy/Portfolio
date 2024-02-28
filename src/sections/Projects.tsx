@@ -17,7 +17,10 @@ const Projects = () => {
     client.fetch(query).then((data) => setWorks(data));
   }, []);
   return (
-    <section className="min-h-screen" id="work">
+    <section
+      className="min-h-screen flex items-center justify-center"
+      id="work"
+    >
       <ParentContainer>
         <div className="mb-20 pt-[6rem]">
           <Heading>My Latest Work</Heading>

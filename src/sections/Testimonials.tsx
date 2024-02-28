@@ -6,7 +6,10 @@ import Marquee from "react-fast-marquee";
 
 const Testimonials = () => {
   return (
-    <section className=" bg-black-900 pt-[6.2rem] pb-8" id="testimonials">
+    <section
+      className=" bg-black-900 pt-[6.2rem] pb-8 flex items-center justify-center"
+      id="testimonials"
+    >
       <div>
         <h2 className="text-white text-3xl text-center font-nav font-bold mb-16 sm:text-4xl md:text-5xl">
           My Clients Reviews

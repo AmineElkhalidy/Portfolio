@@ -10,7 +10,7 @@ const Contact = () => {
   const [state, handleSubmit] = useForm("xeqdeyeo");
 
   return (
-    <section id="contact">
+    <section className="w-full flex items-center justify-center" id="contact">
       <ParentContainer>
         <div className="pt-24">
           <Heading>Contact Me</Heading>
