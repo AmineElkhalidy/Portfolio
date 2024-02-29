@@ -136,7 +136,7 @@ const Contact = () => {
                   </p>
                 </div>
               ) : (
-                <form onSubmit={handleSubmit} className="" action="#">
+                <form onSubmit={handleSubmit}>
                   {/* First and Last name box */}
                   <div className="w-full flex flex-col mb-6 sm:flex-row sm:gap-6 sm:mb-0">
                     {/* First name box */}
@@ -242,14 +242,12 @@ const Contact = () => {
                   {/* Button box */}
                   <div className="relative">
                     <button
-                      className="inline-block px-[33px] py-5 bg-black-900 text-white cursor-pointer text-lg duration-300 font-nav font-semibold z-10 hover:translate-x-2 hover:translate-y-2"
+                      className="inline-block px-[33px] py-5 bg-black-900 text-white cursor-pointer text-lg duration-300 font-nav font-semibold z-10"
                       type="submit"
                       disabled={state.submitting}
                     >
                       Send Message
                     </button>
-
-                    <span className="contact-btn absolute -z-10 top-2 left-2 px-[5.96rem] py-[2.15rem] bg-red-500" />
                   </div>
                 </form>
               )}
