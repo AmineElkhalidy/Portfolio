@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { motion } from "framer-motion";
 import { ArrowDownTrayIcon } from "@heroicons/react/24/solid";
 import CV from "../assets/pdf/Amine-Elkhalidy.pdf";
