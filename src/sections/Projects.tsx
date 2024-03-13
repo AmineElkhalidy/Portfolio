@@ -1,11 +1,10 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Heading from "../components/atoms/Heading";
-import { firstRowOfProjects, secondRowOfProjects } from "../data/data";
 import Project from "../components/Project";
 import ParentContainer from "../components/Container";
 import Button from "../components/atoms/Button";
-import { client, urlFor } from "@/client";
+import { client } from "@/client";
 
 const Projects = () => {
   const [showMore, setShowMore] = useState<boolean>(false);
@@ -13,9 +12,9 @@ const Projects = () => {
 
   useEffect(() => {
     const query = "*[_type == 'works']";
-
     client.fetch(query).then((data) => setWorks(data));
   }, []);
+
   return (
     <section
       className="min-h-screen flex items-center justify-center"
@@ -38,6 +37,8 @@ const Projects = () => {
                       delay: 0.2 * index,
                     }}
                     key={index}
+                    viewport={{ once: true }}
+                    layout
                   >
                     <Project project={project} />
                   </motion.div>

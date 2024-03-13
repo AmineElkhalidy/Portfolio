@@ -6,7 +6,7 @@ import ParentContainer from "../components/Container";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen">
+    <section className="min-h-screen hero__bg">
       <ParentContainer>
         <div>
           <motion.div
@@ -39,7 +39,7 @@ const Hero = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ ease: "easeIn", duration: 1, delay: 0.5 }}
-                className="text-black-500 text-center text-[2.5rem] leading-[1.2] font-bold mb-3 sm:text-[51px] md:text-[63px] lg:text-[72px] "
+                className="text-black-500 text-center text-[2.5rem] leading-[1.2] font-bold mb-3 sm:text-[51px] md:text-[63px] lg:text-[72px] drop-shadow-sm"
               >
                 <span className="bg-gradient-to-r from-cyan-500 to-blue-900 bg-clip-text text-transparent">
                   Empowering digital dreams

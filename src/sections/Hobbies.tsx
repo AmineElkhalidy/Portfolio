@@ -20,6 +20,8 @@ const Hobbies = () => {
               whileInView={{ opacity: [0, 0.5, 1] }}
               transition={{ ease: "linear", duration: 1 }}
               className="hobby__container"
+              viewport={{ once: true }}
+              layout
             >
               <BookOpenIcon className="hobby__icon" />
               <h3 className="hobby__title font-medium">Reading books</h3>
@@ -30,6 +32,8 @@ const Hobbies = () => {
               whileInView={{ opacity: [0, 0, 1] }}
               transition={{ duration: 0.6 }}
               className="hobby__container"
+              viewport={{ once: true }}
+              layout
             >
               <TvIcon className="hobby__icon" />
               <h3 className="hobby__title font-medium">
@@ -42,6 +46,8 @@ const Hobbies = () => {
               whileInView={{ opacity: [0, 0, 0, 1] }}
               transition={{ duration: 0.9 }}
               className="hobby__container"
+              viewport={{ once: true }}
+              layout
             >
               <CodeBracketIcon className="hobby__icon" />
               <h3 className="hobby__title font-medium">Coding</h3>
