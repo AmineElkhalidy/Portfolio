@@ -22,7 +22,7 @@ const Contact = () => {
               viewport={{ once: true }}
               layout
             >
-              <h2 className="text-3xl md:text-4xl font-bold text-black-900 mb-8">
+              <h2 className="text-2xl md:text-3xl font-semibold text-black-900 mb-8">
                 Get in touch
               </h2>
               <Paragraph styles="max-w-lg w-full text-grey-400 text-base sm:text-lg leading-7">
@@ -244,7 +244,7 @@ const Contact = () => {
                   </div>
 
                   {/* Button box */}
-                  <div className="relative">
+                  <div className="relative flex justify-end">
                     <button
                       className="inline-block px-[33px] py-5 bg-black-900 text-white cursor-pointer text-lg duration-300 font-nav font-semibold z-10"
                       type="submit"

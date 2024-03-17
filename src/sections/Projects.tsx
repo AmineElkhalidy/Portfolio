@@ -11,17 +11,17 @@ const Projects = () => {
   const [works, setWorks] = useState([]);
 
   useEffect(() => {
-    const query = "*[_type == 'works']";
+    const query = "*[_type == 'works' && !(_id in path('drafts.**'))]";
     client.fetch(query).then((data) => setWorks(data));
   }, []);
 
   return (
     <section
-      className="min-h-screen flex items-center justify-center"
+      className="h-full flex items-center justify-center mt-32"
       id="work"
     >
       <ParentContainer>
-        <div className="mb-20 pt-[6rem]">
+        <div className="mb-20">
           <Heading>My Latest Work</Heading>
 
           <div>
@@ -62,7 +62,7 @@ const Projects = () => {
               </div>
             </div>
 
-            {showMore ? (
+            {/* {showMore ? (
               <div className="mt-16 text-center">
                 <Button
                   styles="inline-block px-10 py-5 gradient text-white cursor-pointer text-lg duration-300 font-nav font-semibold hover:scale-105"
@@ -80,7 +80,7 @@ const Projects = () => {
                   Show more
                 </Button>
               </div>
-            )}
+            )} */}
           </div>
         </div>
       </ParentContainer>

@@ -7,10 +7,7 @@ import Paragraph from "../components/atoms/Paragraph";
 
 const About = () => {
   return (
-    <section
-      className="min-h-screen flex items-center justify-center"
-      id="about"
-    >
+    <section className="h-full mt-20" id="about">
       <ParentContainer>
         <div className="md:pt-16">
           <Heading>Who Am I?</Heading>

@@ -53,15 +53,16 @@ const Project = ({ project }: { project: any }) => {
           </h2>
 
           <div className="w-full flex gap-4 mb-12">
-            {project.techs.map((tech: any, index: any) => (
-              <div className="w-[11%] h-[11%]" key={index}>
-                <img
-                  className="w-full h-full rounded-full"
-                  src={urlFor(tech).url()}
-                  alt="Web tech"
-                />
-              </div>
-            ))}
+            {project?.techs?.length > 0 &&
+              project.techs.map((tech: any, index: any) => (
+                <div className="w-[11%] h-[11%]" key={index}>
+                  <img
+                    className="w-full h-full rounded-full"
+                    src={urlFor(tech).url()}
+                    alt="Web tech"
+                  />
+                </div>
+              ))}
           </div>
 
           <div className="flex justify-between mt-6 lg:text-lg">
