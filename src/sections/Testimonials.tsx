@@ -7,7 +7,7 @@ import Marquee from "react-fast-marquee";
 const Testimonials = () => {
   return (
     <section
-      className=" bg-black-900 pt-[6.2rem] pb-8 flex items-center justify-center"
+      className="bg-[#111827] pt-[6.2rem] pb-8 flex items-center justify-center"
       id="testimonials"
     >
       <div>

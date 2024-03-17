@@ -145,15 +145,6 @@
   @apply cursor-pointer duration-300 hover:scale-125;
 }
 
-.hero__bg {
-  background-image: linear-gradient(
-    to bottom,
-    #e6e9f0 0%,
-    #eef1f5 80%,
-    transparent 100%
-  );
-}
-
 .about__desc {
   @apply text-slate-600 md:text-lg lg:text-xl;
 }

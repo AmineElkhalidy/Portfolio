@@ -24,7 +24,7 @@ const Hobbies = () => {
               layout
             >
               <BookOpenIcon className="hobby__icon" />
-              <h3 className="hobby__title font-medium">Reading books</h3>
+              <h3 className="hobby__title font-semibold">Reading books</h3>
             </motion.div>
 
             <motion.div
@@ -36,7 +36,7 @@ const Hobbies = () => {
               layout
             >
               <TvIcon className="hobby__icon" />
-              <h3 className="hobby__title font-medium">
+              <h3 className="hobby__title font-semibold">
                 Watching documentaries
               </h3>
             </motion.div>
@@ -50,7 +50,7 @@ const Hobbies = () => {
               layout
             >
               <CodeBracketIcon className="hobby__icon" />
-              <h3 className="hobby__title font-medium">Coding</h3>
+              <h3 className="hobby__title font-semibold">Coding</h3>
             </motion.div>
           </div>
         </div>

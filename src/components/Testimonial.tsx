@@ -9,11 +9,11 @@ const Testimonial = ({
   description: string;
 }) => {
   return (
-    <div className="bg-grey-700 rounded-xl h-[12rem] lg:max-w-[28rem] lg:h-[14rem] max-w-sm p-6 mx-4 overflow-hidden">
+    <div className="bg-[#192339] rounded-xl h-[12rem] lg:max-w-[28rem] lg:h-[14rem] max-w-sm p-6 mx-4 overflow-hidden">
       {/* Name, username and logo */}
       <div className="flex justify-between items-center mb-6">
         <div>
-          <h3 className="text-grey-200 lg:text-lg font-medium">{name}</h3>
+          <h3 className="text-gray-400 lg:text-lg">{name}</h3>
 
           {/* Stars */}
           <div className="flex">
