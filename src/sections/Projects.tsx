@@ -30,15 +30,13 @@ const Projects = () => {
                 {works.map((project: any, index: any) => (
                   <motion.div
                     initial={{ opacity: 0 }}
-                    whileInView={{ y: [50, 0], opacity: [0, 0.5, 1] }}
+                    animate={{ y: [50, 0], opacity: [0, 0.5, 1] }}
                     transition={{
                       ease: "easeIn",
                       duration: 1,
                       delay: 0.2 * index,
                     }}
                     key={index}
-                    viewport={{ once: true }}
-                    layout
                   >
                     <Project project={project} />
                   </motion.div>

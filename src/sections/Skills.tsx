@@ -15,8 +15,7 @@ const Skills = () => {
                 <motion.div
                   key={skill.name}
                   initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  whileInView={{ y: [30, 0], opacity: [0, 0.5, 1] }}
+                  animate={{ y: [30, 0], opacity: [0, 0.5, 1] }}
                   transition={{
                     ease: "easeIn",
                     duration: 1,
@@ -41,7 +40,7 @@ const Skills = () => {
 
             <motion.div
               initial={{ opacity: 0 }}
-              whileInView={{ x: [100, 0], opacity: 1 }}
+              animate={{ x: [100, 0], opacity: 1 }}
               transition={{ duration: 0.75 }}
               className="experience__container"
             >

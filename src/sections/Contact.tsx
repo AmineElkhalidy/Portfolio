@@ -17,10 +17,8 @@ const Contact = () => {
           <div className="grid gap-16 md:grid-cols-2 lg:gap-8">
             <motion.div
               initial={{ opacity: 0 }}
-              whileInView={{ x: [-100, 0], opacity: 1 }}
+              animate={{ x: [-100, 0], opacity: 1 }}
               transition={{ ease: "linear", duration: 1 }}
-              viewport={{ once: true }}
-              layout
             >
               <h2 className="text-2xl md:text-3xl font-semibold text-black-900 mb-8">
                 Get in touch
@@ -125,11 +123,9 @@ const Contact = () => {
             {/* Form Container */}
             <motion.div
               initial={{ opacity: 0 }}
-              whileInView={{ x: [100, 0], opacity: 1 }}
+              animate={{ x: [100, 0], opacity: 1 }}
               transition={{ duration: 0.75 }}
               className="mb-16"
-              viewport={{ once: true }}
-              layout
             >
               {state.succeeded ? (
                 <div className="w-full h-full">

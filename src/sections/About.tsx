@@ -15,10 +15,8 @@ const About = () => {
           <motion.div className="grid gap-20 md:gap-0 md:grid-cols-2 lg:pl-12">
             <motion.div
               initial={{ opacity: 0 }}
-              whileInView={{ x: [-100, 0], opacity: 1 }}
+              animate={{ x: [-100, 0], opacity: 1 }}
               transition={{ ease: "linear", duration: 1 }}
-              viewport={{ once: true }}
-              layout
             >
               <Paragraph styles="about__desc mb-3 font-medium">
                 Hello, I am{" "}
@@ -73,11 +71,9 @@ const About = () => {
 
             <motion.div
               initial={{ opacity: 0 }}
-              whileInView={{ x: [100, 0], opacity: 1 }}
+              animate={{ x: [100, 0], opacity: 1 }}
               transition={{ duration: 0.75 }}
               className="about__img-container"
-              viewport={{ once: true }}
-              layout
             >
               <ImageBox />
             </motion.div>

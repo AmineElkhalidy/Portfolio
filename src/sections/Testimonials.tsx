@@ -16,7 +16,8 @@ const Testimonials = () => {
         </h2>
 
         <motion.div
-          whileInView={{ y: [100, 50, 0], opacity: [0, 0.5, 1] }}
+          initial={{ opacity: 0 }}
+          animate={{ y: [100, 50, 0], opacity: [0, 0.5, 1] }}
           transition={{ duration: 1 }}
           className="md:hidden"
         >
