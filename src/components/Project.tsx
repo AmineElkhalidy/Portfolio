@@ -1,51 +1,18 @@
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import Link from "./atoms/Link";
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
 import { urlFor } from "@/client";
 
 const Project = ({ project }: { project: any }) => {
   return (
     <div className="project__container">
       <div className="relative">
-        <Dialog>
-          <DialogTrigger>
-            <div className="h-[250px] sm:h-[350px]">
-              <img
-                className="h-full border-2 border-black-900 object-cover cursor-pointer"
-                src={urlFor(project.imgUrl).url() || ""}
-                alt={project.title}
-              />
-            </div>
-          </DialogTrigger>
-
-          <DialogContent className="max-w-sm sm:max-w-xl md:max-w-2xl lg:max-w-3xl">
-            <DialogHeader className="text-center w-full">
-              <DialogTitle>{project.title}</DialogTitle>
-              <DialogDescription>{project.description}</DialogDescription>
-            </DialogHeader>
-
-            {/* <div className="">
-              {project.images.map((image: any, index: number) => (
-                <div key={index}>
-                  <div className="w-full h-full">
-                    <img
-                      className="w-fit h-fit"
-                      src={urlFor(image).url()}
-                      alt="project images"
-                    />
-                  </div>
-                </div>
-              ))}
-            </div> */}
-          </DialogContent>
-        </Dialog>
+        <div className="h-[250px] sm:h-[350px]">
+          <img
+            className="h-full border-2 border-black-900 object-cover cursor-pointer"
+            src={urlFor(project.imgUrl).url() || ""}
+            alt={project.title}
+          />
+        </div>
 
         <div className="w-full bg-black-900 p-5 sm:p-8 lg:p-12 -mt-2">
           <h2 className="text-white text-xl font-bold mb-4 lg:text-2xl lg:mb-6 2xl:text-3xl">
