@@ -7,7 +7,7 @@ const MenuDialog = ({ isShown }: { isShown: boolean }) => {
     <div
       className={cn(
         "fixed right-2 duration-300",
-        isShown ? "bottom-[4.8rem]" : "bottom-4"
+        isShown ? "bottom-[4rem]" : "bottom-4"
       )}
       style={{ zIndex: 1000 }}
     >
@@ -36,20 +36,18 @@ const MenuDialog = ({ isShown }: { isShown: boolean }) => {
         <DialogContent className="max-w-xs mx-auto sm:max-w-xl w-full py-10 sm:py-16 shadow-xl">
           <div className="relative">
             <ul className="nav__list">
-              {["about", "work", "testimonials", "contact"].map(
-                (link, index) => (
-                  <li key={index}>
-                    <DialogClose asChild>
-                      <a
-                        className="font-nav sm:text-lg capitalize font-semibold text-black-900 duration-300 hover:text-emerald-600"
-                        href={`#${link}`}
-                      >
-                        {link}
-                      </a>
-                    </DialogClose>
-                  </li>
-                )
-              )}
+              {["work", "testimonials", "contact"].map((link, index) => (
+                <li key={index}>
+                  <DialogClose asChild>
+                    <a
+                      className="font-nav sm:text-lg capitalize font-semibold text-black-900 duration-300 hover:text-emerald-600"
+                      href={`#${link}`}
+                    >
+                      {link}
+                    </a>
+                  </DialogClose>
+                </li>
+              ))}
             </ul>
           </div>
         </DialogContent>

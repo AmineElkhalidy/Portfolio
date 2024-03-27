@@ -51,7 +51,6 @@ const App = () => {
     <>
       <main className="overflow-hidden relative">
         <Hero />
-        <About />
         <Projects />
         <Testimonials />
         <Hobbies />
