@@ -61,7 +61,12 @@ const Hero = () => {
             </div>
           </motion.div>
 
-          <motion.div className="w-full flex justify-center items-center my-8">
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ ease: "easeIn", duration: 1, delay: 0.9 }}
+            className="w-full flex justify-center items-center my-8"
+          >
             <div className="bg-transparent flex gap-10 justify-center items-center">
               <a
                 href="https://www.upwork.com/freelancers/~01f55a2d4b119d3119"
@@ -134,6 +139,7 @@ const Hero = () => {
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
+            transition={{ ease: "easeIn", duration: 0.7, delay: 0.5 }}
             className="md:hidden w-full flex justify-center items-center"
           >
             <div className="w-full flex gap-12 items-center justify-center">
