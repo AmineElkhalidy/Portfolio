@@ -51,9 +51,10 @@ const App = () => {
     <>
       <main className="overflow-hidden relative">
         <Hero />
+        {/* <About /> */}
         <Projects />
         <Testimonials />
-        <Hobbies />
+        {/* <Hobbies /> */}
         <Contact />
 
         <MenuDialog isShown={showArrow} />
