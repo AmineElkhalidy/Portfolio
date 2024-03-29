@@ -7,7 +7,7 @@ const MenuDialog = ({ isShown }: { isShown: boolean }) => {
     <div
       className={cn(
         "fixed right-2 duration-300",
-        isShown ? "bottom-[4rem]" : "bottom-4"
+        isShown ? "bottom-[4rem] md:bottom-[4.8rem]" : "bottom-4"
       )}
       style={{ zIndex: 1000 }}
     >
