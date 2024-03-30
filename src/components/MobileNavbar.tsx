@@ -1,5 +1,4 @@
 import { Bars3Icon } from "@heroicons/react/24/solid";
-import Switcher from "./Switcher";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "./ui/button";
 
@@ -7,7 +6,6 @@ const MobileNavbar = () => {
   return (
     <>
       <div className="flex items-center gap-3 md:hidden">
-        <Switcher />
         <Sheet>
           <SheetTrigger asChild>
             <Button variant="ghost" size="icon">

@@ -4,10 +4,12 @@ import { ArrowDownTrayIcon } from "@heroicons/react/24/solid";
 import CV from "../assets/pdf/Amine-Elkhalidy.pdf";
 import { Button } from "@/components/ui/button";
 import ParentContainer from "../components/Container";
+import { Send } from "lucide-react";
+import ShapeSVG from "../assets/shape.svg";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen bg-[#111827]">
+    <section className="min-h-screen flex items-center justify-center bg-[#111827] relative">
       <ParentContainer>
         <div className="pb-4">
           <motion.div
@@ -17,19 +19,21 @@ const Hero = () => {
           >
             <Button
               size="lg"
-              className="py-6 font-nav font-semibold text-lg rounded-full bg-gray-50 text-black-500 hover:bg-gray-50"
+              className="inline-flex items-center gap-2 py-6 font-semibold text-lg rounded-full bg-gray-50 text-black-500 hover:bg-gray-50"
             >
+              <Send className="w-5" />
               <a href="#contact">Contact Me</a>
             </Button>
 
             <div>
               <a
-                className="inline-flex gap-2 items-center text-gray-200 text-lg font-nav font-semibold border py-3 px-5 rounded-full"
+                className="inline-flex gap-2 items-center text-gray-200 text-lg font-semibold border py-3 px-5 rounded-full"
                 href={CV}
                 download="Amine Elkhalidy"
                 rel="noopener noreferrer"
               >
-                <ArrowDownTrayIcon className="w-6" /> Download Resume
+                <ArrowDownTrayIcon className="w-6" />
+                Download Resume
               </a>
             </div>
           </motion.div>
@@ -54,7 +58,7 @@ const Hero = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ ease: "easeIn", duration: 0.7, delay: 0.7 }}
-                className="text-gray-200 text-center font-medium text-xl font-nav md:text-xl lg:text-2xl"
+                className="text-gray-200 text-center text-xl md:text-xl lg:text-2xl"
               >
                 🌟 React ~ Next.js Developer 🌟
               </motion.p>
@@ -145,14 +149,14 @@ const Hero = () => {
             <div className="w-full flex gap-12 items-center justify-center">
               <Button
                 size="lg"
-                className="py-6 font-nav font-semibold text-lg text-black-500 bg-gray-50 hover:bg-gray-50"
+                className="py-6 font-semibold text-lg text-black-500 bg-gray-50 hover:bg-gray-50"
               >
                 <a href="#contact">Contact Me</a>
               </Button>
 
               <div>
                 <a
-                  className="inline-flex gap-2 items-center text-gray-100 text-lg font-nav font-semibold"
+                  className="inline-flex gap-2 items-center text-gray-100 text-lg font-semibold"
                   href={CV}
                   download="Amine Elkhalidy"
                   rel="noopener noreferrer"
@@ -164,6 +168,26 @@ const Hero = () => {
           </motion.div>
         </div>
       </ParentContainer>
+
+      <div className="absolute top-0 left-0 rotate-90">
+        <img
+          src={ShapeSVG}
+          className="w-auto h-auto"
+          alt="Shape"
+          width={150}
+          height={150}
+        />
+      </div>
+
+      <div className="absolute bottom-0 left-0">
+        <img
+          src={ShapeSVG}
+          className="w-auto h-auto"
+          alt="Shape"
+          width={150}
+          height={150}
+        />
+      </div>
     </section>
   );
 };

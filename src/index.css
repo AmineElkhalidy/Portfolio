@@ -1,5 +1,5 @@
 /* Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -138,7 +138,7 @@
 }
 
 .heading {
-  @apply text-black-900 text-3xl text-center font-nav font-bold mb-12 lg:mb-16 sm:text-4xl md:text-5xl;
+  @apply text-black-900 text-3xl text-center font-bold mb-12 lg:mb-16 sm:text-4xl md:text-5xl;
 }
 
 .header__social-links a {
@@ -150,7 +150,7 @@
 }
 
 .about__techlist {
-  @apply max-w-sm grid grid-cols-2 text-grey-400 font-nav font-thin md:text-[1.05rem] lg:text-lg;
+  @apply max-w-sm grid grid-cols-2 text-grey-400 font-thin md:text-[1.05rem] lg:text-lg;
 }
 
 .about__img-container {
@@ -200,7 +200,7 @@
 }
 
 .experience__company {
-  @apply text-sm font-nav text-black-400 xl:text-base underline;
+  @apply text-sm text-black-400 xl:text-base underline;
 }
 
 /* Hobbies */

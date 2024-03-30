@@ -88,8 +88,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        body: ["Poppins", "sans-serif"],
-        nav: ["Bai Jamjuree", "sans serif"],
+        body: ["Rubik", "sans-serif"],
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",

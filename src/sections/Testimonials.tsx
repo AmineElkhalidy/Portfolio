@@ -1,18 +1,24 @@
 import { motion } from "framer-motion";
 import Testimonial from "../components/Testimonial";
 import { rowreviews1, rowreviews2, allReviews } from "../data/data";
-
 import Marquee from "react-fast-marquee";
+import BgPath from "../assets/Whangaehu.svg";
 
 const Testimonials = () => {
   return (
     <section
-      className="bg-[#111827] pt-[6.2rem] pb-8 flex items-center justify-center"
+      className="bg-[#111827] pt-[6.2rem] pb-8 flex items-center justify-center relative"
+      style={{
+        backgroundImage: `url(${BgPath})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        backgroundPosition: "center center",
+      }}
       id="testimonials"
     >
       <div>
-        <h2 className="text-white text-3xl text-center font-nav font-bold mb-16 sm:text-4xl md:text-5xl">
-          My Clients Reviews
+        <h2 className="text-white text-3xl text-center font-bold mb-16 sm:text-4xl md:text-5xl">
+          Clients Reviews
         </h2>
 
         <motion.div

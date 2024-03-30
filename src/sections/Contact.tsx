@@ -20,7 +20,7 @@ const Contact = () => {
               animate={{ x: [-100, 0], opacity: 1 }}
               transition={{ ease: "linear", duration: 1 }}
             >
-              <h2 className="text-2xl md:text-3xl font-semibold text-black-900 mb-8">
+              <h2 className="text-2xl md:text-3xl font-bold text-black-900 mb-4">
                 Get in touch
               </h2>
               <Paragraph styles="max-w-lg w-full text-grey-400 text-base sm:text-lg leading-7">
@@ -55,6 +55,7 @@ const Contact = () => {
                     href="https://www.upwork.com/freelancers/~01f55a2d4b119d3119"
                     target="_blank"
                     aria-label="Upwork Profile"
+                    className="inline-block p-4 rounded-full bg-white shadow-sm border duration-300 hover:shadow-md hover:scale-105"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -71,6 +72,7 @@ const Contact = () => {
                     href="https://www.fiverr.com/amineelkhalidy/make-responsive-modern-and-pixel-perfect-website"
                     target="_blank"
                     aria-label="Fiverr Profile"
+                    className="inline-block p-4 rounded-full bg-white shadow-sm border duration-300 hover:shadow-md hover:scale-105"
                   >
                     <svg
                       className="w-[1.6rem] fill-black-900"
@@ -88,6 +90,7 @@ const Contact = () => {
                     href="https://github.com/AmineElkhalidy"
                     target="_blank"
                     aria-label="Github Profile"
+                    className="inline-block p-4 rounded-full bg-white shadow-sm border duration-300 hover:shadow-md hover:scale-105"
                   >
                     <svg
                       className="fill-black-900  w-[1.85rem] -ml-[.20rem] h-full"
@@ -105,6 +108,7 @@ const Contact = () => {
                     href="https://www.linkedin.com/in/amine-elkhalidy/"
                     target="_blank"
                     aria-label="Linkedin Profile"
+                    className="inline-block p-4 rounded-full bg-white shadow-sm border duration-300 hover:shadow-md hover:scale-105"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -142,13 +146,13 @@ const Contact = () => {
                     {/* First name box */}
                     <div className="mb-6 sm:w-1/2">
                       <label
-                        className="mb-3 block font-bold text-black-900"
+                        className="mb-3 block font-bold text-black-500"
                         htmlFor="firstName"
                       >
                         First Name
                       </label>
                       <input
-                        className="w-full py-3 pl-6 bg-[#f2f6f7] outline-none duration-300 focus:border focus:border-green-700"
+                        className="w-full rounded-md py-3 pl-6 bg-[#f2f6f7] outline-none duration-300 focus:border focus:border-green-700"
                         type="text"
                         name="first-name"
                         id="firstName"
@@ -166,13 +170,13 @@ const Contact = () => {
                     {/* Last name box */}
                     <div className="sm:w-1/2">
                       <label
-                        className="mb-3 block font-bold text-black-900"
+                        className="mb-3 block font-bold text-black-500"
                         htmlFor="lastName"
                       >
                         Last Name
                       </label>
                       <input
-                        className="w-full py-3 pl-6 bg-[#f2f6f7] duration-300 focus:border focus:border-green-700 outline-none"
+                        className="w-full rounded-md py-3 pl-6 bg-[#f2f6f7] duration-300 focus:border focus:border-green-700 outline-none"
                         type="text"
                         name="last-name"
                         id="lastName"
@@ -190,16 +194,16 @@ const Contact = () => {
 
                   {/* Email box */}
                   <div className="mb-6">
-                    <div className="">
+                    <div>
                       <label
-                        className="mb-3 block font-bold text-black-900"
+                        className="mb-3 block font-bold text-black-500"
                         htmlFor="email"
                       >
                         Your E-mail
                       </label>
 
                       <input
-                        className="w-full py-3 pl-6 bg-[#f2f6f7] duration-300 focus:border focus:border-green-700 outline-none"
+                        className="w-full rounded-md py-3 pl-6 bg-[#f2f6f7] duration-300 focus:border focus:border-green-700 outline-none"
                         type="text"
                         name="email"
                         id="email"
@@ -217,15 +221,15 @@ const Contact = () => {
 
                   {/* Message box */}
                   <div className="mb-6">
-                    <div className="">
+                    <div>
                       <label
-                        className="mb-3 block font-bold text-black-900"
+                        className="mb-3 block font-bold text-black-500"
                         htmlFor="message"
                       >
                         Your Message :
                       </label>
                       <textarea
-                        className="w-full pt-4 pl-6 outline-none duration-300 focus:border focus:border-green-700 pb-24 bg-[#f2f6f7] resize-none"
+                        className="w-full rounded-md pt-4 pl-6 outline-none duration-300 focus:border focus:border-green-700 pb-24 bg-[#f2f6f7] resize-none"
                         name="message"
                         id="message"
                         placeholder="Your message in details..."
@@ -242,7 +246,7 @@ const Contact = () => {
                   {/* Button box */}
                   <div className="relative flex justify-end">
                     <button
-                      className="inline-block px-[33px] py-5 bg-black-900 text-white cursor-pointer text-lg duration-300 font-nav font-semibold z-10"
+                      className="inline-block rounded-md px-[33px] py-5 bg-black-900 text-white cursor-pointer text-lg duration-300 font-semibold"
                       type="submit"
                       disabled={state.submitting}
                     >

@@ -40,7 +40,7 @@ const MenuDialog = ({ isShown }: { isShown: boolean }) => {
                 <li key={index}>
                   <DialogClose asChild>
                     <a
-                      className="font-nav sm:text-lg capitalize font-semibold text-black-900 duration-300 hover:text-emerald-600"
+                      className="sm:text-lg capitalize font-semibold text-black-900 duration-300 hover:text-emerald-600"
                       href={`#${link}`}
                     >
                       {link}
