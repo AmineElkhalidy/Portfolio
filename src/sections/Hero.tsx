@@ -56,7 +56,7 @@ const Hero = () => {
                 transition={{ ease: "easeIn", duration: 0.7, delay: 0.7 }}
                 className="text-gray-200 text-center font-medium text-xl font-nav md:text-xl lg:text-2xl"
               >
-                🌟 Next.js Developer 🌟
+                🌟 React ~ Next.js Developer 🌟
               </motion.p>
             </div>
           </motion.div>
