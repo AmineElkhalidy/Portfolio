@@ -10,7 +10,7 @@ const Contact = () => {
 
   return (
     <section
-      className="w-full flex items-center justify-center mt-24 sm:mt-32"
+      className="w-full flex items-center justify-center pt-24 sm:pt-32"
       id="contact"
     >
       <ParentContainer>

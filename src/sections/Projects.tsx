@@ -14,7 +14,7 @@ const Projects = () => {
 
   return (
     <section
-      className="h-full flex items-center justify-center my-24 sm:my-32"
+      className="h-full flex items-center justify-center py-24 sm:py-32"
       id="work"
     >
       <ParentContainer>

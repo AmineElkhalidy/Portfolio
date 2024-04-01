@@ -12,7 +12,7 @@ const testimonials = [
     },
   },
   {
-    body: "Amine is a great developer who helped me greatly in a very short amount of time and done all the work I required, I would definitely work with him again!",
+    body: "Amine is a great developer who helped me greatly in a very short amount of time and done all the work I required, I would definitely hire him again!",
     author: {
       name: "Hi Ba",
     },
@@ -39,14 +39,14 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <section className="bg-[#111827] my-24 sm:my-32" id="testimonials">
+    <section className="bg-[#111827]" id="testimonials">
       <div className="py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-xl text-center">
+          <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-lg font-semibold leading-8 tracking-tight gradient-text">
               Testimonials
             </h2>
-            <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
+            <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl">
               I have worked with dozens of amazing people
             </p>
           </div>
