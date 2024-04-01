@@ -1,6 +1,5 @@
 import { useForm, ValidationError } from "@formspree/react";
 import { motion } from "framer-motion";
-import Heading from "../components/atoms/Heading";
 import ParentContainer from "../components/Container";
 import Paragraph from "../components/atoms/Paragraph";
 import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/solid";
@@ -10,10 +9,21 @@ const Contact = () => {
   const [state, handleSubmit] = useForm("xeqdeyeo");
 
   return (
-    <section className="w-full flex items-center justify-center" id="contact">
+    <section
+      className="w-full flex items-center justify-center mt-24 sm:mt-32"
+      id="contact"
+    >
       <ParentContainer>
+        <div className="mx-auto max-w-xl text-center">
+          <h2 className="text-lg font-semibold leading-8 tracking-tight gradient-text">
+            Get in touch
+          </h2>
+          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
+            Contact Me
+          </p>
+        </div>
+
         <div className="pt-24">
-          <Heading>Contact Me</Heading>
           <div className="grid gap-16 md:grid-cols-2 lg:gap-8">
             <motion.div
               initial={{ opacity: 0 }}
