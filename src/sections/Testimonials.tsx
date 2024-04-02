@@ -87,8 +87,8 @@ const Testimonials = () => {
           </div>
         </div>
 
-        <div className="text-center mt-10">
-          <div className="inline-block border p-3 rounded-full duration-300 hover:border-emerald-700">
+        <div className="text-center mt-12">
+          <div className="inline-block text-sm sm:text-base border p-3 rounded-full duration-300 hover:border-emerald-700">
             <a
               href="https://www.upwork.com/freelancers/~01f55a2d4b119d3119"
               target="_blank"
