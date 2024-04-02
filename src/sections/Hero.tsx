@@ -19,7 +19,7 @@ const Hero = () => {
           >
             <Button
               size="lg"
-              className="inline-flex items-center gap-2 py-6 font-semibold text-lg rounded-full bg-gray-50 text-black-500 hover:bg-gray-50"
+              className="inline-flex items-center gap-2 py-6 font-medium text-lg rounded-full bg-gray-50 text-black-500 hover:bg-gray-50"
             >
               <Send className="w-5" />
               <a href="#contact">Contact Me</a>
@@ -27,7 +27,7 @@ const Hero = () => {
 
             <div>
               <a
-                className="inline-flex gap-2 items-center text-gray-200 text-lg font-semibold border py-3 px-5 rounded-full"
+                className="inline-flex gap-2 items-center text-gray-200 text-lg font-medium border py-3 px-5 rounded-full"
                 href={CV}
                 download="Amine Elkhalidy"
                 rel="noopener noreferrer"

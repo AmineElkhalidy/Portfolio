@@ -1,3 +1,5 @@
+import { StarIcon } from "@heroicons/react/24/solid";
+
 const testimonials = [
   {
     body: "I've hired Amine multiple times and every time he completed his work in record time. Amine is friendly and easy to communicate with and goes the extra mile. Will rehire and highly recommend",
@@ -59,6 +61,15 @@ const Testimonials = () => {
                   className="pt-8 sm:inline-block sm:w-full sm:px-4"
                 >
                   <figure className="rounded-2xl bg-gray-50 p-8 text-sm leading-6 border-2 border-emerald-600">
+                    <div className="flex mb-3">
+                      {[1, 2, 3, 4, 5].map((index) => (
+                        <StarIcon
+                          key={index}
+                          className="w-5 h-5 text-emerald-700"
+                        />
+                      ))}
+                    </div>
+
                     <blockquote className="text-gray-900">
                       <p>{`“${testimonial.body}”`}</p>
                     </blockquote>
@@ -73,6 +84,19 @@ const Testimonials = () => {
                 </div>
               ))}
             </div>
+          </div>
+        </div>
+
+        <div className="text-center mt-10">
+          <div className="inline-block border p-3 rounded-full duration-300 hover:border-emerald-700">
+            <a
+              href="https://www.upwork.com/freelancers/~01f55a2d4b119d3119"
+              target="_blank"
+              className="font-medium me-2 px-4 py-2 rounded-full gradient-text"
+            >
+              View more testimonials on{" "}
+              <span className="font-semibold">Upwork</span>
+            </a>
           </div>
         </div>
       </div>
