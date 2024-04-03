@@ -14,7 +14,7 @@ const Project = ({ project }: { project: any }) => {
           />
         </div>
 
-        <div className="w-full bg-black-900 p-5 sm:p-8 lg:p-12 -mt-2">
+        <div className="w-full bg-[#111827] p-5 sm:p-8 lg:p-12 -mt-2">
           <h2 className="text-white text-xl font-bold mb-4 lg:text-2xl lg:mb-6 2xl:text-3xl">
             {project.title}
           </h2>
