@@ -151,52 +151,27 @@ const Contact = () => {
                 </div>
               ) : (
                 <form onSubmit={handleSubmit}>
-                  {/* First and Last name box */}
-                  <div className="w-full flex flex-col mb-6 sm:flex-row sm:gap-6 sm:mb-0">
-                    {/* First name box */}
-                    <div className="mb-6 sm:w-1/2">
+                  {/* Full Name box*/}
+                  <div className="mb-6">
+                    <div>
                       <label
                         className="mb-3 block font-bold text-black-500"
-                        htmlFor="firstName"
+                        htmlFor="fullname"
                       >
-                        First Name
+                        Full Name
                       </label>
                       <input
                         className="w-full rounded-md py-3 pl-6 bg-[#f2f6f7] outline-none duration-300 focus:border focus:border-green-700"
                         type="text"
-                        name="first-name"
-                        id="firstName"
-                        placeholder="Your first name"
+                        name="fullname"
+                        id="fullname"
+                        placeholder="Your full name"
                         required
                         autoComplete="true"
                       />
                       <ValidationError
                         prefix="First Name"
                         field="first-Name"
-                        errors={state.errors}
-                      />
-                    </div>
-
-                    {/* Last name box */}
-                    <div className="sm:w-1/2">
-                      <label
-                        className="mb-3 block font-bold text-black-500"
-                        htmlFor="lastName"
-                      >
-                        Last Name
-                      </label>
-                      <input
-                        className="w-full rounded-md py-3 pl-6 bg-[#f2f6f7] duration-300 focus:border focus:border-green-700 outline-none"
-                        type="text"
-                        name="last-name"
-                        id="lastName"
-                        placeholder="Your last name"
-                        required
-                        autoComplete="true"
-                      />
-                      <ValidationError
-                        prefix="Last Name"
-                        field="last-Name"
                         errors={state.errors}
                       />
                     </div>
@@ -256,7 +231,7 @@ const Contact = () => {
                   {/* Button box */}
                   <div className="relative flex justify-end">
                     <button
-                      className="inline-block rounded-md px-[33px] py-5 bg-black-900 text-white cursor-pointer text-lg duration-300 font-semibold"
+                      className="inline-block rounded-md px-10 py-3 bg-black-900 text-white cursor-pointer text-lg duration-300 font-medium"
                       type="submit"
                       disabled={state.submitting}
                     >
