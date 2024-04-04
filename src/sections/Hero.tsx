@@ -28,7 +28,7 @@ const Hero = () => {
 
             <div>
               <a
-                className="inline-flex gap-2 items-center text-gray-200 text-lg font-medium border py-3 px-5 rounded-full"
+                className="inline-flex gap-2 items-center text-gray-200 text-lg font-medium border py-3 px-5 rounded-full duration-300 hover:border-emerald-600"
                 href={CV}
                 download="Amine Elkhalidy"
                 rel="noopener noreferrer"
