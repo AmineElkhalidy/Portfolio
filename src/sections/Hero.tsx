@@ -172,7 +172,7 @@ const Hero = () => {
             <div className="w-full flex gap-12 items-center justify-center">
               <Button
                 size="lg"
-                className="py-6 font-medium text-lg text-black-500 bg-gray-50 hover:bg-gray-50"
+                className="py-6 font-medium text-lg text-black-500 bg-gray-50 z-50 hover:bg-gray-50"
               >
                 <a href="#contact">Contact Me</a>
               </Button>
