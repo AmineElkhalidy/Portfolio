@@ -53,7 +53,7 @@ const Project = ({ work }: { work: any }) => {
         </div>
       </SheetTrigger>
 
-      <SheetContent className="">
+      <SheetContent className="z-[1000]">
         <SheetHeader>
           <SheetTitle>{work?.title}</SheetTitle>
           <SheetDescription>{work?.description}</SheetDescription>
