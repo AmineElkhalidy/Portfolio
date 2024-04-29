@@ -19,7 +19,7 @@ const Project = ({ work, key }: { work: any; key: number }) => {
             <img
               src={urlFor(work?.imgUrl).url()}
               alt=""
-              className="h-full w-full object-cover"
+              className="h-full w-full object-fit"
             />
           </div>
           <div aria-hidden="true" className="relative h-96 w-full lg:hidden" />
