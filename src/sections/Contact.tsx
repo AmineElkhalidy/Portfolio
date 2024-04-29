@@ -51,8 +51,7 @@ const Contact = () => {
                 Have a project in mind?
                 <br /> Looking to partner or work together?
                 <br />
-                Reach out through the form and I'll get back to you in the next
-                24 hours.
+                Reach out through the form and I'll be in touch with you asap.
               </Paragraph>
 
               {/* Contact resources container */}
