@@ -218,16 +218,6 @@ const Hero = () => {
         </div>
       </ParentContainer>
 
-      <div className="absolute top-0 left-0 rotate-90 z-10">
-        <img
-          src={ShapeSVG}
-          className="w-auto h-auto"
-          alt="Shape"
-          width={150}
-          height={150}
-        />
-      </div>
-
       <div className="absolute bottom-0 left-0 z-10">
         <img
           src={ShapeSVG}
