@@ -18,7 +18,7 @@ const Hobbies = () => {
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: [0, 0.5, 1] }}
-              transition={{ ease: "linear", duration: 1 }}
+              transition={{ ease: "easeIn", duration: 1, delay: 0.2 }}
               className="hobby__container"
             >
               <BookOpenIcon className="hobby__icon" />
@@ -28,7 +28,7 @@ const Hobbies = () => {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: [0, 0, 1] }}
-              transition={{ duration: 0.6 }}
+              transition={{ ease: "easeIn", duration: 1, delay: 0.5 }}
               className="hobby__container"
               viewport={{ once: true }}
               layout
@@ -42,7 +42,7 @@ const Hobbies = () => {
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: [0, 0, 0, 1] }}
-              transition={{ duration: 0.9 }}
+              transition={{ ease: "easeIn", duration: 1, delay: 0.7 }}
               className="hobby__container"
             >
               <CodeBracketIcon className="hobby__icon" />
