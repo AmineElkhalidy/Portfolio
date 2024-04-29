@@ -1,8 +1,18 @@
 import { urlFor } from "@/client";
+import { motion } from "framer-motion";
 
-const Project = ({ work }: { work: any }) => {
+const Project = ({ work, key }: { work: any; key: number }) => {
   return (
-    <div className="bg-white cursor-pointer">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: [0, 0.5, 1] }}
+      transition={{
+        ease: "easeIn",
+        duration: 0.7,
+        delay: key * 0.2,
+      }}
+      className="bg-white cursor-pointer"
+    >
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl">
         <div className="relative border-2 border-[#111827] overflow-hidden rounded-lg lg:h-[450px]">
           <div className="absolute inset-0">
@@ -29,7 +39,7 @@ const Project = ({ work }: { work: any }) => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

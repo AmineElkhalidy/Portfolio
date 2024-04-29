@@ -1,4 +1,5 @@
 import { StarIcon } from "@heroicons/react/24/solid";
+import { motion } from "framer-motion";
 
 const testimonials = [
   {
@@ -45,19 +46,42 @@ const Testimonials = () => {
       <div className="py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-lg font-semibold leading-8 tracking-tight gradient-text">
+            <motion.span
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: [0, 0.5, 1] }}
+              transition={{ ease: "easeIn", duration: 0.5, delay: 0.5 }}
+              viewport={{ once: true }}
+              layout
+              className="text-lg font-semibold leading-8 tracking-tight gradient-text"
+            >
               Testimonials
-            </h2>
-            <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl">
+            </motion.span>
+            <motion.h2
+              initial={{ opacity: 0 }}
+              whileInView={{ y: [20, 0], opacity: [0, 0.5, 1] }}
+              transition={{ ease: "easeIn", duration: 0.5, delay: 0.5 }}
+              viewport={{ once: true }}
+              layout
+              className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl"
+            >
               I have worked with dozens of amazing people
-            </p>
+            </motion.h2>
           </div>
 
           <div className="mx-auto mt-16 flow-root max-w-2xl sm:mt-20 lg:mx-0 lg:max-w-none">
             <div className="-mt-8 sm:-mx-4 sm:columns-2 sm:text-[0] lg:columns-3">
               {testimonials.map((testimonial, index) => (
-                <div
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: [0, 0.5, 1] }}
+                  transition={{
+                    ease: "easeIn",
+                    duration: 0.7,
+                    delay: index * 0.2,
+                  }}
                   key={index}
+                  viewport={{ once: true }}
+                  layout
                   className="pt-8 sm:inline-block sm:w-full sm:px-4"
                 >
                   <figure className="rounded-2xl bg-gray-50 p-8 text-sm leading-6 border-2 border-emerald-600">
@@ -81,14 +105,25 @@ const Testimonials = () => {
                       </div>
                     </figcaption>
                   </figure>
-                </div>
+                </motion.div>
               ))}
             </div>
           </div>
         </div>
 
         <div className="text-center mt-12">
-          <div className="inline-block text-sm sm:text-base border p-3 rounded-full duration-300 hover:border-emerald-700">
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: [0, 0.5, 1] }}
+            transition={{
+              ease: "easeIn",
+              duration: 0.7,
+              delay: 1,
+            }}
+            viewport={{ once: true }}
+            layout
+            className="inline-block text-sm sm:text-base border p-3 rounded-full duration-300 hover:border-emerald-700"
+          >
             <a
               href="https://www.upwork.com/freelancers/~01f55a2d4b119d3119"
               target="_blank"
@@ -97,7 +132,7 @@ const Testimonials = () => {
               View more testimonials on{" "}
               <span className="font-semibold">Upwork</span>
             </a>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

@@ -15,20 +15,34 @@ const Contact = () => {
     >
       <ParentContainer>
         <div className="mx-auto max-w-xl text-center">
-          <h2 className="text-lg font-semibold leading-8 tracking-tight gradient-text">
+          <motion.span
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: [0, 0.5, 1] }}
+            transition={{ ease: "easeIn", duration: 0.5, delay: 0.5 }}
+            viewport={{ once: true }}
+            layout
+            className="text-lg font-semibold leading-8 tracking-tight gradient-text"
+          >
             Get in touch
-          </h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
+          </motion.span>
+          <motion.h2
+            initial={{ opacity: 0 }}
+            whileInView={{ y: [20, 0], opacity: [0, 0.5, 1] }}
+            transition={{ ease: "easeIn", duration: 0.5, delay: 0.5 }}
+            viewport={{ once: true }}
+            layout
+            className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-5xl"
+          >
             Contact Me
-          </p>
+          </motion.h2>
         </div>
 
         <div className="pt-24">
           <div className="grid gap-16 md:grid-cols-2 lg:gap-8">
             <motion.div
               initial={{ opacity: 0 }}
-              animate={{ x: [-100, 0], opacity: 1 }}
-              transition={{ ease: "linear", duration: 1 }}
+              animate={{ x: [-50, 0], opacity: [0, 0, 5, 1] }}
+              transition={{ ease: "easeIn", duration: 1 }}
             >
               <h2 className="text-2xl md:text-3xl font-bold text-black-900 mb-4">
                 Get in touch
@@ -137,8 +151,8 @@ const Contact = () => {
             {/* Form Container */}
             <motion.div
               initial={{ opacity: 0 }}
-              animate={{ x: [100, 0], opacity: 1 }}
-              transition={{ duration: 0.75 }}
+              animate={{ x: [50, 0], opacity: [0, 0.5, 1] }}
+              transition={{ ease: "easeIn", duration: 1 }}
               className="mb-16"
             >
               {state.succeeded ? (

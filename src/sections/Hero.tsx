@@ -12,21 +12,26 @@ const Hero = () => {
     <section className="min-h-screen flex items-center justify-center bg-[#111827] relative">
       <ParentContainer>
         <div className="pb-4 z-50">
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ ease: "easeIn", duration: 1, delay: 0.5 }}
-            className="hidden w-full md:flex gap-4 items-center md:flex-row-reverse md:gap-8 md:pt-4"
-          >
-            <Button
-              size="lg"
-              className="inline-flex items-center gap-2 py-6 font-medium text-lg rounded-full bg-gray-50 text-black-500 hover:bg-gray-50"
+          <div className="hidden w-full md:flex gap-4 items-center md:flex-row-reverse md:gap-8 md:pt-4">
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ x: [-40, 0], opacity: [0, 0.5, 1] }}
+              transition={{ ease: "easeIn", duration: 1, delay: 0.8 }}
             >
-              <Send className="w-5" />
-              <a href="#contact">Contact Me</a>
-            </Button>
+              <Button
+                size="lg"
+                className="inline-flex items-center gap-2 py-6 font-medium text-lg rounded-full bg-gray-50 text-black-500 hover:bg-gray-50"
+              >
+                <Send className="w-5" />
+                <a href="#contact">Contact Me</a>
+              </Button>
+            </motion.div>
 
-            <div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ x: [-40, 0], opacity: [0, 0.5, 1] }}
+              transition={{ ease: "easeIn", duration: 1, delay: 0.5 }}
+            >
               <a
                 className="inline-flex gap-2 items-center text-gray-200 text-lg font-medium border py-3 px-5 rounded-full duration-300 hover:border-emerald-600"
                 href={CV}
@@ -36,24 +41,40 @@ const Hero = () => {
                 <ArrowDownTrayIcon className="w-6" />
                 Download Resume
               </a>
-            </div>
-          </motion.div>
+            </motion.div>
+          </div>
 
           <motion.div className="relative flex items-center">
             <div className="mt-24 md:mt-14">
-              <motion.h1
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ ease: "easeIn", duration: 1, delay: 0.5 }}
-                className="text-white text-center text-[2.5rem] leading-[1.2] font-bold mb-3 sm:text-[51px] md:text-[63px] lg:text-[72px] drop-shadow-sm"
-              >
-                <span className="gradient-text">Empowering digital dreams</span>
-                <br /> &
+              <h1 className="text-white text-center text-[2.5rem] leading-[1.2] font-bold mb-3 sm:text-[51px] md:text-[63px] lg:text-[72px] drop-shadow-sm">
+                <motion.span
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: [0, 0.5, 1] }}
+                  transition={{ ease: "easeIn", duration: 0.5, delay: 0.2 }}
+                  className="gradient-text"
+                >
+                  Empowering digital dreams
+                </motion.span>
+                <br />{" "}
+                <motion.span
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: [0, 0.5, 1] }}
+                  transition={{ ease: "easeIn", duration: 0.5, delay: 0.4 }}
+                >
+                  &
+                </motion.span>
                 <br />
-                Building{" "}
-                <span className="gradient-text">digital experiences</span> that
-                <span className="gradient-text"> matter</span>.
-              </motion.h1>
+                <motion.span
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: [0, 0.5, 1] }}
+                  transition={{ ease: "easeIn", duration: 0.5, delay: 0.6 }}
+                >
+                  Building{" "}
+                  <span className="gradient-text">digital experiences</span>{" "}
+                  that
+                  <span className="gradient-text"> matter</span>.
+                </motion.span>
+              </h1>
 
               <motion.p
                 initial={{ opacity: 0 }}
@@ -163,21 +184,26 @@ const Hero = () => {
             </div>
           </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ ease: "easeIn", duration: 0.7, delay: 0.5 }}
-            className="md:hidden w-full flex justify-center items-center"
-          >
+          <div className="md:hidden w-full flex justify-center items-center">
             <div className="w-full flex gap-12 items-center justify-center">
-              <Button
-                size="lg"
-                className="py-6 font-medium text-lg text-black-500 bg-gray-50 z-50 hover:bg-gray-50"
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ y: [40, 0], opacity: [0, 0.5, 1] }}
+                transition={{ ease: "easeIn", duration: 1, delay: 0.5 }}
               >
-                <a href="#contact">Contact Me</a>
-              </Button>
+                <Button
+                  size="lg"
+                  className="py-6 font-medium text-lg text-black-500 bg-gray-50 z-50 hover:bg-gray-50"
+                >
+                  <a href="#contact">Contact Me</a>
+                </Button>
+              </motion.div>
 
-              <div>
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ y: [40, 0], opacity: [0, 0.5, 1] }}
+                transition={{ ease: "easeIn", duration: 1, delay: 0.8 }}
+              >
                 <a
                   className="inline-flex gap-2 items-center text-gray-100 text-lg font-medium"
                   href={CV}
@@ -186,9 +212,9 @@ const Hero = () => {
                 >
                   <ArrowDownTrayIcon className="w-6" /> Resume
                 </a>
-              </div>
+              </motion.div>
             </div>
-          </motion.div>
+          </div>
         </div>
       </ParentContainer>
 
