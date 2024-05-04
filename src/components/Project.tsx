@@ -1,10 +1,22 @@
 import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
 import Link from "./atoms/Link";
 import { urlFor } from "@/client";
+import { motion } from "framer-motion";
 
-const Project = ({ project }: { project: any }) => {
+const Project = ({ project, index }: { project: any; index: number }) => {
   return (
-    <div className="project__container">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: [0, 0.5, 1] }}
+      transition={{
+        ease: "easeIn",
+        duration: 0.7,
+        delay: index * 0.2,
+      }}
+      viewport={{ once: true }}
+      layout
+      className="project__container"
+    >
       <div className="relative">
         <div className="h-[250px] sm:h-[350px]">
           <img
@@ -60,7 +72,7 @@ const Project = ({ project }: { project: any }) => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 export default Project;

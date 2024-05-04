@@ -44,7 +44,7 @@ const Projects = () => {
 
         <div className="mt-20 grid md:grid-cols-2 gap-10">
           {works.map((work, index) => (
-            <Project project={work} key={index} />
+            <Project project={work} index={index} />
           ))}
         </div>
       </ParentContainer>
