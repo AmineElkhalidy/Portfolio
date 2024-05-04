@@ -167,7 +167,7 @@
 }
 
 .project__container {
-  @apply max-w-xl;
+  @apply max-w-xl mx-auto;
 }
 
 /* Skills & Experience */

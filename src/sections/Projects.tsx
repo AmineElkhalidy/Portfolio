@@ -42,34 +42,10 @@ const Projects = () => {
           </motion.h2>
         </div>
 
-        <div className="relative text-white text-[20px] w-full">
-          <Carousel
-            interval={2000}
-            infiniteLoop={true}
-            showIndicators={false}
-            showThumbs={false}
-            showStatus={false}
-            renderArrowPrev={(clickHandler, hasPrev) => (
-              <div
-                onClick={clickHandler}
-                className="absolute right-[51px] md:right-[70px] bottom-6 w-[30px] md:w-[50px] h-[30px] md:h-[50px] bg-[#111827] z-10 flex items-center justify-center cursor-pointer rounded-full hover:opacity-80"
-              >
-                <ArrowLeftIcon className="w-6 h-6" />
-              </div>
-            )}
-            renderArrowNext={(clickHandler, hasNext) => (
-              <div
-                onClick={clickHandler}
-                className="absolute right-4 bottom-6 w-[30px] md:w-[50px] h-[30px] md:h-[50px] bg-[#111827] z-10 flex items-center justify-center cursor-pointer rounded-full hover:opacity-80"
-              >
-                <ArrowRightIcon className="w-6 h-6" />
-              </div>
-            )}
-          >
-            {works.map((work, index) => (
-              <Project work={work} key={index} />
-            ))}
-          </Carousel>
+        <div className="mt-20 grid md:grid-cols-2 gap-10">
+          {works.map((work, index) => (
+            <Project project={work} key={index} />
+          ))}
         </div>
       </ParentContainer>
     </section>
