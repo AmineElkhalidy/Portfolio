@@ -33,7 +33,7 @@ const Hero = () => {
               transition={{ ease: "easeIn", duration: 1, delay: 0.5 }}
             >
               <a
-                className="inline-flex gap-2 items-center text-gray-200 text-lg font-medium border py-3 px-5 rounded-full duration-300 hover:text-emerald-600"
+                className="inline-flex gap-2 items-center text-gray-200 text-lg font-medium border py-3 px-5 rounded-full duration-300 hover:text-emerald-600 hover:file:border-emerald-600"
                 href={CV}
                 download="Amine Elkhalidy"
                 rel="noopener noreferrer"
