@@ -73,8 +73,8 @@ const Contact = () => {
               </div>
 
               <div className="max-w-sm mt-10 md:mt-14">
-                <div className="flex gap-6 items-center justify-between">
-                  <a
+                <div className="flex gap-6 items-center">
+                  {/* <a
                     href="https://www.upwork.com/freelancers/~01f55a2d4b119d3119"
                     target="_blank"
                     aria-label="Upwork Profile"
@@ -107,13 +107,13 @@ const Contact = () => {
                         <circle cx="11.5" cy="1.5" r="1.5" />
                       </g>
                     </svg>
-                  </a>
+                  </a> */}
 
                   <a
                     href="https://github.com/AmineElkhalidy"
                     target="_blank"
                     aria-label="Github Profile"
-                    className="inline-block p-4 rounded-full bg-white shadow-sm border duration-300 hover:shadow-md hover:scale-105"
+                    className="inline-flex items-center justify-center h-14 w-14 rounded-full bg-white shadow-sm border duration-300 hover:shadow-md hover:scale-105"
                   >
                     <svg
                       className="fill-black-900  w-[1.85rem] -ml-[.20rem] h-full"
@@ -131,7 +131,7 @@ const Contact = () => {
                     href="https://www.linkedin.com/in/amine-elkhalidy/"
                     target="_blank"
                     aria-label="Linkedin Profile"
-                    className="inline-block p-4 rounded-full bg-white shadow-sm border duration-300 hover:shadow-md hover:scale-105"
+                    className="inline-flex items-center justify-center h-14 w-14 rounded-full bg-white shadow-sm border duration-300 hover:shadow-md hover:scale-105"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -141,6 +141,23 @@ const Contact = () => {
                       className="w-7 fill-black-900"
                     >
                       <path d="M 8 3.0097656 C 4.53 3.0097656 2.0097656 5.0892187 2.0097656 7.9492188 C 2.0097656 10.819219 4.59 12.990234 8 12.990234 C 11.47 12.990234 13.990234 10.870625 13.990234 7.890625 C 13.830234 5.020625 11.36 3.0097656 8 3.0097656 z M 3 15 C 2.45 15 2 15.45 2 16 L 2 45 C 2 45.55 2.45 46 3 46 L 13 46 C 13.55 46 14 45.55 14 45 L 14 16 C 14 15.45 13.55 15 13 15 L 3 15 z M 18 15 C 17.45 15 17 15.45 17 16 L 17 45 C 17 45.55 17.45 46 18 46 L 27 46 C 27.552 46 28 45.552 28 45 L 28 30 L 28 29.75 L 28 29.5 C 28 27.13 29.820625 25.199531 32.140625 25.019531 C 32.260625 24.999531 32.38 25 32.5 25 C 32.62 25 32.739375 24.999531 32.859375 25.019531 C 35.179375 25.199531 37 27.13 37 29.5 L 37 45 C 37 45.552 37.448 46 38 46 L 47 46 C 47.55 46 48 45.55 48 45 L 48 28 C 48 21.53 44.529063 15 36.789062 15 C 33.269062 15 30.61 16.360234 29 17.490234 L 29 16 C 29 15.45 28.55 15 28 15 L 18 15 z" />
+                    </svg>
+                  </a>
+
+                  <a
+                    href="https://www.linkedin.com/in/amine-elkhalidy/"
+                    target="_blank"
+                    aria-label="Discord Profile"
+                    className="inline-flex items-center justify-center h-14 w-14 rounded-full bg-white shadow-sm border duration-300 hover:shadow-md hover:scale-105"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      height="28px"
+                      width="28px"
+                      fill="currentColor"
+                    >
+                      <path d="M19.3034 5.33716C17.9344 4.71103 16.4805 4.2547 14.9629 4C14.7719 4.32899 14.5596 4.77471 14.411 5.12492C12.7969 4.89144 11.1944 4.89144 9.60255 5.12492C9.45397 4.77471 9.2311 4.32899 9.05068 4C7.52251 4.2547 6.06861 4.71103 4.70915 5.33716C1.96053 9.39111 1.21766 13.3495 1.5891 17.2549C3.41443 18.5815 5.17612 19.388 6.90701 19.9187C7.33151 19.3456 7.71356 18.73 8.04255 18.0827C7.41641 17.8492 6.82211 17.5627 6.24904 17.2231C6.39762 17.117 6.5462 17.0003 6.68416 16.8835C10.1438 18.4648 13.8911 18.4648 17.3082 16.8835C17.4568 17.0003 17.5948 17.117 17.7434 17.2231C17.1703 17.5627 16.576 17.8492 15.9499 18.0827C16.2789 18.73 16.6609 19.3456 17.0854 19.9187C18.8152 19.388 20.5875 18.5815 22.4033 17.2549C22.8596 12.7341 21.6806 8.80747 19.3034 5.33716ZM8.5201 14.8459C7.48007 14.8459 6.63107 13.9014 6.63107 12.7447C6.63107 11.5879 7.45884 10.6434 8.5201 10.6434C9.57071 10.6434 10.4303 11.5879 10.4091 12.7447C10.4091 13.9014 9.57071 14.8459 8.5201 14.8459ZM15.4936 14.8459C14.4535 14.8459 13.6034 13.9014 13.6034 12.7447C13.6034 11.5879 14.4323 10.6434 15.4936 10.6434C16.5442 10.6434 17.4038 11.5879 17.3825 12.7447C17.3825 13.9014 16.5548 14.8459 15.4936 14.8459Z"></path>
                     </svg>
                   </a>
                 </div>

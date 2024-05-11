@@ -9,9 +9,9 @@ import ShapeSVG from "../assets/shape.svg";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-[#111827] relative">
+    <section className="min-h-screen flex items-center justify-center bg-[#111827] relative z-[1000]">
       <ParentContainer>
-        <div className="pb-4 z-50">
+        <div className="pb-4">
           <div className="hidden w-full md:flex gap-4 items-center md:flex-row-reverse md:gap-8 md:pt-4">
             <motion.div
               initial={{ opacity: 0 }}
@@ -33,7 +33,7 @@ const Hero = () => {
               transition={{ ease: "easeIn", duration: 1, delay: 0.5 }}
             >
               <a
-                className="inline-flex gap-2 items-center text-gray-200 text-lg font-medium border py-3 px-5 rounded-full duration-300 hover:text-emerald-600 hover:file:border-emerald-600"
+                className="inline-flex gap-2 items-center text-gray-200 text-lg font-medium border py-3 px-5 rounded-full duration-300 hover:text-emerald-600 hover:border-emerald-600"
                 href={CV}
                 download="Amine Elkhalidy"
                 rel="noopener noreferrer"
@@ -109,7 +109,7 @@ const Hero = () => {
             </div>
           </motion.div>
 
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ ease: "easeIn", duration: 1, delay: 0.9 }}
@@ -182,9 +182,9 @@ const Hero = () => {
                 </svg>
               </a>
             </div>
-          </motion.div>
+          </motion.div> */}
 
-          <div className="md:hidden w-full flex justify-center items-center">
+          <div className="md:hidden w-full flex justify-center items-center mt-8">
             <div className="w-full flex gap-12 items-center justify-center">
               <motion.div
                 initial={{ opacity: 0 }}
@@ -193,7 +193,7 @@ const Hero = () => {
               >
                 <Button
                   size="lg"
-                  className="py-6 font-medium text-lg text-black-500 bg-gray-50 z-50 hover:bg-gray-50"
+                  className="py-6 font-medium text-lg text-black-500 bg-gray-50 hover:bg-gray-50"
                 >
                   <a href="#contact">Contact Me</a>
                 </Button>
@@ -218,7 +218,7 @@ const Hero = () => {
         </div>
       </ParentContainer>
 
-      <div className="absolute bottom-0 left-0 z-10">
+      <div className="absolute bottom-0 left-0">
         <img
           src={ShapeSVG}
           className="w-auto h-auto"
