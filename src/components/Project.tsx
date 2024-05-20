@@ -27,9 +27,10 @@ const Project = ({ project, index }: { project: any; index: number }) => {
         </div>
 
         <div className="w-full bg-black-900 p-5 sm:p-8 lg:p-12 -mt-2">
-          <h2 className="text-white text-xl font-bold mb-4 lg:text-2xl lg:mb-6 2xl:text-3xl">
+          <h2 className="text-white text-xl font-bold lg:text-2xl lg:mb-2 2xl:text-3xl">
             {project.title}
           </h2>
+          <p className="text-muted-foreground mb-8">{project.description}</p>
           <div className="w-full flex gap-4 mb-12">
             {project?.techs?.length > 0 &&
               project.techs.map((tech: any, index: any) => (
