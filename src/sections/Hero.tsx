@@ -72,7 +72,7 @@ const Hero = () => {
                   Building{" "}
                   <span className="gradient-text">digital experiences</span>{" "}
                   that
-                  <span className="gradient-text"> matter</span>.
+                  <span className="gradient-text"> matter</span>
                 </motion.span>
               </h1>
 
