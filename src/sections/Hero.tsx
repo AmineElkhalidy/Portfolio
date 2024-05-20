@@ -9,7 +9,7 @@ import ShapeSVG from "../assets/shape.svg";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-[#111827] relative z-[1000]">
+    <section className="min-h-screen flex items-center justify-center bg-[#111827] relative">
       <ParentContainer>
         <div className="pb-4">
           <div className="hidden w-full md:flex gap-4 items-center md:flex-row-reverse md:gap-8 md:pt-4">

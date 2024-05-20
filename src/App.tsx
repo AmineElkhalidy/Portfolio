@@ -55,7 +55,6 @@ const App = () => {
         <Projects />
 
         <Testimonials />
-        {/* <Hobbies /> */}
         <Contact />
 
         <MenuDialog isShown={showArrow} />
