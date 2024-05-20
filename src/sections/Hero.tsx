@@ -20,9 +20,9 @@ const Hero = () => {
             >
               <Button
                 size="lg"
-                className="inline-flex items-center gap-2 py-6 font-medium text-lg rounded-full bg-gray-50 text-black-500 hover:bg-gray-50"
+                className="inline-flex items-center gap-2 py-[26px] px-16 font-medium text-lg rounded-full border bg-gray-50 text-black-500 hover:bg-gray-50"
               >
-                <Send className="w-5" />
+                {/* <Send className="w-5" /> */}
                 <a href="#contact">Contact Me</a>
               </Button>
             </motion.div>

@@ -1,13 +1,6 @@
 //@ts-ignore
 import { useState, useEffect } from "react";
-import {
-  Hero,
-  About,
-  Projects,
-  Contact,
-  Testimonials,
-  Hobbies,
-} from "./sections";
+import { Hero, Projects, Contact, Testimonials } from "./sections";
 import { RingLoader } from "react-spinners";
 import MenuDialog from "./components/MenuDialog";
 import { ArrowUpIcon } from "@heroicons/react/24/outline";
