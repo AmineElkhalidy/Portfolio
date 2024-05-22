@@ -127,10 +127,12 @@ const Testimonials = () => {
             <a
               href="https://www.upwork.com/freelancers/~01f55a2d4b119d3119"
               target="_blank"
-              className="font-medium me-2 px-4 py-2 rounded-full gradient-text"
+              className="font-medium px-6 py-2 rounded-full gradient-text"
             >
               View more testimonials on{" "}
-              <span className="font-semibold">Upwork</span>
+              <span className="font-bold inline-flex items-center gap-x-2">
+                Upwork{" "}
+              </span>
             </a>
           </motion.div>
         </div>
