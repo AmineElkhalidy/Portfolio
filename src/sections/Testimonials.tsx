@@ -117,8 +117,8 @@ const Testimonials = () => {
             whileInView={{ opacity: [0, 0.5, 1] }}
             transition={{
               ease: "easeIn",
-              duration: 0.7,
-              delay: 1,
+              duration: 0.5,
+              delay: 0.5,
             }}
             viewport={{ once: true }}
             layout
