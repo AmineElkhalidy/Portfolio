@@ -188,7 +188,11 @@ const Hero = () => {
                 </svg>
               </a>
 
-              <a href="" target="_blank" aria-label="Instagram Profile">
+              <a
+                href="https://www.instagram.com/elkhalidyamine/"
+                target="_blank"
+                aria-label="Instagram Profile"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="29"
@@ -206,7 +210,11 @@ const Hero = () => {
                 </svg>
               </a>
 
-              <a href="" target="_blank" aria-label="Facebook Profile">
+              <a
+                href="https://web.facebook.com/profile.php?id=61560347909437&ref=xav_ig_profile_web&_rdc=1&_rdr"
+                target="_blank"
+                aria-label="Facebook Profile"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="29"

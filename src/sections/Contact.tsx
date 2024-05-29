@@ -145,9 +145,9 @@ const Contact = () => {
                   </a>
 
                   <a
-                    href="https://www.linkedin.com/in/amine-elkhalidy/"
+                    href="https://www.instagram.com/elkhalidyamine/"
                     target="_blank"
-                    aria-label="Discord Profile"
+                    aria-label="Instagram Profile"
                     className="inline-flex items-center justify-center h-14 w-14 rounded-full bg-white shadow-sm border duration-300 hover:shadow-md hover:scale-105"
                   >
                     <svg
@@ -168,9 +168,9 @@ const Contact = () => {
                   </a>
 
                   <a
-                    href="https://www.linkedin.com/in/amine-elkhalidy/"
+                    href="https://web.facebook.com/profile.php?id=61560347909437&ref=xav_ig_profile_web&_rdc=1&_rdr"
                     target="_blank"
-                    aria-label="Discord Profile"
+                    aria-label="Facebook Profile"
                     className="inline-flex items-center justify-center h-14 w-14 rounded-full bg-white shadow-sm border duration-300 hover:shadow-md hover:scale-105"
                   >
                     <svg
