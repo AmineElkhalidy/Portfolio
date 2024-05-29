@@ -26,7 +26,7 @@ const Project = ({ project, index }: { project: any; index: number }) => {
           />
         </div>
 
-        <div className="relative w-full h-[325px] md:h-[380px] bg-black-900 p-5 sm:p-8 lg:p-12 -mt-2">
+        <div className="relative w-full h-[340px] md:h-[380px] bg-black-900 p-5 sm:p-8 lg:p-12 -mt-2">
           <div>
             <h2 className="text-white text-xl font-bold mb-2 lg:text-2xl 2xl:text-3xl">
               {project.title}
