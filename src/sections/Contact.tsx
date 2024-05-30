@@ -128,7 +128,7 @@ const Contact = () => {
                   </a>
 
                   <a
-                    href="https://www.linkedin.com/in/amine-elkhalidy/"
+                    href="https://www.linkedin.com/elkhalidyamine"
                     target="_blank"
                     aria-label="Linkedin Profile"
                     className="inline-flex items-center justify-center h-14 w-14 rounded-full bg-white shadow-sm border duration-300 hover:shadow-md hover:scale-105"

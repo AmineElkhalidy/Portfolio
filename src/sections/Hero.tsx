@@ -169,7 +169,7 @@ const Hero = () => {
               </a>
 
               <a
-                href="https://www.linkedin.com/in/amine-elkhalidy/"
+                href="https://www.linkedin.com/in/elkhalidyamine"
                 target="_blank"
                 aria-label="Linkedin Profile"
               >
