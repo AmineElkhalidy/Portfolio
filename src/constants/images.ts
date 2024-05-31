@@ -1,4 +1,4 @@
-// Technologies
+//@ts-nocheck
 import html from "../assets/images/html.webp";
 import css from "../assets/images/css.webp";
 import javascript from "../assets/images/javascript.webp";
@@ -16,7 +16,6 @@ import mui from "../assets/images/mui.webp";
 import wordpress from "../assets/images/wordpress.webp";
 import svelte from "../assets/images/svelte.webp";
 import firebase from "../assets/images/firebase.webp";
-import amine from "../assets/images/Amine-lightgrey.webp";
 
 export default {
   html,
@@ -36,5 +35,4 @@ export default {
   wordpress,
   svelte,
   firebase,
-  amine,
 };
