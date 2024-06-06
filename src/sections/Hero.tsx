@@ -13,7 +13,7 @@ const Hero = () => {
     <section>
       <div className="container">
         {/* Content Container with animation */}
-        <div className="flex items-center mt-36 md:mt-28">
+        <div className="flex items-center mt-36 md:mt-24">
           <div className="relative">
             <motion.div
               initial={{ opacity: 0 }}

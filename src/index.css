@@ -138,7 +138,7 @@
 }
 
 .hero__title {
-  @apply text-[2.6rem] leading-none font-bold mb-3 sm:text-6xl md:text-7xl lg:text-8xl;
+  @apply text-[2.6rem] leading-none font-bold mb-3 sm:text-6xl md:text-7xl lg:text-[100px];
 }
 
 .hero__desc {
