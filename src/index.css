@@ -137,8 +137,20 @@
   -webkit-text-fill-color: transparent;
 }
 
+.hero__title {
+  @apply text-[2.6rem] leading-none font-bold mb-3 sm:text-6xl md:text-7xl lg:text-8xl;
+}
+
+.hero__desc {
+  @apply text-grey-400 font-medium text-xl mb-10 md:text-xl lg:text-2xl;
+}
+
+.hero__buttons-container {
+  @apply flex flex-col space-y-3 sm:flex-row sm:space-x-12;
+}
+
 .heading {
-  @apply text-black-900 text-3xl text-center font-bold mb-12 lg:mb-16 sm:text-4xl md:text-5xl;
+  @apply text-[#000] text-3xl text-center font-bold mb-12 lg:mb-16 sm:text-4xl md:text-5xl;
 }
 
 .header__social-links a {
