@@ -34,11 +34,9 @@ const Hero = () => {
                     }}
                   >
                     I'm Amine, <br />
-                    <span className="gradient-text italic">
-                      Next.js front-end
-                    </span>
+                    <span className="gradient-text">Next.js front-end</span>
                     <br />
-                    <span className="gradient-text italic">web developer</span>
+                    <span className="gradient-text">web developer</span>
                   </TypeIt>
                 </h1>
 
